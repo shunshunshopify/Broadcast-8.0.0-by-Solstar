@@ -41,13 +41,6 @@
     "section_hero_video_WbpX3G": {
       "type": "section-hero-video",
       "blocks": {
-        "code_HE8pBf": {
-          "type": "code",
-          "settings": {
-            "code": "<p>Once you write some custom code, it will render right here.</p>",
-            "padding_bottom": 8
-          }
-        },
         "heading_jfhym7": {
           "type": "heading",
           "settings": {
@@ -59,7 +52,6 @@
         }
       },
       "block_order": [
-        "code_HE8pBf",
         "heading_jfhym7"
       ],
       "name": "Banner with video",
@@ -78,6 +70,17 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
+      }
+    },
+    "section_custom_code_HFdp8j": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<div class=\"solstar-hero-video\">\n  <video\n    class=\"solstar-hero-video__bg\"\n    autoplay\n    muted\n    loop\n    playsinline\n  >\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/f2005eb137f2480a91e0d1bfebbdd296.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n\n  <div class=\"solstar-hero-video__overlay\">\n    <img\n      src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Solstar_Rectangle_White.png?v=1763718379\"\n      alt=\"SOLSTAR\"\n      class=\"solstar-hero-video__logo\"\n    >\n  </div>\n</div>\n\n<style>\n  .solstar-hero-video {\n    position: relative;\n    width: 100%;\n    height: 100vh; /* 必要に応じて 70vh とかに調整してOK */\n    overflow: hidden;\n  }\n\n  .solstar-hero-video__bg {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    min-width: 100%;\n    min-height: 100%;\n    width: auto;\n    height: auto;\n    transform: translate(-50%, -50%);\n    object-fit: cover;\n    z-index: 1;\n  }\n\n  .solstar-hero-video__overlay {\n    position: relative;\n    z-index: 2;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;   /* 縦方向センター */\n    justify-content: center; /* 横方向センター */\n  }\n\n  .solstar-hero-video__logo {\n    max-width: 280px;  /* ロゴのサイズはここで調整 */\n    width: 40vw;\n    height: auto;\n  }\n\n  /* モバイル向け微調整 */\n  @media (max-width: 749px) {\n    .solstar-hero-video {\n      height: 70vh;\n    }\n\n    .solstar-hero-video__logo {\n      max-width: 220px;\n      width: 60vw;\n    }\n  }\n</style>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_announcement_qqjQ8T": {
@@ -1013,17 +1016,6 @@
         "overlay_type": "disabled",
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "section_custom_code_HFdp8j": {
-      "type": "section-custom-code",
-      "name": "Custom code",
-      "settings": {
-        "code": "",
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },
