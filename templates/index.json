@@ -1014,11 +1014,23 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "section_custom_code_HFdp8j": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "section_video_gbncyG",
     "section_hero_video_WbpX3G",
+    "section_custom_code_HFdp8j",
     "section_announcement_qqjQ8T",
     "section_rich_text_FjEeNW",
     "section_text_promo_bw8FBA",
