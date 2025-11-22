@@ -107,7 +107,7 @@
         "icon_bKTXz3": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-shield",
+            "icon_name": "icon-notes",
             "icon_size": 20,
             "icon_color": "",
             "title": "本質を捉えたEC戦略設計",
@@ -120,7 +120,7 @@
         "icon_hEgwVp": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-trophy",
+            "icon_name": "icon-planet",
             "icon_size": 20,
             "icon_color": "",
             "title": "大規模〜越境まで幅広く対応",
@@ -154,7 +154,7 @@
         "title": "",
         "heading_font_size": "heading-medium",
         "align_heading": "text-left",
-        "align_text": "text-left",
+        "align_text": "text-center",
         "icon_alignment": "icon--top",
         "width": "wrapper--full-padded",
         "align_columns": "flex-align-top",
