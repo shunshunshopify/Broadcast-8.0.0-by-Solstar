@@ -290,7 +290,7 @@
             "icon_name": "icon-notes",
             "icon_size": 20,
             "icon_color": "",
-            "title": "直感的で使いやすい管理画面",
+            "title": "戦略 × 設計 × 開発のワンストップ",
             "heading_font_size": "heading-small",
             "icon_alignment": "left",
             "text": "<p>ドラッグ＆ドロップの操作で、デザインや機能を直感的にカスタマイズ可能。</p>",
@@ -303,7 +303,7 @@
             "icon_name": "icon-award",
             "icon_size": 20,
             "icon_color": "",
-            "title": "豊富なデザインテンプレート",
+            "title": "大規模案件の経験値で“伸びるEC”を再現",
             "heading_font_size": "heading-small",
             "icon_alignment": "left",
             "text": "<p>プロフェッショナルな見た目のテンプレートが多数用意されており、業種やブランドに合わせたデザインを選べます。</p>",
@@ -316,7 +316,7 @@
             "icon_name": "icon-cloud",
             "icon_size": 20,
             "icon_color": "",
-            "title": "多彩なアプリ連携",
+            "title": "越境・グローバル対応の知見",
             "heading_font_size": "heading-small",
             "icon_alignment": "left",
             "text": "<p>Shopify App Storeには拡張機能が豊富に揃っており、SEO対策、マーケティング、配送管理などを強化可能。</p>",
@@ -329,88 +329,10 @@
             "icon_name": "icon-trophy",
             "icon_size": 20,
             "icon_color": "",
-            "title": "多言語・多通貨対応",
+            "title": "リリース後の運用改善サポート",
             "heading_font_size": "heading-small",
             "icon_alignment": "left",
             "text": "<p>世界中の顧客をターゲットにできるよう、多言語や多通貨を簡単に導入可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_C87yrV": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "充実したカスタマーサポート",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>24時間365日対応のサポートがあり、英語や日本語でも質問に応じてもらえます。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_zCfk98": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-pin",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "モバイル最適化",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>テンプレートや管理画面はモバイルフレンドリーで、スマホからの閲覧や購入がスムーズ。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_WfP784": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-flare",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "SEOに強い設計",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>メタタグやURL構造が最適化されており、検索エンジンでのランキング向上をサポート。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_iPyMW7": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-gift",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "豊富な決済オプション",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>クレジットカード、PayPal、Apple Pay、Google Payなど、幅広い決済手段をサポート。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_8HBJrT": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-star",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "スケーラビリティ",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>小規模から始めても、ビジネスの成長に合わせて機能やプランを拡張できる柔軟性があります。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_XmAjCW": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-ruler",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "在庫管理や分析ツール",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>在庫管理機能が充実しており、売上データや顧客分析も簡単に行えるダッシュボードを提供。</p>",
             "text_alignment": "text-left"
           }
         }
@@ -419,13 +341,7 @@
         "icon_hAPnMi",
         "icon_gnGkXy",
         "icon_6cyCjL",
-        "icon_hEpMNj",
-        "icon_C87yrV",
-        "icon_zCfk98",
-        "icon_WfP784",
-        "icon_iPyMW7",
-        "icon_8HBJrT",
-        "icon_XmAjCW"
+        "icon_hEpMNj"
       ],
       "settings": {
         "default_open": true,
