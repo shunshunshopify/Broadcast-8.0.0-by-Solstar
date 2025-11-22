@@ -101,6 +101,72 @@
         "padding_bottom": 5
       }
     },
+    "section_text_row_Re9wqU": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_bKTXz3": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "本質を捉えたEC戦略設計",
+            "heading_font_size": "heading-small",
+            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_hEgwVp": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "大規模〜越境まで幅広く対応",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our secure checkout is quick and easy to use.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_QbggWy": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Shopify認定 × 8年以上の開発実績",
+            "heading_font_size": "heading-small",
+            "text": "<p>Have questions? Get in touch with us at any time.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_bKTXz3",
+        "icon_hEgwVp",
+        "icon_QbggWy"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
     "section_rich_text_FjEeNW": {
       "type": "section-rich-text",
       "blocks": {
@@ -990,6 +1056,7 @@
     "section_video_gbncyG",
     "section_custom_code_HFdp8j",
     "section_announcement_qqjQ8T",
+    "section_text_row_Re9wqU",
     "section_rich_text_FjEeNW",
     "section_text_promo_bw8FBA",
     "section_double_qLiMQE",
