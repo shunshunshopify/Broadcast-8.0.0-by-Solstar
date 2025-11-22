@@ -63,7 +63,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "header_sticky": true,
+        "header_sticky": false,
         "enable_search": true,
         "header_style": "logo_beside",
         "show_separator_line": false,
