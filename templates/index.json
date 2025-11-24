@@ -89,6 +89,17 @@
         "padding_bottom": 5
       }
     },
+    "section_custom_code_YPEkCV": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<!-- 実績ハイライト - SOLSTAR -->\n<div class=\"solstar-stats\">\n  <div class=\"solstar-stats__grid\">\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"100\"\n           data-decimals=\"0\"\n           data-suffix=\"億円超\">\n        0\n      </div>\n      <div class=\"solstar-stats__label\">ECサイト総売上</div>\n    </div>\n\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"13\"\n           data-decimals=\"0\"\n           data-suffix=\"％\">\n        0\n      </div>\n      <div class=\"solstar-stats__label\">サイトパフォーマンス高速化</div>\n    </div>\n\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"4.37\"\n           data-decimals=\"2\"\n           data-suffix=\"％\">\n        0\n      </div>\n      <div class=\"solstar-stats__label\">新規獲得CVR</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .solstar-stats {\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 48px 16px;\n  }\n\n  .solstar-stats__grid {\n    display: grid;\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n    gap: 32px;\n  }\n\n  .solstar-stats__item {\n    text-align: center;\n    padding: 24px 16px;\n    border-radius: 16px;\n    background: rgba(10, 12, 24, 0.9);\n    color: #ffffff;\n    border: 1px solid rgba(255, 255, 255, 0.06);\n    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);\n    opacity: 0;\n    transform: translateY(24px);\n    transition:\n      opacity 0.6s ease-out,\n      transform 0.6s ease-out;\n  }\n\n  .solstar-stats__item.is-visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  .solstar-stats__value {\n    font-weight: 700;\n    letter-spacing: 0.04em;\n    /* デカ文字（画面幅で自動調整） */\n    font-size: clamp(2.6rem, 3.6vw, 3.4rem);\n    line-height: 1.1;\n    margin-bottom: 8px;\n    font-feature-settings: \"pnum\" on, \"lnum\" on;\n  }\n\n  .solstar-stats__label {\n    font-size: 0.9rem;\n    opacity: 0.8;\n    line-height: 1.6;\n  }\n\n  /* モバイル対応 */\n  @media (max-width: 767px) {\n    .solstar-stats {\n      padding: 32px 16px;\n    }\n    .solstar-stats__grid {\n      grid-template-columns: 1fr;\n      gap: 16px;\n    }\n    .solstar-stats__item {\n      padding: 20px 16px;\n    }\n  }\n</style>\n\n<script>\n  (function () {\n    var section = document.querySelector('.solstar-stats');\n    if (!section) return;\n\n    var items = section.querySelectorAll('.solstar-stats__item');\n    var values = section.querySelectorAll('.solstar-stats__value');\n    var animated = false;\n\n    function animateNumbers() {\n      if (animated) return;\n      animated = true;\n\n      values.forEach(function (el) {\n        var target = parseFloat(el.getAttribute('data-value') || '0');\n        var decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);\n        var suffix = el.getAttribute('data-suffix') || '';\n        var duration = 1500;\n        var start = null;\n\n        function step(timestamp) {\n          if (!start) start = timestamp;\n          var progress = Math.min((timestamp - start) / duration, 1);\n          var current = target * progress;\n          el.textContent = current.toFixed(decimals) + suffix;\n          if (progress < 1) {\n            window.requestAnimationFrame(step);\n          }\n        }\n\n        window.requestAnimationFrame(step);\n      });\n    }\n\n    function revealItems() {\n      items.forEach(function (item, index) {\n        item.style.transitionDelay = (index * 0.12) + 's';\n        item.classList.add('is-visible');\n      });\n    }\n\n    if ('IntersectionObserver' in window) {\n      var observer = new IntersectionObserver(function (entries) {\n        entries.forEach(function (entry) {\n          if (entry.isIntersecting) {\n            revealItems();\n            animateNumbers();\n            observer.disconnect();\n          }\n        });\n      }, {\n        root: null,\n        threshold: 0.35\n      });\n\n      observer.observe(section);\n    } else {\n      // 古いブラウザ用フォールバック\n      revealItems();\n      animateNumbers();\n    }\n  })();\n</script>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_text_row_Re9wqU": {
       "type": "section-text-row",
       "blocks": {
@@ -949,6 +960,7 @@
   "order": [
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
+    "section_custom_code_YPEkCV",
     "section_text_row_Re9wqU",
     "section_rich_text_8PnnAK",
     "section_reviews_Cm98zx",
