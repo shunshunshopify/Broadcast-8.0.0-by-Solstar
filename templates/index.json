@@ -185,6 +185,72 @@
         "show_placeholder": true
       }
     },
+    "section_custom_content_KyfWNL": {
+      "type": "section-custom-content",
+      "blocks": {
+        "video_Bfen7z": {
+          "type": "video",
+          "settings": {
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "Video",
+            "heading_font_size": "heading-large",
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_NTt7XV": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Custom section",
+            "heading_font_size": "heading-large",
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "video_Bfen7z",
+        "text_NTt7XV"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_text_row_Re9wqU": {
       "type": "section-text-row",
       "blocks": {
@@ -1050,6 +1116,7 @@
     "section_custom_code_YPEkCV",
     "section_before_after_PtA6jq",
     "section_double_qaxP3k",
+    "section_custom_content_KyfWNL",
     "section_text_row_Re9wqU",
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
