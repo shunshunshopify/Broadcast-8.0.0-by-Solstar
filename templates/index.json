@@ -100,6 +100,53 @@
         "padding_bottom": 0
       }
     },
+    "section_before_after_PtA6jq": {
+      "type": "section-before-after",
+      "blocks": {
+        "heading_WwKpya": {
+          "type": "heading",
+          "settings": {
+            "heading": "Real People, Real Results",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_hK4gRx": {
+          "type": "text",
+          "settings": {
+            "description": "<p>Share success stories using before and after images to demonstrate how effective your products are.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "button_Jf7PfW": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop now",
+            "link_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_WwKpya",
+        "text_hK4gRx",
+        "button_Jf7PfW"
+      ],
+      "name": "Before and after",
+      "settings": {
+        "aspect_ratio": 1,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_text_row_Re9wqU": {
       "type": "section-text-row",
       "blocks": {
@@ -164,110 +211,6 @@
         "padding_top": 100,
         "padding_bottom": 100,
         "heading_tag": "automatic"
-      }
-    },
-    "section_rich_text_8PnnAK": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_nq9QY9": {
-          "type": "heading",
-          "settings": {
-            "title": "実績紹介",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nq9QY9"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "section_reviews_Cm98zx": {
-      "type": "section-reviews",
-      "blocks": {
-        "review_C9pBJz": {
-          "type": "review",
-          "settings": {
-            "title": "鍛治の匠",
-            "subheading": "包丁専門店",
-            "review_content": "<p>「ECサイト構築と広告運用を依頼しました。洗練されたクリエイティブセンスで一目置くECサイトを構築していただき、とても満足しています。継続してお仕事を依頼したいビジネスパートナーです。」</p>",
-            "featured_image": "shopify://shop_images/kajinotakumi_copy.png",
-            "review_url": ""
-          }
-        },
-        "review_99TUBN": {
-          "type": "review",
-          "settings": {
-            "title": "Paw Mint",
-            "subheading": "ペットショップ",
-            "review_content": "<p>商品企画、商品撮影、ECサイト構築、デジタルマーケティングと多岐に渡り支援をさせて頂きました。可愛いくオシャレなデザインにこだわったECサイトです。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_1_copy.png",
-            "bio_image": "shopify://shop_images/Paw_Mint_Logo_copy.png",
-            "review_url": ""
-          }
-        },
-        "review_9fNLNH": {
-          "type": "review",
-          "settings": {
-            "title": "Sandy Haze",
-            "subheading": "水着ショップ",
-            "review_content": "<p>アメリカ発の水着専門ショップの越境ECサイト構築の支援をさせて頂きました。販促アプリを実装しCVR向上を強化しました。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_2_copy.png",
-            "bio_image": "shopify://shop_images/Sandy_Haze_White.png",
-            "review_url": ""
-          }
-        },
-        "review_yzHYRU": {
-          "type": "review",
-          "settings": {
-            "title": "Multi Paradox",
-            "subheading": "セレクトショップ",
-            "review_content": "<p>多機能な有料テーマを使用し、アプリを多用せずパフォーマンスにこだわりました。ハイブランドのECサイトのようにシンプルかつ見えやすい商品詳細画面が特徴です。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_4_copy.png",
-            "bio_image": "shopify://shop_images/Multi_Paradox_White.png",
-            "review_url": ""
-          }
-        },
-        "review_CxfP88": {
-          "type": "review",
-          "settings": {
-            "title": "Shun Smith",
-            "subheading": "アクセサリーショップ",
-            "review_content": "<p>商品企画、モデル撮影、ECサイト構築の支援をさせて頂きました。白と黒を基調とした高級感溢れるレイアウトが特徴です。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_3_copy.png",
-            "bio_image": "shopify://shop_images/Shun_Smith_White.png",
-            "review_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "review_C9pBJz",
-        "review_99TUBN",
-        "review_9fNLNH",
-        "review_yzHYRU",
-        "review_CxfP88"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_featured_image": true,
-        "image_aspect_ratio": 1,
-        "show_quotation_marks": false,
-        "heading_font_size": "heading-small",
-        "text_align": "text-left",
-        "color_scheme": "scheme-10",
-        "card_bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_custom_code_tgahDR": {
@@ -957,15 +900,118 @@
         "padding_bottom": 100,
         "heading_tag": "automatic"
       }
+    },
+    "section_rich_text_8PnnAK": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_nq9QY9": {
+          "type": "heading",
+          "settings": {
+            "title": "実績紹介",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nq9QY9"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_Cm98zx": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_C9pBJz": {
+          "type": "review",
+          "settings": {
+            "title": "鍛治の匠",
+            "subheading": "包丁専門店",
+            "review_content": "<p>「ECサイト構築と広告運用を依頼しました。洗練されたクリエイティブセンスで一目置くECサイトを構築していただき、とても満足しています。継続してお仕事を依頼したいビジネスパートナーです。」</p>",
+            "featured_image": "shopify://shop_images/kajinotakumi_copy.png",
+            "review_url": ""
+          }
+        },
+        "review_99TUBN": {
+          "type": "review",
+          "settings": {
+            "title": "Paw Mint",
+            "subheading": "ペットショップ",
+            "review_content": "<p>商品企画、商品撮影、ECサイト構築、デジタルマーケティングと多岐に渡り支援をさせて頂きました。可愛いくオシャレなデザインにこだわったECサイトです。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_1_copy.png",
+            "bio_image": "shopify://shop_images/Paw_Mint_Logo_copy.png",
+            "review_url": ""
+          }
+        },
+        "review_9fNLNH": {
+          "type": "review",
+          "settings": {
+            "title": "Sandy Haze",
+            "subheading": "水着ショップ",
+            "review_content": "<p>アメリカ発の水着専門ショップの越境ECサイト構築の支援をさせて頂きました。販促アプリを実装しCVR向上を強化しました。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_2_copy.png",
+            "bio_image": "shopify://shop_images/Sandy_Haze_White.png",
+            "review_url": ""
+          }
+        },
+        "review_yzHYRU": {
+          "type": "review",
+          "settings": {
+            "title": "Multi Paradox",
+            "subheading": "セレクトショップ",
+            "review_content": "<p>多機能な有料テーマを使用し、アプリを多用せずパフォーマンスにこだわりました。ハイブランドのECサイトのようにシンプルかつ見えやすい商品詳細画面が特徴です。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_4_copy.png",
+            "bio_image": "shopify://shop_images/Multi_Paradox_White.png",
+            "review_url": ""
+          }
+        },
+        "review_CxfP88": {
+          "type": "review",
+          "settings": {
+            "title": "Shun Smith",
+            "subheading": "アクセサリーショップ",
+            "review_content": "<p>商品企画、モデル撮影、ECサイト構築の支援をさせて頂きました。白と黒を基調とした高級感溢れるレイアウトが特徴です。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_3_copy.png",
+            "bio_image": "shopify://shop_images/Shun_Smith_White.png",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_C9pBJz",
+        "review_99TUBN",
+        "review_9fNLNH",
+        "review_yzHYRU",
+        "review_CxfP88"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1,
+        "show_quotation_marks": false,
+        "heading_font_size": "heading-small",
+        "text_align": "text-left",
+        "color_scheme": "scheme-10",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
     "section_custom_code_YPEkCV",
+    "section_before_after_PtA6jq",
     "section_text_row_Re9wqU",
-    "section_rich_text_8PnnAK",
-    "section_reviews_Cm98zx",
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
     "section_rich_text_FjEeNW",
@@ -975,6 +1021,8 @@
     "section_double_slider_zRGcNc",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
-    "contact_form_AN7jRB"
+    "contact_form_AN7jRB",
+    "section_rich_text_8PnnAK",
+    "section_reviews_Cm98zx"
   ]
 }
