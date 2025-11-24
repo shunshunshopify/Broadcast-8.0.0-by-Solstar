@@ -141,8 +141,8 @@
       "name": "Before and after",
       "settings": {
         "image_1": "shopify://shop_images/iStock-916408346.jpg",
-        "image_2": "shopify://shop_images/New_Hero_Image_2_copy.png",
-        "aspect_ratio": 1.5,
+        "image_2": "shopify://shop_images/Hero_Image_copy.png",
+        "aspect_ratio": 1,
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 50,
