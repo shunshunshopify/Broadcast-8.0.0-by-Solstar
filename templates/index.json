@@ -136,6 +136,55 @@
         "padding_bottom": 50
       }
     },
+    "section_double_qaxP3k": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_m9EUKy": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_twP4zj": {
+          "type": "heading",
+          "settings": {
+            "title": "大規模〜越境まで幅広く対応",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_METDwq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>年商数十億規模、複数チャネル・多言語対応プロジェクトを数多く手がけてきたノウハウがあります。</strong></p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_m9EUKy",
+        "heading_twP4zj",
+        "text_METDwq"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/MakeShop_vs_Shopify_copy.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_text_row_Re9wqU": {
       "type": "section-text-row",
       "blocks": {
@@ -1000,6 +1049,7 @@
     "section_announcement_qqjQ8T",
     "section_custom_code_YPEkCV",
     "section_before_after_PtA6jq",
+    "section_double_qaxP3k",
     "section_text_row_Re9wqU",
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
