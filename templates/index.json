@@ -278,139 +278,6 @@
         "show_placeholder": true
       }
     },
-    "section_custom_content_KyfWNL": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_cmmHxw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Shopify_Image.jpg",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_PjiabU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Shopify_Image_2.jpg",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_cmmHxw",
-        "image_PjiabU"
-      ],
-      "disabled": true,
-      "name": "Custom section",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full-padded",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_text_row_Re9wqU": {
-      "type": "section-text-row",
-      "blocks": {
-        "icon_bKTXz3": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-notes",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "本質を捉えたEC戦略設計",
-            "heading_font_size": "heading-small",
-            "text": "<p>ブランドの価値を捉えた要件定義・設計フェーズを重視し、ただ“作る”ではなく“伸ばす”構成を構築します。</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_hEgwVp": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-planet",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "大規模〜越境まで幅広く対応",
-            "heading_font_size": "heading-small",
-            "text": "<p>年商数十億規模、複数チャネル・多言語対応プロジェクトを数多く手がけてきたノウハウがあります。</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_QbggWy": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-trophy",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Shopify認定 × 8年以上の開発実績",
-            "heading_font_size": "heading-small",
-            "text": "<p>公式認定を受けた専門チームが、構築後も運用改善・機能展開まで伴走します。</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "icon_bKTXz3",
-        "icon_hEgwVp",
-        "icon_QbggWy"
-      ],
-      "disabled": true,
-      "name": "Text columns with icons",
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-left",
-        "align_text": "text-center",
-        "icon_alignment": "icon--top",
-        "width": "wrapper--full-padded",
-        "align_columns": "flex-align-top",
-        "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-10",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "heading_tag": "automatic"
-      }
-    },
     "section_custom_code_tgahDR": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -1182,13 +1049,11 @@
     "section_announcement_qqjQ8T",
     "section_custom_code_YPEkCV",
     "section_custom_code_jyGQDd",
-    "section_before_after_PtA6jq",
     "section_double_qaxP3k",
     "section_double_qLiMQE",
     "section_hero_video_GEcb6N",
-    "section_custom_content_KyfWNL",
-    "section_text_row_Re9wqU",
     "section_custom_code_tgahDR",
+    "section_before_after_PtA6jq",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
     "section_collection_links_spotlight_AkxCYy",
