@@ -485,7 +485,7 @@
         "heading_bVMMjf": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyアカデミー認定資格を3種取得",
+            "title": "Basicプラン",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -494,7 +494,7 @@
         "text_JAawQi": {
           "type": "text",
           "settings": {
-            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
+            "text": "<p><strong>少数商品から“最速でカタチにする”EC構築</strong></p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -502,7 +502,7 @@
         "buttons_3McXLw": {
           "type": "buttons",
           "settings": {
-            "button_text": "今すぐ相談する",
+            "button_text": "詳細を見る",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -520,12 +520,12 @@
       "settings": {
         "image_1": "shopify://shop_images/domestic_image.png",
         "image_width": "one-half",
-        "text_alignment": "text-left",
+        "text_alignment": "text-center",
         "layout": "is-reversed",
         "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
+        "reverse_blocks": true,
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0,
