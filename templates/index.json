@@ -227,64 +227,63 @@
     "section_custom_content_KyfWNL": {
       "type": "section-custom-content",
       "blocks": {
-        "video_4Ga7VE": {
-          "type": "video",
+        "image_cmmHxw": {
+          "type": "image",
           "settings": {
-            "show_video_popup": false,
-            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "Video",
+            "image": "shopify://shop_images/Shopify_Image.jpg",
+            "title": "",
             "heading_font_size": "heading-large",
-            "text": "<p>Tell your brand's story through images.</p>",
+            "text": "",
             "text_font_size": "body-medium",
             "flex_align": "align--middle-center",
-            "link_text": "View products",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
             "link": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "#ffffff",
-            "overlay_type": "disabled",
             "heading_tag": "automatic"
           }
         },
-        "video_Bfen7z": {
-          "type": "video",
+        "image_PjiabU": {
+          "type": "image",
           "settings": {
-            "show_video_popup": false,
-            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "Video",
+            "image": "shopify://shop_images/Shopify_Image_2.jpg",
+            "title": "",
             "heading_font_size": "heading-large",
-            "text": "<p>Tell your brand's story through images.</p>",
+            "text": "",
             "text_font_size": "body-medium",
             "flex_align": "align--middle-center",
-            "link_text": "View products",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
             "link": "",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "#ffffff",
-            "overlay_type": "disabled",
             "heading_tag": "automatic"
           }
         }
       },
       "block_order": [
-        "video_4Ga7VE",
-        "video_Bfen7z"
+        "image_cmmHxw",
+        "image_PjiabU"
       ],
+      "disabled": true,
       "name": "Custom section",
       "settings": {
         "borders": false,
         "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
         "padding_top": 0,
