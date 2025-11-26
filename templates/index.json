@@ -479,6 +479,161 @@
         "show_placeholder": true
       }
     },
+    "section_double_AptAaD": {
+      "type": "section-double",
+      "blocks": {
+        "heading_bVMMjf": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyアカデミー認定資格を3種取得",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_JAawQi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_3McXLw": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "今すぐ相談する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_bVMMjf",
+        "text_JAawQi",
+        "buttons_3McXLw"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/domestic_image.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_collection_links_spotlight_AkxCYy": {
+      "type": "section-collection-links-spotlight",
+      "blocks": {
+        "collection_6eL4nB": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "button_show_arrow": false,
+            "background_color": ""
+          }
+        },
+        "collection_yFqfwN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "button_show_arrow": false,
+            "background_color": ""
+          }
+        },
+        "collection_LTXAGa": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "button_show_arrow": false,
+            "background_color": ""
+          }
+        },
+        "collection_RnKrCw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "button_show_arrow": false,
+            "background_color": ""
+          }
+        },
+        "collection_FqVMYJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "button_text": "Shop now",
+            "button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "button_show_arrow": false,
+            "background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6eL4nB",
+        "collection_yFqfwN",
+        "collection_LTXAGa",
+        "collection_RnKrCw",
+        "collection_FqVMYJ"
+      ],
+      "name": "Collection links: spotlight",
+      "settings": {
+        "title": "Collections Spotlight",
+        "heading_font_size": "heading-large",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "text_font_size": "body-medium",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_FjEeNW": {
       "type": "section-rich-text",
       "blocks": {
@@ -1019,110 +1174,6 @@
         "padding_bottom": 100,
         "heading_tag": "automatic"
       }
-    },
-    "section_rich_text_8PnnAK": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_nq9QY9": {
-          "type": "heading",
-          "settings": {
-            "title": "実績紹介",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nq9QY9"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "section_reviews_Cm98zx": {
-      "type": "section-reviews",
-      "blocks": {
-        "review_C9pBJz": {
-          "type": "review",
-          "settings": {
-            "title": "鍛治の匠",
-            "subheading": "包丁専門店",
-            "review_content": "<p>「ECサイト構築と広告運用を依頼しました。洗練されたクリエイティブセンスで一目置くECサイトを構築していただき、とても満足しています。継続してお仕事を依頼したいビジネスパートナーです。」</p>",
-            "featured_image": "shopify://shop_images/kajinotakumi_copy.png",
-            "review_url": ""
-          }
-        },
-        "review_99TUBN": {
-          "type": "review",
-          "settings": {
-            "title": "Paw Mint",
-            "subheading": "ペットショップ",
-            "review_content": "<p>商品企画、商品撮影、ECサイト構築、デジタルマーケティングと多岐に渡り支援をさせて頂きました。可愛いくオシャレなデザインにこだわったECサイトです。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_1_copy.png",
-            "bio_image": "shopify://shop_images/Paw_Mint_Logo_copy.png",
-            "review_url": ""
-          }
-        },
-        "review_9fNLNH": {
-          "type": "review",
-          "settings": {
-            "title": "Sandy Haze",
-            "subheading": "水着ショップ",
-            "review_content": "<p>アメリカ発の水着専門ショップの越境ECサイト構築の支援をさせて頂きました。販促アプリを実装しCVR向上を強化しました。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_2_copy.png",
-            "bio_image": "shopify://shop_images/Sandy_Haze_White.png",
-            "review_url": ""
-          }
-        },
-        "review_yzHYRU": {
-          "type": "review",
-          "settings": {
-            "title": "Multi Paradox",
-            "subheading": "セレクトショップ",
-            "review_content": "<p>多機能な有料テーマを使用し、アプリを多用せずパフォーマンスにこだわりました。ハイブランドのECサイトのようにシンプルかつ見えやすい商品詳細画面が特徴です。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_4_copy.png",
-            "bio_image": "shopify://shop_images/Multi_Paradox_White.png",
-            "review_url": ""
-          }
-        },
-        "review_CxfP88": {
-          "type": "review",
-          "settings": {
-            "title": "Shun Smith",
-            "subheading": "アクセサリーショップ",
-            "review_content": "<p>商品企画、モデル撮影、ECサイト構築の支援をさせて頂きました。白と黒を基調とした高級感溢れるレイアウトが特徴です。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_3_copy.png",
-            "bio_image": "shopify://shop_images/Shun_Smith_White.png",
-            "review_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "review_C9pBJz",
-        "review_99TUBN",
-        "review_9fNLNH",
-        "review_yzHYRU",
-        "review_CxfP88"
-      ],
-      "disabled": true,
-      "settings": {
-        "show_featured_image": true,
-        "image_aspect_ratio": 1,
-        "show_quotation_marks": false,
-        "heading_font_size": "heading-small",
-        "text_align": "text-left",
-        "color_scheme": "scheme-10",
-        "card_bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -1138,13 +1189,13 @@
     "section_text_row_Re9wqU",
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
+    "section_double_AptAaD",
+    "section_collection_links_spotlight_AkxCYy",
     "section_rich_text_FjEeNW",
     "section_accordion_tjkJbb",
     "section_double_slider_zRGcNc",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
-    "contact_form_AN7jRB",
-    "section_rich_text_8PnnAK",
-    "section_reviews_Cm98zx"
+    "contact_form_AN7jRB"
   ]
 }
