@@ -136,6 +136,7 @@
         "heading_WwKpya",
         "text_hK4gRx"
       ],
+      "disabled": true,
       "name": "Before and after",
       "settings": {
         "image_1": "shopify://shop_images/iStock-916408346.jpg",
@@ -150,13 +151,6 @@
     "section_double_qaxP3k": {
       "type": "section-double",
       "blocks": {
-        "subheading_m9EUKy": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
         "heading_twP4zj": {
           "type": "heading",
           "settings": {
@@ -176,13 +170,12 @@
         }
       },
       "block_order": [
-        "subheading_m9EUKy",
         "heading_twP4zj",
         "text_METDwq"
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/MakeShop_vs_Shopify_copy.webp",
+        "image_1": "shopify://shop_images/Two_Iphones_copy.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
