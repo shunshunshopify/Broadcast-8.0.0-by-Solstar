@@ -408,7 +408,7 @@
           "settings": {
             "collection": "",
             "title": "お問い合わせ",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-medium",
             "button_text": "",
             "button_link": "",
             "button_type": "btn--primary",
@@ -423,7 +423,7 @@
           "settings": {
             "collection": "",
             "title": "ヒアリング",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-medium",
             "button_text": "",
             "button_link": "",
             "button_type": "btn--primary",
@@ -438,7 +438,7 @@
           "settings": {
             "collection": "",
             "title": "ご契約",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-medium",
             "button_text": "",
             "button_link": "",
             "button_type": "btn--primary",
@@ -453,7 +453,7 @@
           "settings": {
             "collection": "",
             "title": "サイト構築",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-medium",
             "button_text": "",
             "button_link": "",
             "button_type": "btn--primary",
@@ -468,7 +468,7 @@
           "settings": {
             "collection": "",
             "title": "納品",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-medium",
             "button_text": "",
             "button_link": "shopify://collections/joe-cool-monogram-long-wallets",
             "button_type": "btn--primary",
