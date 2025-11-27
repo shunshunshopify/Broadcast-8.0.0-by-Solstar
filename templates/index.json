@@ -455,6 +455,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/Workflow_4.webp",
             "title": "サイト構築",
             "heading_font_size": "heading-medium",
             "button_text": "",
