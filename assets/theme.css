@@ -24718,7 +24718,7 @@ body.has-header-sticky .timeline {
   transition: background-position 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-.spotlight.image-height .spotlight__image {
+.spotlight__container.image-height .spotlight__image {
   position: relative;
   width: 100%;
   height: auto;
@@ -24726,7 +24726,7 @@ body.has-header-sticky .timeline {
   opacity: 1;
   visibility: visible;
 }
-.spotlight.image-height .spotlight__image.is-visible {
+.spotlight__container.image-height .spotlight__image.is-visible {
   display: flex;
 }
 
