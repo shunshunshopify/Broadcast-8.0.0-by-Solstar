@@ -496,7 +496,7 @@
         "text_font_size": "body-medium",
         "layout": "",
         "width": "wrapper--full",
-        "height": "screen-height-one-half",
+        "height": "screen-height-full",
         "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": true,
         "color_scheme": "scheme-10",
