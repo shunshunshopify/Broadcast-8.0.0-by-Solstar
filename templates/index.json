@@ -407,6 +407,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/WORKFLOW_SOLSTAR.png",
             "title": "お問い合わせ",
             "heading_font_size": "heading-medium",
             "button_text": "",
@@ -494,8 +495,8 @@
         "text_font_size": "body-medium",
         "layout": "",
         "width": "wrapper--full",
-        "height": "screen-height-one-third",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": true,
         "color_scheme": "scheme-10",
         "padding_top": 0,
