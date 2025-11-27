@@ -471,6 +471,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/Workflow_5.webp",
             "title": "納品",
             "heading_font_size": "heading-medium",
             "button_text": "",
