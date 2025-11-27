@@ -111,43 +111,6 @@
         "padding_bottom": 0
       }
     },
-    "section_before_after_PtA6jq": {
-      "type": "section-before-after",
-      "blocks": {
-        "heading_WwKpya": {
-          "type": "heading",
-          "settings": {
-            "heading": "本質を捉えたEC戦略設計",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_hK4gRx": {
-          "type": "text",
-          "settings": {
-            "description": "<p><strong>ブランドの価値を捉えた要件定義・設計フェーズを重視し、ただ“作る”ではなく“伸ばす”構成を構築します。</strong></p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_WwKpya",
-        "text_hK4gRx"
-      ],
-      "disabled": true,
-      "name": "Before and after",
-      "settings": {
-        "image_1": "shopify://shop_images/iStock-916408346.jpg",
-        "image_2": "shopify://shop_images/Hero_Image_copy.png",
-        "aspect_ratio": 1,
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "section_double_qaxP3k": {
       "type": "section-double",
       "blocks": {
@@ -289,6 +252,43 @@
         "padding_bottom": 0
       }
     },
+    "section_before_after_PtA6jq": {
+      "type": "section-before-after",
+      "blocks": {
+        "heading_WwKpya": {
+          "type": "heading",
+          "settings": {
+            "heading": "本質を捉えたEC戦略設計",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_hK4gRx": {
+          "type": "text",
+          "settings": {
+            "description": "<p><strong>ブランドの価値を捉えた要件定義・設計フェーズを重視し、ただ“作る”ではなく“伸ばす”構成を構築します。</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_WwKpya",
+        "text_hK4gRx"
+      ],
+      "disabled": true,
+      "name": "Before and after",
+      "settings": {
+        "image_1": "shopify://shop_images/iStock-916408346.jpg",
+        "image_2": "shopify://shop_images/Hero_Image_copy.png",
+        "aspect_ratio": 1,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_hero_ywHUVn": {
       "type": "section-hero",
       "blocks": {
@@ -407,7 +407,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "お問い合わせ",
             "heading_font_size": "heading-large",
             "button_text": "Shop now",
             "button_link": "",
@@ -422,7 +422,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "ヒアリング",
             "heading_font_size": "heading-large",
             "button_text": "Shop now",
             "button_link": "",
@@ -437,7 +437,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "ご契約",
             "heading_font_size": "heading-large",
             "button_text": "Shop now",
             "button_link": "",
@@ -452,7 +452,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "サイト構築",
             "heading_font_size": "heading-large",
             "button_text": "Shop now",
             "button_link": "",
@@ -467,14 +467,14 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "title": "",
+            "title": "納品",
             "heading_font_size": "heading-large",
-            "button_text": "Shop now",
-            "button_link": "",
+            "button_text": "",
+            "button_link": "shopify://collections/joe-cool-monogram-long-wallets",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "button_show_arrow": false,
+            "button_show_arrow": true,
             "background_color": ""
           }
         }
