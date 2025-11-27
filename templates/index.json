@@ -439,6 +439,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/Workflow_3.webp",
             "title": "ご契約",
             "heading_font_size": "heading-medium",
             "button_text": "",
