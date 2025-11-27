@@ -7,6 +7,10 @@
   assign height = section.settings.height
   assign mobile_height = section.settings.mobile_height
 
+  if height == 'screen-height-full'
+    assign height = 'image-height'
+  endif
+
   if request.visual_preview_mode
     assign height = ''
     assign mobile_height = ''
@@ -228,7 +232,7 @@
       "label": "Height",
       "default": "screen-height-one-third",
       "options": [
-        {"value": "screen-height-full", "label": "Full screen height"},
+        {"value": "image-height", "label": "Image height"},
         {"value": "screen-height-three-quarters", "label": "3/4 of screen"},
         {"value": "screen-height-two-thirds", "label": "2/3 of screen"},
         {"value": "screen-height-one-half", "label": "1/2 of screen"},
