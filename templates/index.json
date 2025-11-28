@@ -336,7 +336,7 @@
         "height": "image-height",
         "flex_align_desktop": "align--middle-left-desktop",
         "content_width": 50,
-        "mobile_image": "shopify://shop_images/Standard_Plan_Square_copy.webp",
+        "mobile_image": "shopify://shop_images/Standard_Plan_Square_copy.jpg",
         "mobile_height": "image-height--mobile",
         "flex_align_mobile": "align--top-center-mobile",
         "color_scheme": "scheme-10",
