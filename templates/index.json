@@ -330,7 +330,7 @@
       ],
       "name": "Image banner",
       "settings": {
-        "image_1": "shopify://shop_images/Standard_plan_image_copy.jpg",
+        "image_1": "shopify://shop_images/Standard_plan_image_copy.webp",
         "link": "",
         "width": "wrapper--full",
         "height": "image-height",
