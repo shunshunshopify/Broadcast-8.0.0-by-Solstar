@@ -366,7 +366,7 @@
         "image_BBVhwp",
         "text_Lt3DYf"
       ],
-      "name": "Custom section",
+      "name": "Text with Banner (Custom)",
       "settings": {
         "borders": false,
         "gutters": false,
@@ -583,9 +583,9 @@
     "section_hero_PLWiqj",
     "section_rich_text_p84jLJ",
     "section_rich_text_iwUCpP",
-    "section_rich_text_pijWhf",
     "section_custom_content_TCfGpm",
     "section_columns_dKc4AA",
+    "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
 }
