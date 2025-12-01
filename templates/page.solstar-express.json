@@ -62,13 +62,6 @@
     "section_rich_text_RQU3dK": {
       "type": "section-rich-text",
       "blocks": {
-        "subheading_DbyF4M": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
         "heading_8xAyyR": {
           "type": "heading",
           "settings": {
@@ -88,7 +81,6 @@
         }
       },
       "block_order": [
-        "subheading_DbyF4M",
         "heading_8xAyyR",
         "text_NK7Htb"
       ],
