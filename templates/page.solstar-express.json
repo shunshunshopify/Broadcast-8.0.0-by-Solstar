@@ -279,41 +279,6 @@
         "padding_bottom": 100
       }
     },
-    "section_rich_text_pijWhf": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_8iQFx7": {
-          "type": "heading",
-          "settings": {
-            "title": "最初の一歩を踏み出しましょう",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_jfXdQt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  </p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_8iQFx7",
-        "text_jfXdQt"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
-        "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
     "section_custom_content_TCfGpm": {
       "type": "section-custom-content",
       "blocks": {
@@ -377,6 +342,41 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_rich_text_63q6ah": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_CDRAEL": {
+          "type": "heading",
+          "settings": {
+            "title": "ムダを省き、本質に集中するECへ",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h3"
+          }
+        },
+        "text_hmyGUD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SOLSTAR EXPRESSは、“事業者が無理なく続けられるEC”を追求したサービスです。</p><p>初期コスト・時間・専門知識という3つの壁を取り除き、誰でもスピーディーに、自社ブランドの成長を実現できます。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_CDRAEL",
+        "text_hmyGUD"
+      ],
+      "name": "Paragraph",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_columns_dKc4AA": {
@@ -487,6 +487,41 @@
         "heading_tag": "automatic"
       }
     },
+    "section_rich_text_pijWhf": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_8iQFx7": {
+          "type": "heading",
+          "settings": {
+            "title": "最初の一歩を踏み出しましょう",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_jfXdQt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_8iQFx7",
+        "text_jfXdQt"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
     "contact_form_KKiTE3": {
       "type": "contact-form",
       "blocks": {
@@ -584,6 +619,7 @@
     "section_rich_text_p84jLJ",
     "section_rich_text_iwUCpP",
     "section_custom_content_TCfGpm",
+    "section_rich_text_63q6ah",
     "section_columns_dKc4AA",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
