@@ -159,6 +159,71 @@
         "padding_bottom": 0
       }
     },
+    "section_custom_content_TCfGpm": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_Lt3DYf": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "SOLSTAR EXPRESSの特徴",
+            "heading_font_size": "heading-large",
+            "text": "<h4><strong>1. 低コストでも高品質を実現</strong></h4><p>売上につながるUI/UXやデザイン品質はそのままに、機能は“必要十分”に厳選。</p><p>不要な開発を省くことで、月額29,800円から自社ECサイトを立ち上げ・運用できます。</p><p>事業者でも手の届く価格で、“成果を出すEC”を実現します。</p><h4><strong>2. 最短2週間でローンチ</strong></h4><p>商品数が少ない事業者に最適なスピード設計。</p><p>最短2週間でECサイトを公開し、すぐに販売を開始できます。</p><p>限られた時間の中で成果を出したい一人社長・小規模事業者にぴったりです。</p><h4><strong>3. 運用もまるごと代行</strong></h4><p>サイト公開後の更新・設定・トラブル対応などの運用業務は、実績豊富な弊社チームが代行します。</p><p>事業者はマーケティングや商品開発に集中でき、EC運用の不安と負担から解放されます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_BBVhwp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_Lt3DYf",
+        "image_BBVhwp"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_HjDeFq": {
       "type": "section-rich-text",
       "blocks": {
@@ -279,113 +344,6 @@
         "padding_bottom": 100
       }
     },
-    "section_columns_dKc4AA": {
-      "type": "section-columns",
-      "blocks": {
-        "image_UkFmeE": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_wDUtkf": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_4W3iqn": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_xHFmwc": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_UkFmeE",
-        "image_wDUtkf",
-        "image_4W3iqn",
-        "image_xHFmwc"
-      ],
-      "name": "Text columns with images",
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_columns": "flex-align-center",
-        "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -419,6 +377,114 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 0
+      }
+    },
+    "section_columns_dKc4AA": {
+      "type": "section-columns",
+      "blocks": {
+        "image_UkFmeE": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "1. 低コストでも高品質を実現",
+            "heading_font_size": "heading-small",
+            "text": "<p>売上につながるUI/UXやデザイン品質はそのままに、機能は“必要十分”に厳選。</p><p>不要な開発を省くことで、月額29,800円から自社ECサイトを立ち上げ・運用できます。</p><p>事業者でも手の届く価格で、“成果を出すEC”を実現します。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_wDUtkf": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "2. 最短2週間でローンチ",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_4W3iqn": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "3. 運用もまるごと代行",
+            "heading_font_size": "heading-small",
+            "text": "<p>サイト公開後の更新・設定・トラブル対応などの運用業務は、実績豊富な弊社チームが代行します。</p><p>事業者はマーケティングや商品開発に集中でき、EC運用の不安と負担から解放されます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_xHFmwc": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_UkFmeE",
+        "image_wDUtkf",
+        "image_4W3iqn",
+        "image_xHFmwc"
+      ],
+      "disabled": true,
+      "name": "Text columns with images",
+      "settings": {
+        "title": "SOLSTAR EXPRESSの特徴",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout": "slider",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "contact_form_KKiTE3": {
@@ -513,12 +579,13 @@
     "section_hero_ij9iAB",
     "section_rich_text_RQU3dK",
     "section_custom_content_LwmMDj",
+    "section_custom_content_TCfGpm",
     "section_rich_text_HjDeFq",
     "section_hero_PLWiqj",
     "section_rich_text_p84jLJ",
     "section_rich_text_iwUCpP",
-    "section_columns_dKc4AA",
     "section_rich_text_pijWhf",
+    "section_columns_dKc4AA",
     "contact_form_KKiTE3"
   ]
 }
