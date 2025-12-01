@@ -522,6 +522,33 @@
         "padding_bottom": 0
       }
     },
+    "section_rich_text_qHtYxf": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_AkxMfk": {
+          "type": "heading",
+          "settings": {
+            "title": "「ムダのないECサイト」だからできること",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AkxMfk"
+      ],
+      "name": "H2 Heading",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "image": "shopify://shop_images/51.png",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "contact_form_KKiTE3": {
       "type": "contact-form",
       "blocks": {
@@ -622,6 +649,7 @@
     "section_rich_text_63q6ah",
     "section_columns_dKc4AA",
     "section_rich_text_pijWhf",
+    "section_rich_text_qHtYxf",
     "contact_form_KKiTE3"
   ]
 }
