@@ -379,41 +379,6 @@
         "padding_bottom": 50
       }
     },
-    "section_rich_text_pijWhf": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_8iQFx7": {
-          "type": "heading",
-          "settings": {
-            "title": "最初の一歩を踏み出しましょう",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_jfXdQt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  </p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_8iQFx7",
-        "text_jfXdQt"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
-        "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
     "section_rich_text_qHtYxf": {
       "type": "section-rich-text",
       "blocks": {
@@ -552,6 +517,52 @@
         "heading_tag": "automatic"
       }
     },
+    "section_custom_code_8L7hhp": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  /* ========== SOLSTAR - Case Study Slider (White BG) ========== */\n  .solstar-case-section {\n    position: relative;\n    background: #ffffff; /* 背景を白に変更 */\n    color: #05060b;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n      sans-serif;\n    padding: 64px 16px;\n    overflow: hidden;\n    opacity: 0;\n    transform: translateY(30px);\n    transition:\n      opacity 0.6s ease-out,\n      transform 0.6s ease-out;\n  }\n\n  .solstar-case-section.is-visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  .solstar-case-inner {\n    max-width: 960px;\n    margin: 0 auto;\n  }\n\n  .solstar-case-heading {\n    font-size: clamp(24px, 3vw, 30px);\n    font-weight: 700;\n    letter-spacing: 0.04em;\n    margin: 0 0 12px;\n  }\n\n  .solstar-case-lead {\n    font-size: 14px;\n    line-height: 1.7;\n    color: #4f5665;\n    margin: 0 0 32px;\n  }\n\n  /* Slider Frame */\n  .solstar-case-slider {\n    position: relative;\n    border-radius: 20px;\n    background: radial-gradient(circle at top left, #144e94 0, #05060b 45%);\n    padding: 28px 20px 52px;\n    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);\n    overflow: hidden;\n    color: #ffffff;\n  }\n\n  @media (min-width: 768px) {\n    .solstar-case-slider {\n      padding: 36px 40px 64px;\n    }\n  }\n\n  /* Slides wrapper */\n  .solstar-case-slides {\n    position: relative;\n    min-height: 220px;\n  }\n\n  .solstar-case-slide {\n    position: absolute;\n    inset: 0;\n    opacity: 0;\n    transform: translateX(40px);\n    transition:\n      opacity 0.5s ease,\n      transform 0.5s ease;\n    pointer-events: none;\n  }\n\n  .solstar-case-slide.is-active {\n    opacity: 1;\n    transform: translateX(0);\n    pointer-events: auto;\n  }\n\n  /* Slide content */\n  .solstar-case-label {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 11px;\n    letter-spacing: 0.14em;\n    text-transform: uppercase;\n    color: #9fb5ff;\n    margin-bottom: 8px;\n  }\n\n  .solstar-case-label-dot {\n    width: 6px;\n    height: 6px;\n    border-radius: 999px;\n    background: #9fb5ff;\n  }\n\n  .solstar-case-title {\n    font-size: 18px;\n    font-weight: 700;\n    margin: 0 0 10px;\n  }\n\n  .solstar-case-sub {\n    font-size: 13px;\n    color: #c3c7d8;\n    margin: 0 0 16px;\n  }\n\n  .solstar-case-body {\n    font-size: 13px;\n    line-height: 1.8;\n    color: #f4f5ff;\n    margin: 0 0 16px;\n  }\n\n  .solstar-case-quote-block {\n    border-left: 2px solid rgba(255, 255, 255, 0.2);\n    padding-left: 14px;\n    margin-top: 8px;\n  }\n\n  .solstar-case-quote-label {\n    font-size: 11px;\n    letter-spacing: 0.12em;\n    text-transform: uppercase;\n    color: #a5b0c8;\n    margin-bottom: 4px;\n  }\n\n  .solstar-case-quote {\n    font-size: 13px;\n    font-style: italic;\n    color: #ffffff;\n  }\n\n  /* Controls */\n  .solstar-case-controls {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 16px;\n    margin-top: 24px;\n  }\n\n  .solstar-case-arrows {\n    display: flex;\n    gap: 8px;\n  }\n\n  .solstar-case-arrow-btn {\n    width: 36px;\n    height: 36px;\n    border-radius: 999px;\n    border: 1px solid rgba(255, 255, 255, 0.26);\n    background: rgba(5, 6, 11, 0.6);\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    padding: 0;\n    transition:\n      background 0.2s ease,\n      transform 0.15s ease,\n      border-color 0.2s ease;\n  }\n\n  .solstar-case-arrow-btn span {\n    display: inline-block;\n    font-size: 16px;\n    line-height: 1;\n  }\n\n  .solstar-case-arrow-btn:hover {\n    background: #144e94;\n    border-color: #ffffff;\n    transform: translateY(-1px);\n  }\n\n  .solstar-case-arrow-btn:active {\n    transform: translateY(0);\n  }\n\n  .solstar-case-dots {\n    display: flex;\n    gap: 8px;\n    align-items: center;\n  }\n\n  .solstar-case-dot {\n    width: 7px;\n    height: 7px;\n    border-radius: 999px;\n    background: rgba(255, 255, 255, 0.26);\n    cursor: pointer;\n    transition:\n      background 0.2s ease,\n      transform 0.2s ease,\n      width 0.2s ease;\n  }\n\n  .solstar-case-dot.is-active {\n    width: 18px;\n    background: #ffffff;\n    transform: translateY(-1px);\n  }\n\n  .solstar-case-counter {\n    font-size: 11px;\n    color: #a5afc8;\n  }\n\n  @media (max-width: 767px) {\n    .solstar-case-controls {\n      flex-direction: column-reverse;\n      align-items: flex-start;\n    }\n  }\n</style>\n\n<div class=\"solstar-case-section\" id=\"solstar-case-section\">\n  <div class=\"solstar-case-inner\">\n    <div class=\"solstar-case-heading\">SOLSTARが支援してきたECサイト構築事例</div>\n    <p class=\"solstar-case-lead\">\n      実際に低コスト・短期間で成果を上げられたお客様の事例をご紹介します。\n    </p>\n\n    <div class=\"solstar-case-slider\" data-solstar-case-slider>\n      <div class=\"solstar-case-slides\">\n        <!-- Slide 1: ONETREE -->\n        <div class=\"solstar-case-slide is-active\">\n          <div class=\"solstar-case-label\">\n            <span class=\"solstar-case-label-dot\"></span>\n            <span>Case 01</span>\n          </div>\n          <div class=\"solstar-case-title\">株式会社ONETREE様</div>\n          <p class=\"solstar-case-sub\">\n            1秒で履けるスニーカー「LAQUN」の公式ECサイト構築\n          </p>\n          <p class=\"solstar-case-body\">\n            1秒で履けるスニーカー「LAQUN」を製造・販売されている株式会社ONETREE様。<br>\n            公式ECサイトを約2か月で立ち上げ、公開初月に12万円以上の売上を達成されました。<br>\n            Shopifyを活用し、ブランドの認知拡大とファンづくりを進められています。\n          </p>\n          <div class=\"solstar-case-quote-block\">\n            <div class=\"solstar-case-quote-label\">ご担当者様の声</div>\n            <div class=\"solstar-case-quote\">\n              “説明も丁寧で、細かな調整にも対応していただきました。ストアにしっかり反映してもらえて満足しています。”\n            </div>\n          </div>\n        </div>\n\n        <!-- Slide 2: EDGBLACK -->\n        <div class=\"solstar-case-slide\">\n          <div class=\"solstar-case-label\">\n            <span class=\"solstar-case-label-dot\"></span>\n            <span>Case 02</span>\n          </div>\n          <div class=\"solstar-case-title\">株式会社EDGBLACK様</div>\n          <p class=\"solstar-case-sub\">\n            高品質な砥石ブランドのEC基盤を既存プラットフォームから移行\n          </p>\n          <p class=\"solstar-case-body\">\n            誰でも簡単にプロ級の刃物研ぎができる、高品質な砥石とアクセサリを展開されている株式会社EDGBLACK様。<br>\n            既存プラットフォームからShopifyへの移行を支援し、公開初月には27万円以上の売上を実現されました。<br>\n            現在もスタイリッシュで使いやすいECサイトとして継続的に運用されています。\n          </p>\n          <div class=\"solstar-case-quote-block\">\n            <div class=\"solstar-case-quote-label\">ご担当者様の声</div>\n            <div class=\"solstar-case-quote\">\n              “とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。”\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"solstar-case-controls\">\n        <div class=\"solstar-case-arrows\">\n          <button\n            type=\"button\"\n            class=\"solstar-case-arrow-btn\"\n            data-solstar-case-prev\n            aria-label=\"前の事例へ\"\n          >\n            <span>&larr;</span>\n          </button>\n          <button\n            type=\"button\"\n            class=\"solstar-case-arrow-btn\"\n            data-solstar-case-next\n            aria-label=\"次の事例へ\"\n          >\n            <span>&rarr;</span>\n          </button>\n        </div>\n\n        <div style=\"display: flex; align-items: center; gap: 12px;\">\n          <div class=\"solstar-case-dots\" data-solstar-case-dots></div>\n          <div class=\"solstar-case-counter\" data-solstar-case-counter></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n  (function () {\n    var slider = document.querySelector(\"[data-solstar-case-slider]\");\n    if (!slider) return;\n\n    var slides = Array.prototype.slice.call(\n      slider.querySelectorAll(\".solstar-case-slide\")\n    );\n    var dotsContainer = slider.querySelector(\"[data-solstar-case-dots]\");\n    var counter = slider.querySelector(\"[data-solstar-case-counter]\");\n    var prevBtn = slider.querySelector(\"[data-solstar-case-prev]\");\n    var nextBtn = slider.querySelector(\"[data-solstar-case-next]\");\n    var current = 0;\n    var autoTimer = null;\n    var AUTO_INTERVAL = 7000; // 7秒ごとに自動スライド\n\n    // Create dots\n    slides.forEach(function (_, index) {\n      var dot = document.createElement(\"button\");\n      dot.type = \"button\";\n      dot.className = \"solstar-case-dot\" + (index === 0 ? \" is-active\" : \"\");\n      dot.setAttribute(\"aria-label\", \"事例 \" + (index + 1) + \" に切り替え\");\n      dot.addEventListener(\"click\", function () {\n        goToSlide(index);\n        restartAuto();\n      });\n      dotsContainer.appendChild(dot);\n    });\n\n    var dots = Array.prototype.slice.call(\n      dotsContainer.querySelectorAll(\".solstar-case-dot\")\n    );\n\n    function updateCounter() {\n      if (!counter) return;\n      counter.textContent = (current + 1) + \" / \" + slides.length;\n    }\n\n    function goToSlide(index) {\n      if (index === current || index < 0 || index >= slides.length) return;\n\n      slides[current].classList.remove(\"is-active\");\n      dots[current].classList.remove(\"is-active\");\n\n      current = index;\n\n      slides[current].classList.add(\"is-active\");\n      dots[current].classList.add(\"is-active\");\n      updateCounter();\n    }\n\n    function nextSlide() {\n      var target = (current + 1) % slides.length;\n      goToSlide(target);\n    }\n\n    function prevSlide() {\n      var target = (current - 1 + slides.length) % slides.length;\n      goToSlide(target);\n    }\n\n    function startAuto() {\n      if (autoTimer) return;\n      autoTimer = setInterval(nextSlide, AUTO_INTERVAL);\n    }\n\n    function stopAuto() {\n      if (!autoTimer) return;\n      clearInterval(autoTimer);\n      autoTimer = null;\n    }\n\n    function restartAuto() {\n      stopAuto();\n      startAuto();\n    }\n\n    if (nextBtn) {\n      nextBtn.addEventListener(\"click\", function () {\n        nextSlide();\n        restartAuto();\n      });\n    }\n\n    if (prevBtn) {\n      prevBtn.addEventListener(\"click\", function () {\n        prevSlide();\n        restartAuto();\n      });\n    }\n\n    // Pause on hover (desktop only)\n    slider.addEventListener(\"mouseenter\", stopAuto);\n    slider.addEventListener(\"mouseleave\", startAuto);\n\n    updateCounter();\n    startAuto();\n  })();\n\n  // Scroll-in animation for the whole section\n  (function () {\n    var section = document.getElementById(\"solstar-case-section\");\n    if (!section) return;\n\n    if (\"IntersectionObserver\" in window) {\n      var observer = new IntersectionObserver(\n        function (entries) {\n          entries.forEach(function (entry) {\n            if (entry.isIntersecting) {\n              section.classList.add(\"is-visible\");\n              observer.unobserve(section);\n            }\n          });\n        },\n        { threshold: 0.2 }\n      );\n      observer.observe(section);\n    } else {\n      // fallback\n      section.classList.add(\"is-visible\");\n    }\n  })();\n</script>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_pijWhf": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_8iQFx7": {
+          "type": "heading",
+          "settings": {
+            "title": "最初の一歩を踏み出しましょう",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_jfXdQt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_8iQFx7",
+        "text_jfXdQt"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
     "contact_form_KKiTE3": {
       "type": "contact-form",
       "blocks": {
@@ -650,9 +661,10 @@
     "section_rich_text_iwUCpP",
     "section_custom_content_TCfGpm",
     "section_rich_text_63q6ah",
-    "section_rich_text_pijWhf",
     "section_rich_text_qHtYxf",
     "section_columns_dKc4AA",
+    "section_custom_code_8L7hhp",
+    "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
 }
