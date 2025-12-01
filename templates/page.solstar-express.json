@@ -26,6 +26,82 @@
         "heading_tag": "automatic"
       }
     },
+    "section_hero_ij9iAB": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_WHdxJM": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyで「早く・安く・簡単に」始める、サブスク型自社ECサイト構築サービス｜SOLSTAR EXPRESS",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h1",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_WHdxJM"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--bottom-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_RQU3dK": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_DbyF4M": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_8xAyyR": {
+          "type": "heading",
+          "settings": {
+            "title": "限られた時間と予算でも、自社ECサイトで成果を出すには？",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_NK7Htb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ー自社の商品をECサイトで素早く検証したい</p><p>ークラウドファンディングやリサーチで手応えを感じた商品を、自社ブランドとしてしっかり販売したい</p><p>ーECサイトを活用して、収入をもっと増やしたい</p><p>こうした希望を持つ事業者は多いはずです。</p><p>しかし、実際に自社ECサイトで利益を出せている一人社長や小規模事業者はごくわずか。</p><p>なぜ、思うように成果が出ないのでしょうか？</p><p>それは、自社ECサイトには高い壁があるからです。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DbyF4M",
+        "heading_8xAyyR",
+        "text_NK7Htb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -51,6 +127,7 @@
         "heading_8iQFx7",
         "text_jfXdQt"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
@@ -134,6 +211,7 @@
         "select_FagYn4",
         "select_ApML6n"
       ],
+      "disabled": true,
       "settings": {
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
@@ -144,54 +222,13 @@
         "padding_bottom": 100,
         "heading_tag": "automatic"
       }
-    },
-    "section_hero_ij9iAB": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_WHdxJM": {
-          "type": "heading",
-          "settings": {
-            "title": "Shopifyで「早く・安く・簡単に」始める、サブスク型自社ECサイト構築サービス｜SOLSTAR EXPRESS",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "h1",
-            "padding_bottom": 8
-          }
-        },
-        "text_LhkYnR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tell your brand's story through images.</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        }
-      },
-      "block_order": [
-        "heading_WHdxJM",
-        "text_LhkYnR"
-      ],
-      "name": "Image banner",
-      "settings": {
-        "link": "",
-        "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "flex_align_desktop": "align--bottom-center-desktop",
-        "content_width": 50,
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
-        "show_text_background": false,
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
     }
   },
   "order": [
     "main",
+    "section_hero_ij9iAB",
+    "section_rich_text_RQU3dK",
     "section_rich_text_pijWhf",
-    "contact_form_KKiTE3",
-    "section_hero_ij9iAB"
+    "contact_form_KKiTE3"
   ]
 }
