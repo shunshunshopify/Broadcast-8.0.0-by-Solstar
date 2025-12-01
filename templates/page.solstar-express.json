@@ -174,7 +174,7 @@
           "type": "text",
           "settings": {
             "text": "<p>モール型ECだけでは、自社のファンは育ちません。</p><p>楽天やAmazonなどのモール型ECは便利ですが、直接的な顧客関係は作れません。</p><p>高額な構築費・時間不足・技術的不安・失敗コストなど、こうした課題が重なることで、挑戦の一歩をためらってしまうのです。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
