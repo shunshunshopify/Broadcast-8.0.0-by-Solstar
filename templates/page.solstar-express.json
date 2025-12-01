@@ -218,6 +218,31 @@
         "show_placeholder": true
       }
     },
+    "section_rich_text_p84jLJ": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_n9fRCz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>どうすれば事業者が無理なく自社ECサイトを立ち上げ、運用を続けられるのか？</p><p>この課題は、私たちSOLSTAR自身がかつて直面していたものです。</p><p>当社はもともと物販事業からスタートしました。</p><p>「もっと手軽に自社ECを始めたいのに、なぜ構築費はこんなに高いのか？」</p><p>そんな疑問から、ShopifyによるECサイト構築を始めたのです。</p><p>そこから8年以上にわたり、Shopifyの知識を磨き、機能開発やカスタマイズを重ねてきました。</p><p>その経験をもとに、多くの企業のECサイト構築を支援しています。</p><p>その経験こそが、いまのSOLSTARの原点です。</p><p>高額な構築費の理由を明らかにするため、私たちはECサイト関連サービスを提供する制作会社150社以上を徹底的に調査しました。</p><p>そこで見えてきたのは、「初期段階では不要な機能開発」や「曖昧な工数設定」。</p><p>こうした“ムダなコスト構造”が、事業者を苦しめているという現実でした。</p><p>だからこそ、私たちは考えました。</p><p>「このムダを省けば、事業者でも自社ECを活用できるはずだ」と。</p><p>この想いから生まれたのが、SOLSTAR EXPRESSです。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_n9fRCz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -347,6 +372,7 @@
     "section_custom_content_LwmMDj",
     "section_rich_text_HjDeFq",
     "section_hero_PLWiqj",
+    "section_rich_text_p84jLJ",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
