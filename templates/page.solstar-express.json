@@ -570,84 +570,6 @@
         "show_placeholder": true
       }
     },
-    "section_double_slider_z3cFi3": {
-      "type": "section-double-slider",
-      "blocks": {
-        "text_slide_aLCedf": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "",
-            "title": "1. 早さ ー スピード勝負の小規模事業に最適",
-            "heading_font_size": "heading-large",
-            "text": "<p>最短 2〜4週間で公開可能。</p><p>新商品のリリースタイミングやクラウドファンディング後の流れを逃さず、すぐに販売開始できます。</p><p>Shopifyをベースに、必要十分な設計を施したECサイトをスピーディーにご提供します。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_RiJyjD": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "",
-            "title": "2. 安さ ー コストをかけずに確かな効果を狙える",
-            "heading_font_size": "heading-large",
-            "text": "<p>月額29,800円〜のサブスク型。</p><p>初期費用も5万円と業界最安クラスです。</p><p>不要な開発を省きつつ、初期セットには以下がすべて含まれます。</p><p>・ホームページ</p><p>・商品ページ</p><p>・LP（1本）</p><p>・運営サポート（更新・設定・不具合一次対応・軽微なデザイン改修）</p><p>低コストでも、見た目も使いやすさも高品質な設計です。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_jC9ENh": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "",
-            "title": "3. 検証しやすさ ー 試せる、変えられる、やめられる",
-            "heading_font_size": "heading-large",
-            "text": "<p>SOLSTAR EXPRESSは、少数SKU・スモールスタート前提のサービス。</p><p>「検証しながら運用できるのが便利」とご好評をいただいています。</p><p>・機能追加やデザイン強化も柔軟に対応可能</p><p>・不要になった場合は解約も自由</p><p>・成果が出たらそのまま本格運用にも拡張OK</p><p><br/>※最短契約期間は1年間</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_slide_aLCedf",
-        "text_slide_RiJyjD",
-        "text_slide_jC9ENh"
-      ],
-      "name": "Image with text slider",
-      "settings": {
-        "image_1": "shopify://shop_images/New_Hero_Image_2_copy_bd625221-f886-4552-b9d7-95b18e2abfb1.png",
-        "image_width": "one-half",
-        "autoplay": true,
-        "autoplay_speed": 4,
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "section_custom_code_8WDV9d": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -796,7 +718,6 @@
     "section_columns_dKc4AA",
     "section_custom_code_8L7hhp",
     "section_hero_ECXQLQ",
-    "section_double_slider_z3cFi3",
     "section_custom_code_8WDV9d",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
