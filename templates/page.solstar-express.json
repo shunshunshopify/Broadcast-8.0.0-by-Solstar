@@ -528,6 +528,71 @@
         "padding_bottom": 0
       }
     },
+    "section_custom_content_K6Hj9D": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_J8Ejcz": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "ECサイトを「早く・安く・検証」するなら、SOLSTAR EXPRESS",
+            "heading_font_size": "heading-large",
+            "text": "<p>SOLSTAR EXPRESSは、早く・安く・検証するためのサブスク型ECサイト構築サービスです。</p><p>「早く立ち上げたい」「無駄なコストを抑えたい」「試しながら改善したい」そんなニーズに応える、“続けられるECサイト”を実現します。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_4yDWG8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_J8Ejcz",
+        "image_4yDWG8"
+      ],
+      "name": "Text with Banner (Custom)",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -664,6 +729,7 @@
     "section_rich_text_qHtYxf",
     "section_columns_dKc4AA",
     "section_custom_code_8L7hhp",
+    "section_custom_content_K6Hj9D",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
