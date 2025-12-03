@@ -877,6 +877,17 @@
         "padding_bottom": 0
       }
     },
+    "section_custom_code_njzzBH": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  /* ================================\n     SOLSTAR - Text Animation Block\n     ================================ */\n  .solstar-genre-section {\n    background: #ffffff;\n    padding: 80px 16px;\n  }\n\n  .solstar-genre-inner {\n    max-width: 960px;\n    margin: 0 auto;\n    text-align: left;\n    line-height: 1.6;\n  }\n\n  /* アニメーション前の状態 */\n  .solstar-genre-inner.js-genre-animate {\n    opacity: 0;\n    transform: translateY(24px);\n    transition:\n      opacity 0.8s ease-out,\n      transform 0.8s ease-out;\n  }\n\n  /* 表示時の状態 */\n  .solstar-genre-inner.js-genre-animate.is-visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  /* 見出し・テキスト */\n  .solstar-genre-heading {\n    font-size: 36px;\n    font-weight: 700;\n    letter-spacing: 0.04em;\n    margin: 0 0 16px;\n  }\n\n  .solstar-genre-main {\n    font-size: 24px;\n    font-weight: 500;\n    margin: 0 0 16px;\n  }\n\n  .solstar-genre-sub {\n    font-size: 17px;\n    margin: 0;\n    max-width: 720px;\n  }\n\n  /* スマホ用レスポンシブ */\n  @media (max-width: 768px) {\n    .solstar-genre-section {\n      padding: 56px 16px;\n    }\n\n    .solstar-genre-heading {\n      font-size: 28px;\n    }\n\n    .solstar-genre-main {\n      font-size: 20px;\n    }\n\n    .solstar-genre-sub {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"solstar-genre-section\">\n  <div class=\"solstar-genre-inner js-genre-animate\">\n    <h3 class=\"solstar-genre-heading\">対応ジャンル例</h3>\n    <p class=\"solstar-genre-main\">\n      アパレル／ジュエリー／家電／ガジェット／カー用品／アウトドア／ペット関連\n    </p>\n    <p class=\"solstar-genre-sub\">\n      物販経験を持つSOLSTARが、最小限のコストで最大限の効果を生むECサイトづくりをサポートします。\n    </p>\n  </div>\n</div>\n\n<script>\n  document.addEventListener('DOMContentLoaded', function () {\n    var target = document.querySelector('.js-genre-animate');\n    if (!target) return;\n\n    // IntersectionObserver が使える場合はスクロール連動\n    if ('IntersectionObserver' in window) {\n      var observer = new IntersectionObserver(function (entries) {\n        entries.forEach(function (entry) {\n          if (entry.isIntersecting) {\n            target.classList.add('is-visible');\n            observer.unobserve(target);\n          }\n        });\n      }, {\n        threshold: 0.25\n      });\n\n      observer.observe(target);\n    } else {\n      // 古いブラウザ向けフォールバック\n      target.classList.add('is-visible');\n    }\n  });\n</script>",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -1019,6 +1030,7 @@
     "section_custom_content_6DpRDR",
     "section_custom_content_Mhx6ia",
     "section_custom_content_Ria4bP",
+    "section_custom_code_njzzBH",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
