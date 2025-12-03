@@ -613,7 +613,7 @@
           "settings": {
             "title": "Shopifyストア設定",
             "heading_font_size": "heading-small",
-            "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>配送</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Payments</li></ul>"
+            "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>配送</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Paymentsのみ</li></ul>"
           }
         }
       },
