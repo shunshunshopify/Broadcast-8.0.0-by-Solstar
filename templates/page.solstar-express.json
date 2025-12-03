@@ -615,19 +615,37 @@
             "heading_font_size": "heading-small",
             "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>配送</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Paymentsのみ</li></ul>"
           }
+        },
+        "text_jyVggw": {
+          "type": "text",
+          "settings": {
+            "title": "販売マルチチャネル設定",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>Google</li><li>Shop</li><li>Meta</li></ul>"
+          }
+        },
+        "text_iadpae": {
+          "type": "text",
+          "settings": {
+            "title": "デザイン設定",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>ブランドカラー</li><li>ロゴ</li><li>ファビコン</li><li>レスポンシブ対応</li><li>テンプレ改修（月5回まで無料）</li><li>HTML・CSSの軽微調整可</li></ul>"
+          }
         }
       },
       "block_order": [
         "text_mhKVbh",
         "text_Yycw7d",
         "text_MxzBJk",
-        "text_piYA67"
+        "text_piYA67",
+        "text_jyVggw",
+        "text_iadpae"
       ],
       "name": "Accordion",
       "settings": {
-        "default_open": false,
+        "default_open": true,
         "title": "サービス概要",
-        "heading_font_size": "heading-small",
+        "heading_font_size": "heading-large",
         "show_icon": false,
         "icon_name": "icon-award",
         "icon_size": 20,
