@@ -586,6 +586,7 @@
       "blocks": {
         "text_mhKVbh": {
           "type": "text",
+          "name": "提供形態",
           "settings": {
             "title": "提供形態",
             "heading_font_size": "heading-small",
@@ -594,6 +595,7 @@
         },
         "text_Yycw7d": {
           "type": "text",
+          "name": "料金",
           "settings": {
             "title": "料金",
             "heading_font_size": "heading-small",
@@ -602,6 +604,7 @@
         },
         "text_MxzBJk": {
           "type": "text",
+          "name": "ページ構成",
           "settings": {
             "title": "ページ構成",
             "heading_font_size": "heading-small",
@@ -610,10 +613,11 @@
         },
         "text_piYA67": {
           "type": "text",
+          "name": "Shopifyストア設定",
           "settings": {
             "title": "Shopifyストア設定",
             "heading_font_size": "heading-small",
-            "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>配送</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Paymentsのみ</li></ul>"
+            "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>送料</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Paymentsのみ</li></ul>"
           }
         },
         "text_jyVggw": {
