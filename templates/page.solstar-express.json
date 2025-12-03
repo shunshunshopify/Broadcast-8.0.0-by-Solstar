@@ -651,7 +651,7 @@
           "type": "text",
           "name": "サブスクに含まれないもの",
           "settings": {
-            "title": "サブスクに含まれないもの",
+            "title": "※サブスクに含まれないもの",
             "heading_font_size": "heading-small",
             "text": "<ul><li>在庫管理</li><li>出荷オペレーション</li><li>撮影、画像制作</li><li>マーケティング代行</li><li>アプリ実装</li><li>外部システム連携（POS含む）</li><li>越境対応</li></ul>"
           }
