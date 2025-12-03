@@ -631,6 +631,22 @@
             "heading_font_size": "heading-small",
             "text": "<ul><li>ブランドカラー</li><li>ロゴ</li><li>ファビコン</li><li>レスポンシブ対応</li><li>テンプレ改修（月5回まで無料）</li><li>HTML・CSSの軽微調整可</li></ul>"
           }
+        },
+        "text_bx3xey": {
+          "type": "text",
+          "settings": {
+            "title": "運用代行（サブスクに含まれる内容）",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>商品登録：月5点まで</li><li>デザイン微修正：月5回まで（バナー差し替え・文言調整など）</li><li>管理画面サポートやアプリ問い合わせ一次対応</li><li>不具合の一次切り分けや対処</li><li>売上レポート提出</li></ul><p>※その他ご要望に応じてカスタム可能</p>"
+          }
+        },
+        "text_nzrAez": {
+          "type": "text",
+          "settings": {
+            "title": "サブスクに含まれないもの",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>在庫管理</li><li>出荷オペレーション</li><li>撮影、画像制作</li><li>マーケティング代行</li><li>アプリ実装</li><li>外部システム連携（POS含む）</li><li>越境対応</li></ul>"
+          }
         }
       },
       "block_order": [
@@ -639,7 +655,9 @@
         "text_MxzBJk",
         "text_piYA67",
         "text_jyVggw",
-        "text_iadpae"
+        "text_iadpae",
+        "text_bx3xey",
+        "text_nzrAez"
       ],
       "name": "Accordion",
       "settings": {
