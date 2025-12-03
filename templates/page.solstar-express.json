@@ -622,6 +622,7 @@
         },
         "text_jyVggw": {
           "type": "text",
+          "name": "販売マルチチャネル設定",
           "settings": {
             "title": "販売マルチチャネル設定",
             "heading_font_size": "heading-small",
@@ -630,6 +631,7 @@
         },
         "text_iadpae": {
           "type": "text",
+          "name": "デザイン設定",
           "settings": {
             "title": "デザイン設定",
             "heading_font_size": "heading-small",
@@ -638,6 +640,7 @@
         },
         "text_bx3xey": {
           "type": "text",
+          "name": "サブスクに含まれるもの",
           "settings": {
             "title": "サブスクに含まれるもの",
             "heading_font_size": "heading-small",
@@ -646,6 +649,7 @@
         },
         "text_nzrAez": {
           "type": "text",
+          "name": "サブスクに含まれないもの",
           "settings": {
             "title": "サブスクに含まれないもの",
             "heading_font_size": "heading-small",
