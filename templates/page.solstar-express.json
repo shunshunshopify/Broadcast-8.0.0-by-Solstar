@@ -44,9 +44,10 @@
       ],
       "name": "H1 Heading",
       "settings": {
+        "image_1": "shopify://shop_images/SOLSTAR_EXPRESS_Hero_Image_copy.jpg",
         "link": "",
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "image-height",
         "flex_align_desktop": "align--bottom-center-desktop",
         "content_width": 50,
         "mobile_height": "screen-height-three-quarters--mobile",
@@ -1002,7 +1003,6 @@
         "heading_8iQFx7",
         "text_jfXdQt"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
@@ -1086,7 +1086,6 @@
         "select_FagYn4",
         "select_ApML6n"
       ],
-      "disabled": true,
       "settings": {
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
