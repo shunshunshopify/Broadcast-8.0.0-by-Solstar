@@ -341,7 +341,7 @@
         "text_EX9gpb": {
           "type": "text",
           "settings": {
-            "text": "<p>私たちは、数多くの事業者の課題を分析・研究した結果、「本当に必要な機能だけを残し、不要な開発を徹底的に省いたサービス」として、SOLSTAR EXPRESSを開発しました。</p>",
+            "text": "<p><strong>私たちは、数多くの事業者の課題を分析・研究した結果、「本当に必要な機能だけを残し、</strong></p><p><strong>不要な開発を徹底的に省いたサービス」として、SOLSTAR EXPRESSを開発しました。</strong></p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
