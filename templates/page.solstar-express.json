@@ -380,7 +380,7 @@
         "link": "",
         "width": "wrapper--full",
         "height": "image-height",
-        "flex_align_desktop": "align--top-center-desktop",
+        "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
         "mobile_image": "shopify://shop_images/Solstar_Express_Hero_Image_6.webp",
         "mobile_height": "image-height--mobile",
