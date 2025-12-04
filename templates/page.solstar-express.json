@@ -53,8 +53,8 @@
         "show_border": false,
         "layout": "marquee",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "section_hero_ij9iAB": {
@@ -128,8 +128,8 @@
         "show_border": false,
         "layout": "marquee",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "section_rich_text_RQU3dK": {
