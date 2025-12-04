@@ -326,41 +326,48 @@
         "padding_bottom": 50
       }
     },
-    "section_rich_text_iwUCpP": {
-      "type": "section-rich-text",
+    "section_hero_akkRjM": {
+      "type": "section-hero",
       "blocks": {
-        "heading_iwrdBa": {
+        "heading_tLHVjL": {
           "type": "heading",
           "settings": {
             "title": "スタートアップに特化した、無駄のないECサイト構築サービス「SOLSTAR EXPRESS」",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "h2"
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h1",
+            "padding_bottom": 8
           }
         },
-        "text_EX9gpb": {
+        "text_kACN66": {
           "type": "text",
           "settings": {
             "text": "<p>私たちは、数多くの事業者の課題を分析・研究した結果、</p><h3><strong>「本当に必要な機能だけを残し、不要な開発を徹底的に省いたサービス」</strong></h3><p>として、SOLSTAR EXPRESSを開発しました。</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 16
+            "padding_bottom": 8
           }
         }
       },
       "block_order": [
-        "heading_iwrdBa",
-        "text_EX9gpb"
+        "heading_tLHVjL",
+        "text_kACN66"
       ],
       "name": "H2 Heading",
       "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "image": "shopify://shop_images/32.jpg",
-        "image_mobile": "shopify://shop_images/33.jpg",
-        "color_scheme": "scheme-1",
+        "image_1": "shopify://shop_images/32.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--top-center-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/33.jpg",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--top-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
         "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_custom_content_TCfGpm": {
@@ -1164,7 +1171,7 @@
     "section_rich_text_HjDeFq",
     "section_hero_PLWiqj",
     "section_rich_text_p84jLJ",
-    "section_rich_text_iwUCpP",
+    "section_hero_akkRjM",
     "section_custom_content_TCfGpm",
     "section_rich_text_63q6ah",
     "section_columns_dKc4AA",
