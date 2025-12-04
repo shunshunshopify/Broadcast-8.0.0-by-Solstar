@@ -29,10 +29,18 @@
     "section_hero_ij9iAB": {
       "type": "section-hero",
       "blocks": {
+        "text_DMe7Hw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SOLSTAR EXPRESS</strong></p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
         "heading_WHdxJM": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyで「早く・安く・簡単に」始める、サブスク型自社ECサイト構築サービス｜SOLSTAR EXPRESS",
+            "title": "Shopifyで「早く・安く・簡単に」始める、サブスク型自社ECサイト構築サービス",
             "heading_font_size": "heading-x-large",
             "heading_tag": "h1",
             "padding_bottom": 8
@@ -40,6 +48,7 @@
         }
       },
       "block_order": [
+        "text_DMe7Hw",
         "heading_WHdxJM"
       ],
       "name": "H1 Heading",
