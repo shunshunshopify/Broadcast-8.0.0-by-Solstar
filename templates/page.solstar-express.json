@@ -108,28 +108,6 @@
     "section_custom_content_LwmMDj": {
       "type": "section-custom-content",
       "blocks": {
-        "image_HP9YGj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SOLSTAR_EXPRESS_Hero_image_4_copy_a67f7c7c-1a19-414a-a973-07b7f2340fe4.webp",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
         "text_EXtxpA": {
           "type": "text",
           "settings": {
@@ -151,11 +129,33 @@
             "color": "",
             "heading_tag": "automatic"
           }
+        },
+        "image_HP9YGj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SOLSTAR_EXPRESS_Hero_image_4_copy_a67f7c7c-1a19-414a-a973-07b7f2340fe4.webp",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
         }
       },
       "block_order": [
-        "image_HP9YGj",
-        "text_EXtxpA"
+        "text_EXtxpA",
+        "image_HP9YGj"
       ],
       "name": "Text with Banner (Custom)",
       "settings": {
