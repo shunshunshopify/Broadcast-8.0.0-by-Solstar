@@ -567,7 +567,7 @@
       "name": "Text columns with images",
       "settings": {
         "title": "「ムダのないECサイト」だからできること",
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-large",
         "align_heading": "text-left",
         "align_text": "text-left",
         "width": "wrapper",
