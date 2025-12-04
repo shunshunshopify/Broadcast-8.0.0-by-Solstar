@@ -443,7 +443,7 @@
         "text_hmyGUD": {
           "type": "text",
           "settings": {
-            "text": "<p>SOLSTAR EXPRESSは、“事業者が無理なく続けられるEC”を追求したサービスです。</p><p>初期コスト・時間・専門知識という3つの壁を取り除き、誰でもスピーディーに、自社ブランドの成長を実現できます。</p>",
+            "text": "<p>「ムダのないECサイト」だからできること</p><p>SOLSTAR EXPRESSは、“事業者が無理なく続けられるEC”を追求したサービスです。</p><p>初期コスト・時間・専門知識という3つの壁を取り除き、誰でもスピーディーに、自社ブランドの成長を実現できます。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
@@ -461,33 +461,6 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
-      }
-    },
-    "section_rich_text_qHtYxf": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_AkxMfk": {
-          "type": "heading",
-          "settings": {
-            "title": "「ムダのないECサイト」だからできること",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_AkxMfk"
-      ],
-      "name": "H2 Heading",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "image": "shopify://shop_images/51.png",
-        "color_scheme": "scheme-1",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     },
     "section_columns_dKc4AA": {
@@ -1194,7 +1167,6 @@
     "section_rich_text_iwUCpP",
     "section_custom_content_TCfGpm",
     "section_rich_text_63q6ah",
-    "section_rich_text_qHtYxf",
     "section_columns_dKc4AA",
     "section_custom_code_8L7hhp",
     "section_hero_ECXQLQ",
