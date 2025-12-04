@@ -29,14 +29,6 @@
     "section_hero_ij9iAB": {
       "type": "section-hero",
       "blocks": {
-        "text_DMe7Hw": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>SOLSTAR EXPRESS</strong></p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        },
         "heading_WHdxJM": {
           "type": "heading",
           "settings": {
@@ -45,11 +37,19 @@
             "heading_tag": "h1",
             "padding_bottom": 8
           }
+        },
+        "text_DMe7Hw": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>SOLSTAR EXPRESS</h3>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
         }
       },
       "block_order": [
-        "text_DMe7Hw",
-        "heading_WHdxJM"
+        "heading_WHdxJM",
+        "text_DMe7Hw"
       ],
       "name": "H1 Heading",
       "settings": {
