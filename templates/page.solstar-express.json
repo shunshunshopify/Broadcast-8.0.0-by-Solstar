@@ -345,11 +345,25 @@
             "text_font_size": "body-large",
             "padding_bottom": 8
           }
+        },
+        "button_QmXPzr": {
+          "type": "button",
+          "settings": {
+            "link_text": "今すぐ相談する",
+            "link": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
         }
       },
       "block_order": [
         "heading_tLHVjL",
-        "text_kACN66"
+        "text_kACN66",
+        "button_QmXPzr"
       ],
       "name": "H2 Heading",
       "settings": {
