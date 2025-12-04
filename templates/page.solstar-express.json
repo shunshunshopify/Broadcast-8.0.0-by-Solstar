@@ -77,6 +77,14 @@
             "padding_bottom": 8
           }
         },
+        "text_RKh38R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>月額29,800円（税別）〜</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 8
+          }
+        },
         "button_awGfeV": {
           "type": "button",
           "settings": {
@@ -89,21 +97,13 @@
             "full_width": false,
             "padding_bottom": 8
           }
-        },
-        "text_RKh38R": {
-          "type": "text",
-          "settings": {
-            "text": "<p>月額29,800円（税別）〜</p>",
-            "text_font_size": "body-small",
-            "padding_bottom": 8
-          }
         }
       },
       "block_order": [
         "heading_WHdxJM",
         "text_DMe7Hw",
-        "button_awGfeV",
-        "text_RKh38R"
+        "text_RKh38R",
+        "button_awGfeV"
       ],
       "name": "H1 Heading",
       "settings": {
