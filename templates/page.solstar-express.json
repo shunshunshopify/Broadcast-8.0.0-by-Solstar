@@ -608,6 +608,55 @@
         "padding_bottom": 0
       }
     },
+    "section_double_TKNkV8": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_QcURhJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SOLSTAR EXPRESSを選ぶ理由",
+            "padding_bottom": 16
+          }
+        },
+        "heading_kgRwz8": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyアカデミー認定資格を3種取得",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_GyN7TV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QcURhJ",
+        "heading_kgRwz8",
+        "text_GyN7TV"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Shopify_Academy_Image_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_hero_ECXQLQ": {
       "type": "section-hero",
       "blocks": {
@@ -1191,6 +1240,7 @@
     "section_rich_text_63q6ah",
     "section_columns_dKc4AA",
     "section_custom_code_8L7hhp",
+    "section_double_TKNkV8",
     "section_hero_ECXQLQ",
     "section_custom_code_8WDV9d",
     "section_accordion_FymK7E",
