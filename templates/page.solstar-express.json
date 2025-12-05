@@ -677,6 +677,71 @@
         "show_placeholder": true
       }
     },
+    "section_custom_content_iJUFkV": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_EM9AWP": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "いますぐ、始められます。",
+            "heading_font_size": "heading-large",
+            "text": "<p>SOLSTAR EXPRESSのご利用にあたり、ご用意いただくのは次の3点だけ。</p><ul><li>商品画像、バナー画像などのコンテンツ素材</li><li>商品情報テキスト</li><li>各種ポリシー（返品・配送など）のテキスト</li></ul><p>準備はシンプル、技術知識も不要です。</p><p>「売りたいものがある」「試したいアイデアがある」そんな方こそ、今すぐ一歩を踏み出すチャンスです。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_8VE7mB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_EM9AWP",
+        "image_8VE7mB"
+      ],
+      "name": "Text with Banner (Custom)",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_hero_ECXQLQ": {
       "type": "section-hero",
       "blocks": {
@@ -1050,71 +1115,6 @@
         "padding_bottom": 100
       }
     },
-    "section_custom_content_iJUFkV": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_EM9AWP": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "いますぐ、始められます。",
-            "heading_font_size": "heading-large",
-            "text": "<p>SOLSTAR EXPRESSのご利用にあたり、ご用意いただくのは次の3点だけ。</p><ul><li>商品画像、バナー画像などのコンテンツ素材</li><li>商品情報テキスト</li><li>各種ポリシー（返品・配送など）のテキスト</li></ul><p>準備はシンプル、技術知識も不要です。</p><p>「売りたいものがある」「試したいアイデアがある」そんな方こそ、今すぐ一歩を踏み出すチャンスです。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
-        "image_8VE7mB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/48.png",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_EM9AWP",
-        "image_8VE7mB"
-      ],
-      "name": "Text with Banner (Custom)",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -1251,13 +1251,13 @@
     "section_columns_dKc4AA",
     "section_custom_code_8L7hhp",
     "section_double_TKNkV8",
+    "section_custom_content_iJUFkV",
     "section_hero_ECXQLQ",
     "section_accordion_FymK7E",
     "section_custom_content_6DpRDR",
     "section_custom_content_Mhx6ia",
     "section_custom_content_Ria4bP",
     "section_rich_text_ccNG6P",
-    "section_custom_content_iJUFkV",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
