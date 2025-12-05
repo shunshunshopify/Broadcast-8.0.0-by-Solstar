@@ -553,6 +553,7 @@
         },
         "image_xHFmwc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/unnamed_15.png",
             "image_width": 100,
