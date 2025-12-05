@@ -493,7 +493,7 @@
           "settings": {
             "image": "shopify://shop_images/90s_style_anime_copy_041296cb-035d-4e83-980e-2c6d01fa7ede.webp",
             "image_width": 100,
-            "image_shape": "blob-one",
+            "image_shape": "normal",
             "title": "1. 開発費を抑えて、安心してECに挑戦できる",
             "heading_font_size": "heading-small",
             "text": "<p>初期費用5万円＋月額29,800円という、業界でも珍しい低コスト設計。</p><p>一般的な初期費用（約100万円）と比べて、<strong>約95％の初期投資を削減</strong>できます。</p><p>資金リスクを抑えながら、安心してECサイトの立ち上げ・運用をスタートできます。</p>",
@@ -514,7 +514,7 @@
           "settings": {
             "image": "shopify://shop_images/Create_a_male_person_who_focuses_on_selling_t-shirt_in_black_with_basketball_desgin._He_has_white_short_hair._He_wears_red_jacket_with_round_sunglasses._He_stands_up._No_background._I.webp",
             "image_width": 100,
-            "image_shape": "blob-three",
+            "image_shape": "normal",
             "title": "2. 運用代行で、売上づくりに集中できる",
             "heading_font_size": "heading-small",
             "text": "<p>面倒なサイト運用は、弊社がすべて代行します。</p><p>事業者は商品開発・マーケティング・顧客対応に集中できます。</p><p>売上に直結する時間を確保し、ビジネスの成長スピードを高められます。</p>",
@@ -535,7 +535,7 @@
           "settings": {
             "image": "shopify://shop_images/Create_5_friends_who_want_to_support._They_are_stand_up._They_wear_90s_styled_clothes._Camera_angle_is_from_top_to_bottom._No_background._It_should_be_90s_styled_anime_like_Akira_copy.webp",
             "image_width": 100,
-            "image_shape": "blob-one",
+            "image_shape": "normal",
             "title": "3．自社ECサイトだから、ファンを育てられる",
             "heading_font_size": "heading-small",
             "text": "<p>モール型ECでは埋もれてしまいがちな事業でも、オリジナルの自社ECサイトなら顧客と直接つながれます。</p><p>ブランドの世界観を伝えながら、リピーターを増やし、ファンを育てることが可能です。</p>",
