@@ -254,49 +254,6 @@
         "padding_bottom": 100
       }
     },
-    "section_hero_PLWiqj": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_XEQR4k": {
-          "type": "heading",
-          "settings": {
-            "title": "私たちも、同じ悩みを抱えていました。",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "h2",
-            "padding_bottom": 8
-          }
-        },
-        "text_qHjUhp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>どうすれば事業者が無理なく自社ECサイトを立ち上げ、運用を続けられるのか？</p><p>この課題は、私たちSOLSTAR自身がかつて直面していたものです。</p><p>当社はもともと物販事業からスタートしました。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        }
-      },
-      "block_order": [
-        "heading_XEQR4k",
-        "text_qHjUhp"
-      ],
-      "name": "H2 Heading",
-      "settings": {
-        "image_1": "shopify://shop_images/Solstar_Express_Hero_Image_3_copy.webp",
-        "link": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "flex_align_desktop": "align--top-right-desktop",
-        "content_width": 50,
-        "mobile_height": "image-height--mobile",
-        "flex_align_mobile": "align--bottom-center-mobile",
-        "color_scheme": "",
-        "show_text_background": false,
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "section_double_MDk6CF": {
       "type": "section-double",
       "blocks": {
@@ -332,7 +289,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/Solstar_Express_Hero_Image_3_copy.webp",
+        "image_1": "shopify://shop_images/Multi_Hero_Images_copy.webp",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -1295,7 +1252,6 @@
     "section_rich_text_RQU3dK",
     "section_custom_content_LwmMDj",
     "section_rich_text_HjDeFq",
-    "section_hero_PLWiqj",
     "section_double_MDk6CF",
     "section_rich_text_p84jLJ",
     "section_hero_akkRjM",
