@@ -269,7 +269,7 @@
           "settings": {
             "title": "私たちも、同じ悩みを抱えていました。",
             "heading_font_size": "heading-large",
-            "padding_bottom": 16,
+            "padding_bottom": 30,
             "heading_tag": "automatic"
           }
         },
