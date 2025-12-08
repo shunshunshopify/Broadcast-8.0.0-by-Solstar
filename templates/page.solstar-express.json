@@ -403,11 +403,11 @@
         "show_line": true,
         "right_column_width": 40,
         "align_text": "text-left",
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "align_text_mobile": "text-left--mobile",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     },
     "section_hero_akkRjM": {
