@@ -7,8 +7,6 @@
   assign image_1 = section.settings.image_1
   assign image_2 = section.settings.image_2
   assign video = section.settings.video
-  assign video_mobile = section.settings.video_mobile
-  assign mobile_video_source = video_mobile | default: video
   assign aspect_ratio = 1 | divided_by: section.settings.aspect_ratio
   assign video_width = section.settings.video_width | default: 100
   assign show_placeholder = section.settings.show_placeholder
@@ -70,7 +68,7 @@
   assign animation_order = 1
 -%}
 
-{%- if video != blank or video_mobile != blank -%}
+{%- if video != blank -%}
   <script src="{{ 'video-background.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
@@ -162,8 +160,8 @@
           class="hero__content__wrapper frame__item {{ section.settings.flex_align_desktop | default: 'align--bottom-left-desktop' }} {{ section.settings.flex_align_mobile }}{% if show_header_backdrop %} backdrop--linear{% endif %}"
         >
           {%- if has_video -%}
-            <div class="hero__video frame__item desktop">
-              <div class="video-background {{ desktop_height }} {{ mobile_height }}">
+            <div class="hero__video frame__item">
+              <div class="video-background">
                 {%- if video != null -%}
                   <video-background
                     class="video__player"
@@ -182,24 +180,6 @@
                 {%- endif -%}
               </div>
             </div>
-            {%- if mobile_video_source != blank -%}
-              <div class="hero__video frame__item mobile">
-                <div class="video-background {{ desktop_height }} {{ mobile_height }}">
-                  <video-background
-                    class="video__player"
-                    data-video-player
-                    data-video-id="{{ section.id }}-video-background-mobile"
-                  >
-                    <template data-video-template>
-                      {{
-                        mobile_video_source
-                        | video_tag: image_size: '500x', autoplay: true, loop: true, muted: true, controls: false
-                      }}
-                    </template>
-                  </video-background>
-                </div>
-              </div>
-            {%- endif -%}
           {%- endif -%}
           <div class="hero__content{% if hero_transparent %} hero__content--transparent{% endif %}{% if text_underlay %} backdrop--radial{% endif %}">
             {%- for block in section.blocks -%}
