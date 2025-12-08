@@ -609,7 +609,7 @@
           "type": "heading",
           "settings": {
             "title": "ムダを省き、本質に集中するECへ",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "h3"
           }
@@ -617,7 +617,7 @@
         "text_hmyGUD": {
           "type": "text",
           "settings": {
-            "text": "<p>SOLSTAR EXPRESSは、“事業者が無理なく続けられるEC”を追求したサービスです。</p><p>初期コスト・時間・専門知識という3つの壁を取り除き、誰でもスピーディーに、自社ブランドの成長を実現できます。</p>",
+            "text": "<p>SOLSTAR EXPRESSは、“事業者が無理なく続けられるEC”を追求したサービスです。</p><p><strong>初期コスト・時間・専門知識という3つの壁を取り除き、誰でもスピーディーに、自社ブランドの成長を実現できます。</strong></p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
