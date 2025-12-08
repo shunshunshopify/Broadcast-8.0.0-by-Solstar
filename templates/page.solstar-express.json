@@ -275,7 +275,6 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
-        "image": "shopify://shop_images/Smoke_Effect.webp",
         "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 100,
