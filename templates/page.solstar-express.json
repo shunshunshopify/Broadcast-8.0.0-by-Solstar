@@ -117,9 +117,17 @@
         "text_NK7Htb": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>「自社の商品をECサイトで素早く検証したい」</strong></p><p><strong>　</strong></p><p><strong>「クラウドファンディングやリサーチで手応えを感じた商品を、自社ブランドとしてしっかり販売したい」</strong></p><p><strong>　</strong></p><p><strong>「ECサイトを活用して、収入をもっと増やしたい」</strong></p><p>　</p><p>こうした希望を持つ事業者は多いはずです。</p>",
+            "text": "<p><strong>「自社の商品をECサイトで素早く検証したい」</strong></p><p><strong>　</strong></p><p><strong>「クラウドファンディングやリサーチで手応えを感じた商品を、自社ブランドとしてしっかり販売したい」</strong></p><p><strong>　</strong></p><p><strong>「ECサイトを活用して、収入をもっと増やしたい」</strong></p><p>　</p>",
+            "text_font_size": "body-x-large",
+            "padding_bottom": 0
+          }
+        },
+        "text_9TVpFy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>こうした希望を持つ事業者は多いはずです。</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 50
+            "padding_bottom": 16
           }
         },
         "text_ThLxeR": {
@@ -142,6 +150,7 @@
       "block_order": [
         "heading_8xAyyR",
         "text_NK7Htb",
+        "text_9TVpFy",
         "text_ThLxeR",
         "text_RNRX8y"
       ],
