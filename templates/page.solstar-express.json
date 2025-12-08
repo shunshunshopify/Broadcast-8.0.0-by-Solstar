@@ -117,9 +117,9 @@
         "text_NK7Htb": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>「自社の商品をECサイトで素早く検証したい」</strong></p><p><strong>　</strong></p><p><strong>「クラウドファンディングやリサーチで手応えを感じた商品を、自社ブランドとしてしっかり販売したい」</strong></p><p><strong>　</strong></p><p><strong>「ECサイトを活用して、収入をもっと増やしたい」</strong></p><p>　</p>",
+            "text": "<p><strong>「自社商品の反応をECで素早く検証したい」<br/><br/>「クラファンや実店舗で売れている商品をオンラインでも販売したい」</strong></p><p><strong>「ECサイトを活用して、収入をもっと増やしたい」</strong></p>",
             "text_font_size": "body-x-large",
-            "padding_bottom": 0
+            "padding_bottom": 50
           }
         },
         "text_9TVpFy": {
@@ -127,7 +127,7 @@
           "settings": {
             "text": "<p>こうした希望を持つ事業者は多いはずです。</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 16
+            "padding_bottom": 50
           }
         },
         "text_ThLxeR": {
@@ -135,7 +135,7 @@
           "settings": {
             "text": "<p>しかし、実際に自社ECサイトで利益を出せている一人社長や小規模事業者はごくわずか。</p><p>なぜ、思うように成果が出ないのでしょうか？</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 16
+            "padding_bottom": 50
           }
         },
         "text_RNRX8y": {
