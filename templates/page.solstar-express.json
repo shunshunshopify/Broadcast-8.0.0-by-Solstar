@@ -232,6 +232,15 @@
     "section_rich_text_HjDeFq": {
       "type": "section-rich-text",
       "blocks": {
+        "heading_EVEnbX": {
+          "type": "heading",
+          "settings": {
+            "title": "自社ECが「大事なのは分かっているのに」進められない理由",
+            "heading_font_size": "heading-x-large",
+            "padding_bottom": 50,
+            "heading_tag": "automatic"
+          }
+        },
         "text_hMtYR3": {
           "type": "text",
           "settings": {
@@ -258,6 +267,7 @@
         }
       },
       "block_order": [
+        "heading_EVEnbX",
         "text_hMtYR3",
         "text_JQ9TqF",
         "text_phzGJq"
