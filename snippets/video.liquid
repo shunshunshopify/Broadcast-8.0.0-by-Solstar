@@ -7,6 +7,8 @@
   endif
   assign mobile_height = mobile_height | default: block_settings.mobile_height
   assign video = block_settings.video
+  assign video_mobile = block_settings.video_mobile
+  assign video_mobile_source = video_mobile | default: video
   assign aspect_ratio = aspect_ratio | default: video.aspect_ratio
   assign video_aspect_ratio = video_aspect_ratio | default: video.aspect_ratio | default: 1
   assign video_popup = block_settings.video_popup | default: block_settings.video_popup_social
@@ -74,24 +76,46 @@
   <div class="hero__video frame__item">
 {%- endif -%}
 
-{%- if video != null -%}
+{%- if video != null or video_mobile_source != blank -%}
   <div
-    class="video-background {{ desktop_height }} {{ mobile_height }}"
+    class="video-background {{ desktop_height }} {{ mobile_height }} desktop"
     style="--aspect-ratio: {{ video_aspect_ratio }};"
   >
     <div class="video__poster">
       {{ video_poster }}
     </div>
-    <video-background
-      class="video__player is-loading"
-      data-video-player
-      data-video-id="{{ section.id }}-video-background"
-    >
-      <template data-video-template>
-        {{ video | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
-      </template>
-    </video-background>
+    {%- if video != null -%}
+      <video-background
+        class="video__player is-loading"
+        data-video-player
+        data-video-id="{{ section.id }}-video-background"
+      >
+        <template data-video-template>
+          {{ video | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+        </template>
+      </video-background>
+    {%- endif -%}
   </div>
+
+  {%- if video_mobile_source != blank -%}
+    <div
+      class="video-background {{ desktop_height }} {{ mobile_height }} mobile"
+      style="--aspect-ratio: {{ video_aspect_ratio }};"
+    >
+      <div class="video__poster">
+        {{ video_poster }}
+      </div>
+      <video-background
+        class="video__player is-loading"
+        data-video-player
+        data-video-id="{{ section.id }}-video-background-mobile"
+      >
+        <template data-video-template>
+          {{ video_mobile_source | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+        </template>
+      </video-background>
+    </div>
+  {%- endif -%}
 {%- else -%}
   {{ video_poster }}
 {%- endif -%}

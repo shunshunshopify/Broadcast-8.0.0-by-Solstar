@@ -4,7 +4,7 @@
   --PB: {{ section.settings.padding_bottom }}px;
 {%- endcapture -%}
 
-{%- if section.settings.video != null -%}
+{%- if section.settings.video != null or section.settings.video_mobile != null -%}
   <script src="{{ 'video-background.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
@@ -38,6 +38,12 @@
       "type": "video",
       "id": "video",
       "label": "Video"
+    },
+    {
+      "type": "video",
+      "id": "video_mobile",
+      "label": "Mobile video",
+      "info": "Optional: shown on mobile and falls back to desktop video when empty."
     },
     {
       "type": "header",
