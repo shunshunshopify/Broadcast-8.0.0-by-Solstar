@@ -48,8 +48,8 @@
         "text_DMe7Hw": {
           "type": "text",
           "settings": {
-            "text": "<h3>SOLSTAR EXPRESS</h3>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>SOLSTAR EXPRESS</strong></p>",
+            "text_font_size": "body-large",
             "padding_bottom": 8
           }
         },
