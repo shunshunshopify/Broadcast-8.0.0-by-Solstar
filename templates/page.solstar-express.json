@@ -248,7 +248,8 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "",
+        "image": "shopify://shop_images/Smoke_Effect.webp",
+        "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 100
