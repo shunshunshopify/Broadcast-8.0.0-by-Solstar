@@ -774,7 +774,7 @@
           "type": "heading",
           "settings": {
             "title": "Shopifyアカデミー認定資格を3種取得",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -783,7 +783,7 @@
           "type": "text",
           "settings": {
             "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
