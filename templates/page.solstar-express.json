@@ -611,7 +611,7 @@
         "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
+        "reverse_blocks": true,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -700,7 +700,7 @@
         "image_4W3iqn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_copy.webp",
+            "image": "shopify://shop_images/EC_copy_2ca4abe0-18d8-446c-9ce9-ee9af08b1fc1.webp",
             "image_width": 100,
             "image_shape": "normal",
             "title": "3．自社ECサイトだから、ファンを育てられる",
