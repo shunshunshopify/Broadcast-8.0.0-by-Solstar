@@ -930,6 +930,71 @@
         "heading_tag": "automatic"
       }
     },
+    "section_custom_content_Mhx6ia": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_bzYqEf": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "ご利用者特典",
+            "heading_font_size": "heading-large",
+            "text": "<p>SOLSTAR EXPRESSにお申し込みの方限定で、通常6〜9万円相当のShopifyテーマ（追従カート、動画イントロ、デバイス別バナー対応など）を追加料金なしでご利用いただけます。</p><p>見た目も機能も妥協しない“即戦力なECサイト”を、初期コストを抑えて構築できます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_nRdHPc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_bzYqEf",
+        "image_nRdHPc"
+      ],
+      "name": "Text with Banner (Custom)",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_accordion_FymK7E": {
       "type": "section-accordion",
       "blocks": {
@@ -1091,71 +1156,6 @@
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_custom_content_Mhx6ia": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_bzYqEf": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "ご利用者特典",
-            "heading_font_size": "heading-large",
-            "text": "<p>SOLSTAR EXPRESSにお申し込みの方限定で、通常6〜9万円相当のShopifyテーマ（追従カート、動画イントロ、デバイス別バナー対応など）を追加料金なしでご利用いただけます。</p><p>見た目も機能も妥協しない“即戦力なECサイト”を、初期コストを抑えて構築できます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
-        "image_nRdHPc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/48.png",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_bzYqEf",
-        "image_nRdHPc"
-      ],
-      "name": "Text with Banner (Custom)",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -1400,9 +1400,9 @@
     "section_custom_code_7Ywk69",
     "section_custom_content_iJUFkV",
     "section_video_mzndiK",
+    "section_custom_content_Mhx6ia",
     "section_accordion_FymK7E",
     "section_custom_content_6DpRDR",
-    "section_custom_content_Mhx6ia",
     "section_custom_content_Ria4bP",
     "section_rich_text_ccNG6P",
     "section_rich_text_pijWhf",
