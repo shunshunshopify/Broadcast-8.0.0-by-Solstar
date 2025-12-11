@@ -885,7 +885,7 @@
         "show_arrow": false,
         "desktop_height": "image-height",
         "mobile_height": "image-height--mobile",
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "color_scheme": "",
         "show_text_background": false,
         "color": "",
