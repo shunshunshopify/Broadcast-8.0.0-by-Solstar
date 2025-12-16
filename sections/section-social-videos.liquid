@@ -133,6 +133,10 @@
               assign video = block.settings.video
               assign image = block.settings.image | default: video.preview_image
               assign badge_text = block.settings.badge_text
+              assign block_heading = block.settings.heading
+              assign block_heading_size = block.settings.heading_font_size | default: 'heading-small'
+              assign block_text = block.settings.text
+              assign block_text_size = block.settings.text_font_size | default: 'body-medium'
             -%}
 
             <div
@@ -141,43 +145,66 @@
               data-social-video-item
               {{ block.shopify_attributes }}
             >
-              <div
-                class="social-video__wrapper"
-                data-aos="img-in"
-                data-aos-anchor="{{ animation_anchor }}"
-                data-aos-order="{{ animation_order }}"
-              >
-                <div class="social-video__thumbnail">
-                  {%- render 'image' image: image, sizes: sizes, aspect_ratio: aspect_ratio, cover: true -%}
-                </div>
-
-                {%- if video -%}
-                  <div class="social-video__video">
-                    {{ video | video_tag: autoplay: false, loop: true, muted: true, controls: false }}
+              <div class="social-video__media">
+                <div
+                  class="social-video__wrapper"
+                  data-aos="img-in"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}"
+                >
+                  <div class="social-video__thumbnail">
+                    {%- render 'image' image: image, sizes: sizes, aspect_ratio: aspect_ratio, cover: true -%}
                   </div>
-                {%- endif -%}
 
-                <div class="social-video__content align--bottom-right">
-                  <div class="social-video__button-wrapper">
-                    <button
-                      class="social-video__button"
-                      type="button"
-                      data-video-play
-                      aria-label="{{ 'general.accessibility.play_video' | t }}"
-                    >
-                      {%- render 'icon-play' -%}
-                      {%- render 'icon-pause' -%}
-                    </button>
+                  {%- if video -%}
+                    <div class="social-video__video">
+                      {{ video | video_tag: autoplay: false, loop: true, muted: true, controls: false }}
+                    </div>
+                  {%- endif -%}
 
-                    {%- if badge_text != blank -%}
-                      <span class="social-video__text">
-                        {{- badge_text -}}
-                      </span>
-                    {%- endif -%}
+                  <div class="social-video__content align--bottom-right">
+                    <div class="social-video__button-wrapper">
+                      <button
+                        class="social-video__button"
+                        type="button"
+                        data-video-play
+                        aria-label="{{ 'general.accessibility.play_video' | t }}"
+                      >
+                        {%- render 'icon-play' -%}
+                        {%- render 'icon-pause' -%}
+                      </button>
+
+                      {%- if badge_text != blank -%}
+                        <span class="social-video__text">
+                          {{- badge_text -}}
+                        </span>
+                      {%- endif -%}
+                    </div>
                   </div>
                 </div>
-
               </div>
+
+              {%- if block_heading != blank or block_text != blank -%}
+                {%- assign animation_order = animation_order | plus: 1 -%}
+                <div
+                  class="social-video__caption {{ section.settings.align_text }}"
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}"
+                >
+                  {%- if block_heading != blank -%}
+                    <h3 class="social-video__heading column__heading {{ block_heading_size }}">
+                      {{ block_heading }}
+                    </h3>
+                  {%- endif -%}
+
+                  {%- if block_text != blank -%}
+                    <div class="social-video__description column__text rte {{ block_text_size }}">
+                      {{ block_text }}
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
             </div>
           {%- endfor -%}
         {%- endcapture -%}
@@ -410,6 +437,50 @@
           "id": "badge_text",
           "label": "Badge text",
           "default": "@instagram"
+        },
+        {
+          "type": "header",
+          "content": "Typography"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "select",
+          "id": "heading_font_size",
+          "label": "Heading size",
+          "default": "heading-small",
+          "options": [
+            {"value": "heading-mini", "label": "Mini"},
+            {"value": "heading-x-small", "label": "Extra small"},
+            {"value": "heading-small", "label": "Small"},
+            {"value": "heading-medium", "label": "Medium"},
+            {"value": "heading-large", "label": "Large"},
+            {"value": "heading-x-large", "label": "Extra large"}
+          ]
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Add supporting copy here.</p>"
+        },
+        {
+          "type": "select",
+          "id": "text_font_size",
+          "label": "Text size",
+          "info": "Automatically generated by the base size. Applies only when content in Text field is set to Paragraph.",
+          "default": "body-medium",
+          "options": [
+            {"value": "body-x-small", "label": "Extra small"},
+            {"value": "body-small", "label": "Small"},
+            {"value": "body-medium", "label": "Medium"},
+            {"value": "body-large", "label": "Large"},
+            {"value": "body-x-large", "label": "Extra large"}
+          ]
         }
       ]
     }

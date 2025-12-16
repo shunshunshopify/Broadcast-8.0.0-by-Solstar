@@ -921,92 +921,6 @@
         "show_placeholder": true
       }
     },
-    "section_columns_iM3YcC": {
-      "type": "section-columns",
-      "blocks": {
-        "image_YDY8fq": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "追従カート",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_zzn86j": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "動画イントロ",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_8DkfCT": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "お気に入りリスト",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_YDY8fq",
-        "image_zzn86j",
-        "image_8DkfCT"
-      ],
-      "name": "Text columns with images",
-      "settings": {
-        "title": "Creamの特徴",
-        "heading_font_size": "heading-x-large",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_columns": "flex-align-top",
-        "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_social_videos_Lg4tEA": {
       "type": "section-social-videos",
       "blocks": {
@@ -1014,25 +928,41 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/5.26.2023 Sandy Haze New Video0001-0753.mp4",
-            "badge_text": "追従カート"
+            "badge_text": "追従カート",
+            "heading": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "<p>Add supporting copy here.</p>",
+            "text_font_size": "body-medium"
           }
         },
         "video_FkN6Gx": {
           "type": "video",
           "settings": {
-            "badge_text": "お気に入り機能"
+            "badge_text": "お気に入り機能",
+            "heading": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "<p>Add supporting copy here.</p>",
+            "text_font_size": "body-medium"
           }
         },
         "video_UknJn8": {
           "type": "video",
           "settings": {
-            "badge_text": "ボトムメニュー機能"
+            "badge_text": "ボトムメニュー機能",
+            "heading": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "<p>Add supporting copy here.</p>",
+            "text_font_size": "body-medium"
           }
         },
         "video_PRMP4Y": {
           "type": "video",
           "settings": {
-            "badge_text": "動画イントロ"
+            "badge_text": "動画イントロ",
+            "heading": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "<p>Add supporting copy here.</p>",
+            "text_font_size": "body-medium"
           }
         }
       },
@@ -1430,7 +1360,6 @@
     "section_custom_content_iJUFkV",
     "section_video_mzndiK",
     "section_double_hPwzUa",
-    "section_columns_iM3YcC",
     "section_social_videos_Lg4tEA",
     "section_accordion_FymK7E",
     "section_custom_content_6DpRDR",

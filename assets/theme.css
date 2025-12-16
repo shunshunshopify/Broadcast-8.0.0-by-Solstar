@@ -21270,6 +21270,10 @@ map-component {
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+.social-video__media {
+  position: relative;
   aspect-ratio: var(--SOCIAL-VIDEO-ASPECT-RATIO);
   overflow: hidden;
 }
@@ -21338,6 +21342,10 @@ map-component {
   cursor: pointer;
 }
 
+.social-video__heading {
+  margin: 0;
+}
+
 .social-video__button-wrapper {
   display: flex;
   align-items: center;
@@ -21350,6 +21358,14 @@ map-component {
 .social-video__text {
   font-size: var(--body-medium);
   color: var(--text);
+}
+
+.social-video__caption {
+  margin-top: var(--inner);
+}
+
+.social-video__caption .column__text {
+  margin: 0;
 }
 
 .social-video__button {
