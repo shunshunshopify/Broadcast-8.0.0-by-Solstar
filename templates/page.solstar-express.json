@@ -872,47 +872,53 @@
         "heading_tag": "automatic"
       }
     },
-    "section_rich_text_xxPMpC": {
-      "type": "section-rich-text",
+    "section_double_hPwzUa": {
+      "type": "section-double",
       "blocks": {
-        "subheading_NWqB6C": {
+        "subheading_M8Qf9r": {
           "type": "subheading",
           "settings": {
-            "subheading": "Solstarオリジナルテーマ ──  Cream",
+            "subheading": "Solstarオリジナルテーマ ── CREAM",
             "padding_bottom": 16
           }
         },
-        "heading_fLWUpe": {
+        "heading_BCjf9J": {
           "type": "heading",
           "settings": {
-            "title": "ご利用者特典",
+            "title": "利用者限定特典",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
         },
-        "text_wimgkF": {
+        "text_K9bVtz": {
           "type": "text",
           "settings": {
-            "text": "<p>SOLSTAR EXPRESSにお申し込みの方限定で、通常6〜9万円相当のShopifyテーマ（追従カート、動画イントロ、デバイス別バナー対応など）を追加料金なしでご利用いただけます。</p><p>見た目も機能も妥協しない“即戦力なECサイト”を、初期コストを抑えて構築できます。</p>",
-            "text_font_size": "body-large",
+            "text": "<p>SOLSTAR EXPRESSをご利用の方は、<br/><br/>弊社オリジナルのShopifyテーマ <strong>「CREAM」</strong> を<strong>無料</strong>でご利用いただけます。</p><p>通常、有料テーマでは<strong>2万円〜6万円程度</strong>かかる機能を標準搭載。<br/><br/>追従カート、動画イントロ、デバイス別バナー対応など、<br/><br/><strong>実践向けの機能を追加費用なし</strong>で利用可能です。</p><p>見た目も機能も妥協しない、<br/><br/><strong>“すぐ売れるECサイト”を初期コストを抑えて構築</strong>できます。</p>",
+            "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "subheading_NWqB6C",
-        "heading_fLWUpe",
-        "text_wimgkF"
+        "subheading_M8Qf9r",
+        "heading_BCjf9J",
+        "text_K9bVtz"
       ],
-      "name": "Rich text",
+      "name": "Image with text",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
+        "image_1": "shopify://shop_images/2_iphones_Hero_Image_copy_2.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
         "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_columns_iM3YcC": {
@@ -1405,7 +1411,7 @@
     "section_custom_code_7Ywk69",
     "section_custom_content_iJUFkV",
     "section_video_mzndiK",
-    "section_rich_text_xxPMpC",
+    "section_double_hPwzUa",
     "section_columns_iM3YcC",
     "section_accordion_FymK7E",
     "section_custom_content_6DpRDR",
