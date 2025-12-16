@@ -1020,19 +1020,19 @@
         "video_FkN6Gx": {
           "type": "video",
           "settings": {
-            "badge_text": "@instagram"
+            "badge_text": "お気に入り機能"
           }
         },
         "video_UknJn8": {
           "type": "video",
           "settings": {
-            "badge_text": "@instagram"
+            "badge_text": "ボトムメニュー機能"
           }
         },
         "video_PRMP4Y": {
           "type": "video",
           "settings": {
-            "badge_text": "@instagram"
+            "badge_text": "動画イントロ"
           }
         }
       },
