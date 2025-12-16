@@ -162,44 +162,48 @@
                 {%- endif -%}
 
                 <div class="social-video__content align--bottom-right">
-                  <div class="social-video__content-inner">
-                    {%- if block_heading != blank or block_text != blank -%}
-                      <div class="social-video__caption">
-                        {%- if block_heading != blank -%}
-                          <h3 class="social-video__heading column__heading {{ block_heading_size }}">
-                            {{ block_heading }}
-                          </h3>
-                        {%- endif -%}
+                  <div class="social-video__button-wrapper">
+                    <button
+                      class="social-video__button"
+                      type="button"
+                      data-video-play
+                      aria-label="{{ 'general.accessibility.play_video' | t }}"
+                    >
+                      {%- render 'icon-play' -%}
+                      {%- render 'icon-pause' -%}
+                    </button>
 
-                        {%- if block_text != blank -%}
-                          <div class="social-video__description column__text rte {{ block_text_size }}">
-                            {{ block_text }}
-                          </div>
-                        {%- endif -%}
-                      </div>
+                    {%- if badge_text != blank -%}
+                      <span class="social-video__text">
+                        {{- badge_text -}}
+                      </span>
                     {%- endif -%}
-
-                    <div class="social-video__button-wrapper">
-                      <button
-                        class="social-video__button"
-                        type="button"
-                        data-video-play
-                        aria-label="{{ 'general.accessibility.play_video' | t }}"
-                      >
-                        {%- render 'icon-play' -%}
-                        {%- render 'icon-pause' -%}
-                      </button>
-
-                      {%- if badge_text != blank -%}
-                        <span class="social-video__text">
-                          {{- badge_text -}}
-                        </span>
-                      {%- endif -%}
-                    </div>
                   </div>
                 </div>
 
               </div>
+
+              {%- if block_heading != blank or block_text != blank -%}
+                {%- assign animation_order = animation_order | plus: 1 -%}
+                <div
+                  class="social-video__caption {{ section.settings.align_text }}"
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}"
+                >
+                  {%- if block_heading != blank -%}
+                    <h3 class="social-video__heading column__heading {{ block_heading_size }}">
+                      {{ block_heading }}
+                    </h3>
+                  {%- endif -%}
+
+                  {%- if block_text != blank -%}
+                    <div class="social-video__description column__text rte {{ block_text_size }}">
+                      {{ block_text }}
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
             </div>
           {%- endfor -%}
         {%- endcapture -%}

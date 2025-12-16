@@ -21338,19 +21338,7 @@ map-component {
   cursor: pointer;
 }
 
-.social-video__content-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: calc(var(--inner) / 3);
-  text-align: var(--alignment-text-align);
-}
-
 .social-video__heading {
-  margin: 0;
-}
-
-.social-video__caption .column__text {
   margin: 0;
 }
 
@@ -21366,6 +21354,14 @@ map-component {
 .social-video__text {
   font-size: var(--body-medium);
   color: var(--text);
+}
+
+.social-video__caption {
+  margin-top: var(--inner);
+}
+
+.social-video__caption .column__text {
+  margin: 0;
 }
 
 .social-video__button {
