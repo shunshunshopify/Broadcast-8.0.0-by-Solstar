@@ -665,7 +665,7 @@
         "image_4W3iqn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/EC_copy_203ba3cc-eecb-477a-8cf9-fcb3040a4ea7.webp",
+            "image": "shopify://shop_images/3_copy.webp",
             "image_width": 100,
             "image_shape": "normal",
             "title": "3．自社ECサイトだから、ファンを育てられる",
@@ -682,35 +682,12 @@
             "mobile_image_aspect_ratio": 1,
             "heading_tag": "h3"
           }
-        },
-        "image_xHFmwc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/unnamed_15.png",
-            "image_width": 100,
-            "image_shape": "blob-two",
-            "title": "4. 「やってみよう」「やめよう」に柔軟に対応",
-            "heading_font_size": "heading-small",
-            "text": "<p>小規模事業の強みであるフットワークの軽さを活かし、新しい挑戦や方向転換にも柔軟に対応可能。</p><p>機能拡張や運用体制の強化もスムーズに行えるため、事業の成長段階に合わせてすばやく売上アップを目指せます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
         }
       },
       "block_order": [
         "image_UkFmeE",
         "image_wDUtkf",
-        "image_4W3iqn",
-        "image_xHFmwc"
+        "image_4W3iqn"
       ],
       "name": "Text columns with images",
       "settings": {
