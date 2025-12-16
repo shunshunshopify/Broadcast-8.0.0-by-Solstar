@@ -21270,6 +21270,10 @@ map-component {
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+.social-video__media {
+  position: relative;
   aspect-ratio: var(--SOCIAL-VIDEO-ASPECT-RATIO);
   overflow: hidden;
 }

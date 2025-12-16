@@ -145,42 +145,43 @@
               data-social-video-item
               {{ block.shopify_attributes }}
             >
-              <div
-                class="social-video__wrapper"
-                data-aos="img-in"
-                data-aos-anchor="{{ animation_anchor }}"
-                data-aos-order="{{ animation_order }}"
-              >
-                <div class="social-video__thumbnail">
-                  {%- render 'image' image: image, sizes: sizes, aspect_ratio: aspect_ratio, cover: true -%}
-                </div>
-
-                {%- if video -%}
-                  <div class="social-video__video">
-                    {{ video | video_tag: autoplay: false, loop: true, muted: true, controls: false }}
+              <div class="social-video__media">
+                <div
+                  class="social-video__wrapper"
+                  data-aos="img-in"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}"
+                >
+                  <div class="social-video__thumbnail">
+                    {%- render 'image' image: image, sizes: sizes, aspect_ratio: aspect_ratio, cover: true -%}
                   </div>
-                {%- endif -%}
 
-                <div class="social-video__content align--bottom-right">
-                  <div class="social-video__button-wrapper">
-                    <button
-                      class="social-video__button"
-                      type="button"
-                      data-video-play
-                      aria-label="{{ 'general.accessibility.play_video' | t }}"
-                    >
-                      {%- render 'icon-play' -%}
-                      {%- render 'icon-pause' -%}
-                    </button>
+                  {%- if video -%}
+                    <div class="social-video__video">
+                      {{ video | video_tag: autoplay: false, loop: true, muted: true, controls: false }}
+                    </div>
+                  {%- endif -%}
 
-                    {%- if badge_text != blank -%}
-                      <span class="social-video__text">
-                        {{- badge_text -}}
-                      </span>
-                    {%- endif -%}
+                  <div class="social-video__content align--bottom-right">
+                    <div class="social-video__button-wrapper">
+                      <button
+                        class="social-video__button"
+                        type="button"
+                        data-video-play
+                        aria-label="{{ 'general.accessibility.play_video' | t }}"
+                      >
+                        {%- render 'icon-play' -%}
+                        {%- render 'icon-pause' -%}
+                      </button>
+
+                      {%- if badge_text != blank -%}
+                        <span class="social-video__text">
+                          {{- badge_text -}}
+                        </span>
+                      {%- endif -%}
+                    </div>
                   </div>
                 </div>
-
               </div>
 
               {%- if block_heading != blank or block_text != blank -%}
