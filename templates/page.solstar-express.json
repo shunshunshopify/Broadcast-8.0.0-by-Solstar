@@ -878,14 +878,14 @@
         "subheading_M8Qf9r": {
           "type": "subheading",
           "settings": {
-            "subheading": "Solstarオリジナルテーマ ── CREAM",
+            "subheading": "追加費用ゼロ。",
             "padding_bottom": 16
           }
         },
         "heading_BCjf9J": {
           "type": "heading",
           "settings": {
-            "title": "利用者限定特典",
+            "title": "最初から“売る前提”で設計されたテーマを。",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -894,7 +894,7 @@
         "text_K9bVtz": {
           "type": "text",
           "settings": {
-            "text": "<p>SOLSTAR EXPRESSをご利用の方は、<br/><br/>弊社オリジナルのShopifyテーマ <strong>「CREAM」</strong> を<strong>無料</strong>でご利用いただけます。</p><p>通常、有料テーマでは<strong>2万円〜6万円程度</strong>かかる機能を標準搭載。<br/><br/>追従カート、動画イントロ、デバイス別バナー対応など、<br/><br/><strong>実践向けの機能を追加費用なし</strong>で利用可能です。</p><p>見た目も機能も妥協しない、<br/><br/><strong>“すぐ売れるECサイト”を初期コストを抑えて構築</strong>できます。</p>",
+            "text": "<p>SOLSTAR EXPRESS利用者限定で、<br/><br/>弊社オリジナルのShopifyテーマ <strong>「CREAM」</strong> を<strong>無料提供</strong>。</p><p>通常<strong>6万円以上</strong>する有料テーマクラスの機能<br/><br/>── 追従カート、ポップアップ型メルマガ、自動動画表示、<br/><br/>LINE友だち登録導線まで<strong>すべて標準搭載</strong>。</p><p>日本市場を前提に設計された、洗練されたUI/UXで、<br/><br/><strong>見た目も、導線も、最初から“売れる状態”。</strong></p><p>初期コストを抑えながら、<br/><br/><strong>妥協のないECサイトを、すぐに立ち上げられます。</strong></p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
