@@ -927,7 +927,7 @@
         "video_rCiePh": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/5.26.2023 Sandy Haze New Video0001-0753.mp4",
+            "video": "shopify://files/videos/Sequence 01_1.mp4",
             "badge_text": "追従カート",
             "heading": "Add a title or tagline",
             "heading_font_size": "heading-small",
@@ -979,7 +979,7 @@
         "text": "",
         "text_font_size": "body-medium",
         "align_text": "text-left",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "aspect_ratio": 1.5,
         "layout_desktop": "grid",
         "blocks_per_row": 4,
