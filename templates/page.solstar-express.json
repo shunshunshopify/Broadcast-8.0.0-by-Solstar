@@ -927,8 +927,8 @@
         "video_rCiePh": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/Thumbnail_copy.webp",
-            "video": "shopify://files/videos/Sequence 01_1.mp4",
+            "image": "shopify://shop_images/Thumbnail_copy_b21e4845-6df9-4791-85c1-84a7e4a0e098.webp",
+            "video": "shopify://files/videos/Sticky Add to Cart Feature.mp4",
             "badge_text": "追従カート",
             "heading": "Add a title or tagline",
             "heading_font_size": "heading-small",
