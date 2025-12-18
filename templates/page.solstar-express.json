@@ -939,6 +939,7 @@
         "video_FkN6Gx": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/Wishlist feature.mp4",
             "badge_text": "お気に入り機能",
             "heading": "Add a title or tagline",
             "heading_font_size": "heading-small",
