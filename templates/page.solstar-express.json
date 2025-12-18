@@ -927,6 +927,7 @@
         "video_rCiePh": {
           "type": "video",
           "settings": {
+            "image": "shopify://shop_images/Thumbnail_copy.webp",
             "video": "shopify://files/videos/Sequence 01_1.mp4",
             "badge_text": "追従カート",
             "heading": "Add a title or tagline",
