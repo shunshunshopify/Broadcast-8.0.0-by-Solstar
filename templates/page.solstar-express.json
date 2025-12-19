@@ -952,7 +952,7 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/SEO Focused Video.mp4",
-            "badge_text": "SEO設計",
+            "badge_text": "SEOフォーカス",
             "heading": "Add a title or tagline",
             "heading_font_size": "heading-small",
             "text": "<p>Add supporting copy here.</p>",
