@@ -965,10 +965,10 @@
           "settings": {
             "image": "shopify://shop_images/Thumbnail_Responsive_copy.webp",
             "video": "shopify://files/videos/Responsive video.mp4",
-            "badge_text": "最適なUX",
-            "heading": "Add a title or tagline",
+            "badge_text": "",
+            "heading": "売上につながる、マルチデバイス最適設計",
             "heading_font_size": "heading-small",
-            "text": "<p>Add supporting copy here.</p>",
+            "text": "<p>Creamテーマは、あらゆるデバイスで購入体験を最適化するレスポンシブ設計を採用。<br/><br/>画面サイズに左右されない直感的なUIで、離脱を防ぎ、売上につながるUXを実現します。</p>",
             "text_font_size": "body-medium"
           }
         }
