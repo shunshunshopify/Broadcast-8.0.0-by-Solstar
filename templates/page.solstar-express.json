@@ -997,6 +997,71 @@
         "heading_tag": "automatic"
       }
     },
+    "section_custom_content_6DpRDR": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_UfpnM6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_AFY7jY": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "想定ユースケース（活用シーン）",
+            "heading_font_size": "heading-large",
+            "text": "<h4><strong>1. クラウドファンディングの受け皿に</strong></h4><p>支援者や顧客の反応をいち早く検証。</p><p>低コスト・短期間で自社販売をスタートでき、リターンの追加や施策調整も容易です。</p><h4><strong>2. 少数SKUの検証・意思決定に</strong></h4><p>スモールスタートで販売データを収集し、その結果をもとに「拡大・改善・撤退」を判断できます。</p><p>事業をスピーディーかつ柔軟に動かせます。</p><h4><strong>3. 運用代行を活用して経営を拡大</strong></h4><p>面倒な更新や不具合対応はすべてお任せ。</p><p>事業者は商品づくりと販売促進に集中でき、限られた時間を最大限に活かせます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_UfpnM6",
+        "text_AFY7jY"
+      ],
+      "name": "Text with Banner (Custom)",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_accordion_FymK7E": {
       "type": "section-accordion",
       "blocks": {
@@ -1096,71 +1161,6 @@
         "icon_color": "",
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "section_custom_content_6DpRDR": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_UfpnM6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/48.png",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_AFY7jY": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "想定ユースケース（活用シーン）",
-            "heading_font_size": "heading-large",
-            "text": "<h4><strong>1. クラウドファンディングの受け皿に</strong></h4><p>支援者や顧客の反応をいち早く検証。</p><p>低コスト・短期間で自社販売をスタートでき、リターンの追加や施策調整も容易です。</p><h4><strong>2. 少数SKUの検証・意思決定に</strong></h4><p>スモールスタートで販売データを収集し、その結果をもとに「拡大・改善・撤退」を判断できます。</p><p>事業をスピーディーかつ柔軟に動かせます。</p><h4><strong>3. 運用代行を活用して経営を拡大</strong></h4><p>面倒な更新や不具合対応はすべてお任せ。</p><p>事業者は商品づくりと販売促進に集中でき、限られた時間を最大限に活かせます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_UfpnM6",
-        "text_AFY7jY"
-      ],
-      "name": "Text with Banner (Custom)",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_custom_content_Ria4bP": {
@@ -1368,8 +1368,8 @@
     "section_video_mzndiK",
     "section_double_hPwzUa",
     "section_social_videos_Lg4tEA",
-    "section_accordion_FymK7E",
     "section_custom_content_6DpRDR",
+    "section_accordion_FymK7E",
     "section_custom_content_Ria4bP",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
