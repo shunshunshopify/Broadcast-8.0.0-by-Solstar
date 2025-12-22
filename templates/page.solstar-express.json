@@ -617,10 +617,10 @@
         "padding_bottom": 0
       }
     },
-    "section_columns_dKc4AA": {
+    "section_columns_fjwYHH": {
       "type": "section-columns",
       "blocks": {
-        "image_UkFmeE": {
+        "image_hwYzra": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/EC_5.webp",
@@ -641,7 +641,7 @@
             "heading_tag": "h3"
           }
         },
-        "image_wDUtkf": {
+        "image_dJQF3F": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2_copy.webp",
@@ -662,7 +662,7 @@
             "heading_tag": "h3"
           }
         },
-        "image_4W3iqn": {
+        "image_hdYbLw": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/3_copy.webp",
@@ -685,10 +685,11 @@
         }
       },
       "block_order": [
-        "image_UkFmeE",
-        "image_wDUtkf",
-        "image_4W3iqn"
+        "image_hwYzra",
+        "image_dJQF3F",
+        "image_hdYbLw"
       ],
+      "disabled": true,
       "name": "Text columns with images",
       "settings": {
         "title": "EC運用を外部化して、売上に集中",
@@ -1360,7 +1361,7 @@
     "section_hero_akkRjM",
     "section_custom_code_8WDV9d",
     "section_custom_content_TCfGpm",
-    "section_columns_dKc4AA",
+    "section_columns_fjwYHH",
     "section_custom_code_8L7hhp",
     "section_double_TKNkV8",
     "section_custom_code_7Ywk69",
