@@ -941,10 +941,10 @@
           "settings": {
             "image": "shopify://shop_images/Thumbnail_copy_fabe0d37-fb14-4bf7-92bb-9038ba847a82.webp",
             "video": "shopify://files/videos/Wishlist feature.mp4",
-            "badge_text": "お気に入り機能",
-            "heading": "Add a title or tagline",
+            "badge_text": "",
+            "heading": "「あとで買う」を売上に変える",
             "heading_font_size": "heading-small",
-            "text": "<p>Add supporting copy here.</p>",
+            "text": "<p>購入を迷っている商品を簡単にお気に入り保存。購入機会を逃さないEC体験を提供します。</p>",
             "text_font_size": "body-medium"
           }
         },
