@@ -671,7 +671,7 @@
         "text_alignment": "text-left",
         "layout": "is-reversed",
         "width": "wrapper--full",
-        "height": "screen-height-two-thirds",
+        "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
