@@ -353,7 +353,7 @@
         "text_EjUkUB": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>開発会社150社調査で確信した、ECサイト立ち上げで“本当はいらないコスト”</strong><br/><br/>多くのECサイト制作では、<br/><br/>初期段階フェーズで、必要以上に細分化・上振れした工数見積が常態化しているという事実でした。</p><p></p><p>　</p>",
+            "text": "<p><strong>開発会社150社調査で確信した、ECサイト立ち上げで“本当はいらないコスト”</strong><br/><br/>多くのECサイト制作では、<br/><br/>初期段階フェーズで、必要以上に機能開発を含めた工数見積もりが当たり前となっていたのです。</p><p>　</p>",
             "text_font_size": "body-large",
             "position": "right",
             "padding_bottom": 0
@@ -362,7 +362,7 @@
         "text_qp7jJ7": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>「要件定義・画面設計・実装をすべて個別対応前提で積み上げた、非効率な工数算出」</strong></p><p><strong>　</strong></p>",
+            "text": "<p><strong>「数少ない商品数のECサイトには不要な機能」</strong></p><p><strong>　</strong></p>",
             "text_font_size": "body-x-large",
             "position": "right",
             "padding_bottom": 0
