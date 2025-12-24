@@ -680,113 +680,6 @@
         "show_placeholder": true
       }
     },
-    "section_columns_be6xjq": {
-      "type": "section-columns",
-      "blocks": {
-        "image_Hhr7tX": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "image_shape": "normal",
-            "title": "STEP 1｜お問い合わせ・無料ヒアリング",
-            "heading_font_size": "heading-small",
-            "text": "<p>事業内容・商品数・販売目的をヒアリングし、SOLSTAR EXPRESSが最適かを確認。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
-        },
-        "image_4Kir3R": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "image_shape": "normal",
-            "title": "STEP 2｜ご契約・初期セットアップ開始",
-            "heading_font_size": "heading-small",
-            "text": "<p>初期費用お支払い後、構築スタート。必要素材（商品情報・画像）をご提出いただきます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
-        },
-        "image_myEj6m": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "image_shape": "normal",
-            "title": "STEP 3｜構築・確認（2〜4週間）",
-            "heading_font_size": "heading-small",
-            "text": "<p>弊社にてサイト構築・各種設定を実施。確認・修正を経て公開準備。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
-        },
-        "image_Q9GGEd": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "image_shape": "normal",
-            "title": "STEP 4｜公開・運用スタート",
-            "heading_font_size": "heading-small",
-            "text": "<p>ECサイト公開後は、更新・設定・軽微改修を弊社が継続サポート。</p><p></p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "image_Hhr7tX",
-        "image_4Kir3R",
-        "image_myEj6m",
-        "image_Q9GGEd"
-      ],
-      "name": "Text columns with images",
-      "settings": {
-        "title": "SOLSTAR EXPRESS ご利用の流れ",
-        "heading_font_size": "heading-x-large",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_columns": "flex-align-top",
-        "layout": "slider",
-        "grid": 3,
-        "layout_mobile": "1",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_columns_fjwYHH": {
       "type": "section-columns",
       "blocks": {
@@ -1531,7 +1424,6 @@
     "section_custom_code_8WDV9d",
     "section_custom_content_TCfGpm",
     "section_double_slider_qb7dB8",
-    "section_columns_be6xjq",
     "section_columns_fjwYHH",
     "section_custom_code_8L7hhp",
     "section_double_TKNkV8",
