@@ -106,6 +106,7 @@
       "blocks": {
         "heading_8xAyyR": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "限られた時間と予算でも、自社ECサイトで成果を出すには？",
             "heading_font_size": "heading-x-large",
@@ -117,7 +118,7 @@
           "type": "text",
           "settings": {
             "text": "<p>限られた時間と予算の中で、<br/>「自社ECをやった方がいい」と分かってはいるけれど、<br/>なかなか踏み出せない。<br/></p>",
-            "text_font_size": "body-x-large",
+            "text_font_size": "body-large",
             "padding_bottom": 50
           }
         },
