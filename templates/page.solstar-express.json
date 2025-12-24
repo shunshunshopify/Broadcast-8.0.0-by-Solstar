@@ -32,7 +32,7 @@
         "heading_m8JKRU": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyで作るECサイト、商品づくりにフルコミット",
+            "title": "EC未経験でも、まず「売れるか」を試せる。",
             "heading_font_size": "heading-x-small",
             "heading_tag": "automatic",
             "padding_bottom": 8
@@ -41,22 +41,22 @@
         "code_XfbwD8": {
           "type": "code",
           "settings": {
-            "code": "<style>\n  /* H2：ヒーロー／メイン見出し */\n  .solstar-hero-heading {\n    font-size: 36px;     /* デスクトップ */\n    font-weight: 700;\n    letter-spacing: 0;   /* 0% */\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-hero-heading {\n      font-size: 25px;   /* モバイル */\n    }\n  }\n</style>\n\n<h2 class=\"solstar-hero-heading\">\n  「早く・安く・簡単に」始める<br>\n  サブスク型ECサイト構築サービス\n</h2>",
+            "code": "<style>\n  /* H2：ヒーロー／メイン見出し */\n  .solstar-hero-heading {\n    font-size: 36px;     /* デスクトップ */\n    font-weight: 700;\n    letter-spacing: 0;   /* 0% */\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-hero-heading {\n      font-size: 25px;   /* モバイル */\n    }\n  }\n</style>\n\n<h2 class=\"solstar-hero-heading\">\n  商品づくりにフルコミットできるサブスク型ECサイト構築サービス\n</h2>",
             "padding_bottom": 8
           }
         },
         "text_DMe7Hw": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>SOLSTAR EXPRESS</strong></p>",
-            "text_font_size": "body-large",
+            "text": "<h1><strong>SOLSTAR EXPRESS</strong></h1>",
+            "text_font_size": "body-medium",
             "padding_bottom": 8
           }
         },
         "text_RKh38R": {
           "type": "text",
           "settings": {
-            "text": "<p>月額29,800円（税別）〜</p>",
+            "text": "<p>初期費用5万円／月額29,800円（税別）〜</p><p>最短2〜4週間でローンチ｜構築・運用ほぼお任せ</p>",
             "text_font_size": "body-small",
             "padding_bottom": 8
           }
@@ -64,7 +64,7 @@
         "button_awGfeV": {
           "type": "button",
           "settings": {
-            "link_text": "今すぐ相談する",
+            "link_text": "自分に合うか無料相談する",
             "link": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
