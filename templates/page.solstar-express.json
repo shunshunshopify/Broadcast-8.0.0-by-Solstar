@@ -572,11 +572,11 @@
         "text_slide_dBxzVr": {
           "type": "text-slide",
           "settings": {
-            "subheading": "STEP 1",
+            "subheading": "STEP 01",
             "title": "お問い合わせ",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "text": "<p>事業内容・商品数・販売目的をヒアリングし、SOLSTAR EXPRESSが最適かを確認。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
@@ -589,11 +589,11 @@
         "text_slide_PJPzTz": {
           "type": "text-slide",
           "settings": {
-            "subheading": "STEP 2",
+            "subheading": "STEP 02",
             "title": "無料ヒアリング",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "text": "<p>ご要件をヒアリングし、詳細なサービス内容とお見積もりをご提示いたします。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
@@ -606,11 +606,11 @@
         "text_slide_gJNBBG": {
           "type": "text-slide",
           "settings": {
-            "subheading": "STEP 3",
+            "subheading": "STEP 03",
             "title": "ご契約",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "text": "<p>お見積もりをお渡しします。内容にご納得いただけたら、電子契約を通じて正式なご契約となります。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
@@ -623,11 +623,11 @@
         "text_slide_xQxVDq": {
           "type": "text-slide",
           "settings": {
-            "subheading": "STEP 4",
+            "subheading": "STEP 04",
             "title": "ECサイト構築",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "text": "<p>ご契約後、プロジェクトキックオフ。随時進捗を共有し、安心してお任せいただける環境を整えます。  </p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
@@ -640,11 +640,11 @@
         "text_slide_rBgBGf": {
           "type": "text-slide",
           "settings": {
-            "subheading": "STEP 5",
+            "subheading": "STEP 05",
             "title": "公開・支援開始",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "text": "<p>ECサイト公開後は、更新・設定・軽微改修を弊社が継続サポート。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
