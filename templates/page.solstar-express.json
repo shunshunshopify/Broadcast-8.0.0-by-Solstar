@@ -353,7 +353,7 @@
         "text_EjUkUB": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>開発会社150社調査で確信した、ECサイト立ち上げで“本当はいらないコスト”</strong><br/><br/>多くのECサイト制作では、<br/><br/>初期段階フェーズで、必要以上に機能開発を含めた工数見積もりが当たり前となっていたのです。</p><p>　</p>",
+            "text": "<p><strong>開発会社150社調査で確信した、ECサイト立ち上げで“本当はいらないコスト”</strong><br/><br/>多くのECサイト制作では、<br/><br/>立ち上げ初期にもかかわらず、商品数が少ない段階のECサイトにまでフル機能前提の開発工数が積み上げられている。</p><p>　</p>",
             "text_font_size": "body-large",
             "position": "right",
             "padding_bottom": 0
@@ -362,7 +362,7 @@
         "text_qp7jJ7": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>「数少ない商品数のECサイトには不要な機能」</strong></p><p><strong>　</strong></p>",
+            "text": "<p><strong>「その機能、本当に“今”必要ですか？」</strong></p><p>　</p>",
             "text_font_size": "body-x-large",
             "position": "right",
             "padding_bottom": 0
@@ -371,7 +371,7 @@
         "text_x6GgeT": {
           "type": "text",
           "settings": {
-            "text": "<p>このムダを削れば、<br/>ECはもっと現実的な挑戦になります。</p>",
+            "text": "<p>売れるかどうかも、伸ばせるかどうかも、まだこれからのフェーズ。</p><p>　</p><p>このムダを削れば、ECはもっと現実的な挑戦になります。</p>",
             "text_font_size": "body-large",
             "position": "right",
             "padding_bottom": 0
