@@ -116,7 +116,7 @@
         "text_NK7Htb": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>「自社商品の反応をECで素早く検証したい」<br/><br/>「クラファンや実店舗で売れている商品をオンラインでも販売したい」</strong></p><p><strong>「ECサイトを活用して、収入をもっと増やしたい」</strong></p>",
+            "text": "<p>限られた時間と予算の中で、<br/>「自社ECをやった方がいい」と分かってはいるけれど、<br/>なかなか踏み出せない。<br/></p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 50
           }
@@ -124,7 +124,7 @@
         "text_9TVpFy": {
           "type": "text",
           "settings": {
-            "text": "<p>こうした希望を持つ事業者は多いはずです。</p>",
+            "text": "<p>そんな状況に、心当たりはありませんか？<br/></p>",
             "text_font_size": "body-large",
             "padding_bottom": 50
           }
@@ -132,15 +132,24 @@
         "text_ThLxeR": {
           "type": "text",
           "settings": {
-            "text": "<p>しかし、実際に自社ECサイトで利益を出せている事業者はごくわずか。</p><p>なぜ、思うように成果が出ないのでしょうか？</p>",
+            "text": "<p>自社商品の反応を、ECで素早く検証したい<br/><br/>クラファンや実店舗で売れている商品を、オンラインでも展開したい<br/><br/>ECを活用して、収入の柱を増やしたい<br/><br/>多くの事業者が、同じ想いを持っています。</p><p>　<br/>それでも実際に、自社ECで成果を出せている事業者はごく一部です。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 50
+          }
+        },
+        "heading_ftiFTT": {
+          "type": "heading",
+          "settings": {
+            "title": "なぜ動けないのか",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 30,
+            "heading_tag": "automatic"
           }
         },
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p>それは、<strong>自社ECサイトには踏み出しずらい高いハードルがいくつもあるからです。</strong></p>",
+            "text": "<p>理由はシンプルです。<br/>自社ECには「失敗しそうなハードル」が多すぎるからです。</p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
@@ -151,6 +160,7 @@
         "text_NK7Htb",
         "text_9TVpFy",
         "text_ThLxeR",
+        "heading_ftiFTT",
         "text_RNRX8y"
       ],
       "name": "H2 Heading",
