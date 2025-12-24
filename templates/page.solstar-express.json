@@ -150,7 +150,7 @@
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p>理由はシンプルです。<br/>自社ECには「失敗しそうなハードル」が多すぎるからです。</p>",
+            "text": "<p>理由はシンプルです。<br/>自社ECサイトには、<strong>「失敗しそうなハードル」</strong>が多すぎるからです。</p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
