@@ -675,95 +675,6 @@
         "padding_bottom": 0
       }
     },
-    "section_columns_fjwYHH": {
-      "type": "section-columns",
-      "blocks": {
-        "image_hwYzra": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/EC_5.webp",
-            "image_width": 100,
-            "image_shape": "normal",
-            "title": "1. 開発費を抑えて、安心してECに挑戦できる",
-            "heading_font_size": "heading-small",
-            "text": "<p>初期費用5万円＋月額29,800円という、業界でも珍しい低コスト設計。</p><p>一般的な初期費用（約100万円）と比べて、<strong>約95％の初期投資を削減</strong>できます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
-        },
-        "image_dJQF3F": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2_copy.webp",
-            "image_width": 100,
-            "image_shape": "normal",
-            "title": "2. 運用代行で、売上づくりに集中できる",
-            "heading_font_size": "heading-small",
-            "text": "<p>面倒なサイト運用は、弊社がすべて代行します。</p><p>事業者は商品開発・マーケティング・顧客対応に集中できます。</p><p>売上に直結する時間を確保し、ビジネスの成長スピードを高められます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
-        },
-        "image_hdYbLw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/3_copy.webp",
-            "image_width": 100,
-            "image_shape": "normal",
-            "title": "3．顧客とつながり、ファンを増やす",
-            "heading_font_size": "heading-small",
-            "text": "<p>モール型ECサイトでは難しい顧客との直接的な関係構築も、自社ECサイトなら可能です。<br/><br/>購入データやメールマーケティングを活用し、一度きりの購入を<strong>継続的なファン</strong>へと育てられます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "image_hwYzra",
-        "image_dJQF3F",
-        "image_hdYbLw"
-      ],
-      "name": "Text columns with images",
-      "settings": {
-        "title": "EC運用を外部化して、売上に集中",
-        "heading_font_size": "heading-x-large",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_columns": "flex-align-top",
-        "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "1",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_custom_code_8L7hhp": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -1420,7 +1331,6 @@
     "section_custom_content_TCfGpm",
     "section_double_slider_qb7dB8",
     "section_custom_code_BKGz3a",
-    "section_columns_fjwYHH",
     "section_custom_code_8L7hhp",
     "section_double_TKNkV8",
     "section_custom_code_7Ywk69",
