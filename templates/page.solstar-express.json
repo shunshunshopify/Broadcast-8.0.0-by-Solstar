@@ -150,7 +150,7 @@
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p>理由はシンプルです。<br/>自社ECサイトには、<strong>時間・人手・予算が求められる「失敗しそうなハードル」が多すぎるからです。</strong></p>",
+            "text": "<p>理由はシンプルです。<br/>自社ECサイトには、<strong>時間・人手・予算が求められるハードルが高いからです。</strong></p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
