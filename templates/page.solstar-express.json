@@ -953,9 +953,9 @@
       "settings": {
         "heading": "CREAMの4つの特長",
         "heading_font_size": "heading-x-large",
-        "text": "",
-        "text_font_size": "body-medium",
-        "align_text": "text-left",
+        "text": "<p>売上に直結する機能を実装しました</p>",
+        "text_font_size": "body-large",
+        "align_text": "text-center",
         "width": "wrapper--full-padded",
         "aspect_ratio": 1.5,
         "layout_desktop": "slider",
