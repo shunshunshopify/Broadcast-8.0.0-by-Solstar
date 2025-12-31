@@ -141,7 +141,7 @@
         "heading_ftiFTT": {
           "type": "heading",
           "settings": {
-            "title": "なぜ動けないのか",
+            "title": "なぜ「今」動けないのか",
             "heading_font_size": "heading-large",
             "padding_bottom": 30,
             "heading_tag": "automatic"
