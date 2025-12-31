@@ -131,6 +131,7 @@
         },
         "text_ThLxeR": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>自社商品の反応を、ECで素早く検証したい<br/><br/>クラファンや実店舗で売れている商品を、オンラインでも展開したい<br/><br/>ECを活用して、収入の柱を増やしたい<br/><br/>多くの事業者が、同じ想いを持っています。</p><p>　<br/>それでも実際に、<br/><br/><strong>「時間も人手も足りない」状態のまま、自社ECサイトで成果を出せている事業者はごく一部です。</strong></p>",
             "text_font_size": "body-large",
@@ -149,7 +150,7 @@
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p>理由はシンプルです。<br/>自社ECサイトには、<strong>知識・人手・予算が求められる「失敗しそうなハードル」が多すぎるからです。</strong></p>",
+            "text": "<p>理由はシンプルです。<br/>自社ECサイトには、<strong>時間・人手・予算が求められる「失敗しそうなハードル」が多すぎるからです。</strong></p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
