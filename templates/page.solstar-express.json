@@ -1114,71 +1114,6 @@
         "padding_bottom": 100
       }
     },
-    "section_custom_content_Ria4bP": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_WBaGMX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/48.png",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_hRBXgV": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "こんな方にぴったりです",
-            "heading_font_size": "heading-large",
-            "text": "<ul><li>時間やコストの制約があるけれど、事業を伸ばしたい方</li><li>早く、安く、試しながら成果を出したい方</li><li>少数SKUで勝負したい、小規模事業者様や一人社長、スタートアップ企業の方</li></ul><p>「SOLSTAR EXPRESS」は、ムダを削ぎ落としたECサイト構築サービス。</p><p>小規模だからこそ活かせるスピード感と柔軟性で、あなたのビジネスを次のステージへ導きます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_WBaGMX",
-        "text_hRBXgV"
-      ],
-      "name": "Text with Banner (Custom)",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -1321,7 +1256,6 @@
     "section_social_videos_Lg4tEA",
     "section_custom_content_6DpRDR",
     "section_accordion_FymK7E",
-    "section_custom_content_Ria4bP",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
