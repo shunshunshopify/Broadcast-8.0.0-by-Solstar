@@ -557,7 +557,7 @@
       "settings": {
         "image_1": "shopify://shop_images/Solstar_Express_Infographic_copy.webp",
         "image_width": "one-half",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 4,
         "text_alignment": "text-left",
         "layout": "is-reversed",
