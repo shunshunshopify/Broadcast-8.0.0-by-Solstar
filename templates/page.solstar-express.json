@@ -352,6 +352,14 @@
     "section_hero_akkRjM": {
       "type": "section-hero",
       "blocks": {
+        "text_kACN66": {
+          "type": "text",
+          "settings": {
+            "text": "<p>数多くの事業者の課題を分析・研究した結果、<br/><br/>私たちは、EC立ち上げ初期に<br/>「人・時間・予算」を最も圧迫している要因が<br/><strong>作り込みすぎた機能</strong>にあると気づきました。<br/><br/>だからこそ、<br/>「本当に必要な機能だけ」にフォーカスしました。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
         "code_GWijPt": {
           "type": "code",
           "settings": {
@@ -366,15 +374,6 @@
             "heading_font_size": "heading-medium",
             "heading_tag": "automatic",
             "padding_bottom": 50
-          }
-        },
-        "text_kACN66": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>数多くの事業者の課題を分析・研究した結果、<br/><br/>私たちは<strong>「本当に必要な機能だけ」にフォーカス</strong>しました。</p><p></p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
           }
         },
         "button_QmXPzr": {
@@ -400,9 +399,9 @@
         }
       },
       "block_order": [
+        "text_kACN66",
         "code_GWijPt",
         "heading_tLHVjL",
-        "text_kACN66",
         "button_QmXPzr",
         "text_fEjKCV"
       ],
