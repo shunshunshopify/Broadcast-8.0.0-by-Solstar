@@ -618,7 +618,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/Shopify_Academy_Image_copy.png",
+        "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_copy.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
