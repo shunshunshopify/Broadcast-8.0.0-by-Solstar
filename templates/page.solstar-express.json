@@ -535,14 +535,6 @@
     "section_double_TKNkV8": {
       "type": "section-double",
       "blocks": {
-        "subheading_QcURhJ": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "SOLSTAR EXPRESSを選ぶ理由",
-            "padding_bottom": 16
-          }
-        },
         "heading_kgRwz8": {
           "type": "heading",
           "settings": {
@@ -560,6 +552,13 @@
             "padding_bottom": 16
           }
         },
+        "subheading_QcURhJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "不安を解消する無料診断はこちら↓",
+            "padding_bottom": 16
+          }
+        },
         "buttons_jwPjQj": {
           "type": "buttons",
           "settings": {
@@ -574,9 +573,9 @@
         }
       },
       "block_order": [
-        "subheading_QcURhJ",
         "heading_kgRwz8",
         "text_GyN7TV",
+        "subheading_QcURhJ",
         "buttons_jwPjQj"
       ],
       "name": "Image with text",
