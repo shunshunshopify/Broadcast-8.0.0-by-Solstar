@@ -903,6 +903,69 @@
         "padding_bottom": 0
       }
     },
+    "section_accordion_group_cHfTyA": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_g7NmFE": {
+          "type": "heading",
+          "settings": {
+            "title": "よくある質問"
+          }
+        },
+        "question_FjRn8N": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_4FmbPy": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_FyMVAP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_g7NmFE",
+        "question_FjRn8N",
+        "question_4FmbPy",
+        "question_FyMVAP"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -1144,6 +1207,7 @@
     "section_double_hPwzUa",
     "section_social_videos_Lg4tEA",
     "section_custom_content_6DpRDR",
+    "section_accordion_group_cHfTyA",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3",
     "section_accordion_FymK7E"
