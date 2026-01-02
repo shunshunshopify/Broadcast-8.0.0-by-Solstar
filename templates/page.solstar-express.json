@@ -903,107 +903,6 @@
         "padding_bottom": 0
       }
     },
-    "section_accordion_FymK7E": {
-      "type": "section-accordion",
-      "blocks": {
-        "text_mhKVbh": {
-          "type": "text",
-          "name": "提供形態",
-          "settings": {
-            "title": "提供形態",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>Shopify × サブスク型ECサイト構築と運用</li><li>構築期間：2〜4週間（想定）</li><li>体制：ディレクター1名＋エンジニア1名</li><li>対象：少数SKUの小規模事業者</li></ul>"
-          }
-        },
-        "text_Yycw7d": {
-          "type": "text",
-          "name": "料金",
-          "settings": {
-            "title": "料金",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>SOLSATR EXPRESS：月額29,800円（税別）〜</li><li>Shopifyプラン：月額3,650円（税込）〜</li><li>初期費用：50,000円（税別）</li><li>最低契約期間：1年間</li></ul>"
-          }
-        },
-        "text_MxzBJk": {
-          "type": "text",
-          "name": "ページ構成",
-          "settings": {
-            "title": "ページ構成",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>ホームページ</li><li>商品詳細ページ（1テンプレ）</li><li>コレクションページ（1テンプレ）</li><li>検索ページ</li><li>カートページ</li><li>利用規約・特商法・プライバシーポリシー</li><li>配送・返品ポリシー</li><li>お問い合わせページ</li><li>ランディングページ</li><li>ブランド紹介ページ</li><li>決済ページ</li></ul>"
-          }
-        },
-        "text_piYA67": {
-          "type": "text",
-          "name": "Shopifyストア設定",
-          "settings": {
-            "title": "Shopifyストア設定",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>送料</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Paymentsのみ</li></ul>"
-          }
-        },
-        "text_jyVggw": {
-          "type": "text",
-          "name": "販売マルチチャネル設定",
-          "settings": {
-            "title": "販売マルチチャネル設定",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>Google</li><li>Shop</li><li>Meta</li></ul>"
-          }
-        },
-        "text_iadpae": {
-          "type": "text",
-          "name": "デザイン設定",
-          "settings": {
-            "title": "UIUXデザイン",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>ブランドカラー</li><li>ロゴ</li><li>ファビコン</li><li>レスポンシブ対応</li><li>レイアウト調整</li></ul>"
-          }
-        },
-        "text_bx3xey": {
-          "type": "text",
-          "name": "サブスクに含まれるもの",
-          "settings": {
-            "title": "サブスクに含まれるもの",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>商品登録：月5点まで</li><li>デザイン修正：月5回まで（バナー差し替え・文言調整など）</li><li>管理画面サポートやアプリ問い合わせ一次対応</li><li>不具合の一次切り分けや対処</li><li>売上レポート提出</li></ul>"
-          }
-        },
-        "text_nzrAez": {
-          "type": "text",
-          "name": "サブスクに含まれないもの",
-          "settings": {
-            "title": "※サブスクに含まれないもの",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>在庫管理</li><li>出荷オペレーション</li><li>撮影、画像制作</li><li>マーケティング代行</li><li>アプリ実装</li><li>外部システム連携（POS含む）</li><li>越境対応</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "text_mhKVbh",
-        "text_Yycw7d",
-        "text_MxzBJk",
-        "text_piYA67",
-        "text_jyVggw",
-        "text_iadpae",
-        "text_bx3xey",
-        "text_nzrAez"
-      ],
-      "name": "Accordion",
-      "settings": {
-        "default_open": true,
-        "title": "SOLSTAR EXPRESSサービス詳細",
-        "heading_font_size": "heading-x-large",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "width": "wrapper",
-        "color_scheme": "",
-        "icon_color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -1122,6 +1021,107 @@
         "padding_bottom": 100,
         "heading_tag": "automatic"
       }
+    },
+    "section_accordion_FymK7E": {
+      "type": "section-accordion",
+      "blocks": {
+        "text_mhKVbh": {
+          "type": "text",
+          "name": "提供形態",
+          "settings": {
+            "title": "提供形態",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>Shopify × サブスク型ECサイト構築と運用</li><li>構築期間：2〜4週間（想定）</li><li>体制：ディレクター1名＋エンジニア1名</li><li>対象：少数SKUの小規模事業者</li></ul>"
+          }
+        },
+        "text_Yycw7d": {
+          "type": "text",
+          "name": "料金",
+          "settings": {
+            "title": "料金",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>SOLSATR EXPRESS：月額29,800円（税別）〜</li><li>Shopifyプラン：月額3,650円（税込）〜</li><li>初期費用：50,000円（税別）</li><li>最低契約期間：1年間</li></ul>"
+          }
+        },
+        "text_MxzBJk": {
+          "type": "text",
+          "name": "ページ構成",
+          "settings": {
+            "title": "ページ構成",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>ホームページ</li><li>商品詳細ページ（1テンプレ）</li><li>コレクションページ（1テンプレ）</li><li>検索ページ</li><li>カートページ</li><li>利用規約・特商法・プライバシーポリシー</li><li>配送・返品ポリシー</li><li>お問い合わせページ</li><li>ランディングページ</li><li>ブランド紹介ページ</li><li>決済ページ</li></ul>"
+          }
+        },
+        "text_piYA67": {
+          "type": "text",
+          "name": "Shopifyストア設定",
+          "settings": {
+            "title": "Shopifyストア設定",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>送料</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Paymentsのみ</li></ul>"
+          }
+        },
+        "text_jyVggw": {
+          "type": "text",
+          "name": "販売マルチチャネル設定",
+          "settings": {
+            "title": "販売マルチチャネル設定",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>Google</li><li>Shop</li><li>Meta</li></ul>"
+          }
+        },
+        "text_iadpae": {
+          "type": "text",
+          "name": "デザイン設定",
+          "settings": {
+            "title": "UIUXデザイン",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>ブランドカラー</li><li>ロゴ</li><li>ファビコン</li><li>レスポンシブ対応</li><li>レイアウト調整</li></ul>"
+          }
+        },
+        "text_bx3xey": {
+          "type": "text",
+          "name": "サブスクに含まれるもの",
+          "settings": {
+            "title": "サブスクに含まれるもの",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>商品登録：月5点まで</li><li>デザイン修正：月5回まで（バナー差し替え・文言調整など）</li><li>管理画面サポートやアプリ問い合わせ一次対応</li><li>不具合の一次切り分けや対処</li><li>売上レポート提出</li></ul>"
+          }
+        },
+        "text_nzrAez": {
+          "type": "text",
+          "name": "サブスクに含まれないもの",
+          "settings": {
+            "title": "※サブスクに含まれないもの",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>在庫管理</li><li>出荷オペレーション</li><li>撮影、画像制作</li><li>マーケティング代行</li><li>アプリ実装</li><li>外部システム連携（POS含む）</li><li>越境対応</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_mhKVbh",
+        "text_Yycw7d",
+        "text_MxzBJk",
+        "text_piYA67",
+        "text_jyVggw",
+        "text_iadpae",
+        "text_bx3xey",
+        "text_nzrAez"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "default_open": true,
+        "title": "SOLSTAR EXPRESSサービス詳細",
+        "heading_font_size": "heading-x-large",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -1144,8 +1144,8 @@
     "section_double_hPwzUa",
     "section_social_videos_Lg4tEA",
     "section_custom_content_6DpRDR",
-    "section_accordion_FymK7E",
     "section_rich_text_pijWhf",
-    "contact_form_KKiTE3"
+    "contact_form_KKiTE3",
+    "section_accordion_FymK7E"
   ]
 }
