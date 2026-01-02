@@ -726,12 +726,25 @@
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
+        },
+        "buttons_aFy6D3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "デモサイトがあるか聞いてみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
         "subheading_M8Qf9r",
         "heading_BCjf9J",
-        "text_K9bVtz"
+        "text_K9bVtz",
+        "buttons_aFy6D3"
       ],
       "name": "Image with text",
       "settings": {
