@@ -418,12 +418,12 @@
             "heading_font_size": "heading-x-large",
             "text": "<p>事業内容・商品数・販売目的をヒアリングし、SOLSTAR EXPRESSが最適かを確認。</p>",
             "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
+            "button_text": "まずは無料診断を申し込む",
+            "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false,
+            "show_arrow": true,
             "heading_tag": "automatic"
           }
         },
@@ -507,7 +507,7 @@
       "settings": {
         "image_1": "shopify://shop_images/Solstar_Express_Infographic_copy.webp",
         "image_width": "one-half",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 4,
         "text_alignment": "text-left",
         "layout": "is-reversed",
