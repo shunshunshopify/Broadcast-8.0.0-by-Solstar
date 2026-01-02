@@ -819,7 +819,7 @@
         "image_UfpnM6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/48.png",
+            "image": "shopify://shop_images/Money_Back_30_Days_copy.webp",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -870,20 +870,9 @@
         "borders": false,
         "gutters": false,
         "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "reverse_blocks": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_custom_code_TJ9kRC": {
-      "type": "section-custom-code",
-      "name": "Custom code",
-      "settings": {
-        "code": "<style>\n  /* ===========================\n     SOLSTAR – 30 Days Cashback (Unique)\n     =========================== */\n  .solstar-guarantee-section{\n    --text:#000;\n    --bg:#ffffff;\n    --gray:#ececf0;\n\n    background:var(--bg);\n    color:var(--text);\n    padding:64px 16px;\n    font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans JP\",\"Hiragino Kaku Gothic ProN\",\"Yu Gothic\",sans-serif;\n  }\n\n  /* Center align whole content + control gap */\n  .solstar-guarantee-inner{\n    max-width:1260px;\n    margin:0 auto;\n    display:flex;\n    justify-content:center; /* animation + text centered as a group */\n    align-items:center;\n    gap:200px; /* requested gap */\n  }\n\n  /* Mobile stack */\n  @media (max-width: 860px){\n    .solstar-guarantee-inner{\n      flex-direction:column;\n      gap:32px;\n    }\n  }\n\n  /* ===== Animation (bigger) ===== */\n  .solstar-guarantee-badgeWrap{\n    display:flex;\n    justify-content:center;\n    align-items:center;\n  }\n\n  .solstar-guarantee-badge{\n    width:320px;   /* bigger */\n    height:320px;  /* bigger */\n    background:var(--gray);\n    border-radius:24px;\n    display:flex;\n    align-items:center;\n    justify-content:center;\n    padding:18px;\n  }\n\n  .solstar-guarantee-svg{\n    width:100%;\n    height:100%;\n    display:block;\n  }\n\n  .solstar-guarantee-rotator{\n    transform-origin:50% 50%;\n    animation: solstarGuaranteeRotation 18s linear infinite;\n  }\n\n  .solstar-guarantee-ringText{\n    fill:#000;\n    font-size:8px;              /* badgeを大きくしたので少し上げる */\n    letter-spacing:0.12em;\n    font-weight:800;\n  }\n\n  .solstar-guarantee-centerNumber{\n    fill:#000;\n    font-size:34px; /* badgeを大きくしたので少し上げる */\n    font-weight:900;\n  }\n\n  .solstar-guarantee-centerLabel{\n    fill:#000;\n    font-size:12px;\n    font-weight:800;\n    letter-spacing:0.15em;\n  }\n\n  @keyframes solstarGuaranteeRotation{\n    from { transform: rotate(0deg); }\n    to   { transform: rotate(360deg); }\n  }\n\n  @media (prefers-reduced-motion: reduce){\n    .solstar-guarantee-rotator{ animation:none; }\n  }\n\n  /* ===== Text area (no width, with margin/padding) ===== */\n  .solstar-guarantee-text{\n    width:auto;                 /* 明示的に固定しない */\n    max-width:100%;\n    box-sizing:border-box;\n    margin:0 114.906px;         /* requested */\n    padding:0 50px;             /* requested */\n    text-align:left;            /* テキストは左揃え */\n  }\n\n  @media (max-width: 860px){\n    .solstar-guarantee-text{\n      margin:0;                 /* mobileは左右marginを外して詰める */\n      padding:0 12px;           /* mobileはpaddingだけ軽く */\n      text-align:left;\n    }\n  }\n\n  .solstar-guarantee-subtitle{\n    font-size:14px;\n    font-weight:800;\n    letter-spacing:.02em;\n    margin:0 0 10px;\n    line-height:1.6;\n  }\n\n  .solstar-guarantee-title{\n    font-size:clamp(22px,2.4vw,32px);\n    font-weight:900;\n    line-height:1.2;\n    margin:0 0 14px;\n  }\n\n  .solstar-guarantee-body{\n    margin:0;\n    font-size:15px;\n    line-height:1.9;\n  }\n  .solstar-guarantee-body + .solstar-guarantee-body{\n    margin-top:12px;\n  }\n\n  .solstar-guarantee-strong{ font-weight:900; }\n</style>\n\n<section class=\"solstar-guarantee-section\" id=\"solstarGuaranteeSection\">\n  <div class=\"solstar-guarantee-inner\">\n\n    <!-- Animation -->\n    <div class=\"solstar-guarantee-badgeWrap\" aria-hidden=\"true\">\n      <div class=\"solstar-guarantee-badge\">\n        <svg class=\"solstar-guarantee-svg\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"30 days money back guarantee\">\n          <defs>\n            <path\n              id=\"solstarGuaranteeCirclePath\"\n              d=\"M 50 50 m -35 0\n                 a 35 35 0 1 1 70 0\n                 a 35 35 0 1 1 -70 0\" />\n          </defs>\n\n          <g class=\"solstar-guarantee-rotator\">\n            <text class=\"solstar-guarantee-ringText\">\n              <textPath href=\"#solstarGuaranteeCirclePath\" startOffset=\"50%\" text-anchor=\"middle\">\n                MONEY BACK • 30 DAYS • GUARANTEE • MONEY BACK • 30 DAYS • GUARANTEE • MONEY BACK • 30 DAYS •\n              </textPath>\n            </text>\n          </g>\n\n          <text x=\"50\" y=\"46\" text-anchor=\"middle\" dominant-baseline=\"middle\" class=\"solstar-guarantee-centerNumber\">30</text>\n          <text x=\"50\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"middle\" class=\"solstar-guarantee-centerLabel\">DAYS</text>\n        </svg>\n      </div>\n    </div>\n\n    <!-- Text -->\n    <div class=\"solstar-guarantee-text\">\n      <p class=\"solstar-guarantee-subtitle\">知識と経験に自信があるからこそ提供できる、30日間の返金保証。</p>\n      <h2 class=\"solstar-guarantee-title\">自信があるから、30日間キャッシュバック</h2>\n\n      <p class=\"solstar-guarantee-body\">\n        自社EC立ち上げで直面する「初期費用・時間・人手」の壁。SOLSTAR EXPRESSは、こうした課題を解決するために開発されました。\n      </p>\n\n      <p class=\"solstar-guarantee-body\">\n        それでも不安が残る方のために、<span class=\"solstar-guarantee-strong\">ご契約後30日間のキャッシュバック制度</span>をご用意しています。Shopifyの知識と豊富な開発経験に自信があるからこそ、提供できる制度です。\n      </p>\n\n      <p class=\"solstar-guarantee-body\">\n        万が一、サービス内容にご納得いただけなかった場合は、<span class=\"solstar-guarantee-strong\">初期費用および月額費用を返金</span>いたします。\n      </p>\n    </div>\n\n  </div>\n</section>",
-        "width": "wrapper--full",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -1130,7 +1119,6 @@
     "section_double_hPwzUa",
     "section_social_videos_Lg4tEA",
     "section_custom_content_6DpRDR",
-    "section_custom_code_TJ9kRC",
     "section_accordion_FymK7E",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
