@@ -229,6 +229,7 @@
       ],
       "settings": {
         "heading_font_size": "heading-medium",
+        "heading_color": "#AB8C52",
         "question_font_size": "heading-small",
         "width": "wrapper",
         "columns": "1",
