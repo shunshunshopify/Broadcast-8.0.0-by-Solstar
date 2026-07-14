@@ -36,6 +36,9 @@
 
               <h2
                 class="accordion__heading {{ section.settings.heading_font_size }}"
+                {% if section.settings.heading_color != blank %}
+                  style="color: {{ section.settings.heading_color }};"
+                {% endif %}
                 data-aos="hero"
                 data-aos-anchor="{{ animation_anchor }}"
                 data-aos-order="{{ animation_order }}"
@@ -158,6 +161,11 @@
         {"value": "heading-large", "label": "Large"},
         {"value": "heading-x-large", "label": "Extra large"}
       ]
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
     },
     {
       "type": "select",

@@ -2,6 +2,7 @@
 {%- liquid
   assign animation_anchor = '#page--' | append: section.id
   assign color_scheme = 'color-' | append: section.settings.color_scheme
+  assign subheading_color = section.settings.subheading_color
 -%}
 
 {%- style -%}
@@ -27,6 +28,9 @@
 
         {%- if section.settings.subheading != blank -%}
           <p class="hero__subheading"
+            {% if subheading_color != blank %}
+              style="color: {{ subheading_color }};"
+            {% endif %}
             data-aos="hero"
             data-aos-anchor="{{ animation_anchor }}"
             data-aos-order="1">
@@ -70,6 +74,11 @@
       "type": "text",
       "id": "subheading",
       "label": "Subheading"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color"
     },
     {
       "type": "checkbox",
