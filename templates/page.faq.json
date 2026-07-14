@@ -16,9 +16,10 @@
         "show_title": true,
         "heading_font_size": "heading-x-large",
         "show_content": false,
+        "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 24,
         "heading_tag": "h1"
@@ -36,11 +37,13 @@
           }
         }
       },
-      "block_order": ["text"],
+      "block_order": [
+        "text"
+      ],
       "settings": {
         "align_text": "text-center",
         "width": "wrapper--narrow",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 0,
         "padding_bottom": 44
@@ -51,7 +54,9 @@
       "blocks": {
         "heading_project": {
           "type": "heading",
-          "settings": { "title": "ご相談・プロジェクトの進め方" }
+          "settings": {
+            "title": "ご相談・プロジェクトの進め方"
+          }
         },
         "faq_consultation": {
           "type": "question",
@@ -59,7 +64,10 @@
             "default_open": false,
             "title": "相談や見積もりは無料ですか？",
             "content": "<p>はい。ご相談とお見積もりは無料です。まず事業内容、商品、現在の課題やご希望を伺い、必要な構築・移行・運用支援の範囲を整理したうえでご提案します。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "faq_process": {
@@ -68,7 +76,10 @@
             "default_open": false,
             "title": "ECサイト構築はどのように進みますか？",
             "content": "<p>ご相談後、コンセプトと要件を整理し、Shopifyの初期設定、デザイン調整、商品・コンテンツ登録、必要なアプリ連携、テスト購入・表示確認を経て公開します。プランにより、打ち合わせ回数や対応範囲は異なります。</p><p><a href=\"/pages/pricing\">料金プランと対応範囲を見る</a></p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "faq_preparation": {
@@ -77,12 +88,17 @@
             "default_open": false,
             "title": "発注前に何を準備すればよいですか？",
             "content": "<p>商品情報・画像素材・ブランドやページの原稿、ドメインをご用意いただくと進行がスムーズです。未整理の項目がある場合も、初回相談で優先順位と準備方法をご案内します。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "heading_plan": {
           "type": "heading",
-          "settings": { "title": "プラン・費用・納期" }
+          "settings": {
+            "title": "プラン・費用・納期"
+          }
         },
         "faq_plan": {
           "type": "question",
@@ -90,7 +106,10 @@
             "default_open": false,
             "title": "どのプランを選べばよいですか？",
             "content": "<p>ECの立ち上げ・販売運営を任せたいメーカー様にはSOLSTAR EXPRESS、少数SKUで自社ECを始めたい方にはBasic、BASE・STORESなどからの移行やCRM強化にはStandard、大規模ECや基幹連携を含む再構築にはProをご案内しています。課題と体制に合わせて最適な範囲をご提案します。</p><p><a href=\"/pages/pricing\">各プランを比較する</a></p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "faq_timeline": {
@@ -99,7 +118,10 @@
             "default_open": false,
             "title": "サイト制作にはどれくらいかかりますか？",
             "content": "<p>目安はSOLSTAR EXPRESSが約2〜4週間、Basicが約4〜8週間、Standardが約8〜12週間、Proが約12〜24週間です。素材の準備状況、連携要件、確認・修正の内容によって前後するため、詳細なスケジュールは要件確認後にご案内します。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "faq_costs": {
@@ -108,12 +130,17 @@
             "default_open": false,
             "title": "制作費以外に費用はかかりますか？",
             "content": "<p>Shopifyの利用料金、アプリ費用、外部ツール利用料、広告費、撮影費、素材購入費などは、必要に応じて別途実費となります。追加ページ、独自機能、外部システム連携など、プラン外の対応は内容を確認のうえ個別にお見積もりします。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "heading_migration": {
           "type": "heading",
-          "settings": { "title": "移行・越境EC・機能" }
+          "settings": {
+            "title": "移行・越境EC・機能"
+          }
         },
         "faq_migration": {
           "type": "question",
@@ -121,7 +148,10 @@
             "default_open": false,
             "title": "BASE・STORESなどからShopifyへ移行できますか？",
             "content": "<p>はい。Standardプランでは商品データ・主要ページの移行、主要URLの確認とリダイレクト方針の整理、計測タグの基本設定確認に対応しています。データ量や既存サイトの構成によって対応範囲が変わるため、まず現状をお聞かせください。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "faq_global": {
@@ -130,7 +160,10 @@
             "default_open": false,
             "title": "多言語・多通貨の越境ECに対応できますか？",
             "content": "<p>対応可能です。販売する国・地域、言語、通貨、配送・決済、必要な運用体制を確認したうえで設計します。越境対応はBasic・Standard・Proでは別途対応となり、SOLSTAR EXPRESSでは対象外です。</p><p><a href=\"/pages/cross-border-shopify-ec\">越境ECサイト構築について見る</a></p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "faq_integration": {
@@ -139,12 +172,17 @@
             "default_open": false,
             "title": "アプリ連携や基幹システム連携はできますか？",
             "content": "<p>レビュー、再入荷通知、LINE連携、SEO補助などのアプリ連携に対応しています。ERP・在庫管理・受注管理などとの外部連携は、Proプランを中心にAPI・CSV連携の設計・実装・検証をご相談いただけます。要件により別途お見積もりとなります。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "heading_support": {
           "type": "heading",
-          "settings": { "title": "公開後の運用・サポート" }
+          "settings": {
+            "title": "公開後の運用・サポート"
+          }
         },
         "faq_support": {
           "type": "question",
@@ -152,7 +190,10 @@
             "default_open": false,
             "title": "公開後の保守や運用改善も依頼できますか？",
             "content": "<p>はい。保守・軽微更新を中心としたStore Care、サイト管理と月次改善提案を行うGrowth Partner、EC戦略から改善実行まで伴走するGrowth OSをご用意しています。いずれも最低契約期間は6ヶ月です。</p><p><a href=\"/pages/pricing\">保守運用プランを見る</a></p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "faq_ownership": {
@@ -161,20 +202,34 @@
             "default_open": false,
             "title": "納品後、自社でサイトを運用できますか？",
             "content": "<p>はい。Basic・Standard・Proでは、構築済みのECストアに加え、管理画面・テーマ権限一式を納品します。公開後の更新を内製したい場合も、必要な範囲を整理してご相談いただけます。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         }
       },
       "block_order": [
-        "heading_project", "faq_consultation", "faq_process", "faq_preparation",
-        "heading_plan", "faq_plan", "faq_timeline", "faq_costs",
-        "heading_migration", "faq_migration", "faq_global", "faq_integration",
-        "heading_support", "faq_support", "faq_ownership"
+        "heading_project",
+        "faq_consultation",
+        "faq_process",
+        "faq_preparation",
+        "heading_plan",
+        "faq_plan",
+        "faq_timeline",
+        "faq_costs",
+        "heading_migration",
+        "faq_migration",
+        "faq_global",
+        "faq_integration",
+        "heading_support",
+        "faq_support",
+        "faq_ownership"
       ],
       "settings": {
         "heading_font_size": "heading-medium",
         "question_font_size": "heading-small",
-        "width": "wrapper--narrow",
+        "width": "wrapper",
         "columns": "1",
         "color_scheme": "scheme-10",
         "padding_top": 22,
@@ -186,26 +241,60 @@
       "blocks": {
         "subheading": {
           "type": "subheading",
-          "settings": { "subheading": "Still have questions?", "padding_bottom": 12 }
+          "settings": {
+            "subheading": "Still have questions?",
+            "padding_bottom": 12
+          }
         },
         "heading": {
           "type": "heading",
-          "settings": { "title": "事業に合う進め方を、無料でご相談いただけます", "heading_font_size": "heading-large", "padding_bottom": 16, "heading_tag": "h2" }
+          "settings": {
+            "title": "事業に合う進め方を、無料でご相談いただけます",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
         },
         "text": {
           "type": "text",
-          "settings": { "text": "<p>構築・移行・越境EC・保守運用まで、現在地と目標に合わせてご提案します。</p>", "text_font_size": "body-medium", "padding_bottom": 20 }
+          "settings": {
+            "text": "<p>構築・移行・越境EC・保守運用まで、現在地と目標に合わせてご提案します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 20
+          }
         },
         "contact": {
           "type": "buttons",
-          "settings": { "button_text": "無料で相談する", "button_url": "shopify://pages/contact", "button_type": "btn--primary", "button_size": "", "button_style": "btn--solid", "show_arrow": true, "padding_bottom": 0 }
+          "settings": {
+            "button_text": "無料で相談する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
         },
         "pricing": {
           "type": "buttons",
-          "settings": { "button_text": "料金プランを見る", "button_url": "shopify://pages/pricing", "button_type": "btn--primary", "button_size": "", "button_style": "btn--outline", "show_arrow": true, "padding_bottom": 0 }
+          "settings": {
+            "button_text": "料金プランを見る",
+            "button_url": "shopify://pages/pricing",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
         }
       },
-      "block_order": ["subheading", "heading", "text", "contact", "pricing"],
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "contact",
+        "pricing"
+      ],
       "settings": {
         "align_text": "text-center",
         "width": "wrapper--narrow",
@@ -219,7 +308,7 @@
       "type": "section-custom-code",
       "name": "FAQ structured data",
       "settings": {
-        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\"@type\":\"Question\",\"name\":\"相談や見積もりは無料ですか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。ご相談とお見積もりは無料です。\"}},\n    {\"@type\":\"Question\",\"name\":\"サイト制作にはどれくらいかかりますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"目安はSOLSTAR EXPRESSが約2〜4週間、Basicが約4〜8週間、Standardが約8〜12週間、Proが約12〜24週間です。\"}},\n    {\"@type\":\"Question\",\"name\":\"BASE・STORESなどからShopifyへ移行できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Standardプランでは商品データ・主要ページの移行、主要URLの確認とリダイレクト方針の整理に対応しています。\"}},\n    {\"@type\":\"Question\",\"name\":\"多言語・多通貨の越境ECに対応できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"対応可能です。越境対応はBasic・Standard・Proでは別途対応となり、SOLSTAR EXPRESSでは対象外です。\"}},\n    {\"@type\":\"Question\",\"name\":\"公開後の保守や運用改善も依頼できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Store Care、Growth Partner、Growth OSの保守運用プランをご用意しています。\"}}\n  ]\n}\n<\/script>",
+        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\"@type\":\"Question\",\"name\":\"相談や見積もりは無料ですか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。ご相談とお見積もりは無料です。\"}},\n    {\"@type\":\"Question\",\"name\":\"サイト制作にはどれくらいかかりますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"目安はSOLSTAR EXPRESSが約2〜4週間、Basicが約4〜8週間、Standardが約8〜12週間、Proが約12〜24週間です。\"}},\n    {\"@type\":\"Question\",\"name\":\"BASE・STORESなどからShopifyへ移行できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Standardプランでは商品データ・主要ページの移行、主要URLの確認とリダイレクト方針の整理に対応しています。\"}},\n    {\"@type\":\"Question\",\"name\":\"多言語・多通貨の越境ECに対応できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"対応可能です。越境対応はBasic・Standard・Proでは別途対応となり、SOLSTAR EXPRESSでは対象外です。\"}},\n    {\"@type\":\"Question\",\"name\":\"公開後の保守や運用改善も依頼できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Store Care、Growth Partner、Growth OSの保守運用プランをご用意しています。\"}}\n  ]\n}\n</script>",
         "width": "wrapper",
         "color_scheme": "scheme-1",
         "padding_top": 0,
@@ -227,5 +316,11 @@
       }
     }
   },
-  "order": ["main", "faq-intro", "faq-main", "faq-cta", "section_custom_code_jsonld_faq"]
+  "order": [
+    "main",
+    "faq-intro",
+    "faq-main",
+    "faq-cta",
+    "section_custom_code_jsonld_faq"
+  ]
 }
