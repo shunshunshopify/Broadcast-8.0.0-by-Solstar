@@ -2,7 +2,7 @@
 {%- liquid
   assign animation_anchor = '#page--' | append: section.id
   assign color_scheme = 'color-' | append: section.settings.color_scheme
-  assign subheading_color = settings.color_schemes[section.settings.subheading_color_scheme].settings.accent
+  assign subheading_color = section.settings.subheading_color
 -%}
 
 {%- style -%}
@@ -76,9 +76,9 @@
       "label": "Subheading"
     },
     {
-      "type": "color_scheme",
-      "id": "subheading_color_scheme",
-      "label": "Subheading color scheme"
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color"
     },
     {
       "type": "checkbox",

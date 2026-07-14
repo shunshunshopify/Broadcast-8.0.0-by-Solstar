@@ -13,7 +13,7 @@
       "type": "main-page",
       "settings": {
         "subheading": "FAQ",
-        "subheading_color_scheme": "scheme-10",
+        "subheading_color": "#AB8C52",
         "show_title": true,
         "heading_font_size": "heading-x-large",
         "show_content": false,
