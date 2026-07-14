@@ -30,6 +30,9 @@ Renders an accessible audio player for a blog article.
           <span>{{ 'blogs.audio.narrator' | t }}</span>
           <strong>{{ narrator_name }}</strong>
         </p>
+        <p class="article-audio-player__narrator-bio">
+          10億円規模のECプロジェクトでPMを経験。Shopifyアカデミー3種資格を保持し、元陸上自衛隊（6年勤務）・San Diego State University経済学部卒。趣味はDJで、HiphopとR&amp;Bを中心にプレイしています。
+        </p>
       {%- endif -%}
     </div>
   </div>
@@ -44,9 +47,9 @@ Renders an accessible audio player for a blog article.
       src="{{ audio_url | escape }}"
     ></audio>
 
-    <button type="button" class="article-audio-player__stop" data-stop>
-      {{ 'blogs.audio.stop' | t }}
-    </button>
+    <span class="article-audio-player__wave" data-wave aria-hidden="true">
+      <i></i><i></i><i></i><i></i>
+    </span>
   </div>
 </article-audio-player-native>
 
@@ -104,6 +107,13 @@ Renders an accessible audio player for a blog article.
     font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);
   }
 
+  .article-audio-player__narrator-bio {
+    margin: 8px 0 0;
+    color: var(--text-a70, var(--text));
+    font-size: var(--font-body-x-small, var(--font-body-small));
+    line-height: 1.65;
+  }
+
   .article-audio-player__controls {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
@@ -117,36 +127,53 @@ Renders an accessible audio player for a blog article.
     accent-color: var(--text);
   }
 
-  .article-audio-player__stop {
+  .article-audio-player__wave {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    min-width: 88px;
-    min-height: 48px;
-    padding: 10px 14px;
-    border: 0;
-    border-radius: var(--BUTTON-RADIUS, 0);
-    background: #ab8c52;
-    color: var(--bg);
-    cursor: pointer;
-    font: inherit;
+    width: 40px;
+    height: 48px;
+    gap: 3px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 160ms ease, visibility 0s linear 160ms;
   }
 
-  .article-audio-player__stop::before {
-    width: 10px;
+  .article-audio-player__wave i {
+    display: block;
+    width: 3px;
     height: 10px;
-    background: currentcolor;
-    content: '';
+    border-radius: 999px;
+    background: #ab8c52;
+    transform: scaleY(0.5);
+    transform-origin: center;
   }
 
-  .article-audio-player__stop:hover {
-    opacity: 0.75;
+  .article-audio-player.is-playing .article-audio-player__wave {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
   }
 
-  .article-audio-player__stop:focus-visible {
-    outline: 2px solid var(--text);
-    outline-offset: 3px;
+  .article-audio-player.is-playing .article-audio-player__wave i {
+    animation: article-audio-wave 720ms ease-in-out infinite alternate;
+  }
+
+  .article-audio-player.is-playing .article-audio-player__wave i:nth-child(2) {
+    animation-delay: -360ms;
+  }
+
+  .article-audio-player.is-playing .article-audio-player__wave i:nth-child(3) {
+    animation-delay: -180ms;
+  }
+
+  .article-audio-player.is-playing .article-audio-player__wave i:nth-child(4) {
+    animation-delay: -540ms;
+  }
+
+  @keyframes article-audio-wave {
+    from { transform: scaleY(0.45); }
+    to { transform: scaleY(1.8); }
   }
 
   @media only screen and (max-width: 749px) {
@@ -168,9 +195,15 @@ Renders an accessible audio player for a blog article.
       gap: 8px;
     }
 
-    .article-audio-player__stop {
-      min-width: 76px;
-      padding-inline: 10px;
+    .article-audio-player__wave {
+      width: 32px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .article-audio-player.is-playing .article-audio-player__wave i {
+      animation: none;
+      transform: scaleY(1);
     }
   }
 {% endstylesheet %}
@@ -185,25 +218,23 @@ Renders an accessible audio player for a blog article.
 
           this.isInitialized = true;
           this.audio = this.querySelector('[data-audio]');
-          this.stopButton = this.querySelector('[data-stop]');
-          this.handleStop = () => this.stopPlayback();
+          this.handlePlaybackState = () => this.updatePlaybackState();
 
-          this.stopButton.addEventListener('click', this.handleStop);
+          this.audio.addEventListener('play', this.handlePlaybackState);
+          this.audio.addEventListener('pause', this.handlePlaybackState);
+          this.audio.addEventListener('ended', this.handlePlaybackState);
+          this.updatePlaybackState();
         }
 
         disconnectedCallback() {
-          this.stopButton.removeEventListener('click', this.handleStop);
+          this.audio.removeEventListener('play', this.handlePlaybackState);
+          this.audio.removeEventListener('pause', this.handlePlaybackState);
+          this.audio.removeEventListener('ended', this.handlePlaybackState);
           this.isInitialized = false;
         }
 
-        stopPlayback() {
-          this.audio.pause();
-
-          if (this.audio.readyState > 0) {
-            this.audio.currentTime = 0;
-          } else {
-            this.audio.load();
-          }
+        updatePlaybackState() {
+          this.classList.toggle('is-playing', !this.audio.paused && !this.audio.ended);
         }
       }
     );
