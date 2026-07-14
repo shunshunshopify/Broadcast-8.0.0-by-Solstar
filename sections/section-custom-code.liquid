@@ -7,6 +7,27 @@
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
   }
+
+  #CustomCode--{{ section.id }} .modern-mvv-section {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+  }
+
+  #CustomCode--{{ section.id }} .modern-mvv-section .mvv-block {
+    border-color: color-mix(in srgb, var(--text) 15%, transparent) !important;
+  }
+
+  #CustomCode--{{ section.id }} .modern-mvv-section .mvv-title {
+    color: color-mix(in srgb, var(--text) 40%, transparent) !important;
+  }
+
+  #CustomCode--{{ section.id }} .modern-mvv-section .mvv-h2 {
+    color: var(--text) !important;
+  }
+
+  #CustomCode--{{ section.id }} .modern-mvv-section .mvv-description {
+    color: color-mix(in srgb, var(--text) 75%, transparent) !important;
+  }
 {%- endstyle -%}
 
 <section
