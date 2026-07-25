@@ -13,6 +13,7 @@
       "type": "main-page",
       "settings": {
         "subheading": "",
+        "subheading_color": "",
         "show_title": false,
         "heading_font_size": "heading-x-large",
         "show_content": false,
@@ -31,7 +32,7 @@
         "subheading_GNjBX9": {
           "type": "subheading",
           "settings": {
-            "subheading": "Premium Shopify Theme for Japan",
+            "subheading": "購入体験を考え抜いたShopifyテーマ",
             "padding_bottom": 16
           }
         },
@@ -55,7 +56,7 @@
         "text_4MTE9V": {
           "type": "text",
           "settings": {
-            "text": "<p>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。日本市場のEC運用で使いやすい導線・セクション・表示設定を備え、構築初期から運用しやすいストアづくりを支援します。</p>",
+            "text": "<p>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。Shopifyで9年以上の構築・運用支援で培ったノウハウをもとに、購入につながる導線やEC運用に必要な機能を標準搭載し、運用しやすいECサイト構築を支援します。<br/><br/><br/>先着100名様限定、ベータ版につき無料で導入いただけます。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -63,7 +64,7 @@
         "buttons_HUcgJy": {
           "type": "buttons",
           "settings": {
-            "button_text": "期間限定の無料体験を見る",
+            "button_text": "無料で導入する",
             "button_url": "/products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
@@ -503,6 +504,7 @@
       "name": "Cream FAQ",
       "settings": {
         "heading_font_size": "heading-large",
+        "heading_color": "",
         "question_font_size": "heading-small",
         "width": "wrapper",
         "columns": "1",
