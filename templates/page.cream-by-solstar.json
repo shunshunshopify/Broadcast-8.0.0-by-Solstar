@@ -436,7 +436,7 @@
           "settings": {
             "default_open": true,
             "title": "既存のShopifyストアから移行できますか？",
-            "content": "<p>既存ストアの構成、利用アプリ、商品データ、デザイン要件を確認したうえで移行可否と進め方をご案内します。テーマ移行では表示確認と購入導線の検証が重要です。</p>",
+            "content": "<p>はい、移行可能です。既存のShopifyストアの構成や利用中のアプリ、商品データ、デザイン要件を確認したうえで、移行の可否や最適な進め方をご案内します。表示崩れや購入導線への影響を確認しながら移行を進めます。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -448,7 +448,7 @@
           "settings": {
             "default_open": false,
             "title": "追加アプリは必要ですか？",
-            "content": "<p>Countdown、Wishlist、Shop the look、Before & after、Testimonialsなど、よく使う販促・回遊・演出機能の一部はCream内で対応できます。ただし、レビュー、会員制度、配送連携、外部システム連携などは、要件に応じてアプリ導入を検討します。</p>",
+            "content": "<p>Countdown、Wishlist、Shop the look、Before & after、Testimonialsなど、よく使われる販促・回遊・演出機能はCreamに標準搭載しています。そのため、多くの機能は追加アプリなしで利用できます。レビュー、会員制度、配送連携、外部システム連携などは、必要に応じてアプリをご利用ください。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -460,7 +460,7 @@
           "settings": {
             "default_open": false,
             "title": "日本語フォントやブランドカラーは調整できますか？",
-            "content": "<p>テーマ設定からタイポグラフィ、カラースキーム、ボタン、バッジ、商品カードなどを調整できます。ブランドの世界観に合わせたデザイン設計が可能です。</p>",
+            "content": "<p>はい、調整できます。テーマ設定で、タイポグラフィ、カラースキーム、ボタン、バッジ、商品カードなどを調整できます。コードを書かずに、ブランドに合わせたデザインへ変更できます。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
