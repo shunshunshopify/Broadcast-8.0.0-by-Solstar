@@ -296,7 +296,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "ライブデモを見る",
-            "button_url": "https://solstar-enterprise-demo-store.myshopify.com/",
+            "button_url": "https://solstar-enterprise-demo-store.myshopify.com",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
