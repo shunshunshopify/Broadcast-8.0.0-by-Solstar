@@ -160,9 +160,9 @@
             "icon_name": "icon-box",
             "icon_size": 35,
             "icon_color": "",
-            "title": "オールインワン",
+            "title": "設計済みだから迷わない",
             "heading_font_size": "heading-small",
-            "text": "<p>51セクションを搭載。アプリに頼りすぎず、ブランドらしいページを作り込めます。</p>",
+            "text": "<p>Shopifyで9年以上の構築・運用支援で培ったノウハウをもとに開発。商品ページや購入導線などをゼロから考えずに、ECサイトの構築を始められます。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -173,9 +173,9 @@
             "icon_name": "icon-planet",
             "icon_size": 35,
             "icon_color": "",
-            "title": "日本市場 × 越境を見据えた設計",
+            "title": "アプリに頼りすぎない",
             "heading_font_size": "heading-small",
-            "text": "<p>モバイル導線、LINE友だち追加導線、「税込」表記、多言語・多通貨セレクターなど、国内運用とShopify Marketsを使った海外展開を見据えた構成です。対象国、決済、配送、翻訳運用はShopifyの設定や運用要件に応じた整理が必要です。</p>",
+            "text": "<p>EC運用に必要な機能をテーマに備えているため、アプリの追加や管理の負担を抑えながらECサイトを運営できます。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -186,9 +186,9 @@
             "icon_name": "icon-notes",
             "icon_size": 35,
             "icon_color": "",
-            "title": "ノーコードで作り込める",
+            "title": "コード不要で簡単に調整",
             "heading_font_size": "heading-small",
-            "text": "<p>約180項目のデザイン設定で、色、余白、ボタン、カード、バッジまで細かく調整できます。</p>",
+            "text": "<p>開発会社へ依頼することなく、自社ブランドに合わせて色や余白、ボタンなどを管理画面から変更できます。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
