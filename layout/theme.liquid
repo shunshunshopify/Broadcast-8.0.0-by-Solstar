@@ -3,6 +3,10 @@
   <head>
     {%- render 'head' -%}
 
+    {%- if template.name == 'page' and template.suffix == 'cream-by-solstar' -%}
+      {{ 'cream-page-refinements.css' | asset_url | stylesheet_tag }}
+    {%- endif -%}
+
     {{ content_for_header }}
   </head>
 

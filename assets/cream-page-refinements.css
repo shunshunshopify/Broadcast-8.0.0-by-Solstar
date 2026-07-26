@@ -1,0 +1,320 @@
+/* Cream landing page refinements */
+body .cream-japan {
+  background:
+    radial-gradient(circle at 8% 12%, rgba(199, 167, 106, 0.16), transparent 30%),
+    #f6f3ed;
+  color: #0d0326;
+  padding: 108px 24px;
+}
+
+body .cream-japan__head {
+  max-width: 900px;
+  margin-bottom: 56px;
+}
+
+body .cream-japan__eyebrow {
+  color: #8a6d37;
+  letter-spacing: 0.12em;
+}
+
+body .cream-japan__lead {
+  color: rgba(13, 3, 38, 0.7);
+}
+
+body .cream-japan__grid {
+  gap: 18px;
+}
+
+body .cream-japan__card {
+  position: relative;
+  min-height: 268px;
+  padding: 28px;
+  overflow: hidden;
+  border: 1px solid rgba(13, 3, 38, 0.1);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 16px 42px rgba(13, 3, 38, 0.08);
+  color: #0d0326;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+body .cream-japan__card::after {
+  content: '';
+  position: absolute;
+  right: -36px;
+  bottom: -48px;
+  width: 130px;
+  height: 130px;
+  border: 1px solid rgba(199, 167, 106, 0.2);
+  border-radius: 50%;
+}
+
+body .cream-japan__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 52px rgba(13, 3, 38, 0.13);
+}
+
+body .cream-japan__icon {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  background: #0d0326;
+  box-shadow: inset 0 0 0 2px #c7a76a;
+  color: #fff;
+  font-size: 0.78em;
+  letter-spacing: 0.08em;
+}
+
+body .cream-japan__card p {
+  color: rgba(13, 3, 38, 0.7);
+}
+
+body .cream-japan__compare {
+  margin-top: 34px;
+  overflow: hidden;
+  border: 1px solid rgba(13, 3, 38, 0.12);
+  border-radius: 24px;
+  box-shadow: 0 18px 48px rgba(13, 3, 38, 0.1);
+}
+
+body .cream-japan__side {
+  padding: 36px;
+  background: #fff;
+}
+
+body .cream-japan__side.is-cream {
+  position: relative;
+  background: linear-gradient(145deg, #241249, #0d0326);
+}
+
+body .cream-tabs {
+  position: relative;
+  overflow: hidden;
+  padding: 108px 24px;
+  background:
+    radial-gradient(circle at 86% 5%, rgba(199, 167, 106, 0.2), transparent 28%),
+    #0d0326;
+}
+
+body .cream-tabs__head {
+  max-width: 900px;
+  margin-bottom: 52px;
+}
+
+body .cream-tabs__head p {
+  color: #c7a76a;
+  letter-spacing: 0.12em;
+}
+
+body .cream-tabs__set {
+  max-width: 1080px;
+  margin: 0 auto;
+  gap: 14px;
+  counter-reset: feature;
+}
+
+body .cream-tabs details {
+  counter-increment: feature;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.12);
+  transition: border-color 0.25s ease, background 0.25s ease;
+}
+
+body .cream-tabs details[open] {
+  border-color: rgba(199, 167, 106, 0.62);
+  background: rgba(255, 255, 255, 0.075);
+}
+
+body .cream-tabs summary {
+  padding: 24px 72px 24px 76px;
+  font-size: 1.08em;
+  font-weight: 600;
+}
+
+body .cream-tabs summary::before {
+  content: '0' counter(feature);
+  position: absolute;
+  left: 26px;
+  top: 50%;
+  color: #c7a76a;
+  font-size: 0.72em;
+  letter-spacing: 0.08em;
+  transform: translateY(-50%);
+}
+
+body .cream-tabs__panel {
+  grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
+  gap: 36px;
+  padding: 4px 26px 28px;
+}
+
+body .cream-tabs__visual {
+  min-height: 290px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  background: linear-gradient(145deg, #f9f7f2, #e9e2d5);
+  box-shadow: inset 0 1px 0 #fff;
+}
+
+body .cream-tabs__visual span {
+  border: 1px solid rgba(13, 3, 38, 0.08);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(13, 3, 38, 0.08);
+}
+
+body .cream-tabs__visual span:first-child {
+  background: linear-gradient(100deg, #c7a76a, #8a6d37);
+}
+
+body .cream-tabs__body ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  list-style: none;
+}
+
+body .cream-tabs__body li {
+  padding: 8px 12px;
+  border: 1px solid rgba(199, 167, 106, 0.42);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 0.88em;
+}
+
+body .cream-design {
+  padding: 108px 24px;
+  background:
+    radial-gradient(circle at 50% 0, rgba(199, 167, 106, 0.13), transparent 32%),
+    #f6f3ed;
+  color: #0d0326;
+}
+
+body .cream-design__inner {
+  display: block;
+  max-width: 1240px;
+}
+
+body .cream-design__inner > div:first-child {
+  max-width: 880px;
+  margin: 0 auto 52px;
+  text-align: center;
+}
+
+body .cream-design__eyebrow {
+  color: #8a6d37;
+  letter-spacing: 0.12em;
+}
+
+body .cream-design__inner > div:first-child > p:last-child {
+  max-width: 790px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgba(13, 3, 38, 0.7);
+}
+
+body .cream-design__studio {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+body .cream-design__palette,
+body .cream-design__type,
+body .cream-design__badges {
+  min-height: 230px;
+  padding: 28px;
+  border: 1px solid rgba(13, 3, 38, 0.1);
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 16px 42px rgba(13, 3, 38, 0.08);
+}
+
+body .cream-design__swatches {
+  align-items: center;
+  margin-top: 32px;
+}
+
+body .cream-design__swatches span {
+  width: 58px;
+  height: 58px;
+  margin-left: -10px;
+  border: 3px solid #fff;
+  box-shadow: 0 6px 16px rgba(13, 3, 38, 0.14);
+}
+
+body .cream-design__swatches span:first-child {
+  margin-left: 0;
+}
+
+body .cream-design__type p {
+  color: rgba(13, 3, 38, 0.7);
+}
+
+body .cream-design__badge-row span {
+  border-color: rgba(13, 3, 38, 0.16);
+  background: #f6f3ed;
+}
+
+body .cream-design__stats {
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+body .cream-design__stat {
+  padding: 28px;
+  border: 1px solid rgba(199, 167, 106, 0.44);
+  border-radius: 22px;
+  background: linear-gradient(145deg, #241249, #0d0326);
+  color: #fff;
+  box-shadow: 0 18px 46px rgba(13, 3, 38, 0.16);
+}
+
+body .cream-design__stat strong {
+  margin-bottom: 12px;
+  color: #c7a76a;
+  font-size: 2.2em;
+}
+
+@media (max-width: 899px) {
+  body .cream-japan,
+  body .cream-tabs,
+  body .cream-design {
+    padding: 72px 16px;
+  }
+
+  body .cream-japan__card {
+    min-height: 0;
+  }
+
+  body .cream-japan__side {
+    padding: 28px 24px;
+  }
+
+  body .cream-tabs__panel,
+  body .cream-design__studio {
+    grid-template-columns: 1fr;
+  }
+
+  body .cream-tabs__panel {
+    gap: 24px;
+    padding: 2px 18px 20px;
+  }
+
+  body .cream-tabs summary {
+    padding: 20px 54px 20px 58px;
+  }
+
+  body .cream-tabs summary::before {
+    left: 20px;
+  }
+
+  body .cream-design__stats {
+    grid-column: auto;
+    grid-template-columns: 1fr;
+  }
+}
