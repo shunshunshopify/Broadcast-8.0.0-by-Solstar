@@ -215,8 +215,8 @@ body .cream-tabs__body li {
 
 body .cream-design {
   padding: 108px 24px;
-  background: var(--COLOR-BG);
-  color: var(--COLOR-TEXT);
+  background: #0d0326;
+  color: #ffffff;
 }
 
 body .cream-value,
@@ -236,7 +236,7 @@ body .cream-design__inner > div:first-child {
 }
 
 body .cream-design__eyebrow {
-  color: var(--BTN-PRIMARY-BG);
+  color: #ab8c52;
   letter-spacing: 0.12em;
 }
 
@@ -244,7 +244,7 @@ body .cream-design__inner > div:first-child > p:last-child {
   max-width: 790px;
   margin-right: auto;
   margin-left: auto;
-  color: var(--COLOR-TEXT-A80);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 body .cream-design__studio {
@@ -258,11 +258,11 @@ body .cream-design__type,
 body .cream-design__badges {
   min-height: 190px;
   padding: 24px;
-  border: 1px solid var(--COLOR-BORDER);
+  border: 1px solid #d1cdc4;
   border-radius: 22px;
-  background: var(--COLOR-TEXT-A5);
+  background: #26124f;
   box-shadow: 0 16px 42px rgba(0, 0, 0, 0.14);
-  color: var(--COLOR-TEXT);
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,7 +277,7 @@ body .cream-design__swatches span {
   width: 52px;
   height: 52px;
   margin-left: -10px;
-  border: 3px solid var(--COLOR-BG);
+  border: 3px solid #0d0326;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
 }
 
@@ -286,28 +286,28 @@ body .cream-design__swatches span:first-child {
 }
 
 body .cream-design__swatches span:nth-child(1) {
-  background: var(--COLOR-BG);
+  background: #0d0326;
 }
 
 body .cream-design__swatches span:nth-child(2) {
-  background: var(--BTN-PRIMARY-BG);
+  background: #ab8c52;
 }
 
 body .cream-design__swatches span:nth-child(3) {
-  background: var(--COLOR-BG-ACCENT);
+  background: #f5f2ec;
 }
 
 body .cream-design__swatches span:nth-child(4) {
-  background: var(--COLOR-ACCENT);
+  background: #665035;
 }
 
 body .cream-design__type p {
-  color: var(--COLOR-TEXT-A80);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 body .cream-design__badge-row span {
-  border-color: var(--COLOR-BORDER);
-  background: var(--COLOR-BG-BRIGHTER);
+  border-color: #d1cdc4;
+  background: #0d0326;
 }
 
 body .cream-design__stats {
@@ -318,16 +318,16 @@ body .cream-design__stats {
 
 body .cream-design__stat {
   padding: 24px;
-  border: 1px solid var(--COLOR-BORDER);
+  border: 1px solid #d1cdc4;
   border-radius: 22px;
-  background: var(--COLOR-BG-BRIGHTER);
-  color: var(--COLOR-TEXT);
+  background: #26124f;
+  color: #ffffff;
   box-shadow: 0 18px 46px rgba(0, 0, 0, 0.16);
 }
 
 body .cream-design__stat strong {
   margin-bottom: 12px;
-  color: var(--COLOR-ACCENT);
+  color: #ab8c52;
 }
 
 @media (max-width: 899px) {
