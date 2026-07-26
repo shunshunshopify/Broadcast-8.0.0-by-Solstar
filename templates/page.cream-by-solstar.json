@@ -64,7 +64,7 @@
         "buttons_HUcgJy": {
           "type": "buttons",
           "settings": {
-            "button_text": "無料で導入する",
+            "button_text": "無料で試してみる",
             "button_url": "/products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
@@ -526,7 +526,7 @@
         "heading_final": {
           "type": "heading",
           "settings": {
-            "title": "あなたのブランドを、Creamで。",
+            "title": "今だけ無料で、Creamを始めませんか。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -535,7 +535,7 @@
         "text_final": {
           "type": "text",
           "settings": {
-            "text": "<p>Creamの機能、無料体験条件、導入方法を確認したい方は、製品詳細ページをご覧ください。</p>",
+            "text": "<p>ベータ版につき、先着100名様限定で無料導入いただけます。<br/>導入前にデザインや機能をご確認いただけるライブデモもご用意しています。<br/>ライブデモの閲覧パスワードは「1」です。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 18
           }
@@ -543,7 +543,7 @@
         "button_demo": {
           "type": "buttons",
           "settings": {
-            "button_text": "期間限定の無料体験を見る",
+            "button_text": "無料で試してみる",
             "button_url": "/products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
@@ -555,8 +555,8 @@
         "button_contact": {
           "type": "buttons",
           "settings": {
-            "button_text": "Creamの詳細を見る",
-            "button_url": "/products/cream-by-solstar",
+            "button_text": "ライブデモを見る",
+            "button_url": "https://solstar-enterprise-demo-store.myshopify.com/",
             "button_type": "btn--secondary",
             "button_size": "",
             "button_style": "btn--outline",
