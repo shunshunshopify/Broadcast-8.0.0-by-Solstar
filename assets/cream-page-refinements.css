@@ -1,4 +1,8 @@
 /* Cream landing page refinements */
+body .hero__subheading {
+  color: var(--BTN-PRIMARY-BG);
+}
+
 body .cream-fit,
 body .cream-japan {
   background: var(--COLOR-BG);
@@ -12,7 +16,7 @@ body .cream-japan__head {
 }
 
 body .cream-japan__eyebrow {
-  color: var(--COLOR-ACCENT);
+  color: var(--BTN-PRIMARY-BG);
   letter-spacing: 0.12em;
 }
 
@@ -60,7 +64,6 @@ body .cream-japan__icon {
   background: var(--COLOR-TEXT-A5);
   box-shadow: none;
   color: var(--COLOR-ACCENT);
-  font-size: 0.78em;
   letter-spacing: 0.08em;
 }
 
@@ -114,7 +117,7 @@ body .cream-tabs__head {
 }
 
 body .cream-tabs__head p {
-  color: var(--COLOR-ACCENT);
+  color: var(--BTN-PRIMARY-BG);
   letter-spacing: 0.12em;
 }
 
@@ -145,7 +148,6 @@ body .cream-tabs summary {
   gap: 24px;
   align-items: center;
   padding: 22px 72px 22px 76px;
-  font-size: 1.08em;
   font-weight: 600;
 }
 
@@ -156,7 +158,6 @@ body .cream-tabs__summary-note {
 
 body .cream-tabs__summary-note {
   color: var(--COLOR-TEXT-A80);
-  font-size: 0.86em;
   font-weight: 400;
   line-height: 1.55;
 }
@@ -166,8 +167,7 @@ body .cream-tabs summary::before {
   position: absolute;
   left: 26px;
   top: 50%;
-  color: var(--COLOR-ACCENT);
-  font-size: 0.72em;
+  color: var(--BTN-PRIMARY-BG);
   letter-spacing: 0.08em;
   transform: translateY(-50%);
 }
@@ -211,7 +211,6 @@ body .cream-tabs__body li {
   border: 1px solid rgba(199, 167, 106, 0.42);
   border-radius: 999px;
   color: rgba(255, 255, 255, 0.86);
-  font-size: 0.88em;
 }
 
 body .cream-design {
@@ -237,7 +236,7 @@ body .cream-design__inner > div:first-child {
 }
 
 body .cream-design__eyebrow {
-  color: var(--COLOR-ACCENT);
+  color: var(--BTN-PRIMARY-BG);
   letter-spacing: 0.12em;
 }
 
@@ -329,7 +328,6 @@ body .cream-design__stat {
 body .cream-design__stat strong {
   margin-bottom: 12px;
   color: var(--COLOR-ACCENT);
-  font-size: 2em;
 }
 
 @media (max-width: 899px) {
