@@ -124,6 +124,16 @@ body .cream-value__icon > svg {
   stroke-width: 0;
 }
 
+body .cream-japan__icon > svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: var(--BTN-PRIMARY-BG);
+  fill: currentColor;
+  stroke: none;
+  stroke-width: 0;
+}
+
 /* Match the Standard Plan color system for the value section. */
 body .cream-value {
   background: var(--COLOR-BG);
