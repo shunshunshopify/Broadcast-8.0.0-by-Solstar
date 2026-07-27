@@ -113,6 +113,19 @@ body .cream-japan__icon img {
   height: 28px;
 }
 
+body .cream-value__icon-svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: var(--cream-page-accent);
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: var(--ICON-STROKE-WIDTH);
+  stroke-linejoin: round;
+  paint-order: stroke fill;
+  vector-effect: non-scaling-stroke;
+}
+
 body .cream-value__card h3,
 body .cream-quality__card h3 {
   margin: 0 0 12px;
