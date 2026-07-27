@@ -31,6 +31,10 @@ body .hero__subheading {
   color: var(--cream-page-primary, #ab8c52);
 }
 
+body .cream-mobile-break {
+  display: none;
+}
+
 body .cream-value__inner,
 body .cream-fit__inner,
 body .cream-japan__inner,
@@ -899,6 +903,10 @@ body .cream-usecases__card p {
 }
 
 @media (max-width: 749px) {
+  body .cream-mobile-break {
+    display: block;
+  }
+
   body .cream-value__head,
   body .cream-fit__head,
   body .cream-japan__head,
