@@ -627,9 +627,12 @@ body .cream-quality h2 {
   color: var(--COLOR-TEXT);
 }
 
+body .cream-value__eyebrow,
 body .cream-fit__eyebrow,
 body .cream-japan__eyebrow,
-body .cream-design__eyebrow {
+body .cream-design__eyebrow,
+body .cream-usecases__eyebrow,
+body .cream-quality__eyebrow {
   color: var(--BTN-PRIMARY-BG);
 }
 
