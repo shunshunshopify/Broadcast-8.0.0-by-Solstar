@@ -1,6 +1,7 @@
 {%- liquid
   assign animation_order = 0
   assign animation_anchor = '#SocialVideos--' | append: section.id
+  assign subheading = section.settings.subheading
   assign heading = section.settings.heading
   assign text = section.settings.text
   assign color_scheme = 'color-' | append: section.settings.color_scheme
@@ -14,7 +15,7 @@
   assign columns_mobile = layout_mobile | plus: 0
   assign aspect_ratio = section.settings.aspect_ratio | default: 1
 
-  if heading != blank or text != blank
+  if subheading != blank or heading != blank or text != blank
     assign has_content = true
   endif
 
@@ -86,6 +87,19 @@
     {%- if has_content -%}
       <div class="grid__heading-holder {{ section.settings.align_text }}">
         <div class="grid__heading-text">
+          {%- if subheading != blank -%}
+            {%- assign animation_order = animation_order | plus: 1 -%}
+
+            <p
+              class="hero__subheading"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="{{ animation_order }}"
+            >
+              {{- subheading -}}
+            </p>
+          {%- endif -%}
+
           {%- if heading != blank -%}
             {%- liquid
               assign animation_order = animation_order | plus: 1
@@ -237,6 +251,11 @@
     {
       "type": "header",
       "content": "Typography"
+    },
+    {
+      "label": "Subheading",
+      "id": "subheading",
+      "type": "text"
     },
     {
       "label": "Heading",

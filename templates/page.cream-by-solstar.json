@@ -222,8 +222,9 @@
       ],
       "name": "Social videos",
       "settings": {
+        "subheading": "Feature showcase",
         "heading": "CREAMの標準機能",
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-large",
         "text": "<p>Creamの主要機能を動画でご紹介します。実際の動きをご確認ください。</p>",
         "text_font_size": "body-medium",
         "align_text": "text-center",
