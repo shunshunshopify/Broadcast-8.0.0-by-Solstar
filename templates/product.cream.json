@@ -82,8 +82,27 @@
         },
         "description_VrLr9g": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "show_read_more": false,
+            "padding_bottom": 0
+          }
+        },
+        "tab_richtext_3izkfr": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_description": true,
+            "show_read_more": false,
+            "title_1": "導入方法",
+            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
+            "title_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
             "padding_bottom": 0
           }
         }
@@ -95,7 +114,8 @@
         "popup_ihyPHp",
         "variants",
         "buttons",
-        "description_VrLr9g"
+        "description_VrLr9g",
+        "tab_richtext_3izkfr"
       ],
       "settings": {
         "product_sticky_enable": false,
