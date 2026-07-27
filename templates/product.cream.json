@@ -86,24 +86,6 @@
             "show_read_more": false,
             "padding_bottom": 0
           }
-        },
-        "tab_richtext_3izkfr": {
-          "type": "tab_richtext",
-          "settings": {
-            "show_description": false,
-            "show_read_more": false,
-            "title_1": "ストアをお持ちの方",
-            "raw_content_1": "<p>まずCreamをカートに入れ、無料の購入手続きを完了してください。</p><p>購入手続きの際、カートの注文メモに以下の2点をご記入ください。</p><ol><li>ShopifyストアURL（例：〇〇.myshopify.com）</li><li>コラボレーターリクエストコード</li></ol><p>コードは、Shopify管理画面の「設定」→「ユーザー」→「セキュリティ」→「コラボレーター」で確認できます。</p><p>SOLSTARから届く申請をご承認いただいた後、Creamをインストールし、完了後にご連絡します。</p>",
-            "title_2": "ストアをお持ちでない方",
-            "raw_content_2": "<p>まずCreamをカートに入れ、無料の購入手続きを完了してください。</p><p>購入手続きの際、カートの注文メモに「Shopifyストアを持っていません」とご記入ください。</p><p>SOLSTARがストア開設からCreamの導入までご案内し、インストール済みの状態でお渡しすることも可能です。</p>",
-            "title_3": "",
-            "raw_content_3": "",
-            "title_4": "",
-            "raw_content_4": "",
-            "title_5": "",
-            "raw_content_5": "",
-            "padding_bottom": 0
-          }
         }
       },
       "block_order": [
@@ -113,8 +95,7 @@
         "popup_ihyPHp",
         "variants",
         "buttons",
-        "description_VrLr9g",
-        "tab_richtext_3izkfr"
+        "description_VrLr9g"
       ],
       "settings": {
         "product_sticky_enable": false,
@@ -393,7 +374,7 @@
       "type": "section-custom-code",
       "name": "Cream setup flow",
       "settings": {
-        "code": "<style>.cream-onboarding{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:84px 24px}.cream-onboarding__inner{max-width:1180px;margin:0 auto}.cream-onboarding__head{max-width:820px;margin:0 auto 42px;text-align:center}.cream-onboarding .hero__subheading{display:block;width:100%;color:var(--BTN-PRIMARY-BG);margin:0 auto 16px;text-align:center}.cream-onboarding h2{display:block;width:100%;margin:0 auto;color:var(--COLOR-TEXT);text-align:center;max-width:820px}.cream-onboarding__lead{margin:18px auto 0;color:var(--COLOR-TEXT);line-height:1.85;text-align:center;max-width:820px}.cream-onboarding__grid{display:grid;grid-template-columns:1fr 1fr;gap:42px;background:var(--COLOR-BG)}.cream-onboarding__section{background:var(--COLOR-BG);padding:0}.cream-onboarding__section h3{margin:0 0 16px;color:var(--COLOR-TEXT);line-height:1.35}.cream-onboarding__section p{margin:0 0 16px;color:var(--COLOR-TEXT);line-height:1.85}.cream-onboarding__section ol,.cream-onboarding__section ul{margin:0 0 18px;padding-left:1.25em;color:var(--COLOR-TEXT);line-height:1.8}.cream-onboarding__section li+li{margin-top:10px}.cream-onboarding__steps{list-style:none;padding:0!important;display:grid;gap:8px}.cream-onboarding__steps li{position:relative;padding-left:24px}.cream-onboarding__steps li:before{content:'→';position:absolute;left:0;color:var(--COLOR-LINK);font-weight:700}.cream-onboarding__quote{margin:10px 0 18px;padding:0;color:var(--COLOR-TEXT);font-weight:700}@media(max-width:749px){.cream-onboarding{padding:62px 16px}.cream-onboarding__head{margin-bottom:34px}.cream-onboarding__grid{grid-template-columns:1fr;gap:34px}}</style><section class='cream-onboarding' id='cream-onboarding'><div class='cream-onboarding__inner'><div class='cream-onboarding__head'><p class='cream-onboarding__eyebrow hero__subheading'>Setup flow</p><h2 class='heading-large'>Creamの導入までの流れ</h2><p class='cream-onboarding__lead'>お申し込み後、現在のShopifyストアの状況にあわせて導入をご案内します。</p></div><div class='cream-onboarding__grid'><article class='cream-onboarding__section'><h3>すでにShopifyストアをお持ちの場合</h3><p>既存のShopifyストアへCreamを導入するため、SOLSTARよりコラボレーター申請をお送りします。</p><p>お申し込み後、以下の2点をご共有ください。</p><ol><li>ShopifyストアURL（例：〇〇.myshopify.com）</li><li>コラボレーターリクエストコード<br>Shopify管理画面から以下の手順で確認できます。</li></ol><ul class='cream-onboarding__steps'><li>Shopify管理画面にログイン</li><li>左下の「設定」をクリック</li><li>「ユーザー」をクリック</li><li>「セキュリティ」をクリック</li><li>「コラボレーター」セクションに表示されている4桁のコードを確認</li></ul><p>上記2点を確認でき次第、SOLSTARよりコラボレーター申請をお送りします。</p><p>申請が届きましたら、内容をご確認のうえご承認ください。Creamのインストールに必要な権限として、主に「オンラインストア」に関する権限をリクエストします。</p><p>承認後、SOLSTARでCreamをインストールし、完了後にご連絡いたします。</p></article><article class='cream-onboarding__section'><h3>まだShopifyストアをお持ちでない場合</h3><p>まだShopifyストアをお持ちでない場合は、SOLSTARにてShopifyストアを準備し、Creamをインストールした状態でお渡しすることも可能です。</p><p>お申し込み後、「まだShopifyストアを持っていません」とお知らせください。</p><p>ご状況にあわせて、Shopifyストアの開設からCreamの導入までご案内します。</p></article></div></div></section>",
+        "code": "<style>.cream-setup{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:86px 24px}.cream-setup__inner{max-width:1120px;margin:0 auto}.cream-setup__head{max-width:760px;margin:0 auto 44px;text-align:center}.cream-setup__eyebrow{margin:0 0 14px;color:var(--BTN-PRIMARY-BG);font-weight:700;letter-spacing:.08em;text-transform:uppercase}.cream-setup h2{margin:0;color:var(--COLOR-TEXT)}.cream-setup__lead{margin:18px auto 0;line-height:1.8;color:var(--COLOR-TEXT)}.cream-setup__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.cream-setup__card{display:flex;flex-direction:column;padding:34px;border:1px solid var(--COLOR-BORDER-LIGHT);border-radius:min(var(--RADIUS),20px);background:color-mix(in srgb,var(--COLOR-TEXT) 3%,var(--COLOR-BG))}.cream-setup__title{display:flex;align-items:center;gap:14px;margin:0 0 24px}.cream-setup__number{display:grid;flex:0 0 42px;width:42px;height:42px;place-items:center;border-radius:50%;background:var(--BTN-PRIMARY-BG);color:var(--BTN-PRIMARY-TEXT);font-weight:700}.cream-setup__title h3{margin:0;color:var(--COLOR-TEXT);line-height:1.4}.cream-setup__steps{counter-reset:setup-step;display:grid;gap:22px;margin:0;padding:0;list-style:none}.cream-setup__steps>li{counter-increment:setup-step;display:grid;grid-template-columns:30px minmax(0,1fr);gap:12px;align-items:start;line-height:1.75;color:var(--COLOR-TEXT)}.cream-setup__steps>li:before{content:counter(setup-step);display:grid;width:28px;height:28px;place-items:center;border:1px solid var(--BTN-PRIMARY-BG);border-radius:50%;color:var(--BTN-PRIMARY-BG);font-size:12px;font-weight:700;line-height:1}.cream-setup__details{grid-column:2;margin:8px 0 0;padding-left:1.2em;line-height:1.7}.cream-setup__details li+li{margin-top:6px}.cream-setup__path{display:block;margin-top:8px;padding:12px 14px;border-left:3px solid var(--BTN-PRIMARY-BG);background:color-mix(in srgb,var(--BTN-PRIMARY-BG) 8%,transparent);font-size:.92em;line-height:1.7}.cream-setup__memo{font-weight:700;color:var(--COLOR-TEXT)}@media(max-width:749px){.cream-setup{padding:62px 16px}.cream-setup__head{margin-bottom:32px}.cream-setup__grid{grid-template-columns:1fr;gap:18px}.cream-setup__card{padding:26px 22px}}</style><section class='cream-setup' aria-labelledby='cream-setup-title'><div class='cream-setup__inner'><header class='cream-setup__head'><p class='cream-setup__eyebrow'>Setup flow</p><h2 class='heading-large' id='cream-setup-title'>Creamの導入方法</h2><p class='cream-setup__lead'>Shopifyストアの有無にあわせて、以下の手順でお申し込みください。</p></header><div class='cream-setup__grid'><article class='cream-setup__card'><div class='cream-setup__title'><span class='cream-setup__number' aria-hidden='true'>01</span><h3>Shopifyストアをお持ちの方</h3></div><ol class='cream-setup__steps'><li><span>Creamをカートに入れ、無料の購入手続きを進めます。</span></li><li><span>カートの注文メモに、以下の2点をご記入ください。</span><ul class='cream-setup__details'><li>ShopifyストアURL（例：〇〇.myshopify.com）</li><li>コラボレーターリクエストコード</li></ul></li><li><span>コードはShopify管理画面で確認できます。<small class='cream-setup__path'>「設定」→「ユーザー」→「セキュリティ」→「コラボレーター」</small></span></li><li><span>SOLSTARから届くコラボレーター申請を承認してください。承認後にCreamをインストールし、完了後にご連絡します。</span></li></ol></article><article class='cream-setup__card'><div class='cream-setup__title'><span class='cream-setup__number' aria-hidden='true'>02</span><h3>Shopifyストアをお持ちでない方</h3></div><ol class='cream-setup__steps'><li><span>Creamをカートに入れ、無料の購入手続きを進めます。</span></li><li><span>カートの注文メモに、<span class='cream-setup__memo'>「Shopifyストアを持っていません」</span>とご記入ください。</span></li><li><span>SOLSTARがストア開設からCreamの導入までご案内します。Creamをインストールした状態でお渡しすることも可能です。</span></li></ol></article></div></div></section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
@@ -414,6 +395,7 @@
   },
   "order": [
     "main",
+    "section_custom_code_cream_pdp_onboarding",
     "related",
     "section_announcement_qnCgXe",
     "section_video_niFPGy",
@@ -423,7 +405,6 @@
     "section_social_videos_TmagUz",
     "section_custom_code_cream_pdp_included",
     "section_custom_code_cream_pdp_compare",
-    "section_custom_code_cream_pdp_onboarding",
     "section_custom_code_cream_pdp_support"
   ]
 }
