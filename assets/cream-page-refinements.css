@@ -120,11 +120,8 @@ body .cream-value__icon > svg {
   height: 28px;
   color: var(--BTN-PRIMARY-BG);
   fill: currentColor;
-  stroke: currentColor;
-  stroke-width: calc(var(--ICON-STROKE-WIDTH) * 0.08);
-  stroke-linejoin: round;
-  paint-order: stroke fill;
-  vector-effect: non-scaling-stroke;
+  stroke: none;
+  stroke-width: 0;
 }
 
 /* Match the Standard Plan color system for the value section. */
