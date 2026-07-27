@@ -84,7 +84,14 @@
           "type": "description",
           "settings": {
             "show_read_more": false,
-            "padding_bottom": 0
+            "padding_bottom": 50
+          }
+        },
+        "divider_PLhNcH": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 40
           }
         },
         "code_zWwzMw": {
@@ -103,6 +110,7 @@
         "variants",
         "buttons",
         "description_VrLr9g",
+        "divider_PLhNcH",
         "code_zWwzMw"
       ],
       "settings": {
