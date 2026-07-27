@@ -19,6 +19,14 @@ body .cream-quality {
   padding: 96px 24px;
 }
 
+body .index-image-text.section-padding,
+body .accordion-group.section-padding,
+body .index-rte.section-padding,
+body .index-contact.section-padding {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 body .hero__subheading {
   color: var(--cream-page-primary, #ab8c52);
 }
@@ -58,13 +66,15 @@ body .cream-quality h2 {
   line-height: 1.2;
 }
 
+body .cream-value__eyebrow,
 body .cream-fit__eyebrow,
 body .cream-japan__eyebrow,
-body .cream-tabs__head p,
-body .cream-design__eyebrow {
+body .cream-tabs__head .hero__subheading,
+body .cream-design__eyebrow,
+body .cream-usecases__eyebrow,
+body .cream-quality__eyebrow {
   margin: 0 0 12px;
   color: var(--cream-page-primary);
-  letter-spacing: 0.12em;
 }
 
 body .cream-fit__lead,
@@ -113,18 +123,95 @@ body .cream-japan__icon img {
   height: 28px;
 }
 
+body .cream-value__icon-svg,
+body .cream-value__icon > svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: var(--BTN-PRIMARY-BG);
+  fill: currentColor;
+  stroke: none;
+  stroke-width: 0;
+}
+
+body .cream-japan__icon > svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: var(--BTN-PRIMARY-BG);
+  fill: currentColor;
+  stroke: none;
+  stroke-width: 0;
+}
+
+body .cream-quality__icon > svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+  color: var(--BTN-PRIMARY-BG);
+  fill: currentColor;
+  stroke: none;
+  stroke-width: 0;
+}
+
+/* Match the Standard Plan color system for the value section. */
+body .cream-value {
+  background: var(--COLOR-BG);
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-value h2 {
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-value__grid {
+  gap: 24px;
+}
+
+body .cream-value__card {
+  padding: 36px 32px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--COLOR-TEXT-A5);
+  box-shadow: none;
+  color: var(--COLOR-TEXT);
+  text-align: center;
+}
+
+body .cream-value__icon {
+  margin: 0 auto 24px;
+  border: 0;
+  background: color-mix(in srgb, var(--BTN-PRIMARY-BG) 12%, transparent);
+}
+
+body .cream-value__card h3 {
+  color: var(--COLOR-TEXT);
+  text-align: center;
+}
+
+body .cream-value__card p {
+  color: var(--COLOR-TEXT-A80);
+  text-align: center;
+}
+
 body .cream-value__card h3,
 body .cream-quality__card h3 {
   margin: 0 0 12px;
-  color: var(--cream-page-text);
   line-height: 1.45;
+}
+
+body .cream-quality__card h3 {
+  color: var(--cream-page-text);
 }
 
 body .cream-value__card p,
 body .cream-quality__card p {
   margin: 0;
-  color: var(--cream-page-muted);
   line-height: 1.85;
+}
+
+body .cream-quality__card p {
+  color: var(--cream-page-muted);
 }
 
 /* Best fit */
@@ -440,6 +527,19 @@ body .cream-design__badges {
   color: var(--cream-page-text);
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+body .cream-design__palette h3,
+body .cream-design__type h3,
+body .cream-design__badges h3 {
+  min-height: 2.8em;
+  margin: 0 0 14px;
+  color: var(--cream-page-text);
+  line-height: 1.4;
+  text-align: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -447,7 +547,7 @@ body .cream-design__swatches {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 32px;
+  margin: 0;
 }
 
 body .cream-design__swatches span {
@@ -476,7 +576,6 @@ body .cream-design__swatches span:nth-child(4) {
   background: var(--cream-page-accent);
 }
 
-body .cream-design__type h3,
 body .cream-design__type p {
   margin: 0;
 }
@@ -489,7 +588,7 @@ body .cream-design__badge-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 14px;
+  margin: 0;
 }
 
 body .cream-design__badge-row span {
@@ -520,6 +619,163 @@ body .cream-design__stat strong {
   margin-bottom: 12px;
   color: var(--cream-page-primary);
   line-height: 1;
+}
+
+/* Standard Plan styling for fit, Japan, no-code design, and quality sections. */
+body .cream-fit,
+body .cream-japan,
+body .cream-design,
+body .cream-quality {
+  background: var(--COLOR-BG);
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-fit h2,
+body .cream-japan h2,
+body .cream-design h2,
+body .cream-quality h2 {
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-value__eyebrow,
+body .cream-fit__eyebrow,
+body .cream-japan__eyebrow,
+body .cream-design__eyebrow,
+body .cream-usecases__eyebrow,
+body .cream-quality__eyebrow {
+  color: var(--BTN-PRIMARY-BG);
+}
+
+body .cream-fit__lead,
+body .cream-japan__lead,
+body .cream-design__inner > div:first-child > p:last-child {
+  color: var(--COLOR-TEXT-A80);
+}
+
+body .cream-fit__list li,
+body .cream-japan__card,
+body .cream-design__palette,
+body .cream-design__type,
+body .cream-design__badges,
+body .cream-design__stat,
+body .cream-quality__card {
+  border: 0;
+  border-radius: 12px;
+  background: var(--COLOR-TEXT-A5);
+  box-shadow: none;
+  color: var(--COLOR-TEXT);
+  text-align: center;
+}
+
+body .cream-fit__list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .cream-fit__list li::before {
+  color: color-mix(in srgb, var(--BTN-PRIMARY-BG) 10%, transparent);
+}
+
+body .cream-fit__list li:hover,
+body .cream-japan__card:hover {
+  box-shadow: none;
+  transform: translateY(-3px);
+}
+
+body .cream-fit__list strong,
+body .cream-japan__card h3,
+body .cream-design__palette h3,
+body .cream-design__type h3,
+body .cream-design__badges h3,
+body .cream-quality__card h3 {
+  color: var(--COLOR-TEXT);
+  text-align: center;
+}
+
+body .cream-fit__list li div span,
+body .cream-japan__card p,
+body .cream-design__type p,
+body .cream-quality__card p {
+  color: var(--COLOR-TEXT-A80);
+  text-align: center;
+}
+
+body .cream-japan__card {
+  align-items: center;
+}
+
+body .cream-japan__icon,
+body .cream-quality__icon {
+  margin-right: auto;
+  margin-left: auto;
+  border: 0;
+  background: color-mix(in srgb, var(--BTN-PRIMARY-BG) 12%, transparent);
+}
+
+body .cream-japan__compare {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+body .cream-japan__side {
+  background: var(--COLOR-TEXT-A5);
+  color: var(--COLOR-TEXT);
+  text-align: left;
+}
+
+body .cream-japan__side.is-cream {
+  background: var(--BTN-PRIMARY-BG);
+  color: var(--BTN-PRIMARY-TEXT);
+}
+
+body .cream-japan__side h3,
+body .cream-japan__side p,
+body .cream-japan__side li {
+  color: inherit;
+}
+
+body .cream-design__palette,
+body .cream-design__type,
+body .cream-design__badges {
+  align-items: center;
+}
+
+body .cream-design__swatches {
+  justify-content: center;
+}
+
+body .cream-design__swatches span {
+  border-color: var(--COLOR-BG);
+}
+
+body .cream-design__swatches span:first-child {
+  background: var(--COLOR-BG);
+}
+
+body .cream-design__swatches span:nth-child(2),
+body .cream-design__stat strong {
+  color: var(--BTN-PRIMARY-BG);
+  background: var(--BTN-PRIMARY-BG);
+}
+
+body .cream-design__stat strong {
+  background: transparent;
+}
+
+body .cream-design__badge-row {
+  justify-content: center;
+}
+
+body .cream-design__badge-row span {
+  border: 0;
+  background: color-mix(in srgb, var(--BTN-PRIMARY-BG) 12%, transparent);
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-quality__icon {
+  margin-bottom: 24px;
 }
 
 /* Industry use cases */
@@ -589,6 +845,14 @@ body .cream-usecases__card p {
 }
 
 @media (max-width: 899px) {
+  body .index-image-text.section-padding,
+  body .accordion-group.section-padding,
+  body .index-rte.section-padding,
+  body .index-contact.section-padding {
+    padding-top: 68px;
+    padding-bottom: 68px;
+  }
+
   body .cream-value,
   body .cream-fit,
   body .cream-japan,
