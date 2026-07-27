@@ -19,6 +19,14 @@ body .cream-quality {
   padding: 96px 24px;
 }
 
+body .index-image-text.section-padding,
+body .accordion-group.section-padding,
+body .index-rte.section-padding,
+body .index-contact.section-padding {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 body .hero__subheading {
   color: var(--cream-page-primary, #ab8c52);
 }
@@ -837,6 +845,14 @@ body .cream-usecases__card p {
 }
 
 @media (max-width: 899px) {
+  body .index-image-text.section-padding,
+  body .accordion-group.section-padding,
+  body .index-rte.section-padding,
+  body .index-contact.section-padding {
+    padding-top: 68px;
+    padding-bottom: 68px;
+  }
+
   body .cream-value,
   body .cream-fit,
   body .cream-japan,

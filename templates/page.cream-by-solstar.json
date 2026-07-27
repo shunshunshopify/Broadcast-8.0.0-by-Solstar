@@ -92,8 +92,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 96,
+        "padding_bottom": 96,
         "show_placeholder": true
       }
     },
@@ -234,8 +234,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 96,
+        "padding_bottom": 96,
         "show_placeholder": true
       }
     },
@@ -358,8 +358,8 @@
         "width": "wrapper",
         "columns": "1",
         "color_scheme": "scheme-10",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 96,
+        "padding_bottom": 96
       }
     },
     "section_rich_text_final_cta": {
@@ -427,8 +427,8 @@
         "width": "wrapper",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 0
+        "padding_top": 96,
+        "padding_bottom": 96
       }
     },
     "contact_form_Gq94hq": {
@@ -530,8 +530,8 @@
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 96,
+        "padding_bottom": 96,
         "heading_tag": "automatic"
       }
     }
