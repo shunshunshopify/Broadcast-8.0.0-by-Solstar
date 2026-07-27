@@ -58,13 +58,15 @@ body .cream-quality h2 {
   line-height: 1.2;
 }
 
+body .cream-value__eyebrow,
 body .cream-fit__eyebrow,
 body .cream-japan__eyebrow,
-body .cream-tabs__head p,
-body .cream-design__eyebrow {
+body .cream-tabs__head .hero__subheading,
+body .cream-design__eyebrow,
+body .cream-usecases__eyebrow,
+body .cream-quality__eyebrow {
   margin: 0 0 12px;
   color: var(--cream-page-primary);
-  letter-spacing: 0.12em;
 }
 
 body .cream-fit__lead,
