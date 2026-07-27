@@ -113,7 +113,8 @@ body .cream-japan__icon img {
   height: 28px;
 }
 
-body .cream-value__icon-svg {
+body .cream-value__icon-svg,
+body .cream-value__icon > svg {
   display: block;
   width: 28px;
   height: 28px;
