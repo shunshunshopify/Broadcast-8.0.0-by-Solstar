@@ -94,7 +94,7 @@
             "show_description": true,
             "show_read_more": false,
             "title_1": "導入方法",
-            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
+            "raw_content_1": "<p>すでにShopifyストアをお持ちの方は、お申し込み後に以下の2点をお知らせください。</p><ol><li>ShopifyストアURL（例：〇〇.myshopify.com）</li><li>コラボレーターリクエストコード</li></ol><p>コードは、Shopify管理画面の「設定」→「ユーザー」→「セキュリティ」→「コラボレーター」で確認できます。</p><p>SOLSTARから届く申請をご承認いただいた後、Creamをインストールし、完了後にご連絡します。</p>",
             "title_2": "",
             "raw_content_2": "",
             "title_3": "",
