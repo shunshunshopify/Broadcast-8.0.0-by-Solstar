@@ -517,6 +517,19 @@ body .cream-design__badges {
   color: var(--cream-page-text);
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+body .cream-design__palette h3,
+body .cream-design__type h3,
+body .cream-design__badges h3 {
+  min-height: 2.8em;
+  margin: 0 0 14px;
+  color: var(--cream-page-text);
+  line-height: 1.4;
+  text-align: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -524,7 +537,7 @@ body .cream-design__swatches {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 32px;
+  margin: 0;
 }
 
 body .cream-design__swatches span {
@@ -553,7 +566,6 @@ body .cream-design__swatches span:nth-child(4) {
   background: var(--cream-page-accent);
 }
 
-body .cream-design__type h3,
 body .cream-design__type p {
   margin: 0;
 }
@@ -566,7 +578,7 @@ body .cream-design__badge-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 14px;
+  margin: 0;
 }
 
 body .cream-design__badge-row span {
@@ -660,7 +672,9 @@ body .cream-japan__card:hover {
 
 body .cream-fit__list strong,
 body .cream-japan__card h3,
+body .cream-design__palette h3,
 body .cream-design__type h3,
+body .cream-design__badges h3,
 body .cream-quality__card h3 {
   color: var(--COLOR-TEXT);
   text-align: center;
