@@ -140,6 +140,36 @@
   {%- endif -%}
 </div>
 
+{%- assign faq_blocks = section.blocks | where: 'type', 'question' -%}
+{%- assign faq_entity_count = 0 -%}
+{%- capture faq_entities -%}
+  {%- for block in faq_blocks -%}
+    {%- if block.settings.title != blank and block.settings.content != blank -%}
+      {%- if faq_entity_count > 0 -%},{%- endif -%}
+      {
+        "@type": "Question",
+        "name": {{ block.settings.title | strip_html | strip_newlines | json }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ block.settings.content | strip_html | strip_newlines | json }}
+        }
+      }
+      {%- assign faq_entity_count = faq_entity_count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if faq_entity_count > 0 -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {{- faq_entities -}}
+      ]
+    }
+  </script>
+{%- endif -%}
+
 {% schema %}
 {
   "name": "Accordion group",

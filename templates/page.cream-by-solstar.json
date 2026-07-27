@@ -56,7 +56,7 @@
         "text_4MTE9V": {
           "type": "text",
           "settings": {
-            "text": "<p>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。Shopifyで9年以上の構築・運用支援で培ったノウハウをもとに、購入につながる導線やEC運用に必要な機能を標準搭載し、運用しやすいECサイト構築を支援します。<br/><br/><br/>先着100名様限定、ベータ版につき無料で導入いただけます。</p>",
+            "text": "<p>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。Shopifyで9年以上の構築・運用支援で培ったノウハウをもとに、購入につながる導線やEC運用に必要な機能を標準搭載し、運用しやすいECサイト構築を支援します。</p><p class='cream-hero__offer'>先着100名様限定、ベータ版につき無料で導入いただけます。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }

@@ -2,7 +2,6 @@
 body .cream-value,
 body .cream-fit,
 body .cream-japan,
-body .cream-tabs,
 body .cream-design,
 body .cream-usecases,
 body .cream-quality {
@@ -32,6 +31,22 @@ body .hero__subheading {
   color: var(--cream-page-primary, #ab8c52);
 }
 
+body .section-social-videos .grid__heading-holder {
+  margin-bottom: 48px;
+}
+
+body .accordion-group__items > .accordion__subheading {
+  margin: 0 0 12px;
+}
+
+body .accordion-group__items > .accordion__heading {
+  margin: 0 0 48px;
+}
+
+body .cream-hero__offer {
+  margin-top: 48px;
+}
+
 body .cream-mobile-break {
   display: none;
 }
@@ -39,7 +54,6 @@ body .cream-mobile-break {
 body .cream-value__inner,
 body .cream-fit__inner,
 body .cream-japan__inner,
-body .cream-tabs__inner,
 body .cream-design__inner,
 body .cream-usecases__inner,
 body .cream-quality__inner {
@@ -50,7 +64,6 @@ body .cream-quality__inner {
 body .cream-value__head,
 body .cream-fit__head,
 body .cream-japan__head,
-body .cream-tabs__head,
 body .cream-design__inner > div:first-child,
 body .cream-usecases__head,
 body .cream-quality__head {
@@ -62,7 +75,6 @@ body .cream-quality__head {
 body .cream-value h2,
 body .cream-fit h2,
 body .cream-japan h2,
-body .cream-tabs h2,
 body .cream-design h2,
 body .cream-usecases h2,
 body .cream-quality h2 {
@@ -74,7 +86,6 @@ body .cream-quality h2 {
 body .cream-value__eyebrow,
 body .cream-fit__eyebrow,
 body .cream-japan__eyebrow,
-body .cream-tabs__head .hero__subheading,
 body .section-social-videos .hero__subheading,
 body .cream-design__eyebrow,
 body .cream-usecases__eyebrow,
@@ -129,7 +140,6 @@ body .cream-japan__icon img {
   height: 28px;
 }
 
-body .cream-value__icon-svg,
 body .cream-value__icon > svg {
   display: block;
   width: 28px;
@@ -372,143 +382,6 @@ body .cream-japan__side ul {
   line-height: 1.75;
 }
 
-/* Feature accordion */
-body .cream-tabs__set {
-  display: grid;
-  max-width: 920px;
-  gap: 14px;
-  margin: 0 auto;
-  counter-reset: feature;
-}
-
-body .cream-tabs details {
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.045);
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.12);
-  counter-increment: feature;
-  transition: border-color 0.25s ease, background 0.25s ease;
-}
-
-body .cream-tabs details[open] {
-  border-color: rgba(171, 140, 82, 0.62);
-  background: rgba(255, 255, 255, 0.075);
-}
-
-body .cream-tabs summary {
-  position: relative;
-  display: grid;
-  grid-template-columns: 140px minmax(0, 1fr);
-  gap: 24px;
-  align-items: center;
-  padding: 22px 72px 22px 76px;
-  margin: 0;
-  list-style: none;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-body .cream-tabs summary::-webkit-details-marker {
-  display: none;
-}
-
-body .cream-tabs summary::before {
-  content: '0' counter(feature);
-  position: absolute;
-  left: 26px;
-  top: 50%;
-  color: var(--cream-page-primary);
-  letter-spacing: 0.08em;
-  transform: translateY(-50%);
-}
-
-body .cream-tabs summary .icon-nav-arrow-down {
-  right: 24px;
-  color: currentcolor;
-}
-
-body .cream-tabs summary .icon-nav-arrow-down path {
-  stroke: currentcolor;
-}
-
-body .cream-tabs__summary-title,
-body .cream-tabs__summary-note {
-  display: block;
-}
-
-body .cream-tabs__summary-note {
-  color: var(--cream-page-muted);
-  font-weight: 400;
-  line-height: 1.55;
-}
-
-body .cream-tabs__panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1.02fr) minmax(0, 0.98fr);
-  gap: 36px;
-  padding: 4px 26px 28px;
-}
-
-body .cream-tabs__visual {
-  min-height: 290px;
-  padding: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 16px;
-  background: var(--cream-page-surface);
-  box-shadow: inset 0 1px 0 #ffffff;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
-}
-
-body .cream-tabs__visual span {
-  border: 1px solid rgba(13, 3, 38, 0.08);
-  border-radius: 12px;
-  background: #ffffff;
-  box-shadow: 0 8px 20px rgba(13, 3, 38, 0.08);
-}
-
-body .cream-tabs__visual span:first-child {
-  grid-column: span 2;
-  background: var(--cream-page-primary);
-}
-
-body .cream-tabs__body {
-  display: grid;
-  gap: 14px;
-  align-content: center;
-}
-
-body .cream-tabs__body h3,
-body .cream-tabs__body p {
-  margin: 0;
-}
-
-body .cream-tabs__body p,
-body .cream-tabs__body ul {
-  color: var(--cream-page-muted);
-}
-
-body .cream-tabs__body ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-body .cream-tabs__body li {
-  padding: 8px 12px;
-  border: 1px solid rgba(171, 140, 82, 0.42);
-  border-radius: 999px;
-}
-
-body .cream-tabs [data-collapsible-content] {
-  display: block;
-}
-
 /* No-code design system */
 body .cream-design__inner {
   display: block;
@@ -584,9 +457,6 @@ body .cream-design__swatches span:nth-child(4) {
 
 body .cream-design__type p {
   margin: 0;
-}
-
-body .cream-design__type p {
   color: var(--cream-page-muted);
 }
 
@@ -864,7 +734,6 @@ body .cream-usecases__card p {
   body .cream-value,
   body .cream-fit,
   body .cream-japan,
-  body .cream-tabs,
   body .cream-design,
   body .cream-usecases,
   body .cream-quality {
@@ -873,31 +742,12 @@ body .cream-usecases__card p {
 
   body .cream-japan__grid,
   body .cream-japan__compare,
-  body .cream-tabs__panel,
   body .cream-design__studio {
     grid-template-columns: 1fr;
   }
 
   body .cream-japan__card {
     min-height: 0;
-  }
-
-  body .cream-tabs__panel {
-    gap: 24px;
-    padding: 2px 18px 20px;
-  }
-
-  body .cream-tabs summary {
-    display: block;
-    padding: 20px 54px 20px 58px;
-  }
-
-  body .cream-tabs summary::before {
-    left: 20px;
-  }
-
-  body .cream-tabs__summary-note {
-    margin-top: 5px;
   }
 
   body .cream-design__stats {
@@ -907,6 +757,15 @@ body .cream-usecases__card p {
 }
 
 @media (max-width: 749px) {
+  body .section-social-videos .grid__heading-holder,
+  body .accordion-group__items > .accordion__heading {
+    margin-bottom: 32px;
+  }
+
+  body .cream-hero__offer {
+    margin-top: 32px;
+  }
+
   body .cream-mobile-break {
     display: block;
   }
@@ -914,7 +773,6 @@ body .cream-usecases__card p {
   body .cream-value__head,
   body .cream-fit__head,
   body .cream-japan__head,
-  body .cream-tabs__head,
   body .cream-design__inner > div:first-child,
   body .cream-usecases__head,
   body .cream-quality__head {
@@ -938,8 +796,7 @@ body .cream-usecases__card p {
 
 @media (prefers-reduced-motion: reduce) {
   body .cream-fit__list li,
-  body .cream-japan__card,
-  body .cream-tabs details {
+  body .cream-japan__card {
     transition: none;
   }
 
