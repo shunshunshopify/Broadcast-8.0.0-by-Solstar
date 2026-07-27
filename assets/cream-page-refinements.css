@@ -582,6 +582,158 @@ body .cream-design__stat strong {
   line-height: 1;
 }
 
+/* Standard Plan styling for fit, Japan, no-code design, and quality sections. */
+body .cream-fit,
+body .cream-japan,
+body .cream-design,
+body .cream-quality {
+  background: var(--COLOR-BG);
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-fit h2,
+body .cream-japan h2,
+body .cream-design h2,
+body .cream-quality h2 {
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-fit__eyebrow,
+body .cream-japan__eyebrow,
+body .cream-design__eyebrow {
+  color: var(--BTN-PRIMARY-BG);
+}
+
+body .cream-fit__lead,
+body .cream-japan__lead,
+body .cream-design__inner > div:first-child > p:last-child {
+  color: var(--COLOR-TEXT-A80);
+}
+
+body .cream-fit__list li,
+body .cream-japan__card,
+body .cream-design__palette,
+body .cream-design__type,
+body .cream-design__badges,
+body .cream-design__stat,
+body .cream-quality__card {
+  border: 0;
+  border-radius: 12px;
+  background: var(--COLOR-TEXT-A5);
+  box-shadow: none;
+  color: var(--COLOR-TEXT);
+  text-align: center;
+}
+
+body .cream-fit__list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .cream-fit__list li::before {
+  color: color-mix(in srgb, var(--BTN-PRIMARY-BG) 10%, transparent);
+}
+
+body .cream-fit__list li:hover,
+body .cream-japan__card:hover {
+  box-shadow: none;
+  transform: translateY(-3px);
+}
+
+body .cream-fit__list strong,
+body .cream-japan__card h3,
+body .cream-design__type h3,
+body .cream-quality__card h3 {
+  color: var(--COLOR-TEXT);
+  text-align: center;
+}
+
+body .cream-fit__list li div span,
+body .cream-japan__card p,
+body .cream-design__type p,
+body .cream-quality__card p {
+  color: var(--COLOR-TEXT-A80);
+  text-align: center;
+}
+
+body .cream-japan__card {
+  align-items: center;
+}
+
+body .cream-japan__icon,
+body .cream-quality__icon {
+  margin-right: auto;
+  margin-left: auto;
+  border: 0;
+  background: color-mix(in srgb, var(--BTN-PRIMARY-BG) 12%, transparent);
+}
+
+body .cream-japan__compare {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+body .cream-japan__side {
+  background: var(--COLOR-TEXT-A5);
+  color: var(--COLOR-TEXT);
+  text-align: left;
+}
+
+body .cream-japan__side.is-cream {
+  background: var(--BTN-PRIMARY-BG);
+  color: var(--BTN-PRIMARY-TEXT);
+}
+
+body .cream-japan__side h3,
+body .cream-japan__side p,
+body .cream-japan__side li {
+  color: inherit;
+}
+
+body .cream-design__palette,
+body .cream-design__type,
+body .cream-design__badges {
+  align-items: center;
+}
+
+body .cream-design__swatches {
+  justify-content: center;
+}
+
+body .cream-design__swatches span {
+  border-color: var(--COLOR-BG);
+}
+
+body .cream-design__swatches span:first-child {
+  background: var(--COLOR-BG);
+}
+
+body .cream-design__swatches span:nth-child(2),
+body .cream-design__stat strong {
+  color: var(--BTN-PRIMARY-BG);
+  background: var(--BTN-PRIMARY-BG);
+}
+
+body .cream-design__stat strong {
+  background: transparent;
+}
+
+body .cream-design__badge-row {
+  justify-content: center;
+}
+
+body .cream-design__badge-row span {
+  border: 0;
+  background: color-mix(in srgb, var(--BTN-PRIMARY-BG) 12%, transparent);
+  color: var(--COLOR-TEXT);
+}
+
+body .cream-quality__icon {
+  margin-bottom: 24px;
+}
+
 /* Industry use cases */
 body .cream-usecases__grid {
   display: grid;
