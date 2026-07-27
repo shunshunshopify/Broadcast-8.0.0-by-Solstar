@@ -20,6 +20,7 @@ body .cream-quality {
 }
 
 body .index-image-text.section-padding,
+body .section-social-videos.section-padding,
 body .accordion-group.section-padding,
 body .index-rte.section-padding,
 body .index-contact.section-padding {
@@ -850,6 +851,7 @@ body .cream-usecases__card p {
 
 @media (max-width: 899px) {
   body .index-image-text.section-padding,
+  body .section-social-videos.section-padding,
   body .accordion-group.section-padding,
   body .index-rte.section-padding,
   body .index-contact.section-padding {

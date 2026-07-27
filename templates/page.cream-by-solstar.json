@@ -163,14 +163,79 @@
       }
     },
     "section_custom_code_cream_features": {
-      "type": "section-custom-code",
-      "name": "Feature tabs",
+      "type": "section-social-videos",
+      "blocks": {
+        "video_pJYVtC": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Thumbnail_3_copy.webp",
+            "video": "shopify://files/videos/Sticky Add to Cart Feature_4a3b83de-fe65-477c-a843-fa42606043e7.mp4",
+            "badge_text": "",
+            "heading": "追従カート",
+            "heading_font_size": "heading-small",
+            "text": "<p>スクロール中も購入ボタンを表示し、商品情報を読みながらスムーズに購入へ進めます。</p>",
+            "text_font_size": "body-small"
+          }
+        },
+        "video_EDcV6F": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Thumbnail_copy_fabe0d37-fb14-4bf7-92bb-9038ba847a82.webp",
+            "video": "shopify://files/videos/Wishlist feature.mp4",
+            "badge_text": "",
+            "heading": "お気に入り",
+            "heading_font_size": "heading-small",
+            "text": "<p>気になる商品をお気に入りに保存し、あとから比較・検討しやすい購入体験を提供します。</p>",
+            "text_font_size": "body-small"
+          }
+        },
+        "video_M3Axhc": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Thunbnail_copy.webp",
+            "video": "shopify://files/videos/SEO Focused Video_b57d75e8-5820-4ad0-8855-05ce8a39e0b2.mp4",
+            "badge_text": "",
+            "heading": "SEOに配慮したテーマ設計",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品ページやコレクションページを整理しやすい構造で、SEOに配慮したECサイト運営をサポートします。</p>",
+            "text_font_size": "body-small"
+          }
+        },
+        "video_Xc8Ttf": {
+          "type": "video",
+          "settings": {
+            "image": "shopify://shop_images/Thumbnail_Responsive_copy.webp",
+            "video": "shopify://files/videos/Responsive video.mp4",
+            "badge_text": "",
+            "heading": "レスポンシブUI",
+            "heading_font_size": "heading-small",
+            "text": "<p>スマートフォンからデスクトップまで、見やすく操作しやすい購入体験を実現します。</p>",
+            "text_font_size": "body-small"
+          }
+        }
+      },
+      "block_order": [
+        "video_pJYVtC",
+        "video_EDcV6F",
+        "video_M3Axhc",
+        "video_Xc8Ttf"
+      ],
+      "name": "Social videos",
       "settings": {
-        "code": "<section class='cream-tabs' id='cream-features'><div class='cream-tabs__inner'><div class='cream-tabs__head'><p class='hero__subheading'>Feature showcase</p><h2>ECサイトの購入体験と運用を<br class='cream-mobile-break'>支える機能を標準搭載。</h2></div><collapsible-elements class='cream-tabs__set' single='true'><details data-collapsible open='true'><summary data-collapsible-trigger><span class='cream-tabs__summary-title'>購入体験</span><span class='cream-tabs__summary-note'>商品を探して購入するまで</span>{% render 'icon-nav-arrow-down' %}</summary><div class='cream-tabs__body-wrap' style='height: auto;' data-collapsible-body><div class='cream-tabs__content' data-collapsible-content><div class='cream-tabs__panel'><div class='cream-tabs__visual'><span></span><span></span><span></span></div><div class='cream-tabs__body'><h3>迷わず購入できる導線へ。</h3><p>追従カートやQuick add、予測検索UIを使い、商品を探すところから購入までの流れをスムーズに整えます。</p><ul><li>追従カート</li><li>Quick add</li><li>予測検索UI</li></ul></div></div></div></div></details><details data-collapsible><summary data-collapsible-trigger><span class='cream-tabs__summary-title'>商品訴求</span><span class='cream-tabs__summary-note'>魅力と利用シーンを伝える</span>{% render 'icon-nav-arrow-down' %}</summary><div class='cream-tabs__body-wrap' data-collapsible-body><div class='cream-tabs__content' data-collapsible-content><div class='cream-tabs__panel'><div class='cream-tabs__visual'><span></span><span></span><span></span></div><div class='cream-tabs__body'><h3>写真だけでは伝わりにくい魅力まで伝える。</h3><p>Shop the look、Before & after、Countdown timerを使い、商品の特徴や利用シーン、お得感を分かりやすく伝えます。</p><ul><li>Shop the look</li><li>Before & after</li><li>Countdown timer</li></ul></div></div></div></div></details><details data-collapsible><summary data-collapsible-trigger><span class='cream-tabs__summary-title'>ブランド演出</span><span class='cream-tabs__summary-note'>世界観とストーリーを表現</span>{% render 'icon-nav-arrow-down' %}</summary><div class='cream-tabs__body-wrap' data-collapsible-body><div class='cream-tabs__content' data-collapsible-content><div class='cream-tabs__panel'><div class='cream-tabs__visual'><span></span><span></span><span></span></div><div class='cream-tabs__body'><h3>ブランドらしさが伝わる第一印象へ。</h3><p>Hero、Slideshow、Video intro、Splash screenを使い、ブランドの世界観やストーリーを印象的に表現できます。</p><ul><li>Hero video</li><li>Slideshow</li><li>Video intro</li></ul></div></div></div></div></details><details data-collapsible><summary data-collapsible-trigger><span class='cream-tabs__summary-title'>回遊・検索</span><span class='cream-tabs__summary-note'>欲しい商品へ迷わず案内</span>{% render 'icon-nav-arrow-down' %}</summary><div class='cream-tabs__body-wrap' data-collapsible-body><div class='cream-tabs__content' data-collapsible-content><div class='cream-tabs__panel'><div class='cream-tabs__visual'><span></span><span></span><span></span></div><div class='cream-tabs__body'><h3>欲しい商品へ迷わずたどり着ける。</h3><p>Mega menu、Collection links、Search popdownを組み合わせ、商品数が増えても探しやすいECサイトを構築できます。</p><ul><li>Mega menu</li><li>Collection links</li><li>Search popdown</li></ul></div></div></div></div></details><details data-collapsible><summary data-collapsible-trigger><span class='cream-tabs__summary-title'>信頼・再訪</span><span class='cream-tabs__summary-note'>購入前後の接点をつくる</span>{% render 'icon-nav-arrow-down' %}</summary><div class='cream-tabs__body-wrap' data-collapsible-body><div class='cream-tabs__content' data-collapsible-content><div class='cream-tabs__panel'><div class='cream-tabs__visual'><span></span><span></span><span></span></div><div class='cream-tabs__body'><h3>購入を迷うユーザーとの接点をつくる。</h3><p>Testimonials、Wishlist、Newsletterを使い、購入前の安心感と、あとから戻って購入できるきっかけを作れます。</p><ul><li>Testimonials</li><li>Wishlist</li><li>Newsletter</li></ul></div></div></div></div></details></collapsible-elements></div></section>",
-        "width": "wrapper--full",
+        "heading": "CREAMの標準機能",
+        "heading_font_size": "heading-medium",
+        "text": "<p>Creamの主要機能を動画でご紹介します。実際の動きをご確認ください。</p>",
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "aspect_ratio": 1.5,
+        "layout_desktop": "grid",
+        "blocks_per_row": 4,
+        "layout_mobile": "slider",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 96,
+        "padding_bottom": 96,
+        "heading_tag": "automatic"
       }
     },
     "section_custom_code_cream_design": {
