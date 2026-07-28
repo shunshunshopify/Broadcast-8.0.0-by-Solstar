@@ -702,7 +702,7 @@
         "button_size": "",
         "button_style": "btn--text",
         "show_arrow": true,
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "color_scheme": "scheme-10",
