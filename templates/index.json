@@ -1153,7 +1153,7 @@
         "image_1": "shopify://shop_images/Secret_Doc_copy.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
-        "layout": "",
+        "layout": "is-reversed",
         "width": "wrapper--full-padded",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
