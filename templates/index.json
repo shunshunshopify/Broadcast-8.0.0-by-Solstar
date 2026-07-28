@@ -794,7 +794,7 @@
       ],
       "name": "Newsletter",
       "settings": {
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "height": "three-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
         "color_scheme": "scheme-10",
