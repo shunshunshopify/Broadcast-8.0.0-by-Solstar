@@ -678,7 +678,7 @@
         "featured_post_CbFCdc": {
           "type": "featured_post",
           "settings": {
-            "featured_post": "marketing/ec-cvr-improvement-checklist",
+            "featured_post": "marketing/ai-search-marketing-strategy",
             "subheading": "Featured post"
           }
         }
@@ -1081,6 +1081,7 @@
       ],
       "settings": {
         "heading_font_size": "heading-medium",
+        "heading_color": "",
         "question_font_size": "heading-small",
         "width": "wrapper",
         "columns": "2",
