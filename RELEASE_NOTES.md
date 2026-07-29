@@ -1,5 +1,57 @@
 # Release Notes
 
+## 2026-07-29
+
+### Added
+
+- トップページ、Basic プランページ、リサイクルショップ向け EC ページで重複していた実績カウンターを、テーマエディタから数値・小数桁・接尾辞・ラベルを管理できる共通セクション `sections/solstar-stats.liquid` として追加しました。
+- Basic プランページとリサイクルショップ向け EC ページのコンセプトセクションに、共通 CSS・表示アニメーションを提供する `sections/solstar-concept-foundation.liquid` と `snippets/solstar-concept-foundation.liquid` を追加しました。
+- お問い合わせ CTA を対象のフォームへスクロールさせる共通実装として、`sections/solstar-contact-scroll.liquid` と `snippets/solstar-contact-scroll.liquid` を追加しました。
+- 実績カウンターとコンセプトセクションのアニメーションに `prefers-reduced-motion` 対応を追加しました。
+
+### Changed
+
+- 記事の構造化データを `https://schema.org` に統一し、canonical URL を使用した `@id` / `url` / `mainEntityOfPage`、記事画像、`dateModified`、言語、著者プロフィール、共通 Organization 参照を出力する構成へ変更しました。
+- Organization 構造化データの URL と `@id` をサイト単位で統一し、空の SNS URL を `sameAs` から除外しました。WebSite 構造化データも共通 Organization を参照する構成へ変更しました。
+- Google のサイトリンク検索ボックス廃止に伴い、WebSite 構造化データから不要になった `SearchAction` を削除しました。
+- Instagram の設定 URL から計測用クエリパラメータを削除し、正規プロフィール URL に統一しました。
+- Basic プランページとリサイクルショップ向け EC ページのコンセプト用 CSS・JavaScriptを共通スニペットへ集約しました。
+- Basic プランページとリサイクルショップ向け EC ページの JSON テンプレートから専用セクションを直接参照し、Theme Check がスニペットの依存関係を静的に追跡できる構成へ変更しました。
+- トップページのお客様画像の代替テキストを汎用的な `Client Image` から企業名を含む内容へ変更し、スライド切り替え時にも代替テキストが更新されるようにしました。
+
+### Fixed
+
+- 記事構造化データの URL が記事ページではなくトップページを指す可能性がある問題を修正しました。
+- 記事画像に `image_url` を適用する対象が Article オブジェクトになっていた問題を修正しました。
+- 全記事に同一の ProfilePage 構造化データが重複出力される問題を解消し、対象著者の記事から Person エンティティを参照する方式へ変更しました。
+- Organization 構造化データの URL が閲覧ページごとに変化する問題と、空文字の SNS URL が出力される問題を修正しました。
+- Twitter Card が存在しない `social_twitter_link` 設定を参照していた問題を修正し、実際の `twitter_link` 設定からアカウント名を取得するようにしました。
+- パスワードページの Shopify リンクで `rel` 属性が重複していた不正な HTML を修正しました。
+- Solstar Express ページで全ての `.btn` リンクをお問い合わせフォームへ強制的に書き換えていた処理を削除しました。
+- Basic プランページとリサイクルショップ向け EC ページのスクロール処理を、明示的にお問い合わせ先を指定した CTA のみに限定しました。
+- JSON テンプレート内の動的な `render` が静的参照として認識されず、`solstar-concept-foundation.liquid` と `solstar-contact-scroll.liquid` に `OrphanedSnippet` 診断が表示される問題を修正しました。
+
+### Performance
+
+- 3ページに重複していた実績カウンターの HTML・CSS・JavaScriptを共通セクションへ移動しました。
+- Basic プランページとリサイクルショップ向け EC ページに重複していたコンセプト用 CSS・JavaScriptとお問い合わせスクロール処理を共通化しました。
+- JSON テンプレート内の Custom Code を 76 セクション・約 364KB から 73 セクション・約 323KB へ削減しました。
+- 参照されていなかった `assets/basic-plan.css` を削除しました。
+
+### Verification
+
+- 通常設定の `shopify theme check`: passed with no offenses.
+- 厳格設定の `theme-check:all`: `OrphanedSnippet` 0件。既存の `AssetSizeCSS` / `AssetSizeJavaScript` 16件のみ確認しました。
+- Shopify Liquid validator: 変更したセクション、スニペット、JSON テンプレートがすべて passed.
+- テンプレート JSON 38ファイルの parsing passed.
+- 新規 JavaScript の syntax check passed.
+- `git diff --check`: passed.
+
+### Remaining Notes
+
+- Standard プランページ固有のテンプレートと Custom Code は今回の変更対象外です。
+- 厳格 Theme Check に残る CSS・JavaScript 容量16件は、Broadcast 本体のバンドル分割や import-on-interaction を含む別のパフォーマンス改修として対応します。
+
 ## 2026-06-19
 
 ### Added

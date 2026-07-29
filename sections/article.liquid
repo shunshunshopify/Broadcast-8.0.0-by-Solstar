@@ -17,6 +17,18 @@
   assign audio_metafield_key = section.settings.audio_metafield_key | default: 'audio_link'
   assign audio_metafield = article.metafields[audio_metafield_namespace][audio_metafield_key]
   assign audio_url = blank
+  assign organization_id = shop.url | append: '/#organization'
+  assign article_id = canonical_url | append: '#article'
+  assign article_description = article.excerpt | strip_html | strip
+  assign article_modified_at = article.updated_at | default: article.published_at
+  assign normalized_article_author = article.author | remove: ' '
+  assign article_author_profile_url = blank
+  if normalized_article_author == '島袋隼'
+    assign article_author_profile_url = shop.url | append: '/pages/author-shimabukuroshun'
+  endif
+  if article_description == blank
+    assign article_description = article.content | strip_html | strip | truncate: 300
+  endif
   case audio_metafield.type
     when 'file_reference'
       assign audio_url = audio_metafield.value.url
@@ -591,32 +603,36 @@
 
 <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Article",
-    "articleBody": {{ article.content | strip_html | json }},
+    "@id": {{ article_id | json }},
+    "url": {{ canonical_url | json }},
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": {{ shop.url | append: page.url | json }}
+      "@id": {{ canonical_url | json }}
     },
     "headline": {{ article.title | json }},
-    {% if article.excerpt != blank %}
-      "description": {{ article.excerpt | strip_html | json }},
+    {% if article_description != blank %}
+      "description": {{ article_description | json }},
     {% endif %}
     {% if article.image %}
       "image": [
-        {{ article | image_url: article.image.width | prepend: "https:" | json }}
+        {{ article.image | image_url: width: article.image.width | prepend: "https:" | json }}
       ],
     {% endif %}
-    "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
-    "dateCreated": {{ article.created_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+    "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+    "dateModified": {{ article_modified_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+    "dateCreated": {{ article.created_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
     "author": {
       "@type": "Person",
-      "name": {{ article.author | json }}
+      "name": {{ article.author | json }}{% if article_author_profile_url != blank %},
+      "@id": {{ article_author_profile_url | append: '#person' | json }},
+      "url": {{ article_author_profile_url | json }}{% endif %}
     },
     "publisher": {
-      "@type": "Organization",
-      "name": {{ shop.name | json }}
-    }
+      "@id": {{ organization_id | json }}
+    },
+    "inLanguage": {{ request.locale.iso_code | json }}
   }
 </script>
 

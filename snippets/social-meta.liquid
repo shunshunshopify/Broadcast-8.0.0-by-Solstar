@@ -33,8 +33,12 @@
   <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
 {%- endif -%}
 
-{%- if settings.social_twitter_link != blank -%}
-  <meta name="twitter:site" content="{{ settings.social_twitter_link | split: 'twitter.com/' | last | prepend: '@' }}">
+{%- if settings.twitter_link != blank -%}
+  {%- assign twitter_url = settings.twitter_link | split: '?' | first -%}
+  {%- assign twitter_handle = twitter_url | split: '/' | last | remove: '@' -%}
+  {%- if twitter_handle != blank -%}
+    <meta name="twitter:site" content="@{{ twitter_handle | escape }}">
+  {%- endif -%}
 {%- endif -%}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ og_title | escape }}">

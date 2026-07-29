@@ -538,44 +538,71 @@
 
 <div class="header__backfill" data-header-backfill></div>
 
+{%- liquid
+  assign organization_id = shop.url | append: '/#organization'
+  assign website_id = shop.url | append: '/#website'
+  capture organization_social_links
+    echo settings.twitter_link
+    echo '|||'
+    echo settings.facebook_link
+    echo '|||'
+    echo settings.instagram_link
+    echo '|||'
+    echo settings.pinterest_link
+    echo '|||'
+    echo settings.youtube_link
+    echo '|||'
+    echo settings.tiktok_link
+    echo '|||'
+    echo settings.linkedin_link
+    echo '|||'
+    echo settings.vimeo_link
+    echo '|||'
+    echo settings.snapchat_link
+    echo '|||'
+    echo settings.tumblr_link
+    echo '|||'
+    echo settings.feed_link
+  endcapture
+  assign organization_social_links = organization_social_links | split: '|||'
+-%}
+
 <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": {{ organization_id | json }},
     "name": {{ shop.name | json }},
     {% if logo %}
       "logo": {{ logo | image_url: width: 500 | prepend: "https:" | json }},
     {% endif %}
     "sameAs": [
-      {{ settings.twitter_link | json }},
-      {{ settings.facebook_link | json }},
-      {{ settings.instagram_link | json }},
-      {{ settings.pinterest_link | json }},
-      {{ settings.youtube_link | json }},
-      {{ settings.tiktok_link | json }},
-      {{ settings.linkedin_link | json }},
-      {{ settings.vimeo_link | json }},
-      {{ settings.snapchat_link | json }},
-      {{ settings.tumblr_link | json }},
-      {{ settings.feed_link | json }}
+      {%- assign social_link_written = false -%}
+      {%- for social_link in organization_social_links -%}
+        {%- assign normalized_social_link = social_link | strip -%}
+        {%- if normalized_social_link != blank -%}
+          {%- if social_link_written -%},{%- endif -%}
+          {{ normalized_social_link | json }}
+          {%- assign social_link_written = true -%}
+        {%- endif -%}
+      {%- endfor -%}
     ],
-    "url": {{ shop.url | append: page.url | json }}
+    "url": {{ shop.url | json }}
   }
 </script>
 
 {%- if template.name == 'index' -%}
-  {%- assign potential_action_target = shop.url | append: '/search?q={search_term_string}' -%}
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": {{ website_id | json }},
       "name": {{ shop.name | json }},
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {{ potential_action_target | json }},
-        "query-input": "required name=search_term_string"
+      "url": {{ shop.url | json }},
+      "publisher": {
+        "@id": {{ organization_id | json }}
       },
-      "url": {{ shop.url | append: page.url | json }}
+      "inLanguage": {{ request.locale.iso_code | json }}
     }
   </script>
 {%- endif -%}
