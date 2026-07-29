@@ -2,14 +2,13 @@
 
 {%- liquid
   assign color_scheme = 'color-' | append: section.settings.color_scheme
-  assign news_menu = linklists[section.settings.menu]
-  assign menu_links = news_menu.links
-  assign article_links = menu_links | where: 'type', 'article_link'
-  assign blog_link = menu_links | where: 'type', 'blog_link' | first
+  assign blog = blogs[section.settings.blog_name]
   assign heading = section.settings.heading
   assign heading_tag = 'h2'
   assign article_heading_tag = 'h3'
   assign max_articles = 5
+  assign article_count = blog.articles_count | default: 0
+  assign visible_articles = blog.articles | slice: 0, max_articles
   assign animation_anchor = '#News--' | append: section.id
   assign default_heading = 'home_page.sections.news_title' | t
 
@@ -29,35 +28,6 @@
     when 'h5', 'h6'
       assign article_heading_tag = 'h6'
   endcase
-
-  if article_links.size == 0
-    for menu_link in menu_links
-      assign child_article_links = menu_link.links | where: 'type', 'article_link'
-
-      if child_article_links.size > 0
-        assign article_links = child_article_links
-
-        if menu_link.type == 'blog_link'
-          assign blog_link = menu_link
-        endif
-
-        break
-      endif
-    endfor
-  endif
-
-  assign article_count = article_links.size
-  assign visible_article_links = article_links | slice: 0, max_articles
-  assign blog_url = blog_link.url
-  assign first_article_link = visible_article_links | first
-  assign first_article = first_article_link.object
-
-  if blog_url == blank and first_article != blank
-    assign blog_path = first_article.url | split: '/blogs/' | last
-    assign blog_handle = blog_path | split: '/' | first
-    assign article_blog = blogs[blog_handle]
-    assign blog_url = article_blog.url
-  endif
 
   assign view_all_label = section.settings.view_all_label
   if view_all_label == blank
@@ -104,38 +74,34 @@
       <div class="news__content">
         {%- if article_count > 0 -%}
           <ul class="news__list" role="list">
-            {%- for article_link in visible_article_links -%}
-              {%- assign article = article_link.object -%}
+            {%- for article in visible_articles -%}
+              <li
+                class="news__item"
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ forloop.index | plus: 1 }}"
+              >
+                <article class="news__article">
+                  <time
+                    class="news__date body-small"
+                    datetime="{{ article.published_at | date: '%Y-%m-%d' }}"
+                  >
+                    {{- article.published_at | date: format: 'full_date' -}}
+                  </time>
 
-              {%- if article != blank -%}
-                <li
-                  class="news__item"
-                  data-aos="hero"
-                  data-aos-anchor="{{ animation_anchor }}"
-                  data-aos-order="{{ forloop.index | plus: 1 }}"
-                >
-                  <article class="news__article">
-                    <time
-                      class="news__date body-small"
-                      datetime="{{ article.published_at | date: '%Y-%m-%d' }}"
-                    >
-                      {{- article.published_at | date: format: 'full_date' -}}
-                    </time>
+                  <{{ article_heading_tag }} class="news__article-title {{ section.settings.article_title_size }}">
+                    <a href="{{ article.url }}">{{ article.title | escape }}</a>
+                  </{{ article_heading_tag }}>
 
-                    <{{ article_heading_tag }} class="news__article-title {{ section.settings.article_title_size }}">
-                      <a href="{{ article.url }}">{{ article.title | default: article_link.title | escape }}</a>
-                    </{{ article_heading_tag }}>
-
-                    <span class="news__arrow" aria-hidden="true">
-                      {%- render 'icon-nav-arrow-right' -%}
-                    </span>
-                  </article>
-                </li>
-              {%- endif -%}
+                  <span class="news__arrow" aria-hidden="true">
+                    {%- render 'icon-nav-arrow-right' -%}
+                  </span>
+                </article>
+              </li>
             {%- endfor -%}
           </ul>
 
-          {%- if article_count > max_articles and blog_url != blank -%}
+          {%- if article_count > max_articles -%}
             <div
               class="news__footer"
               data-aos="hero"
@@ -143,7 +109,7 @@
               data-aos-order="{{ max_articles | plus: 2 }}"
             >
               <a
-                href="{{ blog_url }}"
+                href="{{ blog.url }}"
                 class="btn {{ section.settings.button_style }} {{ section.settings.button_size }} {{ section.settings.button_type }}"
               >
                 <span>{{ view_all_label | escape }}</span>
@@ -167,20 +133,17 @@
       "@context": "https://schema.org",
       "@type": "ItemList",
       "name": {{ heading | default: default_heading | json }},
-      "numberOfItems": {{ visible_article_links.size }},
+      "numberOfItems": {{ visible_articles.size }},
       "itemListElement": [
-        {%- for article_link in visible_article_links -%}
-          {%- liquid
-            assign article = article_link.object
-            assign absolute_article_url = article.url | prepend: shop.url
-          -%}
+        {%- for article in visible_articles -%}
+          {%- assign absolute_article_url = article.url | prepend: shop.url -%}
           {
             "@type": "ListItem",
             "position": {{ forloop.index }},
             "url": {{ absolute_article_url | json }},
             "item": {
               "@type": "BlogPosting",
-              "headline": {{ article.title | default: article_link.title | json }},
+              "headline": {{ article.title | json }},
               "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%z' | json }},
               "url": {{ absolute_article_url | json }}
             }
@@ -339,10 +302,10 @@
       "content": "Content"
     },
     {
-      "type": "link_list",
-      "id": "menu",
-      "label": "News menu",
-      "info": "Add blog article links in display order. Up to five articles are shown. A nested menu under a blog link is also supported."
+      "type": "blog",
+      "id": "blog_name",
+      "label": "Blog",
+      "info": "The five most recent published articles are shown."
     },
     {
       "type": "text",
@@ -360,7 +323,7 @@
       "type": "text",
       "id": "view_all_label",
       "label": "View all label",
-      "info": "Shown when the selected menu contains more than five article links. Leave blank to use the translated default."
+      "info": "Shown when the selected blog contains more than five published articles. Leave blank to use the translated default."
     },
     {
       "type": "header",
