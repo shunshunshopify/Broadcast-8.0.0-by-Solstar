@@ -530,10 +530,10 @@
       "type": "section-news",
       "name": "News",
       "settings": {
-        "menu": "",
+        "blog_name": "news",
         "subheading": "Latest updates",
-        "heading": "News",
-        "view_all_label": "",
+        "heading": "お知らせ",
+        "view_all_label": "すべてを表示",
         "heading_font_size": "heading-medium",
         "article_title_size": "heading-x-small",
         "button_type": "btn--primary",
