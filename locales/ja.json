@@ -536,6 +536,9 @@
     }
   },
   "sections": {
+    "news": {
+      "view_all": "お知らせ一覧"
+    },
     "quick_order_list": {
       "each": "{{ money }}/点"
     }

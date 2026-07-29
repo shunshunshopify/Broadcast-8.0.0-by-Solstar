@@ -540,6 +540,9 @@
     }
   },
   "sections": {
+    "news": {
+      "view_all": "View all news"
+    },
     "quick_order_list": {
       "each": "{{ money }}/ea"
     }

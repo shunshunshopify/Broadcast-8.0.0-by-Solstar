@@ -587,6 +587,9 @@
     }
   },
   "sections": {
+    "news": {
+      "view_all": "Ver todas as notícias"
+    },
     "quick_order_list": {
       "each": "{{ money }}/un"
     }
