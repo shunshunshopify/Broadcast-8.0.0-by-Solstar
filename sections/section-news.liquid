@@ -159,6 +159,8 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
     gap: clamp(32px, 6vw, 96px);
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   .news__header {
@@ -166,8 +168,14 @@
   }
 
   .news__subheading {
-    margin: 0 0 12px;
-    color: var(--text-light);
+    display: inline-flex;
+    width: fit-content;
+    margin: 0 0 16px;
+    padding: 7px 12px;
+    border-radius: var(--radius);
+    color: var(--BTN-PRIMARY-TEXT);
+    background-color: var(--BTN-PRIMARY-BG);
+    line-height: 1.2;
   }
 
   .news__heading {
@@ -263,6 +271,8 @@
     .news__inner {
       grid-template-columns: minmax(0, 1fr);
       gap: 28px;
+      padding-top: 24px;
+      padding-bottom: 24px;
     }
 
     .news__article {
