@@ -101,7 +101,7 @@
             {%- endfor -%}
           </ul>
 
-          {%- if article_count > max_articles -%}
+          {%- if blog.url != blank -%}
             <div
               class="news__footer"
               data-aos="hero"
@@ -168,14 +168,10 @@
   }
 
   .news__subheading {
-    display: inline-flex;
-    width: fit-content;
-    margin: 0 0 16px;
-    padding: 7px 12px;
-    border-radius: var(--radius);
+    display: inline-block;
+    margin: 0 0 12px;
     color: var(--BTN-PRIMARY-TEXT);
     background-color: var(--BTN-PRIMARY-BG);
-    line-height: 1.2;
   }
 
   .news__heading {
@@ -333,7 +329,7 @@
       "type": "text",
       "id": "view_all_label",
       "label": "View all label",
-      "info": "Shown when the selected blog contains more than five published articles. Leave blank to use the translated default."
+      "info": "Shown when the selected blog contains published articles. Leave blank to use the translated default."
     },
     {
       "type": "header",
