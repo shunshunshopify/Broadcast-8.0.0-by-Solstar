@@ -587,6 +587,9 @@
     }
   },
   "sections": {
+    "news": {
+      "view_all": "Visualizza tutte le notizie"
+    },
     "quick_order_list": {
       "each": "{{ money }}/cad"
     }
