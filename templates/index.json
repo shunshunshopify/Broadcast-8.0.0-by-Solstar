@@ -528,6 +528,9 @@
     },
     "section_news_6NwRA3": {
       "type": "section-news",
+      "custom_css": [
+        ".news__subheading {color: #ab8c52;}"
+      ],
       "name": "News",
       "settings": {
         "blog_name": "news",
