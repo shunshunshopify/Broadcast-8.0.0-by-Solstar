@@ -530,7 +530,7 @@
       "type": "section-news",
       "name": "News",
       "settings": {
-        "menu": "",
+        "blog_name": "news",
         "subheading": "Latest updates",
         "heading": "News",
         "view_all_label": "",
