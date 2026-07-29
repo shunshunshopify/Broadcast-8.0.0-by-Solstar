@@ -16,7 +16,7 @@
         "show_video_popup": false,
         "video_popup_social": "",
         "title": "",
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-large",
         "text": "",
         "text_font_size": "body-medium",
         "flex_align": "align--bottom-center",
@@ -168,7 +168,7 @@
           "type": "heading",
           "settings": {
             "title": "Shopify ECサイト リニューアル",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "heading_tag": "h2",
             "padding_bottom": 8
           }
@@ -237,7 +237,7 @@
           "type": "heading",
           "settings": {
             "title": "モール型ECからの卒業。自社ECを小さく始める",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
           }
@@ -296,8 +296,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-7",
-        "padding_top": 100,
-        "padding_bottom": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_placeholder": true
       }
     },
@@ -315,7 +315,7 @@
           "type": "heading",
           "settings": {
             "title": "Solstar Express",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
           }
@@ -445,7 +445,7 @@
           "type": "heading",
           "settings": {
             "title": "実績と専門性",
-            "heading_font_size": "heading-medium",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
           }
@@ -499,8 +499,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_placeholder": true
       }
     },
@@ -542,7 +542,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-10",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50
       }
     },
@@ -553,7 +553,7 @@
         "code": "<style>\n/* ===============================\n   MODERN AI STYLE - FIXED SIZE CARD (NO TOP PADDING)\n================================ */\n\n.solstar-testimonial {\n  /* 上の余白を0に設定、下はカードの影などを考慮して少し空ける */\n  padding: 0 20px 80px;\n  font-family: \"Inter\", \"Plus Jakarta Sans\", sans-serif;\n  color: #ffffff;\n  background-color: #0D0326;\n  box-sizing: border-box;\n}\n\n.solstar-testimonial-inner {\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n/* セクション見出し (H2) */\n.solstar-heading {\n  font-size: 32px;\n  font-weight: 800;\n  text-align: center;\n  color: #ffffff;\n  \n  /* 上部の余白を削除 */\n  margin-top: 0;\n  padding-top: 0;\n  \n  margin-bottom: 48px; /* カードとの間隔 */\n  letter-spacing: -0.02em;\n}\n\n/* カード全体（コンテナ） */\n.solstar-testimonial-card {\n  background: rgba(255, 255, 255, 0.03);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 24px;\n  padding: 40px;\n  backdrop-filter: blur(12px);\n  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);\n  \n  display: flex;\n  flex-direction: row;\n  gap: 40px;\n  \n  /* PCでの高さを固定 */\n  height: 480px; \n  box-sizing: border-box;\n  overflow: hidden;\n}\n\n/* --- 左側：画像エリア --- */\n.solstar-col-img {\n  flex: 0 0 40%;\n  position: relative;\n  display: flex;\n  align-items: flex-start;\n  height: 100%;\n}\n\n.solstar-img-frame {\n  width: 100%;\n  aspect-ratio: 1 / 1;\n  border-radius: 16px;\n  overflow: hidden;\n  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);\n  max-height: 100%; \n}\n\n.solstar-img-frame img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  transition: opacity 0.3s ease;\n}\n\n/* --- 右側：テキストエリア --- */\n.solstar-col-text {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  text-align: left;\n  height: 100%;\n  padding-top: 10px;\n  box-sizing: border-box;\n}\n\n/* 1. 上部固定：ラベル */\n.solstar-label {\n  font-size: 13px;\n  font-weight: 700;\n  letter-spacing: 0.1em;\n  color: #AB8C52;\n  text-transform: uppercase;\n  margin-bottom: 24px;\n  display: block;\n  flex-shrink: 0;\n}\n\n/* 2. 中間可変エリア：コンテンツ */\n.solstar-content-body {\n  flex-grow: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  overflow: hidden;\n}\n\n/* 引用見出し */\n.solstar-quote-heading {\n  font-size: 26px;\n  font-weight: 700;\n  line-height: 1.4;\n  color: #ffffff;\n  margin-bottom: 20px;\n  \n  display: -webkit-box;\n  -webkit-line-clamp: 3;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n}\n\n/* 本文 */\n.solstar-body-text {\n  font-size: 15px;\n  line-height: 1.7;\n  color: #cbd5e1;\n  \n  display: -webkit-box;\n  -webkit-line-clamp: 4;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n}\n\n/* 3. 下部固定：区切り線とフッター */\n.solstar-divider {\n  width: 100%;\n  height: 1px;\n  background: rgba(255, 255, 255, 0.1);\n  margin-bottom: 24px;\n  margin-top: 24px;\n  flex-shrink: 0;\n}\n\n.solstar-footer {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n.solstar-author-info {\n  display: flex;\n  flex-direction: column;\n}\n\n.solstar-author-name {\n  font-size: 16px;\n  font-weight: 700;\n  color: #ffffff;\n  margin-bottom: 4px;\n}\n\n.solstar-author-role {\n  font-size: 13px;\n  color: #94a3b8;\n}\n\n/* 矢印ボタンエリア */\n.solstar-nav-buttons {\n  display: flex;\n  gap: 12px;\n}\n\n.solstar-btn-arrow {\n  width: 44px;\n  height: 44px;\n  border-radius: 50%;\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  background: rgba(255, 255, 255, 0.05);\n  color: #ffffff;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.2s ease;\n}\n\n.solstar-btn-arrow:hover {\n  background: #AB8C52;\n  border-color: #AB8C52;\n}\n\n/* アニメーション */\n.solstar-anim-fade {\n  animation: solstarFadeIn 0.4s ease-out forwards;\n}\n\n@keyframes solstarFadeIn {\n  from { opacity: 0; transform: translateY(5px); }\n  to { opacity: 1; transform: translateY(0); }\n}\n\n/* --- モバイル対応 --- */\n@media (max-width: 768px) {\n  .solstar-testimonial {\n    padding: 0 20px 60px; /* モバイルも上余白0 */\n  }\n\n  .solstar-heading {\n    font-size: 24px;\n    margin-bottom: 32px;\n    margin-top: 30px;\n  }\n\n  .solstar-testimonial-card {\n    flex-direction: column;\n    padding: 24px;\n    gap: 32px;\n    \n    height: auto; \n    min-height: 600px;\n  }\n\n  .solstar-col-img {\n    flex: auto;\n    width: 100%;\n    height: auto;\n  }\n\n  .solstar-col-text {\n    height: auto;\n    padding-top: 0;\n  }\n  \n  .solstar-label {\n    margin-bottom: 16px;\n  }\n\n  .solstar-quote-heading {\n    font-size: 20px;\n    margin-bottom: 16px;\n    -webkit-line-clamp: 4;\n  }\n  \n  .solstar-body-text {\n    -webkit-line-clamp: 6;\n  }\n  \n  .solstar-divider {\n    margin-top: 32px;\n  }\n  \n  .solstar-footer {\n    flex-wrap: wrap;\n    gap: 20px;\n  }\n  \n  .solstar-nav-buttons {\n    margin-left: auto;\n  }\n}\n</style>\n\n<div class=\"solstar-testimonial\">\n  <div class=\"solstar-testimonial-inner\">\n    \n    <h2 class=\"solstar-heading\">導入企業の声</h2>\n\n    <div class=\"solstar-testimonial-card\">\n      \n      <div class=\"solstar-col-img\">\n        <div class=\"solstar-img-frame\">\n          <img id=\"solstar-img\" src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_5.webp?v=1766473796\" alt=\"合同会社Rsworksの導入事例\">\n        </div>\n      </div>\n\n      <div class=\"solstar-col-text\">\n        <span class=\"solstar-label\">お客様の声</span>\n        \n        <div class=\"solstar-content-body\" id=\"solstar-anim-wrapper\" aria-live=\"polite\">\n            <div class=\"solstar-quote-heading\" id=\"solstar-quote\"></div>\n            <div class=\"solstar-body-text\" id=\"solstar-body\"></div>\n        </div>\n\n        <div class=\"solstar-divider\"></div>\n\n        <div class=\"solstar-footer\">\n          <div class=\"solstar-author-info\">\n            <div class=\"solstar-author-name\" id=\"solstar-title\"></div>\n            <div class=\"solstar-author-role\" id=\"solstar-sub\"></div>\n          </div>\n\n          <div class=\"solstar-nav-buttons\">\n            <button type=\"button\" class=\"solstar-btn-arrow\" id=\"btn-prev\" aria-label=\"前のお客様の声\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 12H5M12 19l-7-7 7-7\"/></svg>\n            </button>\n            <button type=\"button\" class=\"solstar-btn-arrow\" id=\"btn-next\" aria-label=\"次のお客様の声\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg>\n            </button>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<script>\n(function () {\n  const data = [\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_5.webp?v=1766473796\",\n      title: \"合同会社Rsworks\",\n      sub: \"キッチンブランド\",\n      body: \"ブランドの世界観と高級感を保ったECサイトを構築。キャンペーンではLINE登録単価30円、登録者2,306人を達成。\",\n      quote: \"洗練されたクリエイティブセンスで一目置くECサイトを構築していただき、とても満足しています。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_3.webp?v=1766473796\",\n      title: \"PAW MINT\",\n      sub: \"ペットブランド\",\n      body: \"ブランドの世界観をポップに表現したLPを制作。広告施策により2,000名以上のメルマガ登録獲得。\",\n      quote: \"可愛くポップなECサイトを作って頂きました。世界観の表現が素晴らしいです。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_2.webp?v=1766473796\",\n      title: \"株式会社EDGBLACK\",\n      sub: \"キッチンブランド\",\n      body: \"Shopify移行後、公開初月に27万円以上の売上を実現。\",\n      quote: \"とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_1.webp?v=1766473795\",\n      title: \"株式会社ONETREE\",\n      sub: \"スニーカーブランド\",\n      body: \"公式ECサイトを約2か月で立ち上げ、公開初月に12万円以上の売上を達成されました。Shopifyを活用し、ブランドの認知拡大とファンづくりを進められています。\",\n      quote: \"調整にも柔軟に対応してもらえ、安心して任せられました。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_4.webp?v=1766473796\",\n      title: \"SANDY HAZE\",\n      sub: \"水着ブランド\",\n      body: \"英語圏向け越境ECを構築。商品撮影から広告運用まで対応し、3ヶ月で月商100万円を達成。\",\n      quote: \"They made our first e-commerce site look amazing.\"\n    }\n  ];\n\n  let index = 0;\n\n  const imgEl = document.getElementById(\"solstar-img\");\n  const quoteEl = document.getElementById(\"solstar-quote\");\n  const bodyEl = document.getElementById(\"solstar-body\");\n  const titleEl = document.getElementById(\"solstar-title\");\n  const subEl = document.getElementById(\"solstar-sub\");\n  const animWrapper = document.getElementById(\"solstar-anim-wrapper\");\n\n  function render(i) {\n    const d = data[i];\n\n    imgEl.style.opacity = 0;\n    \n    animWrapper.classList.remove('solstar-anim-fade');\n    void animWrapper.offsetWidth; \n    animWrapper.classList.add('solstar-anim-fade');\n\n    setTimeout(() => {\n        imgEl.src = d.img;\n        imgEl.alt = d.title + \"の導入事例\";\n        imgEl.onload = () => { imgEl.style.opacity = 1; };\n        \n        quoteEl.textContent = d.quote; \n        bodyEl.textContent = d.body;\n        titleEl.textContent = d.title;\n        subEl.textContent = d.sub;\n    }, 100);\n  }\n\n  document.getElementById(\"btn-next\").addEventListener(\"click\", () => {\n    index = (index + 1) % data.length;\n    render(index);\n  });\n\n  document.getElementById(\"btn-prev\").addEventListener(\"click\", () => {\n    index = (index - 1 + data.length) % data.length;\n    render(index);\n  });\n\n  render(index);\n})();\n</script>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
+        "padding_top": 50,
         "padding_bottom": 50
       }
     },
@@ -568,7 +568,7 @@
         "subheading": "Latest updates",
         "heading": "お知らせ",
         "view_all_label": "すべてを表示",
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-large",
         "article_title_size": "heading-x-small",
         "button_type": "btn--primary",
         "button_size": "",
@@ -576,8 +576,8 @@
         "show_arrow": true,
         "width": "wrapper",
         "color_scheme": "scheme-10",
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "automatic"
       }
     },
@@ -761,8 +761,8 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_blog_FtdhjN": {
@@ -772,7 +772,7 @@
         "blog_name": "shopify",
         "aspect_ratio": "0.5625",
         "title": "失敗しないECサイト構築のためのShopify戦略ブログ",
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-large",
         "title_font_size": "heading-small",
         "show_tags": false,
         "show_author": true,
@@ -784,8 +784,8 @@
         "rows": 1,
         "enable_mobile_slider": true,
         "color_scheme": "scheme-10",
-        "padding_top": 100,
-        "padding_bottom": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "h2",
         "title_tag": "automatic"
       }
@@ -853,8 +853,8 @@
         "height": "three-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_accordion_tjkJbb": {
@@ -1135,14 +1135,14 @@
         ".accordion__heading {margin-top: 0; text-align: center;}"
       ],
       "settings": {
-        "heading_font_size": "heading-medium",
+        "heading_font_size": "heading-large",
         "heading_color": "",
         "question_font_size": "heading-small",
         "width": "wrapper",
         "columns": "2",
         "color_scheme": "scheme-10",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_double_pi63CE": {
@@ -1351,7 +1351,7 @@
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
-        "padding_top": 100,
+        "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
