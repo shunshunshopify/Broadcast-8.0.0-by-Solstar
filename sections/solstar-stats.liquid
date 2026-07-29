@@ -1,0 +1,269 @@
+{%- assign color_scheme = 'color-' | append: section.settings.color_scheme -%}
+
+<section
+  class="solstar-stats-section section-padding {{ color_scheme }}"
+  data-section-id="{{ section.id }}"
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;"
+>
+  <div class="solstar-stats" data-solstar-stats>
+    <div class="solstar-stats__grid">
+      {%- for block in section.blocks -%}
+        <div class="solstar-stats__item" {{ block.shopify_attributes }}>
+          <div
+            class="solstar-stats__value"
+            data-value="{{ block.settings.value | escape }}"
+            data-decimals="{{ block.settings.decimals }}"
+            data-suffix="{{ block.settings.suffix | escape }}"
+          >
+            {{- block.settings.value -}}{{- block.settings.suffix -}}
+          </div>
+          <div class="solstar-stats__label">{{ block.settings.label }}</div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% stylesheet %}
+  .solstar-stats {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 48px 16px;
+    background-color: var(--COLOR-BG);
+  }
+
+  .solstar-stats__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+  }
+
+  .solstar-stats__item {
+    padding: 24px 16px;
+    text-align: center;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .solstar-stats.is-animated .solstar-stats__item:not(.is-visible) {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  .solstar-stats__item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .solstar-stats__value {
+    margin-bottom: 8px;
+    color: var(--COLOR-TEXT);
+    font-size: clamp(40px, 4.2vw, 55px);
+    font-weight: 700;
+    font-feature-settings: "pnum" on, "lnum" on;
+    letter-spacing: 0;
+    line-height: 1.1;
+    white-space: nowrap;
+    word-break: keep-all;
+  }
+
+  .solstar-stats__label {
+    color: #ab8c52;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 767px) {
+    .solstar-stats {
+      padding: 32px 16px;
+    }
+
+    .solstar-stats__grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .solstar-stats__item {
+      padding: 20px 16px;
+    }
+
+    .solstar-stats__value {
+      font-size: clamp(38px, 12vw, 44px);
+    }
+
+    .solstar-stats__label {
+      font-size: 17px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .solstar-stats__item {
+      transition: none;
+    }
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  (() => {
+    const initialize = (scope = document) => {
+      scope.querySelectorAll('[data-solstar-stats]').forEach((section) => {
+        if (section.dataset.solstarStatsInitialized === 'true') return;
+        section.dataset.solstarStatsInitialized = 'true';
+
+        const items = section.querySelectorAll('.solstar-stats__item');
+        const values = section.querySelectorAll('.solstar-stats__value');
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        let animated = false;
+
+        const revealItems = () => {
+          items.forEach((item, index) => {
+            item.style.transitionDelay = `${index * 0.12}s`;
+            item.classList.add('is-visible');
+          });
+        };
+
+        const animateNumbers = () => {
+          if (animated) return;
+          animated = true;
+
+          values.forEach((element) => {
+            const target = Number.parseFloat(element.dataset.value || '0');
+            const decimals = Number.parseInt(element.dataset.decimals || '0', 10);
+            const suffix = element.dataset.suffix || '';
+            const duration = 1500;
+            let start;
+
+            const step = (timestamp) => {
+              start ??= timestamp;
+              const progress = Math.min((timestamp - start) / duration, 1);
+              const easedProgress = 1 - Math.pow(1 - progress, 3);
+              element.textContent = `${(target * easedProgress).toFixed(decimals)}${suffix}`;
+
+              if (progress < 1) window.requestAnimationFrame(step);
+            };
+
+            element.textContent = `${(0).toFixed(decimals)}${suffix}`;
+            window.requestAnimationFrame(step);
+          });
+        };
+
+        const runAnimation = () => {
+          revealItems();
+          animateNumbers();
+        };
+
+        if (reduceMotion) {
+          revealItems();
+          return;
+        }
+
+        section.classList.add('is-animated');
+
+        if (!('IntersectionObserver' in window)) {
+          runAnimation();
+          return;
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+          if (entries.some((entry) => entry.isIntersecting)) {
+            runAnimation();
+            observer.disconnect();
+          }
+        }, { threshold: 0.2 });
+
+        observer.observe(section);
+      });
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => initialize());
+    } else {
+      initialize();
+    }
+
+    document.addEventListener('shopify:section:load', (event) => initialize(event.target));
+  })();
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "SOLSTAR stats",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "scheme-1",
+      "label": "Color scheme"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Stat",
+      "settings": [
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Value",
+          "default": "100"
+        },
+        {
+          "type": "range",
+          "id": "decimals",
+          "min": 0,
+          "max": 2,
+          "step": 1,
+          "label": "Decimal places",
+          "default": 0
+        },
+        {
+          "type": "text",
+          "id": "suffix",
+          "label": "Suffix",
+          "default": "％"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "実績"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "SOLSTAR stats",
+      "blocks": [
+        { "type": "stat" },
+        { "type": "stat" },
+        { "type": "stat" }
+      ]
+    }
+  ]
+}
+{% endschema %}

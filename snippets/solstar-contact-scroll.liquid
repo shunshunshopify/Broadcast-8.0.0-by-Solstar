@@ -1,0 +1,64 @@
+{% doc %}
+Connects explicitly marked contact links to the contact section with sticky-header offset handling.
+{% enddoc %}
+
+{% javascript %}
+  (() => {
+    const getForm = () => document.querySelector('.index-contact');
+
+    const getHeaderOffset = () => {
+      let offset = 0;
+      const headers = document.querySelectorAll('header, [class*="header"], [class*="Header"]');
+
+      headers.forEach((header) => {
+        const styles = window.getComputedStyle(header);
+        const isPinned = styles.position === 'fixed' || styles.position === 'sticky';
+
+        if (isPinned && header.offsetHeight && header.getBoundingClientRect().top <= 1) {
+          offset = Math.max(offset, header.offsetHeight);
+        }
+      });
+
+      return offset;
+    };
+
+    const isContactTrigger = (trigger) => {
+      if (!trigger) return false;
+      const href = trigger.getAttribute('href') || '';
+      return href.startsWith('#shopify-section-contact') || trigger.dataset.scrollToContact === 'true';
+    };
+
+    const updateContactLinks = () => {
+      const form = getForm();
+      const section = form?.closest('[id^="shopify-section-"]');
+
+      if (!section) return;
+
+      document
+        .querySelectorAll('a.btn[href="#shopify-section-contact"], a.btn[data-scroll-to-contact="true"]')
+        .forEach((link) => {
+          if (!form.contains(link)) link.href = `#${section.id}`;
+        });
+    };
+
+    document.addEventListener('click', (event) => {
+      const trigger = event.target.closest('a.btn');
+      if (!isContactTrigger(trigger)) return;
+
+      const form = getForm();
+      if (!form || form.contains(trigger)) return;
+
+      event.preventDefault();
+      const top = form.getBoundingClientRect().top + window.scrollY - getHeaderOffset() - 12;
+      window.scrollTo({ top: Math.max(top, 0), behavior: 'smooth' });
+    });
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', updateContactLinks);
+    } else {
+      updateContactLinks();
+    }
+
+    document.addEventListener('shopify:section:load', updateContactLinks);
+  })();
+{% endjavascript %}
