@@ -153,6 +153,30 @@
         "padding_bottom": 50
       }
     },
+    "section_news_6NwRA3": {
+      "type": "section-news",
+      "custom_css": [
+        ".news__subheading {color: #ab8c52;}"
+      ],
+      "name": "News",
+      "settings": {
+        "blog_name": "news",
+        "subheading": "Latest updates",
+        "heading": "お知らせ",
+        "view_all_label": "すべてを表示",
+        "heading_font_size": "heading-large",
+        "article_title_size": "heading-x-small",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": true,
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
     "section_hero_ywHUVn": {
       "type": "section-hero",
       "blocks": {
@@ -491,30 +515,6 @@
         "padding_bottom": 50
       }
     },
-    "section_news_6NwRA3": {
-      "type": "section-news",
-      "custom_css": [
-        ".news__subheading {color: #ab8c52;}"
-      ],
-      "name": "News",
-      "settings": {
-        "blog_name": "news",
-        "subheading": "Latest updates",
-        "heading": "お知らせ",
-        "view_all_label": "すべてを表示",
-        "heading_font_size": "heading-large",
-        "article_title_size": "heading-x-small",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--text",
-        "show_arrow": true,
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_hero_KXKF4d": {
       "type": "section-hero",
       "blocks": {
@@ -592,7 +592,7 @@
         "featured_post_CbFCdc": {
           "type": "featured_post",
           "settings": {
-            "featured_post": "marketing/ai-search-marketing-strategy",
+            "featured_post": "marketing/ec-homepage-design-guide",
             "subheading": "Featured post"
           }
         }
