@@ -897,6 +897,7 @@
         "text_tx8jki",
         "buttons_DMXQEk"
       ],
+      "disabled": true,
       "custom_css": [
         ".hero__subheading {color: #ab8c52;}"
       ],
