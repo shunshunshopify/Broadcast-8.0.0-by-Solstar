@@ -83,7 +83,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/Multi_Hero_Images_copy_7a317767-7728-44c5-a6df-960ea9fb4eb8.webp",
+        "image_1": "shopify://shop_images/PRTIMES_Thumbnail_copy.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -102,8 +102,6 @@
       "name": "Hero video",
       "settings": {
         "video": "shopify://files/videos/Cream Theme Video.mp4",
-        "image": "shopify://shop_images/Multi_Hero_Images_copy_7a317767-7728-44c5-a6df-960ea9fb4eb8.webp",
-        "mobile_image": "shopify://shop_images/Multi_Hero_Images_copy_7a317767-7728-44c5-a6df-960ea9fb4eb8.webp",
         "show_video_popup": false,
         "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "title": "",
@@ -117,7 +115,9 @@
         "button_size": "",
         "button_style": "btn--solid",
         "show_arrow": false,
+        "image": "shopify://shop_images/Multi_Hero_Images_copy_7a317767-7728-44c5-a6df-960ea9fb4eb8.webp",
         "desktop_height": "image-height",
+        "mobile_image": "shopify://shop_images/Multi_Hero_Images_copy_7a317767-7728-44c5-a6df-960ea9fb4eb8.webp",
         "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
         "color_scheme": "",
@@ -441,7 +441,7 @@
         "heading_final": {
           "type": "heading",
           "settings": {
-            "title": "今だけ無料で、<br class='cream-mobile-break'>Creamを始めませんか。",
+            "title": "今だけ無料で、<br class=\"cream-mobile-break\">Creamを始めませんか。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
