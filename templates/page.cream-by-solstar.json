@@ -211,8 +211,8 @@
         "buttons_FmyAwx": {
           "type": "buttons",
           "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
+            "button_text": "詳細を見る",
+            "button_url": "shopify://products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
