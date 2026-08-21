@@ -97,6 +97,59 @@
         "show_placeholder": true
       }
     },
+    "section_announcement_8z7KnY": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_M4GtER": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CREAM / </strong>Powerful Shopify Theme</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_aDtk3z": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Get it for free</strong></p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_U4xEHx": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Let us help you grow your e-commerce</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_M4GtER",
+        "text_aDtk3z",
+        "text_U4xEHx"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_hero_9H39iB": {
       "type": "section-hero",
       "name": "Image banner",
@@ -655,6 +708,7 @@
   "order": [
     "main",
     "section_double_dPR33e",
+    "section_announcement_8z7KnY",
     "section_hero_9H39iB",
     "section_custom_code_cream_value",
     "section_double_qpipkC",
