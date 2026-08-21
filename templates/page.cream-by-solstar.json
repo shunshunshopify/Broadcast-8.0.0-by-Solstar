@@ -211,7 +211,7 @@
         "buttons_FmyAwx": {
           "type": "buttons",
           "settings": {
-            "button_text": "詳細を見る",
+            "button_text": "無料でCREAMを試してみる",
             "button_url": "shopify://products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
