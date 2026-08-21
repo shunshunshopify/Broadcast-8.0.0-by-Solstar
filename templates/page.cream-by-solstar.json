@@ -245,6 +245,7 @@
     },
     "section_custom_code_cream_fit": {
       "type": "section-custom-code",
+      "disabled": true,
       "name": "Who Cream is for",
       "settings": {
         "code": "<section class='cream-fit'><div class='cream-fit__inner'><div class='cream-fit__head'><p class='cream-fit__eyebrow hero__subheading'>Best fit</p><h2>Creamは、<br class='cream-mobile-break'>こんなEC事業者に向いています。</h2><p class='cream-fit__lead'>Creamは、Shopifyテーマの導入に不安がある方や、一からECサイトを設計する負担を減らしたい方に向けて開発したShopifyテーマです。公開後の運用や改善まで見据えたECサイトづくりをサポートします。</p></div><ul class='cream-fit__list'><li><div><strong>ShopifyでECを始めたいが、<br class='cream-mobile-break'>一から設計するのは大変そう</strong><span>商品ページやカートなど、ECサイトに必要な構成を備えているため、ゼロから考えずに構築を始められます。</span></div></li><li><div><strong>海外テーマの設定や日本語対応に不安がある</strong><span>Shopifyテーマの多くは海外向けに開発されています。Creamは、日本市場を前提に設計し、日本語で相談しながら導入・運用を進められるため、初めてでも導入しやすいShopifyテーマです。</span></div></li><li><div><strong>ブランドらしいECサイトを作りたい</strong><span>無料テーマでは表現しづらいデザインや購入体験も、自社ブランドに合わせて作り込みやすいShopifyテーマです。</span></div></li><li><div><strong>公開後も改善しながらECサイトを育てたい</strong><span>商品ページや購入導線を見直しやすく、公開後も改善を続けながら運用できる構成になっています。</span></div></li></ul></div></section>",
@@ -713,8 +714,8 @@
     "section_custom_code_cream_value",
     "section_double_qpipkC",
     "section_custom_code_cream_fit",
-    "section_custom_code_cream_japan",
     "section_custom_code_cream_features",
+    "section_custom_code_cream_japan",
     "section_custom_code_cream_design",
     "section_double_CgzWpz",
     "section_custom_code_cream_usecases",
