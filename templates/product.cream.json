@@ -123,8 +123,8 @@
         "image_size": "normal",
         "mobile_image_style": "slider",
         "color_scheme": "scheme-10",
-        "padding_top": 90,
-        "padding_bottom": 30
+        "padding_top": 96,
+        "padding_bottom": 96
       }
     },
     "related": {
@@ -291,8 +291,8 @@
         "color_scheme": "",
         "show_text_background": false,
         "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 96,
+        "padding_bottom": 96,
         "show_placeholder": true
       }
     },
@@ -312,7 +312,7 @@
             "title": "管理画面から調整でき、公開後も改善しやすい",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_xcznqT": {
@@ -353,10 +353,13 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
-        "padding_top": 100,
-        "padding_bottom": 0,
+        "padding_top": 96,
+        "padding_bottom": 96,
         "show_placeholder": true
-      }
+      },
+      "custom_css": [
+        ".hero__subheading { color: #AB8C52; }"
+      ]
     },
     "section_custom_code_cream_pdp_overview": {
       "type": "section-custom-code",
@@ -467,8 +470,11 @@
         "color_scheme": "scheme-10",
         "padding_top": 96,
         "padding_bottom": 96,
-        "heading_tag": "automatic"
-      }
+        "heading_tag": "h2"
+      },
+      "custom_css": [
+        ".hero__subheading { color: #AB8C52; }"
+      ]
     },
     "section_hero_cream_lp_secondary": {
       "type": "section-hero",
@@ -485,8 +491,8 @@
         "color_scheme": "",
         "show_text_background": false,
         "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 96,
+        "padding_bottom": 96,
         "show_placeholder": true
       }
     },
@@ -547,11 +553,11 @@
       "type": "section-custom-code",
       "name": "Cream included features",
       "settings": {
-        "code": "<style>.cream-included{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:86px 24px}.cream-included__inner{max-width:1240px;margin:0 auto}.cream-included__head{max-width:820px;margin:0 auto 42px;text-align:center}.cream-included .hero__subheading{color:var(--BTN-PRIMARY-BG);margin:0 0 16px;text-align:center}.cream-included h2{margin:0;color:var(--COLOR-TEXT);text-align:center}.cream-included__grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px;background:var(--COLOR-BG)}.cream-included__group{background:var(--COLOR-BG);padding:0;min-height:0}.cream-included__group h3{margin:0 0 16px;line-height:1.35;color:var(--COLOR-TEXT)}.cream-included__group ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}.cream-included__group li{display:flex;gap:8px;align-items:flex-start;color:var(--COLOR-TEXT);line-height:1.55}.cream-included__group li:before{content:'+';color:var(--COLOR-LINK);font-weight:700;line-height:1.55}.cream-included__note{margin:28px 0 0;color:var(--COLOR-TEXT);line-height:1.75}@media(max-width:1099px){.cream-included__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}}@media(max-width:749px){.cream-included{padding:62px 0}.cream-included__head{padding:0 16px}.cream-included__grid{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 16px 4px}.cream-included__group{flex:0 0 min(82vw,340px);scroll-snap-align:start}.cream-included__grid::-webkit-scrollbar{display:none}.cream-included__note{padding:0 16px}}</style><section class='cream-included' id='cream-included'><div class='cream-included__inner'><div class='cream-included__head'><p class='cream-included__eyebrow hero__subheading'>What's included</p><h2 class='heading-large'>標準搭載機能</h2></div><div class='cream-included__grid'><article class='cream-included__group'><h3>購入導線</h3><ul><li>カートドロワー</li><li>追従カート</li><li>商品一覧からすぐにカート追加</li><li>送料無料進捗表示</li><li>ディスカウントコード入力</li><li>アップセル／バンドル</li></ul></article><article class='cream-included__group'><h3>商品訴求</h3><ul><li>商品タブ</li><li>商品アコーディオン</li><li>在庫カウントダウン</li><li>配送予定表示</li><li>サイズ表／フィットガイド</li><li>レビュー／商品バッジ</li></ul></article><article class='cream-included__group'><h3>回遊性</h3><ul><li>予測検索</li><li>商品フィルター／並び替え</li><li>商品を探しやすいメガメニュー</li><li>関連商品</li><li>最近見た商品</li><li>サブコレクション</li></ul></article><article class='cream-included__group'><h3>ブランド表現</h3><ul><li>動画付きバナー</li><li>スライドショー</li><li>ソーシャル動画</li><li>画像付きテキスト</li><li>ルックから商品を購入</li><li>ビフォー／アフター</li></ul></article><article class='cream-included__group'><h3>デザイン設定</h3><ul><li>カラースキーム</li><li>タイポグラフィ</li><li>ボタンスタイル</li><li>スウォッチ設定</li><li>バッジ設定</li><li>カスタムコード</li></ul></article></div><p class='cream-included__note'>掲載内容はテーマの標準機能です。実際の表示や利用可否は、Shopifyの設定、商品データ、導入アプリ、運用方法によって異なる場合があります。</p></div></section>",
+        "code": "<style>.cream-included{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:0 24px}.cream-included__inner{max-width:1240px;margin:0 auto}.cream-included__head{max-width:820px;margin:0 auto 42px;text-align:center}.cream-included .hero__subheading{color:#AB8C52;margin:0 0 16px;text-align:center}.cream-included h2{margin:0;color:var(--COLOR-TEXT);text-align:center}.cream-included__grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;background:var(--COLOR-BG)}.cream-included__group{background:var(--COLOR-BG);padding:0;min-height:0}.cream-included__group h3{margin:0 0 16px;line-height:1.35;color:var(--COLOR-TEXT)}.cream-included__group ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}.cream-included__group li{display:flex;gap:8px;align-items:flex-start;color:var(--COLOR-TEXT);line-height:1.55}.cream-included__group li:before{content:'+';color:var(--COLOR-LINK);font-weight:700;line-height:1.55}.cream-included__note{margin:28px 0 0;color:var(--COLOR-TEXT);line-height:1.75}@media(max-width:1099px){.cream-included__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}@media(max-width:749px){.cream-included{padding:0}.cream-included__head{padding:0 16px}.cream-included__grid{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 16px 4px}.cream-included__group{flex:0 0 min(82vw,340px);scroll-snap-align:start}.cream-included__grid::-webkit-scrollbar{display:none}.cream-included__note{padding:0 16px}}</style><section class='cream-included' id='cream-included'><div class='cream-included__inner'><div class='cream-included__head'><p class='cream-included__eyebrow hero__subheading'>What's included</p><h2 class='heading-large'>標準搭載機能</h2></div><div class='cream-included__grid'><article class='cream-included__group'><h3>購入導線</h3><ul><li>カートドロワー</li><li>追従カート</li><li>商品一覧からすぐにカート追加</li><li>送料無料進捗表示</li><li>ディスカウントコード入力</li><li>アップセル／バンドル</li></ul></article><article class='cream-included__group'><h3>商品訴求</h3><ul><li>商品タブ</li><li>商品アコーディオン</li><li>在庫カウントダウン</li><li>配送予定表示</li><li>サイズ表／フィットガイド</li><li>レビュー／商品バッジ</li></ul></article><article class='cream-included__group'><h3>回遊性</h3><ul><li>予測検索</li><li>商品フィルター／並び替え</li><li>商品を探しやすいメガメニュー</li><li>関連商品</li><li>最近見た商品</li><li>サブコレクション</li></ul></article><article class='cream-included__group'><h3>ブランド表現</h3><ul><li>動画付きバナー</li><li>スライドショー</li><li>ソーシャル動画</li><li>画像付きテキスト</li><li>ルックから商品を購入</li><li>ビフォー／アフター</li></ul></article><article class='cream-included__group'><h3>デザイン設定</h3><ul><li>カラースキーム</li><li>タイポグラフィ</li><li>ボタンスタイル</li><li>スウォッチ設定</li><li>バッジ設定</li><li>カスタムコード</li></ul></article></div><p class='cream-included__note'>掲載内容はテーマの標準機能です。実際の表示や利用可否は、Shopifyの設定、商品データ、導入アプリ、運用方法によって異なる場合があります。</p></div></section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 96,
+        "padding_bottom": 96
       }
     },
     "section_accordion_cream_faq": {
@@ -640,8 +646,8 @@
         "question_support"
       ],
       "custom_css": [
-        ".accordion__subheading {color: var(--BTN-PRIMARY-BG); margin-bottom: 12px; text-align: center; grid-column: 1/-1;}",
-        ".accordion__heading {margin-top: 0; text-align: center;}"
+        ".accordion__subheading { color: #AB8C52; margin-bottom: 12px; text-align: center; grid-column: 1/-1; }",
+        ".accordion__heading { margin-top: 0; text-align: center; }"
       ],
       "name": "Cream FAQ",
       "settings": {
@@ -651,7 +657,7 @@
         "width": "wrapper",
         "columns": "1",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
+        "padding_top": 96,
         "padding_bottom": 96
       }
     },
@@ -664,7 +670,7 @@
             "title": "ライブデモでCreamを体験する。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_ayqcUP": {
