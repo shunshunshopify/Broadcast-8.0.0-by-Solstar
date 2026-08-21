@@ -261,6 +261,7 @@
         "text_aDtk3z",
         "text_U4xEHx"
       ],
+      "disabled": true,
       "name": "Scrolling text",
       "settings": {
         "slider_speed": 7,
