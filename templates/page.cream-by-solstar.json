@@ -332,6 +332,26 @@
         "heading_tag": "automatic"
       }
     },
+    "section_hero_bWJDye": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/High_Quality_Laptop_Mockup_copy.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_custom_code_cream_japan": {
       "type": "section-custom-code",
       "name": "Japan market fit",
@@ -715,6 +735,7 @@
     "section_double_qpipkC",
     "section_custom_code_cream_fit",
     "section_custom_code_cream_features",
+    "section_hero_bWJDye",
     "section_custom_code_cream_japan",
     "section_custom_code_cream_design",
     "section_double_CgzWpz",
