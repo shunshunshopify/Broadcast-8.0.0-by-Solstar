@@ -128,6 +128,68 @@
         "padding_bottom": 0
       }
     },
+    "section_double_qpipkC": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_6cr4WT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Easy to edit",
+            "padding_bottom": 16
+          }
+        },
+        "heading_7gw7ek": {
+          "type": "heading",
+          "settings": {
+            "title": "管理画面から調整でき、公開後も改善しやすい",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_xcznqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CREAMは、購入導線・販促・検索・ブランド表現など、EC運営に必要な機能をテーマ内に搭載しています。Shopifyの管理画面からデザインを調整でき、動画バナーやShop the lookなど、商品の魅力を伝える機能も利用できます。</p><p>※一部の機能や運用内容によっては、別途アプリや設定が必要です。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_FmyAwx": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6cr4WT",
+        "heading_7gw7ek",
+        "text_xcznqT",
+        "buttons_FmyAwx"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Cream_3.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_custom_code_cream_fit": {
       "type": "section-custom-code",
       "name": "Who Cream is for",
@@ -595,6 +657,7 @@
     "section_double_dPR33e",
     "section_hero_9H39iB",
     "section_custom_code_cream_value",
+    "section_double_qpipkC",
     "section_custom_code_cream_fit",
     "section_custom_code_cream_japan",
     "section_custom_code_cream_features",
