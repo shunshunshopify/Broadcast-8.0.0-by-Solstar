@@ -101,9 +101,9 @@
       "type": "section-hero",
       "name": "Image banner",
       "settings": {
-        "image_1": "shopify://shop_images/Cream.webp",
+        "image_1": "shopify://shop_images/Cream_2_copy.jpg",
         "link": "",
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "height": "image-height",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
