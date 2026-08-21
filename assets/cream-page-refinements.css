@@ -13,6 +13,7 @@ body .cream-quality {
   --cream-page-accent: #665035;
   --cream-page-surface: #f5f2ec;
   --cream-page-border: #d1cdc4;
+  --cream-section-gap: 18px;
   background: var(--cream-page-bg);
   color: var(--cream-page-text);
   padding: 96px 24px;
@@ -108,7 +109,7 @@ body .cream-value__grid,
 body .cream-quality__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: var(--cream-section-gap);
 }
 
 body .cream-value__card,
@@ -181,7 +182,7 @@ body .cream-value h2 {
 }
 
 body .cream-value__grid {
-  gap: 24px;
+  gap: var(--cream-section-gap);
 }
 
 body .cream-value__card {
@@ -238,7 +239,7 @@ body .cream-fit__inner {
 body .cream-fit__list {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
+  gap: var(--cream-section-gap);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -294,7 +295,7 @@ body .cream-fit__list li div span {
 body .cream-japan__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: var(--cream-section-gap);
 }
 
 body .cream-japan__card {
@@ -309,7 +310,7 @@ body .cream-japan__card {
   color: var(--cream-page-text);
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: var(--cream-section-gap);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -376,7 +377,7 @@ body .cream-japan__side p {
 
 body .cream-japan__side ul {
   display: grid;
-  gap: 8px;
+  gap: var(--cream-section-gap);
   margin: 0;
   padding-left: 1.2em;
   line-height: 1.75;
@@ -390,7 +391,7 @@ body .cream-design__inner {
 body .cream-design__studio {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: var(--cream-section-gap);
   align-items: stretch;
 }
 
@@ -425,7 +426,7 @@ body .cream-design__badges h3 {
 body .cream-design__swatches {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: var(--cream-section-gap);
   margin: 0;
 }
 
@@ -463,7 +464,7 @@ body .cream-design__type p {
 body .cream-design__badge-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: var(--cream-section-gap);
   margin: 0;
 }
 
@@ -478,7 +479,7 @@ body .cream-design__stats {
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  gap: var(--cream-section-gap);
 }
 
 body .cream-design__stat {
@@ -659,7 +660,7 @@ body .cream-quality__icon {
 body .cream-usecases__grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
+  gap: var(--cream-section-gap);
 }
 
 body .cream-usecases__card {
