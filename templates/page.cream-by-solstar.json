@@ -150,6 +150,59 @@
         "padding_bottom": 50
       }
     },
+    "section_announcement_K7BVJn": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_MqYe7a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CREAM / </strong>Powerful Shopify Theme</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_YPiz3c": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Get it for free</strong></p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_7zdimi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Let us help you grow your e-commerce</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_MqYe7a",
+        "text_YPiz3c",
+        "text_7zdimi"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_hero_9H39iB": {
       "type": "section-hero",
       "name": "Image banner",
@@ -352,6 +405,17 @@
         "show_placeholder": true
       }
     },
+    "section_custom_code_cream_usecases": {
+      "type": "section-custom-code",
+      "name": "Industry use cases",
+      "settings": {
+        "code": "<section class='cream-usecases'><div class='cream-usecases__inner'><div class='cream-usecases__head'><p class='cream-usecases__eyebrow hero__subheading'>Industry use cases</p><h2>業種ごとの売り方に、<br class='cream-mobile-break'>自然にフィットする。</h2></div><div class='cream-usecases__grid'><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='アパレルのShop the lookイメージ' loading='lazy' decoding='async'><h3>アパレル</h3><p>Shop the lookで、コーディネートから自然に商品詳細へ。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='コスメ・美容のBefore and afterイメージ' loading='lazy' decoding='async'><h3>コスメ・美容</h3><p>Before & Afterで、使用前後の変化や魅力をわかりやすく伝える。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='食品・D2Cの販促イメージ' loading='lazy' decoding='async'><h3>食品・D2C</h3><p>ストーリーやレビュー、定期購入の導線まで、一つのページでまとめて伝える。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='実店舗併設のMap導線イメージ' loading='lazy' decoding='async'><h3>実店舗併設</h3><p>店舗情報やお知らせを掲載し、来店とECをスムーズにつなげる。</p></article></div></div></section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_custom_code_cream_japan": {
       "type": "section-custom-code",
       "name": "Japan market fit",
@@ -430,19 +494,9 @@
         "show_placeholder": true
       }
     },
-    "section_custom_code_cream_usecases": {
-      "type": "section-custom-code",
-      "name": "Industry use cases",
-      "settings": {
-        "code": "<section class='cream-usecases'><div class='cream-usecases__inner'><div class='cream-usecases__head'><p class='cream-usecases__eyebrow hero__subheading'>Industry use cases</p><h2>業種ごとの売り方に、<br class='cream-mobile-break'>自然にフィットする。</h2></div><div class='cream-usecases__grid'><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='アパレルのShop the lookイメージ' loading='lazy' decoding='async'><h3>アパレル</h3><p>Shop the lookで、コーディネートから自然に商品詳細へ。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='コスメ・美容のBefore and afterイメージ' loading='lazy' decoding='async'><h3>コスメ・美容</h3><p>Before & Afterで、使用前後の変化や魅力をわかりやすく伝える。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='食品・D2Cの販促イメージ' loading='lazy' decoding='async'><h3>食品・D2C</h3><p>ストーリーやレビュー、定期購入の導線まで、一つのページでまとめて伝える。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='実店舗併設のMap導線イメージ' loading='lazy' decoding='async'><h3>実店舗併設</h3><p>店舗情報やお知らせを掲載し、来店とECをスムーズにつなげる。</p></article></div></div></section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_custom_code_cream_quality": {
       "type": "section-custom-code",
+      "disabled": true,
       "name": "Performance and trust",
       "settings": {
         "code": "<section class='cream-quality'><div class='cream-quality__inner'><div class='cream-quality__head'><p class='cream-quality__eyebrow hero__subheading'>Built for operations</p><h2>デザインだけでなく、<br class='cream-mobile-break'>運用まで考えたテーマ。</h2></div><div class='cream-quality__grid'><article class='cream-quality__card'><span class='cream-quality__icon'>{{ 'cream-icon-responsive.svg' | inline_asset_content }}</span><h3>購入体験を整えるレスポンシブUI</h3><p>スマートフォン、タブレット、PCなど、様々な画面サイズに対応。どのデバイスでも見やすく操作しやすい購入体験を目指した設計です。</p></article><article class='cream-quality__card'><span class='cream-quality__icon'>{{ 'cream-icon-seo.svg' | inline_asset_content }}</span><h3>SEOを意識したテーマ構造</h3><p>商品ページやコレクション、コンテンツを整理しやすい構成で、SEOに配慮したECサイト運営を支えます。</p></article><article class='cream-quality__card'><span class='cream-quality__icon'>{{ 'cream-icon-support.svg' | inline_asset_content }}</span><h3>SOLSTARによる自社開発</h3><p>ECサイト制作・運営の現場で培った知見をもとに、自社で開発・改善を続けています。導入後も継続的なアップデートとサポートを提供します。</p></article></div></div></section>",
@@ -737,10 +791,11 @@
     "section_custom_code_cream_fit",
     "section_custom_code_cream_features",
     "section_hero_bWJDye",
+    "section_custom_code_cream_usecases",
+    "section_announcement_K7BVJn",
     "section_custom_code_cream_japan",
     "section_custom_code_cream_design",
     "section_double_CgzWpz",
-    "section_custom_code_cream_usecases",
     "section_custom_code_cream_quality",
     "section_accordion_cream_faq",
     "section_rich_text_final_cta",
