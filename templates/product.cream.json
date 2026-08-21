@@ -97,7 +97,7 @@
         "code_zWwzMw": {
           "type": "code",
           "settings": {
-            "code": "<style>.cream-setup-tabs{display:block;width:100%;color:var(--COLOR-TEXT)}.cream-setup-tabs__head{margin:0 0 18px;text-align:center}.cream-setup-tabs__eyebrow{margin:0 0 6px;color:var(--BTN-PRIMARY-BG);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.cream-setup-tabs__head h2{margin:0;color:var(--COLOR-TEXT);font-size:var(--font-heading-x-small);line-height:1.4}.cream-setup-tabs__lead{margin:8px 0 0;color:var(--COLOR-TEXT);font-size:.9em;line-height:1.65}.cream-setup-tabs__nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:0}.cream-setup-tabs__tab{appearance:none;min-width:0;min-height:52px;padding:10px 6px;border:0;border-radius:0;box-shadow:none;background:transparent;color:color-mix(in srgb,var(--COLOR-TEXT) 65%,transparent);font:inherit;font-size:12px;font-weight:700;line-height:1.4;text-align:center;cursor:pointer}.cream-setup-tabs__tab[aria-selected='true']{box-shadow:inset 0 -2px 0 var(--BTN-PRIMARY-BG);color:var(--COLOR-TEXT)}.cream-setup-tabs__tab:focus-visible{outline:2px solid var(--BTN-PRIMARY-BG);outline-offset:2px}.cream-setup-tabs__panel{padding:20px 0 0}.cream-setup-tabs__panel[hidden]{display:none}.cream-setup-tabs__steps{counter-reset:setup-step;display:grid;gap:16px;margin:0;padding:0;list-style:none}.cream-setup-tabs__steps>li{counter-increment:setup-step;display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;align-items:start;color:var(--COLOR-TEXT);font-size:.92em;line-height:1.7}.cream-setup-tabs__steps>li:before{content:counter(setup-step);display:flex;box-sizing:border-box;width:24px;min-width:24px;height:24px;margin-top:2px;align-items:center;justify-content:center;border:1px solid var(--BTN-PRIMARY-BG);border-radius:50%;color:var(--BTN-PRIMARY-BG);font-size:11px;font-weight:700;line-height:1}.cream-setup-tabs__details{grid-column:2;margin:6px 0 0;padding-left:1.1em;overflow-wrap:anywhere}.cream-setup-tabs__details li+li{margin-top:4px}.cream-setup-tabs__path{display:block;margin-top:8px;padding:0;border:0;background:transparent;font-size:.88em;font-style:italic;line-height:1.65;overflow-wrap:anywhere}.cream-setup-tabs__memo{font-weight:700}@media(max-width:374px){.cream-setup-tabs__tab{font-size:11px;padding-inline:4px}}</style><cream-setup-tabs class='cream-setup-tabs'><header class='cream-setup-tabs__head'><p class='cream-setup-tabs__eyebrow'>Setup flow</p><h2>導入方法</h2><p class='cream-setup-tabs__lead'>Shopifyストアの有無にあわせて手順をご確認ください。</p></header><div class='cream-setup-tabs__nav' role='tablist' aria-label='Shopifyストアの状況'><button class='cream-setup-tabs__tab' type='button' role='tab' id='cream-store-tab-{{ block.id }}' aria-controls='cream-store-panel-{{ block.id }}' aria-selected='true'>ストアをお持ちの方</button><button class='cream-setup-tabs__tab' type='button' role='tab' id='cream-no-store-tab-{{ block.id }}' aria-controls='cream-no-store-panel-{{ block.id }}' aria-selected='false' tabindex='-1'>ストアをお持ちでない方</button></div><div class='cream-setup-tabs__panel' id='cream-store-panel-{{ block.id }}' role='tabpanel' aria-labelledby='cream-store-tab-{{ block.id }}' tabindex='0'><ol class='cream-setup-tabs__steps'><li><span>Creamをカートに入れ、無料の購入手続きを進めます。</span></li><li><span>カートの注文メモに、以下の2点をご記入ください。</span><ul class='cream-setup-tabs__details'><li>ShopifyストアURL（例：〇〇.myshopify.com）</li><li>コラボレーターリクエストコード</li></ul></li><li><span>コードはShopify管理画面で確認できます。<small class='cream-setup-tabs__path'>「設定」→「ユーザー」→「セキュリティ」→「コラボレーター」</small></span></li><li><span>SOLSTARから届くコラボレーター申請を承認してください。承認後にCreamをインストールし、完了後にご連絡します。</span></li></ol></div><div class='cream-setup-tabs__panel' id='cream-no-store-panel-{{ block.id }}' role='tabpanel' aria-labelledby='cream-no-store-tab-{{ block.id }}' tabindex='0' hidden><ol class='cream-setup-tabs__steps'><li><span>Creamをカートに入れ、無料の購入手続きを進めます。</span></li><li><span>カートの注文メモに、<span class='cream-setup-tabs__memo'>「Shopifyストアを持っていません」</span>とご記入ください。</span></li><li><span>SOLSTARがストア開設からCreamの導入までご案内します。Creamをインストールした状態でお渡しすることも可能です。</span></li></ol></div></cream-setup-tabs><script>if(!customElements.get('cream-setup-tabs')){class CreamSetupTabs extends HTMLElement{connectedCallback(){if(this.dataset.ready)return;this.dataset.ready='true';this.tabs=Array.from(this.querySelectorAll('[role=tab]'));this.panels=Array.from(this.querySelectorAll('[role=tabpanel]'));this.tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>this.select(index));tab.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight'||event.key==='ArrowDown')next=(index+1)%this.tabs.length;if(event.key==='ArrowLeft'||event.key==='ArrowUp')next=(index-1+this.tabs.length)%this.tabs.length;if(event.key==='Home')next=0;if(event.key==='End')next=this.tabs.length-1;if(next===undefined)return;event.preventDefault();this.select(next);this.tabs[next].focus()})})}select(index){this.tabs.forEach((tab,tabIndex)=>{const selected=tabIndex===index;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;this.panels[tabIndex].hidden=!selected})}}customElements.define('cream-setup-tabs',CreamSetupTabs)}</script>",
+            "code": "<style>.cream-setup-tabs{display:block;width:100%;color:var(--COLOR-TEXT)}.cream-setup-tabs__head{margin:0 0 18px;text-align:center}.cream-setup-tabs__eyebrow{margin:0 0 6px;color:var(--BTN-PRIMARY-BG);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.cream-setup-tabs__head h2{margin:0;color:var(--COLOR-TEXT);font-size:var(--font-heading-large);line-height:1.2}.cream-setup-tabs__lead{margin:8px 0 0;color:var(--COLOR-TEXT);font-size:.9em;line-height:1.65}.cream-setup-tabs__nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:0}.cream-setup-tabs__tab{appearance:none;min-width:0;min-height:52px;padding:10px 6px;border:0;border-radius:0;box-shadow:none;background:transparent;color:color-mix(in srgb,var(--COLOR-TEXT) 65%,transparent);font:inherit;font-size:12px;font-weight:700;line-height:1.4;text-align:center;cursor:pointer}.cream-setup-tabs__tab[aria-selected='true']{box-shadow:inset 0 -1px 0 #fff;color:var(--COLOR-TEXT)}.cream-setup-tabs__tab:focus-visible{outline:2px solid var(--BTN-PRIMARY-BG);outline-offset:2px}.cream-setup-tabs__panel{padding:20px 0 0}.cream-setup-tabs__panel[hidden]{display:none}.cream-setup-tabs__steps{counter-reset:setup-step;display:grid;gap:16px;margin:0;padding:0;list-style:none}.cream-setup-tabs__steps>li{counter-increment:setup-step;display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;align-items:start;color:var(--COLOR-TEXT);font-size:.92em;line-height:1.7}.cream-setup-tabs__steps>li:before{content:counter(setup-step);display:flex;box-sizing:border-box;width:24px;min-width:24px;height:24px;margin-top:2px;align-items:center;justify-content:center;border:1px solid var(--BTN-PRIMARY-BG);border-radius:50%;color:var(--BTN-PRIMARY-BG);font-size:11px;font-weight:700;line-height:1}.cream-setup-tabs__details{grid-column:2;margin:6px 0 0;padding-left:1.1em;overflow-wrap:anywhere}.cream-setup-tabs__details li+li{margin-top:4px}.cream-setup-tabs__path{display:block;margin-top:8px;padding:0;border:0;background:transparent;font-size:.88em;font-style:italic;line-height:1.65;overflow-wrap:anywhere}.cream-setup-tabs__memo{font-weight:700}@media(max-width:374px){.cream-setup-tabs__tab{font-size:11px;padding-inline:4px}}</style><cream-setup-tabs class='cream-setup-tabs'><header class='cream-setup-tabs__head'><p class='cream-setup-tabs__eyebrow'>Setup flow</p><h2>導入方法</h2><p class='cream-setup-tabs__lead'>Shopifyストアの有無にあわせて手順をご確認ください。</p></header><div class='cream-setup-tabs__nav' role='tablist' aria-label='Shopifyストアの状況'><button class='cream-setup-tabs__tab' type='button' role='tab' id='cream-store-tab-{{ block.id }}' aria-controls='cream-store-panel-{{ block.id }}' aria-selected='true'>ストアをお持ちの方</button><button class='cream-setup-tabs__tab' type='button' role='tab' id='cream-no-store-tab-{{ block.id }}' aria-controls='cream-no-store-panel-{{ block.id }}' aria-selected='false' tabindex='-1'>ストアをお持ちでない方</button></div><div class='cream-setup-tabs__panel' id='cream-store-panel-{{ block.id }}' role='tabpanel' aria-labelledby='cream-store-tab-{{ block.id }}' tabindex='0'><ol class='cream-setup-tabs__steps'><li><span>Creamをカートに入れ、無料の購入手続きを進めます。</span></li><li><span>カートの注文メモに、以下の2点をご記入ください。</span><ul class='cream-setup-tabs__details'><li>ShopifyストアURL（例：〇〇.myshopify.com）</li><li>コラボレーターリクエストコード</li></ul></li><li><span>コードはShopify管理画面で確認できます。<small class='cream-setup-tabs__path'>「設定」→「ユーザー」→「セキュリティ」→「コラボレーター」</small></span></li><li><span>SOLSTARから届くコラボレーター申請を承認してください。承認後にCreamをインストールし、完了後にご連絡します。</span></li></ol></div><div class='cream-setup-tabs__panel' id='cream-no-store-panel-{{ block.id }}' role='tabpanel' aria-labelledby='cream-no-store-tab-{{ block.id }}' tabindex='0' hidden><ol class='cream-setup-tabs__steps'><li><span>Creamをカートに入れ、無料の購入手続きを進めます。</span></li><li><span>カートの注文メモに、<span class='cream-setup-tabs__memo'>「Shopifyストアを持っていません」</span>とご記入ください。</span></li><li><span>SOLSTARがストア開設からCreamの導入までご案内します。Creamをインストールした状態でお渡しすることも可能です。</span></li></ol></div></cream-setup-tabs><script>if(!customElements.get('cream-setup-tabs')){class CreamSetupTabs extends HTMLElement{connectedCallback(){if(this.dataset.ready)return;this.dataset.ready='true';this.tabs=Array.from(this.querySelectorAll('[role=tab]'));this.panels=Array.from(this.querySelectorAll('[role=tabpanel]'));this.tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>this.select(index));tab.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight'||event.key==='ArrowDown')next=(index+1)%this.tabs.length;if(event.key==='ArrowLeft'||event.key==='ArrowUp')next=(index-1+this.tabs.length)%this.tabs.length;if(event.key==='Home')next=0;if(event.key==='End')next=this.tabs.length-1;if(next===undefined)return;event.preventDefault();this.select(next);this.tabs[next].focus()})})}select(index){this.tabs.forEach((tab,tabIndex)=>{const selected=tabIndex===index;tab.setAttribute('aria-selected',String(selected));tab.tabIndex=selected?0:-1;this.panels[tabIndex].hidden=!selected})}}customElements.define('cream-setup-tabs',CreamSetupTabs)}</script>",
             "padding_bottom": 16
           }
         }
@@ -123,8 +123,8 @@
         "image_size": "normal",
         "mobile_image_style": "slider",
         "color_scheme": "scheme-10",
-        "padding_top": 90,
-        "padding_bottom": 30
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "related": {
@@ -261,6 +261,7 @@
         "text_aDtk3z",
         "text_U4xEHx"
       ],
+      "disabled": true,
       "name": "Scrolling text",
       "settings": {
         "slider_speed": 7,
@@ -287,7 +288,7 @@
         "content_width": 50,
         "mobile_height": "screen-height-one-half--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "show_text_background": false,
         "overlay_type": "disabled",
         "padding_top": 0,
@@ -311,7 +312,7 @@
             "title": "管理画面から調整でき、公開後も改善しやすい",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_xcznqT": {
@@ -341,6 +342,9 @@
         "text_xcznqT",
         "buttons_FmyAwx"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Cream_3.webp",
@@ -352,8 +356,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
-        "padding_top": 100,
-        "padding_bottom": 0,
+        "padding_top": 96,
+        "padding_bottom": 96,
         "show_placeholder": true
       }
     },
@@ -450,6 +454,9 @@
         "video_M3Axhc",
         "video_Xc8Ttf"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Social videos",
       "settings": {
         "subheading": "Feature showcase",
@@ -464,9 +471,9 @@
         "blocks_per_row": 4,
         "layout_mobile": "slider",
         "color_scheme": "scheme-10",
-        "padding_top": 96,
+        "padding_top": 0,
         "padding_bottom": 96,
-        "heading_tag": "automatic"
+        "heading_tag": "h2"
       }
     },
     "section_hero_cream_lp_secondary": {
@@ -481,7 +488,7 @@
         "content_width": 50,
         "mobile_height": "screen-height-one-third--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "show_text_background": false,
         "overlay_type": "disabled",
         "padding_top": 0,
@@ -546,11 +553,11 @@
       "type": "section-custom-code",
       "name": "Cream included features",
       "settings": {
-        "code": "<style>.cream-included{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:86px 24px}.cream-included__inner{max-width:1240px;margin:0 auto}.cream-included__head{max-width:820px;margin:0 auto 42px;text-align:center}.cream-included .hero__subheading{color:var(--BTN-PRIMARY-BG);margin:0 0 16px;text-align:center}.cream-included h2{margin:0;color:var(--COLOR-TEXT);text-align:center}.cream-included__grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px;background:var(--COLOR-BG)}.cream-included__group{background:var(--COLOR-BG);padding:0;min-height:0}.cream-included__group h3{margin:0 0 16px;line-height:1.35;color:var(--COLOR-TEXT)}.cream-included__group ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}.cream-included__group li{display:flex;gap:8px;align-items:flex-start;color:var(--COLOR-TEXT);line-height:1.55}.cream-included__group li:before{content:'+';color:var(--COLOR-LINK);font-weight:700;line-height:1.55}.cream-included__note{margin:28px 0 0;color:var(--COLOR-TEXT);line-height:1.75}@media(max-width:1099px){.cream-included__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}}@media(max-width:749px){.cream-included{padding:62px 0}.cream-included__head{padding:0 16px}.cream-included__grid{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 16px 4px}.cream-included__group{flex:0 0 min(82vw,340px);scroll-snap-align:start}.cream-included__grid::-webkit-scrollbar{display:none}.cream-included__note{padding:0 16px}}</style><section class='cream-included' id='cream-included'><div class='cream-included__inner'><div class='cream-included__head'><p class='cream-included__eyebrow hero__subheading'>What's included</p><h2 class='heading-large'>標準搭載機能</h2></div><div class='cream-included__grid'><article class='cream-included__group'><h3>購入導線</h3><ul><li>カートドロワー</li><li>追従カート</li><li>商品一覧からすぐにカート追加</li><li>送料無料進捗表示</li><li>ディスカウントコード入力</li><li>アップセル／バンドル</li></ul></article><article class='cream-included__group'><h3>商品訴求</h3><ul><li>商品タブ</li><li>商品アコーディオン</li><li>在庫カウントダウン</li><li>配送予定表示</li><li>サイズ表／フィットガイド</li><li>レビュー／商品バッジ</li></ul></article><article class='cream-included__group'><h3>回遊性</h3><ul><li>予測検索</li><li>商品フィルター／並び替え</li><li>商品を探しやすいメガメニュー</li><li>関連商品</li><li>最近見た商品</li><li>サブコレクション</li></ul></article><article class='cream-included__group'><h3>ブランド表現</h3><ul><li>動画付きバナー</li><li>スライドショー</li><li>ソーシャル動画</li><li>画像付きテキスト</li><li>ルックから商品を購入</li><li>ビフォー／アフター</li></ul></article><article class='cream-included__group'><h3>デザイン設定</h3><ul><li>カラースキーム</li><li>タイポグラフィ</li><li>ボタンスタイル</li><li>スウォッチ設定</li><li>バッジ設定</li><li>カスタムコード</li></ul></article></div><p class='cream-included__note'>掲載内容はテーマの標準機能です。実際の表示や利用可否は、Shopifyの設定、商品データ、導入アプリ、運用方法によって異なる場合があります。</p></div></section>",
+        "code": "<style>.cream-included{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:0 24px}.cream-included__inner{max-width:1240px;margin:0 auto}.cream-included__head{max-width:820px;margin:0 auto 42px;text-align:center}.cream-included .hero__subheading{color:#AB8C52;margin:0 0 16px;text-align:center}.cream-included h2{margin:0;color:var(--COLOR-TEXT);text-align:center}.cream-included__grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;background:var(--COLOR-BG)}.cream-included__group{background:var(--COLOR-BG);padding:0;min-height:0}.cream-included__group h3{margin:0 0 16px;line-height:1.35;color:var(--COLOR-TEXT)}.cream-included__group ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}.cream-included__group li{display:flex;gap:8px;align-items:flex-start;color:var(--COLOR-TEXT);line-height:1.55}.cream-included__group li:before{content:'+';color:var(--COLOR-LINK);font-weight:700;line-height:1.55}.cream-included__note{margin:28px 0 0;color:var(--COLOR-TEXT);line-height:1.75}@media(max-width:1099px){.cream-included__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}@media(max-width:749px){.cream-included{padding:0}.cream-included__head{padding:0 16px}.cream-included__grid{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 16px 4px}.cream-included__group{flex:0 0 min(82vw,340px);scroll-snap-align:start}.cream-included__grid::-webkit-scrollbar{display:none}.cream-included__note{padding:0 16px}}</style><section class='cream-included' id='cream-included'><div class='cream-included__inner'><div class='cream-included__head'><p class='cream-included__eyebrow hero__subheading'>What's included</p><h2 class='heading-large'>標準搭載機能</h2></div><div class='cream-included__grid'><article class='cream-included__group'><h3>購入導線</h3><ul><li>カートドロワー</li><li>追従カート</li><li>商品一覧からすぐにカート追加</li><li>送料無料進捗表示</li><li>ディスカウントコード入力</li><li>アップセル／バンドル</li></ul></article><article class='cream-included__group'><h3>商品訴求</h3><ul><li>商品タブ</li><li>商品アコーディオン</li><li>在庫カウントダウン</li><li>配送予定表示</li><li>サイズ表／フィットガイド</li><li>レビュー／商品バッジ</li></ul></article><article class='cream-included__group'><h3>回遊性</h3><ul><li>予測検索</li><li>商品フィルター／並び替え</li><li>商品を探しやすいメガメニュー</li><li>関連商品</li><li>最近見た商品</li><li>サブコレクション</li></ul></article><article class='cream-included__group'><h3>ブランド表現</h3><ul><li>動画付きバナー</li><li>スライドショー</li><li>ソーシャル動画</li><li>画像付きテキスト</li><li>ルックから商品を購入</li><li>ビフォー／アフター</li></ul></article><article class='cream-included__group'><h3>デザイン設定</h3><ul><li>カラースキーム</li><li>タイポグラフィ</li><li>ボタンスタイル</li><li>スウォッチ設定</li><li>バッジ設定</li><li>カスタムコード</li></ul></article></div><p class='cream-included__note'>掲載内容はテーマの標準機能です。実際の表示や利用可否は、Shopifyの設定、商品データ、導入アプリ、運用方法によって異なる場合があります。</p></div></section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 96,
+        "padding_bottom": 96
       }
     },
     "section_accordion_cream_faq": {
@@ -639,7 +646,7 @@
         "question_support"
       ],
       "custom_css": [
-        ".accordion__subheading {color: var(--BTN-PRIMARY-BG); margin-bottom: 12px; text-align: center; grid-column: 1/-1;}",
+        ".accordion__subheading {color: #ab8c52; margin-bottom: 12px; text-align: center; grid-column: 1/-1;}",
         ".accordion__heading {margin-top: 0; text-align: center;}"
       ],
       "name": "Cream FAQ",
@@ -663,7 +670,7 @@
             "title": "ライブデモでCreamを体験する。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_ayqcUP": {
