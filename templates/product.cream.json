@@ -352,7 +352,7 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 0,
         "show_placeholder": true
       }
@@ -553,61 +553,6 @@
         "padding_bottom": 0
       }
     },
-    "section_double_cream_live_demo": {
-      "type": "section-double",
-      "blocks": {
-        "heading_itjNzd": {
-          "type": "heading",
-          "settings": {
-            "title": "ライブデモでCreamを体験する。",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_ayqcUP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>実際のCreamサイトを操作しながら、デザインや機能をご確認いただけます。<br/>ライブデモの閲覧パスワードは「1」です。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_6Q8xz3": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "ライブデモを見る",
-            "button_url": "https://solstar-enterprise-demo-store.myshopify.com",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_itjNzd",
-        "text_ayqcUP",
-        "buttons_6Q8xz3"
-      ],
-      "name": "Live demo",
-      "settings": {
-        "image_1": "shopify://shop_images/Umi_Hana_Logo_with_Text_copy.png",
-        "image_2": "shopify://shop_images/Cream_Image_2.jpg",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-10",
-        "padding_top": 96,
-        "padding_bottom": 96,
-        "show_placeholder": true
-      }
-    },
     "section_accordion_cream_faq": {
       "type": "section-accordion-group",
       "blocks": {
@@ -705,8 +650,63 @@
         "width": "wrapper",
         "columns": "1",
         "color_scheme": "scheme-10",
-        "padding_top": 96,
+        "padding_top": 0,
         "padding_bottom": 96
+      }
+    },
+    "section_double_cream_live_demo": {
+      "type": "section-double",
+      "blocks": {
+        "heading_itjNzd": {
+          "type": "heading",
+          "settings": {
+            "title": "ライブデモでCreamを体験する。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_ayqcUP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>実際のCreamサイトを操作しながら、デザインや機能をご確認いただけます。<br/>ライブデモの閲覧パスワードは「1」です。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_6Q8xz3": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "ライブデモを見る",
+            "button_url": "https://solstar-enterprise-demo-store.myshopify.com",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_itjNzd",
+        "text_ayqcUP",
+        "buttons_6Q8xz3"
+      ],
+      "name": "Live demo",
+      "settings": {
+        "image_1": "shopify://shop_images/Umi_Hana_Logo_with_Text_copy.png",
+        "image_2": "shopify://shop_images/Cream_Image_2.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 96,
+        "padding_bottom": 96,
+        "show_placeholder": true
       }
     }
   },
