@@ -3605,6 +3605,39 @@ body:has([data-header-transparent]) .main-content > .shopify-section.section-ove
   .one-fifty-height-hero--mobile {
     min-height: 150px;
   }
+
+  /* Keep mobile viewport ratios local to Image banner sections. */
+  .index-hero[data-section-type=hero] {
+    --image-banner-mobile-three-quarters: 75vh;
+    --image-banner-mobile-two-thirds: 66.6667vh;
+    --image-banner-mobile-one-half: 50vh;
+    --image-banner-mobile-one-third: 33.3333vh;
+  }
+
+  .index-hero[data-section-type=hero] .image__hero__frame.screen-height-three-quarters--mobile {
+    min-height: var(--image-banner-mobile-three-quarters);
+  }
+
+  .index-hero[data-section-type=hero] .image__hero__frame.screen-height-two-thirds--mobile {
+    min-height: var(--image-banner-mobile-two-thirds);
+  }
+
+  .index-hero[data-section-type=hero] .image__hero__frame.screen-height-one-half--mobile {
+    min-height: var(--image-banner-mobile-one-half);
+  }
+
+  .index-hero[data-section-type=hero] .image__hero__frame.screen-height-one-third--mobile {
+    min-height: var(--image-banner-mobile-one-third);
+  }
+
+  @supports (height: 100dvh) {
+    .index-hero[data-section-type=hero] {
+      --image-banner-mobile-three-quarters: 75dvh;
+      --image-banner-mobile-two-thirds: 66.6667dvh;
+      --image-banner-mobile-one-half: 50dvh;
+      --image-banner-mobile-one-third: 33.3333dvh;
+    }
+  }
 }
 /**
  * Layout
