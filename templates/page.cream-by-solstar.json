@@ -365,6 +365,7 @@
     },
     "section_custom_code_cream_design": {
       "type": "section-custom-code",
+      "disabled": true,
       "name": "Design customization",
       "settings": {
         "code": "<section class='cream-design'><div class='cream-design__inner'><div><p class='cream-design__eyebrow hero__subheading'>No-code design system</p><h2>ブランドに合わせて、<br class='cream-mobile-break'>ノーコードでデザインできる。</h2><p>約180項目のテーマ設定により、カラー、タイポグラフィ、ボタン、入力欄、バッジ、商品カードまで調整できます。コードを書かずに、アパレル、コスメ、食品、実店舗併設など、ブランドに合わせた世界観を作れます。</p></div><div class='cream-design__studio'><div class='cream-design__palette'><h3>Color scheme</h3><div class='cream-design__swatches'><span></span><span></span><span></span><span></span></div></div><div class='cream-design__type'><h3>Typography</h3><p>見出し、本文、サブ見出し、ボタンまでブランドに合わせて調整。</p></div><div class='cream-design__badges'><h3>Badges and buttons</h3><div class='cream-design__badge-row'><span>New</span><span>Sale</span><span>Bestseller</span><span>Limited</span></div></div><div class='cream-design__stats'><div class='cream-design__stat'><strong>約180</strong><span>カラーや文字、ボタン、商品カードなどのデザイン設定。</span></div><div class='cream-design__stat'><strong>51</strong><span>ストアのページ構築に使えるセクションを搭載。</span></div></div></div></div></section>",
