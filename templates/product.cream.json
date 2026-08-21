@@ -222,34 +222,139 @@
         "padding_bottom": 0
       }
     },
-    "section_video_niFPGy": {
-      "type": "section-video",
-      "name": "Video",
+    "section_announcement_cream_lp_intro": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_M4GtER": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CREAM / </strong>Powerful Shopify Theme</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_aDtk3z": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Get it for free</strong></p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_U4xEHx": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Let us help you grow your e-commerce</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_M4GtER",
+        "text_aDtk3z",
+        "text_U4xEHx"
+      ],
+      "name": "Scrolling text",
       "settings": {
-        "video": "shopify://files/videos/Cream Theme Video.mp4",
-        "show_video_popup": false,
-        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "title": "",
-        "heading_font_size": "heading-large",
-        "text": "",
-        "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
-        "link_text": "",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_cream_lp_primary": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Cream_2_copy.jpg",
         "link": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "desktop_height": "image-height",
-        "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "",
         "show_text_background": false,
-        "color": "",
         "overlay_type": "disabled",
         "padding_top": 0,
         "padding_bottom": 0,
-        "heading_tag": "automatic"
+        "show_placeholder": true
+      }
+    },
+    "section_double_cream_operability": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_6cr4WT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Easy to use",
+            "padding_bottom": 16
+          }
+        },
+        "heading_7gw7ek": {
+          "type": "heading",
+          "settings": {
+            "title": "管理画面から調整でき、公開後も改善しやすい",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_xcznqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CREAMは、購入導線・販促・検索・ブランド表現など、EC運営に必要な機能をテーマ内に搭載しています。Shopifyの管理画面からデザインを調整でき、動画バナーやShop the lookなど、商品の魅力を伝える機能も利用できます。</p><p>※一部の機能や運用内容によっては、別途アプリや設定が必要です。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_FmyAwx": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "無料でCREAMを試してみる",
+            "button_url": "shopify://products/cream-by-solstar",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6cr4WT",
+        "heading_7gw7ek",
+        "text_xcznqT",
+        "buttons_FmyAwx"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Cream_3.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_custom_code_cream_pdp_overview": {
@@ -364,174 +469,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_custom_code_cream_pdp_included": {
-      "type": "section-custom-code",
-      "name": "Cream included features",
-      "settings": {
-        "code": "<style>.cream-included{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:86px 24px}.cream-included__inner{max-width:1240px;margin:0 auto}.cream-included__head{max-width:820px;margin:0 auto 42px;text-align:center}.cream-included .hero__subheading{color:var(--BTN-PRIMARY-BG);margin:0 0 16px;text-align:center}.cream-included h2{margin:0;color:var(--COLOR-TEXT);text-align:center}.cream-included__grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px;background:var(--COLOR-BG)}.cream-included__group{background:var(--COLOR-BG);padding:0;min-height:0}.cream-included__group h3{margin:0 0 16px;line-height:1.35;color:var(--COLOR-TEXT)}.cream-included__group ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}.cream-included__group li{display:flex;gap:8px;align-items:flex-start;color:var(--COLOR-TEXT);line-height:1.55}.cream-included__group li:before{content:'+';color:var(--COLOR-LINK);font-weight:700;line-height:1.55}.cream-included__note{margin:28px 0 0;color:var(--COLOR-TEXT);line-height:1.75}@media(max-width:1099px){.cream-included__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}}@media(max-width:749px){.cream-included{padding:62px 0}.cream-included__head{padding:0 16px}.cream-included__grid{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 16px 4px}.cream-included__group{flex:0 0 min(82vw,340px);scroll-snap-align:start}.cream-included__grid::-webkit-scrollbar{display:none}.cream-included__note{padding:0 16px}}</style><section class='cream-included' id='cream-included'><div class='cream-included__inner'><div class='cream-included__head'><p class='cream-included__eyebrow hero__subheading'>What's included</p><h2 class='heading-large'>標準搭載機能</h2></div><div class='cream-included__grid'><article class='cream-included__group'><h3>購入導線</h3><ul><li>カートドロワー</li><li>追従カート</li><li>商品一覧からすぐにカート追加</li><li>送料無料進捗表示</li><li>ディスカウントコード入力</li><li>アップセル／バンドル</li></ul></article><article class='cream-included__group'><h3>商品訴求</h3><ul><li>商品タブ</li><li>商品アコーディオン</li><li>在庫カウントダウン</li><li>配送予定表示</li><li>サイズ表／フィットガイド</li><li>レビュー／商品バッジ</li></ul></article><article class='cream-included__group'><h3>回遊性</h3><ul><li>予測検索</li><li>商品フィルター／並び替え</li><li>商品を探しやすいメガメニュー</li><li>関連商品</li><li>最近見た商品</li><li>サブコレクション</li></ul></article><article class='cream-included__group'><h3>ブランド表現</h3><ul><li>動画付きバナー</li><li>スライドショー</li><li>ソーシャル動画</li><li>画像付きテキスト</li><li>ルックから商品を購入</li><li>ビフォー／アフター</li></ul></article><article class='cream-included__group'><h3>デザイン設定</h3><ul><li>カラースキーム</li><li>タイポグラフィ</li><li>ボタンスタイル</li><li>スウォッチ設定</li><li>バッジ設定</li><li>カスタムコード</li></ul></article></div><p class='cream-included__note'>掲載内容はテーマの標準機能です。実際の表示や利用可否は、Shopifyの設定、商品データ、導入アプリ、運用方法によって異なる場合があります。</p></div></section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_custom_code_cream_pdp_support": {
-      "type": "section-custom-code",
-      "name": "Cream support CTA",
-      "settings": {
-        "code": "<style>.cream-support{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:78px 24px;text-align:center}.cream-support__inner{max-width:1120px;margin:0 auto;text-align:center}.cream-support__panel{background:var(--COLOR-BG);padding:0;margin:0 auto;text-align:center}.cream-support .hero__subheading{display:block;width:100%;color:var(--BTN-PRIMARY-BG);margin:0 auto 16px;text-align:center}.cream-support h2{display:block;width:100%;margin:0 auto;color:var(--COLOR-TEXT);text-align:center;max-width:820px}.cream-support p{display:block;width:100%;margin:16px auto 0;color:var(--COLOR-TEXT);line-height:1.85;text-align:center;max-width:820px}@media(max-width:749px){.cream-support{padding:62px 16px}}</style><section class='cream-support' id='cream-support'><div class='cream-support__inner'><div class='cream-support__panel'><p class='cream-support__eyebrow hero__subheading'>Support</p><h2 class='heading-large'>導入前の機能確認から、<br>公開後の運用相談まで日本語でサポート。</h2><p>Creamの機能や導入方法を詳しく確認したい方は、デモや詳細ページをご覧ください。既存ストアへの導入可否や追加実装について確認したい場合は、お問い合わせフォームよりご相談ください。</p></div></div></section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_announcement_cream_lp_intro": {
-      "type": "section-announcement",
-      "blocks": {
-        "text_M4GtER": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>CREAM / </strong>Powerful Shopify Theme</p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_aDtk3z": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Get it for free</strong></p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_U4xEHx": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Let us help you grow your e-commerce</strong></p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_M4GtER",
-        "text_aDtk3z",
-        "text_U4xEHx"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "section_hero_cream_lp_primary": {
-      "type": "section-hero",
-      "name": "Image banner",
-      "settings": {
-        "image_1": "shopify://shop_images/Cream_2_copy.jpg",
-        "link": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "content_width": 50,
-        "mobile_height": "screen-height-one-half--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
-        "show_text_background": false,
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
-    "section_custom_code_cream_value": {
-      "type": "section-custom-code",
-      "name": "Cream value summary",
-      "settings": {
-        "code": "<section class='cream-value'><div class='cream-value__inner'><div class='cream-value__head'><p class='cream-value__eyebrow hero__subheading'>Why Cream</p><h2>Creamを選ぶ3つの理由</h2></div><div class='cream-value__grid'><article class='cream-value__card'><span class='cream-value__icon'>{{ 'shield-check-line.svg' | inline_asset_content }}</span><h3>設計済みだから迷わない</h3><p>Shopifyで9年以上の構築・運用支援で培ったノウハウをもとに開発。商品ページや購入導線などをゼロから考えずに、ECサイトの構築を始められます。</p></article><article class='cream-value__card'><span class='cream-value__icon'>{{ 'apps-line.svg' | inline_asset_content }}</span><h3>アプリに頼りすぎない</h3><p>EC運用に必要な機能をテーマに備えているため、アプリの追加や管理の負担を抑えながらECサイトを運営できます。</p></article><article class='cream-value__card'><span class='cream-value__icon'>{{ 'ai-generate.svg' | inline_asset_content }}</span><h3>コード不要で簡単に調整</h3><p>開発会社へ依頼することなく、自社ブランドに合わせて色や余白、ボタンなどを管理画面から変更できます。</p></article></div></div></section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_double_cream_operability": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_6cr4WT": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Easy to use",
-            "padding_bottom": 16
-          }
-        },
-        "heading_7gw7ek": {
-          "type": "heading",
-          "settings": {
-            "title": "管理画面から調整でき、公開後も改善しやすい",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_xcznqT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>CREAMは、購入導線・販促・検索・ブランド表現など、EC運営に必要な機能をテーマ内に搭載しています。Shopifyの管理画面からデザインを調整でき、動画バナーやShop the lookなど、商品の魅力を伝える機能も利用できます。</p><p>※一部の機能や運用内容によっては、別途アプリや設定が必要です。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_FmyAwx": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "無料でCREAMを試してみる",
-            "button_url": "shopify://products/cream-by-solstar",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_6cr4WT",
-        "heading_7gw7ek",
-        "text_xcznqT",
-        "buttons_FmyAwx"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image_1": "shopify://shop_images/Cream_3.webp",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "section_hero_cream_lp_secondary": {
       "type": "section-hero",
       "name": "Image banner",
@@ -550,17 +487,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
-    },
-    "section_custom_code_cream_usecases": {
-      "type": "section-custom-code",
-      "name": "Industry use cases",
-      "settings": {
-        "code": "<section class='cream-usecases'><div class='cream-usecases__inner'><div class='cream-usecases__head'><p class='cream-usecases__eyebrow hero__subheading'>Industry use cases</p><h2>業種ごとの売り方に、<br class='cream-mobile-break'>自然にフィットする。</h2></div><div class='cream-usecases__grid'><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Hoodie.png?v=1782528525&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='アパレルのShop the lookイメージ' loading='lazy' decoding='async'><h3>アパレル</h3><p>Shop the lookで、コーディネートから自然に商品詳細へ。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/72fd8986095864800070d4a14b620617.png?v=1780990814&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='コスメ・美容のBefore and afterイメージ' loading='lazy' decoding='async'><h3>コスメ・美容</h3><p>Before & Afterで、使用前後の変化や魅力をわかりやすく伝える。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/d314886a4225b31a081ec01c358051b8.png?v=1780990815&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='食品・D2Cの販促イメージ' loading='lazy' decoding='async'><h3>食品・D2C</h3><p>ストーリーやレビュー、定期購入の導線まで、一つのページでまとめて伝える。</p></article><article class='cream-usecases__card'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=800' srcset='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=360 360w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=600 600w, https://cdn.shopify.com/s/files/1/0704/2642/7614/files/3be2d760feaa5d936460a7d2e8807596.png?v=1780990815&amp;width=800 800w' sizes='(max-width: 599px) calc(100vw - 32px), (max-width: 999px) calc(50vw - 25px), 25vw' width='800' height='1200' alt='実店舗併設のMap導線イメージ' loading='lazy' decoding='async'><h3>実店舗併設</h3><p>店舗情報やお知らせを掲載し、来店とECをスムーズにつなげる。</p></article></div></div></section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_announcement_cream_lp_mid": {
@@ -616,11 +542,11 @@
         "padding_bottom": 50
       }
     },
-    "section_custom_code_cream_japan": {
+    "section_custom_code_cream_pdp_included": {
       "type": "section-custom-code",
-      "name": "Japan market fit",
+      "name": "Cream included features",
       "settings": {
-        "code": "<section class='cream-japan' id='cream-japan'><div class='cream-japan__inner'><div class='cream-japan__head'><p class='cream-japan__eyebrow hero__subheading'>Built for Japan</p><h2>日本市場での運用を<br class='cream-mobile-break'>考えたShopifyテーマ。</h2><p class='cream-japan__lead'>Creamは、スマートフォンでの購入導線や価格表示、LINEを活用した再訪導線、レビュー・セール表示など、日本市場でのEC運用を考えて設計しています。海外テーマの導入後に、日本向けの表示や機能を追加・調整する負担を抑え、公開後も運用・改善しやすいECサイトづくりを支援します。</p></div><div class='cream-japan__grid'><article class='cream-japan__card'><div class='cream-japan__icon'>{{ 'cream-icon-mobile-cart.svg' | inline_asset_content }}</div><h3>スマホ起点の購入導線</h3><p>スマートフォン画面の下部にナビゲーションや購入ボタンを表示し、商品を閲覧しながら購入操作へ進みやすい導線を作れます。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>{{ 'cream-icon-line.svg' | inline_asset_content }}</div><h3>LINE友だち追加導線</h3><p>LINEの友だち追加や告知につながる導線を設置し、購入後の再訪やリピート施策に活用できる接点を作れます。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>{{ 'cream-icon-tax.svg' | inline_asset_content }}</div><h3>「税込」表記の切り替え</h3><p>商品価格の近くに表示する「税込」などの補足文言を、テーマ設定から表示・非表示に切り替えられます。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>{{ 'cream-icon-reviews.svg' | inline_asset_content }}</div><h3>レビュー・セール表示</h3><p>レビュー、カウントダウン、セールバッジなどを表示し、商品の人気やお得感を判断材料として伝えやすくします。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>{{ 'cream-icon-marketing.svg' | inline_asset_content }}</div><h3>販促・回遊機能をテーマに搭載</h3><p>よく使われる販促・演出・回遊機能をテーマに備え、追加アプリの導入や管理の複雑化を抑えやすくします。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>{{ 'cream-icon-markets.svg' | inline_asset_content }}</div><h3>言語・国・地域セレクター</h3><p>Shopify Marketsの設定に合わせて、言語や国・地域を選択するセレクターを表示できます。</p></article></div></div></section>",
+        "code": "<style>.cream-included{background:var(--COLOR-BG);color:var(--COLOR-TEXT);padding:86px 24px}.cream-included__inner{max-width:1240px;margin:0 auto}.cream-included__head{max-width:820px;margin:0 auto 42px;text-align:center}.cream-included .hero__subheading{color:var(--BTN-PRIMARY-BG);margin:0 0 16px;text-align:center}.cream-included h2{margin:0;color:var(--COLOR-TEXT);text-align:center}.cream-included__grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px;background:var(--COLOR-BG)}.cream-included__group{background:var(--COLOR-BG);padding:0;min-height:0}.cream-included__group h3{margin:0 0 16px;line-height:1.35;color:var(--COLOR-TEXT)}.cream-included__group ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}.cream-included__group li{display:flex;gap:8px;align-items:flex-start;color:var(--COLOR-TEXT);line-height:1.55}.cream-included__group li:before{content:'+';color:var(--COLOR-LINK);font-weight:700;line-height:1.55}.cream-included__note{margin:28px 0 0;color:var(--COLOR-TEXT);line-height:1.75}@media(max-width:1099px){.cream-included__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}}@media(max-width:749px){.cream-included{padding:62px 0}.cream-included__head{padding:0 16px}.cream-included__grid{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 16px 4px}.cream-included__group{flex:0 0 min(82vw,340px);scroll-snap-align:start}.cream-included__grid::-webkit-scrollbar{display:none}.cream-included__note{padding:0 16px}}</style><section class='cream-included' id='cream-included'><div class='cream-included__inner'><div class='cream-included__head'><p class='cream-included__eyebrow hero__subheading'>What's included</p><h2 class='heading-large'>標準搭載機能</h2></div><div class='cream-included__grid'><article class='cream-included__group'><h3>購入導線</h3><ul><li>カートドロワー</li><li>追従カート</li><li>商品一覧からすぐにカート追加</li><li>送料無料進捗表示</li><li>ディスカウントコード入力</li><li>アップセル／バンドル</li></ul></article><article class='cream-included__group'><h3>商品訴求</h3><ul><li>商品タブ</li><li>商品アコーディオン</li><li>在庫カウントダウン</li><li>配送予定表示</li><li>サイズ表／フィットガイド</li><li>レビュー／商品バッジ</li></ul></article><article class='cream-included__group'><h3>回遊性</h3><ul><li>予測検索</li><li>商品フィルター／並び替え</li><li>商品を探しやすいメガメニュー</li><li>関連商品</li><li>最近見た商品</li><li>サブコレクション</li></ul></article><article class='cream-included__group'><h3>ブランド表現</h3><ul><li>動画付きバナー</li><li>スライドショー</li><li>ソーシャル動画</li><li>画像付きテキスト</li><li>ルックから商品を購入</li><li>ビフォー／アフター</li></ul></article><article class='cream-included__group'><h3>デザイン設定</h3><ul><li>カラースキーム</li><li>タイポグラフィ</li><li>ボタンスタイル</li><li>スウォッチ設定</li><li>バッジ設定</li><li>カスタムコード</li></ul></article></div><p class='cream-included__note'>掲載内容はテーマの標準機能です。実際の表示や利用可否は、Shopifyの設定、商品データ、導入アプリ、運用方法によって異なる場合があります。</p></div></section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
@@ -782,75 +708,6 @@
         "padding_top": 96,
         "padding_bottom": 96
       }
-    },
-    "section_rich_text_cream_final_cta": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading_final": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Start with Cream",
-            "padding_bottom": 14
-          }
-        },
-        "heading_final": {
-          "type": "heading",
-          "settings": {
-            "title": "今だけ無料で、<br class=\"cream-mobile-break\">Creamを始めませんか。",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_final": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ベータ版につき、先着100名様限定で無料導入いただけます。<br/>導入前にデザインや機能をご確認いただけるライブデモもご用意しています。<br/>ライブデモの閲覧パスワードは「1」です。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 18
-          }
-        },
-        "button_demo": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "無料で試してみる",
-            "button_url": "/products/cream-by-solstar",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        },
-        "button_contact": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "ライブデモを見る",
-            "button_url": "https://solstar-enterprise-demo-store.myshopify.com/",
-            "button_type": "btn--secondary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_final",
-        "heading_final",
-        "text_final",
-        "button_demo",
-        "button_contact"
-      ],
-      "name": "Final CTA",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 96,
-        "padding_bottom": 96
-      }
     }
   },
   "order": [
@@ -858,22 +715,16 @@
     "related",
     "section_announcement_qnCgXe",
     "section_announcement_cream_lp_intro",
-    "section_video_niFPGy",
     "section_hero_cream_lp_primary",
-    "section_custom_code_cream_value",
     "section_double_cream_operability",
     "section_custom_code_cream_pdp_overview",
     "section_custom_code_cream_pdp_highlights",
     "section_custom_code_cream_pdp_feature_anchor",
     "section_social_videos_TmagUz",
     "section_hero_cream_lp_secondary",
-    "section_custom_code_cream_usecases",
     "section_announcement_cream_lp_mid",
-    "section_custom_code_cream_japan",
     "section_custom_code_cream_pdp_included",
-    "section_double_cream_live_demo",
     "section_accordion_cream_faq",
-    "section_custom_code_cream_pdp_support",
-    "section_rich_text_cream_final_cta"
+    "section_double_cream_live_demo"
   ]
 }
