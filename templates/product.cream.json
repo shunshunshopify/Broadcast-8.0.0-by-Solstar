@@ -123,8 +123,8 @@
         "image_size": "normal",
         "mobile_image_style": "slider",
         "color_scheme": "scheme-10",
-        "padding_top": 96,
-        "padding_bottom": 96
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "related": {
