@@ -97,36 +97,24 @@
         "show_placeholder": true
       }
     },
-    "section_video_CA3Knt": {
-      "type": "section-video",
-      "name": "Hero video",
+    "section_hero_9H39iB": {
+      "type": "section-hero",
+      "name": "Image banner",
       "settings": {
-        "video": "shopify://files/videos/Cream Theme Video.mp4",
-        "show_video_popup": false,
-        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "title": "",
-        "heading_font_size": "heading-large",
-        "text": "",
-        "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
-        "link_text": "",
+        "image_1": "shopify://shop_images/Cream.webp",
         "link": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "image": "shopify://shop_images/Multi_Hero_Images_copy_7a317767-7728-44c5-a6df-960ea9fb4eb8.webp",
-        "desktop_height": "image-height",
-        "mobile_image": "shopify://shop_images/Multi_Hero_Images_copy_7a317767-7728-44c5-a6df-960ea9fb4eb8.webp",
-        "mobile_height": "image-height--mobile",
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "",
         "show_text_background": false,
-        "color": "",
         "overlay_type": "disabled",
         "padding_top": 0,
         "padding_bottom": 0,
-        "heading_tag": "automatic"
+        "show_placeholder": true
       }
     },
     "section_custom_code_cream_value": {
@@ -605,7 +593,7 @@
   "order": [
     "main",
     "section_double_dPR33e",
-    "section_video_CA3Knt",
+    "section_hero_9H39iB",
     "section_custom_code_cream_value",
     "section_custom_code_cream_fit",
     "section_custom_code_cream_japan",
