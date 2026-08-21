@@ -150,59 +150,6 @@
         "padding_bottom": 50
       }
     },
-    "section_announcement_K7BVJn": {
-      "type": "section-announcement",
-      "blocks": {
-        "text_MqYe7a": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>CREAM / </strong>Powerful Shopify Theme</p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_YPiz3c": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Get it for free</strong></p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_7zdimi": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Let us help you grow your e-commerce</strong></p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_MqYe7a",
-        "text_YPiz3c",
-        "text_7zdimi"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "section_hero_9H39iB": {
       "type": "section-hero",
       "name": "Image banner",
@@ -395,7 +342,7 @@
         "height": "image-height",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
-        "mobile_height": "image-height--mobile",
+        "mobile_height": "screen-height-one-third--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "",
         "show_text_background": false,
@@ -414,6 +361,59 @@
         "color_scheme": "scheme-10",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_announcement_K7BVJn": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_MqYe7a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CREAM / </strong>Powerful Shopify Theme</p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_YPiz3c": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Get it for free</strong></p>",
+            "text_font_size": "body-x-large",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_7zdimi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Let us help you grow your e-commerce</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_MqYe7a",
+        "text_YPiz3c",
+        "text_7zdimi"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_custom_code_cream_japan": {
