@@ -8,6 +8,7 @@
     --PB: {{ section.settings.padding_bottom }}px;
   }
 
+  {%- if section.settings.code contains 'modern-mvv-section' -%}
   #CustomCode--{{ section.id }} .modern-mvv-section {
     background-color: var(--bg) !important;
     color: var(--text) !important;
@@ -57,6 +58,7 @@
       transition: none !important;
     }
   }
+  {%- endif -%}
 {%- endstyle -%}
 
 <section

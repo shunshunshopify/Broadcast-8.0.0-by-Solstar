@@ -1,0 +1,1191 @@
+/* Pricing page styles — loaded only by page.pricing */
+
+/* section_custom_code_kkwVXf */
+/* ===========================
+   SOLSTAR – Solstar Express
+   Clean / Table統合・枠干渉解消
+   =========================== */
+.solstar-express {
+  /* scheme-10 */
+  --text: #fcfbf9;            /* section_text */
+  --bg: #0d0326;              /* section_bg */
+  --card: #f5f2ec;            /* section_bg_light */
+  --line: #d1cdc4;            /* lines_and_border */
+  --link: #ffffff;
+  --btn-primary-text: #fcfbf9;
+
+  color: var(--text);
+  background: var(--bg);
+  padding: 0px 16px;
+}
+
+.solstar-express__inner {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* Header */
+.solstar-express__header {
+  margin-bottom: 18px;
+}
+
+/* ===== Title + Badge ===== */
+.solstar-express__title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.solstar-express__title {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 900;
+  margin: 0;
+  color: var(--text);
+}
+
+/* Badge（おすすめ） */
+.solstar-express__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 14px;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--btn-primary-text);
+  background: #AB8C52; /* ★指定カラー */
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.solstar-express__sub {
+  margin: 10px 0 0;
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 900;
+  color: var(--text);
+}
+
+/* ===== Mobile: Badgeをタイトルの上に ===== */
+@media (max-width: 420px) {
+  .solstar-express__title-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .solstar-express__badge {
+    order: -1;
+  }
+}
+
+/* Layout */
+.solstar-express__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 18px;
+  align-items: stretch;
+}
+
+/* Card */
+.solstar-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px;
+  min-width: 0;
+  color: #111111;
+}
+
+.solstar-card__title {
+  margin: 0 0 14px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.35;
+  color: #111111;
+}
+
+/* ===== Table ===== */
+.solstar-table-wrap {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.solstar-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--card);
+  color: #111111;
+}
+
+.solstar-table th,
+.solstar-table td {
+  padding: 12px 14px;
+  border-top: 1px solid var(--line);
+  vertical-align: middle;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  color: #111111;
+}
+
+.solstar-table tr:first-child th,
+.solstar-table tr:first-child td {
+  border-top: none;
+}
+
+.solstar-table th {
+  width: 34%;
+  font-size: 12px;
+  font-weight: 700;
+  border-right: 1px solid var(--line);
+  background: rgba(120, 120, 120, 0.14);
+}
+
+.solstar-table td {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ===== Table inner list ===== */
+.solstar-table-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.2em;
+  color: #111111;
+}
+
+.solstar-table-list li {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.7;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.solstar-table-list li:first-child {
+  margin-top: 0;
+}
+
+/* ===== Bullet OFF (only specific tables) ===== */
+.solstar-service .solstar-table-list,
+.solstar-initial .solstar-table-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Fee inline */
+.solstar-fee-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+
+/* Link */
+.solstar-express a {
+  color: var(--link);
+}
+
+/* Desktop */
+@media (min-width: 860px) {
+  .solstar-express {
+    padding: 0px 24px;
+  }
+
+  .solstar-express__layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .solstar-service { grid-column: 1; grid-row: 1; }
+  .solstar-initial { grid-column: 2; grid-row: 1; }
+  .solstar-monthly { grid-column: 1; grid-row: 2; }
+  .solstar-client  { grid-column: 2; grid-row: 2; }
+  .solstar-paid    { grid-column: 1; grid-row: 3; }
+  .solstar-nosupport { grid-column: 2; grid-row: 3; }
+
+  .solstar-table th {
+    width: 32%;
+  }
+}
+
+/* section_custom_code_G4hPhT */
+/* ===========================
+   SOLSTAR – Basic Plan (Isolated)
+   ※ solstar-express と干渉しないように完全別prefix
+   =========================== */
+.solstar-basic {
+  /* scheme-10 */
+  --sb-text: #fcfbf9;          /* section_text */
+  --sb-bg: #0d0326;            /* section_bg */
+  --sb-card: #f5f2ec;          /* section_bg_light */
+  --sb-line: #d1cdc4;          /* lines_and_border */
+  --sb-link: #ffffff;
+
+  color: var(--sb-text);
+  background: var(--sb-bg);
+  padding: 0px 16px;
+}
+
+.solstar-basic__inner {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* Header */
+.solstar-basic__header {
+  margin-bottom: 18px;
+}
+
+.solstar-basic__title {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 900;
+  margin: 0 0 10px;
+  color: var(--sb-text);
+}
+
+.solstar-basic__sub {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 900;
+  color: var(--sb-text);
+}
+
+/* Layout */
+.solstar-basic__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 18px;
+  align-items: stretch;
+}
+
+/* Card */
+.solstar-basic-card {
+  background: var(--sb-card);
+  border: 1px solid var(--sb-line);
+  border-radius: 16px;
+  padding: 18px;
+  min-width: 0;
+  color: #111111;
+}
+
+.solstar-basic-card__title {
+  margin: 0 0 14px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.35;
+  color: #111111;
+}
+
+/* ===== Table ===== */
+.solstar-basic-table-wrap {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.solstar-basic-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid var(--sb-line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--sb-card);
+  color: #111111;
+}
+
+.solstar-basic-table th,
+.solstar-basic-table td {
+  padding: 12px 14px;
+  border-top: 1px solid var(--sb-line);
+  vertical-align: middle;
+  text-align: left;
+  color: #111111;
+}
+
+.solstar-basic-table tr:first-child th,
+.solstar-basic-table tr:first-child td {
+  border-top: none;
+}
+
+.solstar-basic-table th {
+  width: 34%;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  border-right: 1px solid var(--sb-line);
+  background: rgba(120, 120, 120, 0.14);
+}
+
+.solstar-basic-table td {
+  font-size: 14px;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+/* ===========================
+   ★ 構築内容のみ 長文Wrap対応
+   =========================== */
+.solstar-basic-scope .solstar-basic-table th,
+.solstar-basic-scope .solstar-basic-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ===== Lists ===== */
+.solstar-basic-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.2em;
+  color: #111111;
+}
+
+.solstar-basic-list li {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.solstar-basic-list li:first-child {
+  margin-top: 0;
+}
+
+/* Bullet OFF (only inside tables) */
+.solstar-basic-table .solstar-basic-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.solstar-basic-table .solstar-basic-list li {
+  margin-left: 0;
+}
+
+/* Link（保険） */
+.solstar-basic a {
+  color: var(--sb-link);
+}
+
+/* Desktop */
+@media (min-width: 860px) {
+  .solstar-basic {
+    padding: 0px 24px;
+  }
+
+  .solstar-basic__layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .solstar-basic-service { grid-column: 1; grid-row: 1; }
+  .solstar-basic-scope   { grid-column: 2; grid-row: 1; }
+  .solstar-basic-client  { grid-column: 1; grid-row: 2; }
+  .solstar-basic-paid    { grid-column: 2; grid-row: 2; }
+  .solstar-basic-nosup   { grid-column: 1; grid-row: 3; }
+
+  .solstar-basic-table th {
+    width: 32%;
+  }
+}
+
+/* Small screens */
+@media (max-width: 420px) {
+  .solstar-basic-table th {
+    width: 38%;
+    white-space: normal;
+  }
+}
+
+/* section_custom_code_PYAnkJ */
+/* ===========================
+   SOLSTAR – Standard Plan (Isolated)
+   ※ solstar-basic / solstar-express と干渉しない完全別prefix
+   =========================== */
+.solstar-standard {
+  /* scheme-10 */
+  --ss-text: #fcfbf9;          /* section_text */
+  --ss-bg: #0d0326;            /* section_bg */
+  --ss-card: #f5f2ec;          /* section_bg_light */
+  --ss-line: #d1cdc4;          /* lines_and_border */
+  --ss-link: #ffffff;
+
+  color: var(--ss-text);
+  background: var(--ss-bg);
+  padding: 0px 16px;
+}
+
+.solstar-standard__inner {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* Header */
+.solstar-standard__header {
+  margin-bottom: 18px;
+}
+
+.solstar-standard__title {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 900;
+  margin: 0 0 10px;
+  color: var(--ss-text);
+}
+
+.solstar-standard__sub {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 900;
+  color: var(--ss-text);
+}
+
+/* Layout */
+.solstar-standard__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 18px;
+  align-items: stretch;
+}
+
+/* Card */
+.solstar-standard-card {
+  background: var(--ss-card);
+  border: 1px solid var(--ss-line);
+  border-radius: 16px;
+  padding: 18px;
+  min-width: 0;
+  color: #111111; /* ライト背景の可読性優先 */
+}
+
+.solstar-standard-card__title {
+  margin: 0 0 14px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.35;
+  color: #111111;
+}
+
+/* ===== Table ===== */
+.solstar-standard-table-wrap {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.solstar-standard-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid var(--ss-line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--ss-card);
+  color: #111111;
+}
+
+.solstar-standard-table th,
+.solstar-standard-table td {
+  padding: 12px 14px;
+  border-top: 1px solid var(--ss-line);
+  vertical-align: middle;
+  text-align: left;
+  color: #111111;
+}
+
+.solstar-standard-table tr:first-child th,
+.solstar-standard-table tr:first-child td {
+  border-top: none;
+}
+
+.solstar-standard-table th {
+  width: 34%;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  border-right: 1px solid var(--ss-line);
+  background: rgba(120, 120, 120, 0.14);
+}
+
+.solstar-standard-table td {
+  font-size: 14px;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+/* ===========================
+   ★ 構築内容のみ 長文Wrap対応
+   =========================== */
+.solstar-standard-scope .solstar-standard-table th,
+.solstar-standard-scope .solstar-standard-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ===== Lists ===== */
+.solstar-standard-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.2em;
+  color: #111111;
+}
+
+.solstar-standard-list li {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.solstar-standard-list li:first-child {
+  margin-top: 0;
+}
+
+.solstar-standard-list li.solstar-standard-note {
+  color: rgba(17, 17, 17, 0.62);
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+/* Bullet OFF (only inside tables) */
+.solstar-standard-table .solstar-standard-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.solstar-standard-table .solstar-standard-list li {
+  margin-left: 0;
+}
+
+/* Link（保険） */
+.solstar-standard a {
+  color: var(--ss-link);
+}
+
+/* Desktop */
+@media (min-width: 860px) {
+  .solstar-standard {
+    padding: 0px 24px;
+  }
+
+  .solstar-standard__layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .solstar-standard-service { grid-column: 1; grid-row: 1; }
+  .solstar-standard-scope   { grid-column: 2; grid-row: 1; }
+  .solstar-standard-client  { grid-column: 1; grid-row: 2; }
+  .solstar-standard-nosup   { grid-column: 2; grid-row: 2; }
+  .solstar-standard-paid    { grid-column: 1 / -1; grid-row: 3; }
+
+  .solstar-standard-table th {
+    width: 32%;
+  }
+
+  .solstar-standard-card {
+    padding: 22px;
+  }
+
+  .solstar-standard-paid .solstar-standard-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(6, auto);
+    grid-auto-flow: column;
+    column-gap: 28px;
+    row-gap: 0;
+  }
+
+  .solstar-standard-paid .solstar-standard-list li {
+    break-inside: avoid;
+  }
+}
+
+/* Small screens */
+@media (max-width: 420px) {
+  .solstar-standard-table th {
+    width: 38%;
+    white-space: normal;
+  }
+}
+
+/* section_custom_code_k6cYGG */
+/* ===========================
+   SOLSTAR – Pro Plan (Isolated)
+   ※ solstar-standard / solstar-basic と干渉しない完全別prefix
+   =========================== */
+.solstar-pro {
+  /* scheme-10 */
+  --sp-text: #fcfbf9;          /* section_text */
+  --sp-bg: #0d0326;            /* section_bg */
+  --sp-card: #f5f2ec;          /* section_bg_light */
+  --sp-line: #d1cdc4;          /* lines_and_border */
+  --sp-link: #ffffff;
+
+  color: var(--sp-text);
+  background: var(--sp-bg);
+  padding: 0px 16px;
+}
+
+.solstar-pro__inner {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* Header */
+.solstar-pro__header {
+  margin-bottom: 18px;
+}
+
+.solstar-pro__title {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 900;
+  margin: 0 0 10px;
+  color: var(--sp-text);
+}
+
+.solstar-pro__sub {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 900;
+  color: var(--sp-text);
+}
+
+/* Layout */
+.solstar-pro__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 18px;
+  align-items: stretch;
+}
+
+/* Card */
+.solstar-pro-card {
+  background: var(--sp-card);
+  border: 1px solid var(--sp-line);
+  border-radius: 16px;
+  padding: 18px;
+  min-width: 0;
+  color: #111111; /* ライト背景用の可読色 */
+}
+
+.solstar-pro-card__title {
+  margin: 0 0 14px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.35;
+  color: #111111;
+}
+
+/* ===== Table ===== */
+.solstar-pro-table-wrap {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.solstar-pro-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid var(--sp-line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--sp-card);
+  color: #111111;
+}
+
+.solstar-pro-table th,
+.solstar-pro-table td {
+  padding: 12px 14px;
+  border-top: 1px solid var(--sp-line);
+  vertical-align: middle;
+  text-align: left;
+  color: #111111;
+}
+
+.solstar-pro-table tr:first-child th,
+.solstar-pro-table tr:first-child td {
+  border-top: none;
+}
+
+.solstar-pro-table th {
+  width: 34%;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  border-right: 1px solid var(--sp-line);
+  background: rgba(120, 120, 120, 0.14);
+}
+
+.solstar-pro-table td {
+  font-size: 14px;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+/* ===========================
+   ★ 構築内容：長文Wrap対応
+   =========================== */
+.solstar-pro-scope .solstar-pro-table th,
+.solstar-pro-scope .solstar-pro-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ===========================
+   ★ お客様に対応いただくこと：長文Wrap対応
+   =========================== */
+.solstar-pro-client .solstar-pro-table th,
+.solstar-pro-client .solstar-pro-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ===== Lists ===== */
+.solstar-pro-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.2em;
+  color: #111111;
+}
+
+.solstar-pro-list li {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.solstar-pro-list li:first-child {
+  margin-top: 0;
+}
+
+/* Bullet OFF (only inside tables) */
+.solstar-pro-table .solstar-pro-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.solstar-pro-table .solstar-pro-list li {
+  margin-left: 0;
+}
+
+/* Link（保険） */
+.solstar-pro a {
+  color: var(--sp-link);
+}
+
+/* Desktop */
+@media (min-width: 860px) {
+  .solstar-pro {
+    padding: 0px 24px;
+  }
+
+  .solstar-pro__layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .solstar-pro-service { grid-column: 1; grid-row: 1; }
+  .solstar-pro-scope   { grid-column: 2; grid-row: 1; }
+  .solstar-pro-client  { grid-column: 1; grid-row: 2; }
+  .solstar-pro-paid    { grid-column: 2; grid-row: 2; }
+  .solstar-pro-nosup   { grid-column: 1; grid-row: 3; }
+
+  .solstar-pro-table th {
+    width: 32%;
+  }
+}
+
+/* Small screens */
+@media (max-width: 420px) {
+  .solstar-pro-table th {
+    width: 38%;
+    white-space: normal;
+  }
+}
+
+/* section_custom_code_Mn7Tcp */
+/* ===========================
+   SOLSTAR – 保守運用プラン (Maintenance / Isolated)
+   ※ express / basic / standard / pro と干渉しない完全別prefix
+   =========================== */
+.solstar-maint {
+  /* scheme-10 */
+  --sm-text: #fcfbf9;          /* section_text */
+  --sm-bg: #0d0326;            /* section_bg */
+  --sm-card: #f5f2ec;          /* section_bg_light */
+  --sm-line: #d1cdc4;          /* lines_and_border */
+  --sm-link: #ffffff;
+
+  color: var(--sm-text);
+  background: var(--sm-bg);
+  padding: 0px 16px;
+}
+
+.solstar-maint__inner {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* Header */
+.solstar-maint__header {
+  margin-bottom: 18px;
+}
+
+.solstar-maint__title {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 900;
+  margin: 0 0 10px;
+  color: var(--sm-text);
+}
+
+.solstar-maint__sub {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 900;
+  color: var(--sm-text);
+}
+
+/* Layout */
+.solstar-maint__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 18px;
+  align-items: stretch;
+}
+
+/* Card */
+.solstar-maint-card {
+  background: var(--sm-card);
+  border: 1px solid var(--sm-line);
+  border-radius: 16px;
+  padding: 18px;
+  min-width: 0;
+  color: #111111;
+}
+
+.solstar-maint-card__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+}
+
+.solstar-maint-card__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: #111111;
+}
+
+.solstar-maint-card__price {
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #111111;
+}
+
+.solstar-maint-card__price small {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.solstar-maint-card__desc {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #333333;
+}
+
+/* Badge（おすすめ） */
+.solstar-maint-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1;
+  color: #fcfbf9;
+  background: #AB8C52;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Table（プラン詳細） ===== */
+.solstar-maint-table-wrap {
+  border: none;
+  border-radius: 14px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.solstar-maint-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid var(--sm-line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--sm-card);
+  color: #111111;
+}
+
+.solstar-maint-table th,
+.solstar-maint-table td {
+  padding: 12px 14px;
+  border-top: 1px solid var(--sm-line);
+  vertical-align: middle;
+  text-align: left;
+  color: #111111;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.solstar-maint-table tr:first-child th,
+.solstar-maint-table tr:first-child td {
+  border-top: none;
+}
+
+.solstar-maint-table th {
+  width: 42%;
+  font-size: 12px;
+  font-weight: 700;
+  border-right: 1px solid var(--sm-line);
+  background: rgba(120, 120, 120, 0.14);
+}
+
+.solstar-maint-table td {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ===== Lists ===== */
+
+
+.solstar-maint-text {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #111111;
+}
+.solstar-maint-text:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== 比較表（全幅・モバイル横スクロール） ===== */
+.solstar-maint-compare {
+  grid-column: 1 / -1;
+}
+
+.solstar-maint-compare__scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 14px;
+}
+
+.solstar-compare-table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  border: 1px solid var(--sm-line);
+  background: var(--sm-card);
+  color: #111111;
+}
+
+.solstar-compare-table th,
+.solstar-compare-table td {
+  padding: 10px 12px;
+  border-top: 1px solid var(--sm-line);
+  border-right: 1px solid var(--sm-line);
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #111111;
+  vertical-align: middle;
+}
+
+.solstar-compare-table th:last-child,
+.solstar-compare-table td:last-child {
+  border-right: none;
+}
+
+.solstar-compare-table tbody tr:first-child th,
+.solstar-compare-table tbody tr:first-child td {
+  border-top: none;
+}
+
+.solstar-compare-table thead th {
+  background: rgba(120, 120, 120, 0.18);
+  font-size: 13px;
+  font-weight: 900;
+  border-top: none;
+}
+
+.solstar-compare-table tbody th {
+  text-align: left;
+  font-weight: 700;
+  font-size: 13px;
+  background: rgba(120, 120, 120, 0.08);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.solstar-mark-yes {
+  color: #1f7a3d;
+  font-weight: 900;
+}
+.solstar-mark-paid {
+  font-size: 12px;
+  color: #9a6a1c;
+  font-weight: 700;
+}
+.solstar-mark-no {
+  color: rgba(17, 17, 17, 0.45);
+}
+
+/* notes full width */
+.solstar-maint-note {
+  grid-column: 1 / -1;
+}
+
+/* Link */
+.solstar-maint a {
+  color: var(--sm-link);
+}
+
+/* Desktop */
+@media (min-width: 860px) {
+  .solstar-maint {
+    padding: 0px 24px;
+  }
+
+  .solstar-maint__layout {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .solstar-maint-table th {
+    width: 40%;
+  }
+}
+
+/* Small screens */
+@media (max-width: 420px) {
+  .solstar-maint-table th {
+    width: 44%;
+  }
+}
+
+/* Shared pricing-page actions and FAQ */
+.solstar-pricing-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.solstar-pricing-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 11px 20px;
+  border: 1px solid #AB8C52;
+  border-radius: 999px;
+  background: #AB8C52;
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+}
+
+.solstar-pricing-link:hover,
+.solstar-pricing-link:focus-visible {
+  filter: brightness(1.08);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.solstar-pricing-link--secondary {
+  border-color: currentColor;
+  background: transparent;
+}
+
+.solstar-maint-note .solstar-maint-text {
+  margin-top: 14px;
+}
+
+.solstar-maint-compare__scroll:focus-visible {
+  outline: 3px solid #AB8C52;
+  outline-offset: 3px;
+}
+
+.solstar-pricing-faq details {
+  border-top: 1px solid var(--sm-line);
+  color: #111111;
+}
+
+.solstar-pricing-faq details:first-of-type {
+  border-top: 0;
+}
+
+.solstar-pricing-faq summary {
+  cursor: pointer;
+  padding: 14px 0;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.solstar-pricing-faq details p {
+  margin: -4px 0 14px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333333;
+}
+
+@media (max-width: 520px) {
+  .solstar-pricing-actions {
+    flex-direction: column;
+  }
+
+  .solstar-pricing-link {
+    width: 100%;
+  }
+}

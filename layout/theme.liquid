@@ -7,6 +7,10 @@
       {{ 'cream-page-refinements.css' | asset_url | stylesheet_tag }}
     {%- endif -%}
 
+    {%- if template.name == 'page' and template.suffix == 'pricing' -%}
+      {{ 'pricing-page.css' | asset_url | stylesheet_tag }}
+    {%- endif -%}
+
     {{ content_for_header }}
   </head>
 
