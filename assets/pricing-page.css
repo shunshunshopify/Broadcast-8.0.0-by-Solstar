@@ -1,5 +1,284 @@
 /* Pricing page styles — loaded only by page.pricing */
 
+/* Plan selection guide */
+.solstar-plan-guide,
+.solstar-build-support {
+  color: var(--text);
+  background: var(--bg);
+}
+
+.solstar-plan-guide__inner,
+.solstar-build-support__inner {
+  width: min(1020px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.solstar-plan-guide__header,
+.solstar-build-support__header {
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.solstar-plan-guide__eyebrow,
+.solstar-build-support__eyebrow {
+  margin: 0 0 12px;
+  color: #AB8C52;
+  font-family: var(--FONT-STACK-SUBHEADING);
+  font-size: var(--font-subheading);
+  font-weight: var(--FONT-WEIGHT-SUBHEADING);
+  letter-spacing: var(--LETTER-SPACING-SUBHEADING);
+  text-transform: var(--FONT-UPPERCASE-SUBHEADING);
+}
+
+.solstar-plan-guide__title,
+.solstar-build-support__title {
+  margin: 0;
+  color: var(--text);
+  font-size: var(--font-heading-large);
+  line-height: 1.25;
+}
+
+.solstar-plan-guide__lead,
+.solstar-build-support__lead {
+  margin: 14px 0 0;
+  color: var(--text);
+  font-size: var(--font-body-medium);
+  line-height: 1.8;
+}
+
+.solstar-plan-guide__choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.solstar-plan-guide__choice {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid color-mix(in srgb, var(--text) 18%, transparent);
+  border-radius: 16px;
+  color: var(--text);
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  text-decoration: none;
+}
+
+a.solstar-plan-guide__choice:hover {
+  border-color: #AB8C52;
+}
+
+.solstar-plan-guide__choice-label {
+  color: #AB8C52;
+  font-size: var(--font-body-small);
+  font-weight: 800;
+}
+
+.solstar-plan-guide__choice strong {
+  color: var(--text);
+  font-size: var(--font-heading-small);
+}
+
+.solstar-plan-guide__choice > span:not(.solstar-plan-guide__choice-label, .solstar-plan-guide__choice-links) {
+  font-size: var(--font-body-small);
+  line-height: 1.7;
+}
+
+.solstar-plan-guide__choice-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.solstar-plan-guide__choice-links a {
+  color: var(--text);
+  font-weight: 800;
+  text-underline-offset: 4px;
+}
+
+.solstar-plan-guide__table-wrap {
+  overflow-x: auto;
+  border: 1px solid #d1cdc4;
+  border-radius: 16px;
+  background: #f5f2ec;
+}
+
+.solstar-plan-guide__table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  color: #111111;
+}
+
+.solstar-plan-guide__table caption {
+  padding: 16px 18px;
+  color: #111111;
+  font-weight: 900;
+  text-align: left;
+}
+
+.solstar-plan-guide__table th,
+.solstar-plan-guide__table td {
+  padding: 13px 16px;
+  border-top: 1px solid #d1cdc4;
+  border-left: 1px solid #d1cdc4;
+  color: #111111;
+  font-size: var(--font-body-small);
+  line-height: 1.55;
+  text-align: left;
+  vertical-align: top;
+}
+
+.solstar-plan-guide__table th:first-child,
+.solstar-plan-guide__table td:first-child {
+  border-left: 0;
+}
+
+.solstar-plan-guide__table thead th,
+.solstar-plan-guide__table tbody th {
+  background: rgba(120, 120, 120, 0.12);
+  font-weight: 800;
+}
+
+/* Progressive disclosure for full plan specifications */
+.solstar-plan-anchor {
+  scroll-margin-top: 100px;
+}
+
+.solstar-plan-disclosure {
+  margin-top: 20px;
+}
+
+.solstar-plan-disclosure > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 15px 18px;
+  border: 1px solid currentColor;
+  border-radius: 12px;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 800;
+  list-style: none;
+}
+
+.solstar-plan-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.solstar-plan-disclosure > summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.solstar-plan-disclosure[open] > summary::after {
+  content: "−";
+}
+
+.solstar-plan-disclosure[open] > summary {
+  margin-bottom: 18px;
+}
+
+/* Case studies and build-plan FAQ */
+.solstar-build-proof {
+  margin-bottom: 64px;
+}
+
+.solstar-build-proof__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.solstar-build-proof__card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 170px;
+  padding: 22px;
+  border: 1px solid #d1cdc4;
+  border-radius: 16px;
+  color: #111111;
+  background: #f5f2ec;
+  text-decoration: none;
+}
+
+.solstar-build-proof__card:hover {
+  border-color: #AB8C52;
+}
+
+.solstar-build-proof__card span {
+  margin-bottom: 14px;
+  color: #7b632f;
+  font-size: var(--font-body-x-small);
+  font-weight: 800;
+}
+
+.solstar-build-proof__card strong {
+  color: #111111;
+  font-size: var(--font-heading-small);
+}
+
+.solstar-build-proof__card p {
+  margin: 10px 0 0;
+  color: #333333;
+  font-size: var(--font-body-small);
+  line-height: 1.65;
+}
+
+.solstar-build-faq details {
+  border-top: 1px solid color-mix(in srgb, var(--text) 24%, transparent);
+}
+
+.solstar-build-faq details:last-of-type {
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 24%, transparent);
+}
+
+.solstar-build-faq summary {
+  padding: 18px 4px;
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.solstar-build-faq details p {
+  max-width: 760px;
+  margin: -4px 4px 20px;
+  color: var(--text);
+  font-size: var(--font-body-small);
+  line-height: 1.8;
+}
+
+.solstar-build-support__action {
+  margin-top: 28px;
+}
+
+@media (max-width: 749px) {
+  .solstar-plan-guide__choices,
+  .solstar-build-proof__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .solstar-plan-guide__choice,
+  .solstar-build-proof__card {
+    padding: 18px;
+  }
+
+  .solstar-build-proof__card {
+    min-height: 0;
+  }
+
+  .solstar-build-support__action .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* section_custom_code_kkwVXf */
 /* ===========================
    SOLSTAR – Solstar Express
