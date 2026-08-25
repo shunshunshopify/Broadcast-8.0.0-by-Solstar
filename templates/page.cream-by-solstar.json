@@ -739,7 +739,7 @@
             "label-two": "Cream by Solstarについて",
             "label-three": "Basicプランについて",
             "label-four": "Standardプランについて",
-            "label-five": "Proプランについて",
+            "label-five": "",
             "label-six": "その他"
           }
         },
@@ -754,7 +754,7 @@
             "label-three": "SOLSTAR EXPRESSについて",
             "label-four": "Basicプランについて",
             "label-five": "Standardプランについて",
-            "label-six": "Proプランについて"
+            "label-six": ""
           }
         }
       },

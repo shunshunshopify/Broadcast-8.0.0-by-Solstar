@@ -106,7 +106,7 @@
           "settings": {
             "default_open": false,
             "title": "どのプランを選べばよいですか？",
-            "content": "<p>ECの立ち上げ・販売運営を任せたいメーカー様にはSOLSTAR EXPRESS、少数SKUで自社ECを始めたい方にはBasic、BASE・STORESなどからの移行やCRM強化にはStandard、大規模ECや基幹連携を含む再構築にはProをご案内しています。課題と体制に合わせて最適な範囲をご提案します。</p><p><a href=\"/pages/pricing\">各プランを比較する</a></p>",
+            "content": "<p>ECの立ち上げ・販売運営を任せたいメーカー様にはSOLSTAR EXPRESS、少数SKUで自社ECを始めたい方にはBasic、BASE・STORESなどからの移行やCRM強化にはStandardをご案内しています。大規模ECや基幹連携を含む再構築は個別にご相談ください。課題と体制に合わせて最適な範囲をご提案します。</p><p><a href=\"/pages/pricing\">各プランを比較する</a></p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -118,7 +118,7 @@
           "settings": {
             "default_open": false,
             "title": "サイト制作にはどれくらいかかりますか？",
-            "content": "<p>目安はSOLSTAR EXPRESSが約2〜4週間、Basicが約4〜8週間、Standardが約8〜12週間、Proが約12〜24週間です。素材の準備状況、連携要件、確認・修正の内容によって前後するため、詳細なスケジュールは要件確認後にご案内します。</p>",
+            "content": "<p>目安はSOLSTAR EXPRESSが約2〜4週間、Basicが約4〜8週間、Standardが約8〜12週間です。素材の準備状況、連携要件、確認・修正の内容によって前後するため、詳細なスケジュールは要件確認後にご案内します。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -160,7 +160,7 @@
           "settings": {
             "default_open": false,
             "title": "多言語・多通貨の越境ECに対応できますか？",
-            "content": "<p>対応可能です。販売する国・地域、言語、通貨、配送・決済、必要な運用体制を確認したうえで設計します。越境対応はBasic・Standard・Proでは別途対応となり、SOLSTAR EXPRESSでは対象外です。</p><p><a href=\"/pages/cross-border-shopify-ec\">越境ECサイト構築について見る</a></p>",
+            "content": "<p>対応可能です。販売する国・地域、言語、通貨、配送・決済、必要な運用体制を確認したうえで設計します。越境対応はBasic・Standardでは別途対応となり、SOLSTAR EXPRESSでは対象外です。</p><p><a href=\"/pages/cross-border-shopify-ec\">越境ECサイト構築について見る</a></p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -172,7 +172,7 @@
           "settings": {
             "default_open": false,
             "title": "アプリ連携や基幹システム連携はできますか？",
-            "content": "<p>レビュー、再入荷通知、LINE連携、SEO補助などのアプリ連携に対応しています。ERP・在庫管理・受注管理などとの外部連携は、Proプランを中心にAPI・CSV連携の設計・実装・検証をご相談いただけます。要件により別途お見積もりとなります。</p>",
+            "content": "<p>レビュー、再入荷通知、LINE連携、SEO補助などのアプリ連携に対応しています。ERP・在庫管理・受注管理などとの外部連携は、要件に応じてAPI・CSV連携の設計・実装・検証をご相談いただけます。要件により別途お見積もりとなります。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -202,7 +202,7 @@
           "settings": {
             "default_open": false,
             "title": "納品後、自社でサイトを運用できますか？",
-            "content": "<p>はい。Basic・Standard・Proでは、構築済みのECストアに加え、管理画面・テーマ権限一式を納品します。公開後の更新を内製したい場合も、必要な範囲を整理してご相談いただけます。</p>",
+            "content": "<p>はい。Basic・Standardでは、構築済みのECストアに加え、管理画面・テーマ権限一式を納品します。公開後の更新を内製したい場合も、必要な範囲を整理してご相談いただけます。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -310,7 +310,7 @@
       "type": "section-custom-code",
       "name": "FAQ structured data",
       "settings": {
-        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\"@type\":\"Question\",\"name\":\"相談や見積もりは無料ですか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。ご相談とお見積もりは無料です。\"}},\n    {\"@type\":\"Question\",\"name\":\"サイト制作にはどれくらいかかりますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"目安はSOLSTAR EXPRESSが約2〜4週間、Basicが約4〜8週間、Standardが約8〜12週間、Proが約12〜24週間です。\"}},\n    {\"@type\":\"Question\",\"name\":\"BASE・STORESなどからShopifyへ移行できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Standardプランでは商品データ・主要ページの移行、主要URLの確認とリダイレクト方針の整理に対応しています。\"}},\n    {\"@type\":\"Question\",\"name\":\"多言語・多通貨の越境ECに対応できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"対応可能です。越境対応はBasic・Standard・Proでは別途対応となり、SOLSTAR EXPRESSでは対象外です。\"}},\n    {\"@type\":\"Question\",\"name\":\"公開後の保守や運用改善も依頼できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Store Care、Growth Partner、Growth OSの保守運用プランをご用意しています。\"}}\n  ]\n}\n</script>",
+        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\"@type\":\"Question\",\"name\":\"相談や見積もりは無料ですか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。ご相談とお見積もりは無料です。\"}},\n    {\"@type\":\"Question\",\"name\":\"サイト制作にはどれくらいかかりますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"目安はSOLSTAR EXPRESSが約2〜4週間、Basicが約4〜8週間、Standardが約8〜12週間です。\"}},\n    {\"@type\":\"Question\",\"name\":\"BASE・STORESなどからShopifyへ移行できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Standardプランでは商品データ・主要ページの移行、主要URLの確認とリダイレクト方針の整理に対応しています。\"}},\n    {\"@type\":\"Question\",\"name\":\"多言語・多通貨の越境ECに対応できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"対応可能です。越境対応はBasic・Standardでは別途対応となり、SOLSTAR EXPRESSでは対象外です。\"}},\n    {\"@type\":\"Question\",\"name\":\"公開後の保守や運用改善も依頼できますか？\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"はい。Store Care、Growth Partner、Growth OSの保守運用プランをご用意しています。\"}}\n  ]\n}\n</script>",
         "width": "wrapper",
         "color_scheme": "scheme-1",
         "padding_top": 0,

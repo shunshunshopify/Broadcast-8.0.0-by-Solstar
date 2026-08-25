@@ -736,7 +736,7 @@
           "settings": {
             "default_open": false,
             "title": "サイト制作の期間はどれくらいですか？",
-            "content": "<p>要件によりますが、Basicプランは約4〜8週間、Standardプランは約8〜12週間、Proプランは約12〜24週間が目安です。ただし、具体的なご要件や修正回数によって多少変動する場合がございます。</p>",
+            "content": "<p>要件によりますが、Basicプランは約4〜8週間、Standardプランは約8〜12週間が目安です。ただし、具体的なご要件や修正回数によって多少変動する場合がございます。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -1025,7 +1025,7 @@
             "label-two": "Cream by Solstarについて",
             "label-three": "Basicプランについて",
             "label-four": "Standardプランについて",
-            "label-five": "Proプランについて",
+            "label-five": "",
             "label-six": "その他"
           }
         }
