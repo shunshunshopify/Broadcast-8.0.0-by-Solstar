@@ -1,5 +1,216 @@
 /* Pricing page styles — loaded only by page.pricing */
 
+/* Plan selection guide */
+.solstar-plan-guide,
+.solstar-build-support {
+  color: var(--text);
+  background: var(--bg);
+}
+
+.solstar-plan-guide {
+  --sm-card: #f5f2ec;
+  --sm-line: #d1cdc4;
+}
+
+.solstar-plan-guide__inner,
+.solstar-build-support__inner {
+  width: min(1020px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.solstar-plan-guide__header,
+.solstar-build-support__header {
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.solstar-plan-guide__header {
+  max-width: none;
+  text-align: center;
+}
+
+.solstar-plan-guide__eyebrow,
+.solstar-build-support__eyebrow {
+  margin: 0 0 12px;
+  color: #AB8C52;
+  font-family: var(--FONT-STACK-SUBHEADING);
+  font-size: var(--font-subheading);
+  font-weight: var(--FONT-WEIGHT-SUBHEADING);
+  letter-spacing: var(--LETTER-SPACING-SUBHEADING);
+  text-transform: var(--FONT-UPPERCASE-SUBHEADING);
+}
+
+.solstar-plan-guide__title,
+.solstar-build-support__title {
+  margin: 0;
+  color: var(--text);
+  font-size: var(--font-heading-large);
+  line-height: 1.25;
+}
+
+.solstar-plan-guide__lead {
+  margin: 14px 0 0;
+  color: var(--text);
+  font-size: var(--font-body-medium);
+  line-height: 1.8;
+  white-space: nowrap;
+}
+
+.solstar-plan-guide__choices {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.solstar-plan-guide__choice {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid color-mix(in srgb, var(--text) 18%, transparent);
+  border-radius: 16px;
+  color: var(--text);
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  text-decoration: none;
+}
+
+a.solstar-plan-guide__choice:hover {
+  border-color: #AB8C52;
+}
+
+.solstar-plan-guide__choice-label {
+  color: #AB8C52;
+  font-size: var(--font-body-small);
+  font-weight: 800;
+}
+
+.solstar-plan-guide__choice strong {
+  color: var(--text);
+  font-size: var(--font-heading-small);
+}
+
+.solstar-plan-guide__choice > span:not(.solstar-plan-guide__choice-label) {
+  font-size: var(--font-body-small);
+  line-height: 1.7;
+}
+
+.solstar-plan-guide__comparison .solstar-maint-card__head {
+  text-align: center;
+}
+
+/* Progressive disclosure for full plan specifications */
+.solstar-plan-anchor {
+  scroll-margin-top: 100px;
+}
+
+.solstar-plan-disclosure {
+  margin-top: 20px;
+}
+
+.solstar-plan-disclosure > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 17px 2px;
+  border-top: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  font-size: var(--font-body-small);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  list-style: none;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.solstar-plan-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.solstar-plan-disclosure > summary::after {
+  content: "";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border: 1px solid color-mix(in srgb, #AB8C52 70%, transparent);
+  border-radius: 50%;
+  color: #AB8C52;
+  background:
+    linear-gradient(currentColor, currentColor) center / 10px 1px no-repeat,
+    linear-gradient(currentColor, currentColor) center / 1px 10px no-repeat,
+    color-mix(in srgb, #AB8C52 8%, transparent);
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.solstar-plan-disclosure[open] > summary::after {
+  content: "";
+}
+
+.solstar-plan-disclosure[open] > summary {
+  margin-bottom: 24px;
+  color: #AB8C52;
+  border-color: color-mix(in srgb, #AB8C52 55%, transparent);
+}
+
+.solstar-plan-disclosure[open] > summary::after {
+  color: #0d0326;
+  background:
+    linear-gradient(currentColor, currentColor) center / 10px 1px no-repeat,
+    #AB8C52;
+}
+
+@media (hover: hover) {
+  .solstar-plan-disclosure > summary:hover {
+    color: #AB8C52;
+    border-color: color-mix(in srgb, #AB8C52 55%, transparent);
+  }
+}
+
+.solstar-build-faq details {
+  border-top: 1px solid color-mix(in srgb, var(--text) 24%, transparent);
+}
+
+.solstar-build-faq details:last-of-type {
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 24%, transparent);
+}
+
+.solstar-build-faq summary {
+  padding: 18px 4px;
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.solstar-build-faq details p {
+  max-width: 760px;
+  margin: -4px 4px 20px;
+  color: var(--text);
+  font-size: var(--font-body-small);
+  line-height: 1.8;
+}
+
+@media (max-width: 749px) {
+  .solstar-plan-guide__lead {
+    white-space: normal;
+  }
+
+  .solstar-plan-guide__choices {
+    grid-template-columns: 1fr;
+  }
+
+  .solstar-plan-guide__choice {
+    padding: 18px;
+  }
+
+}
+
 /* section_custom_code_kkwVXf */
 /* ===========================
    SOLSTAR – Solstar Express
@@ -877,28 +1088,9 @@
   outline-offset: 3px;
 }
 
-.solstar-pricing-faq details {
-  border-top: 1px solid var(--sm-line);
-  color: #111111;
-}
-
-.solstar-pricing-faq details:first-of-type {
-  border-top: 0;
-}
-
-.solstar-pricing-faq summary {
-  cursor: pointer;
-  padding: 14px 0;
-  font-size: 14px;
-  font-weight: 800;
-  line-height: 1.6;
-}
-
-.solstar-pricing-faq details p {
-  margin: -4px 0 14px;
-  font-size: 14px;
-  line-height: 1.8;
-  color: #333333;
+.solstar-maint-faq {
+  grid-column: 1 / -1;
+  min-width: 0;
 }
 
 @media (max-width: 520px) {
