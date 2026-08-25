@@ -392,17 +392,6 @@
     },
     "1739435642bef115e8": {
       "type": "apps",
-      "blocks": {
-        "xb_pricing_table_xo_pricing_dRnWD4": {
-          "type": "shopify://apps/xb-pricing-table/blocks/xo-pricing/1f0c62e0-05b8-4253-b892-33c4344fae3e",
-          "settings": {
-            "id_pricing": 3
-          }
-        }
-      },
-      "block_order": [
-        "xb_pricing_table_xo_pricing_dRnWD4"
-      ],
       "settings": {
         "include_margins": false
       }

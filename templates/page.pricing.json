@@ -13,6 +13,7 @@
       "type": "main-page",
       "settings": {
         "subheading": "株式会社SOLSTAR",
+        "subheading_color": "",
         "show_title": true,
         "heading_font_size": "heading-x-large",
         "show_content": true,
@@ -23,6 +24,84 @@
         "padding_top": 50,
         "padding_bottom": 0,
         "heading_tag": "h1"
+      }
+    },
+    "section_custom_code_certified_expert": {
+      "type": "section-custom-code",
+      "name": "Shopify認定担当者",
+      "settings": {
+        "code": "<section class=\"solstar-cert-banner\" aria-labelledby=\"solstar-cert-banner-title\">\n  <video\n    class=\"solstar-cert-banner__media\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/b7bc284136234a81843ff1de524255f0.mov\"\n    autoplay\n    muted\n    loop\n    playsinline\n    preload=\"auto\"\n    aria-hidden=\"true\"\n  ></video>\n  <span class=\"solstar-cert-banner__shade\" aria-hidden=\"true\"></span>\n  <div class=\"solstar-cert-banner__inner\">\n    <div class=\"solstar-cert-banner__content\">\n      <p class=\"solstar-cert-banner__eyebrow\">SHOPIFY認定資格を持つ専門担当者が対応</p>\n      <h2 class=\"solstar-cert-banner__title\" id=\"solstar-cert-banner-title\">Shopifyの専門知識を、すべてのプランに。</h2>\n      <p class=\"solstar-cert-banner__description\">一般的な制作会社とは異なり、Shopifyパートナー認定およびShopifyアカデミー認定資格を持つ担当者が、開発・運営・B2Bの専門知識をもとに対応します。</p>\n      <ul class=\"solstar-cert-banner__credentials\" aria-label=\"保有するShopify認定資格\">\n        <li class=\"solstar-cert-banner__credential\">Shopifyパートナー認定</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：開発</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：運営</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：B2B</li>\n      </ul>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_XU4riy": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_YHyb6U": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Custom section",
+            "heading_font_size": "heading-large",
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "video_JRFrJd": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/futuristic-neon-logo-reveal-animation-2026-01-28-02-39-14-utc.mov",
+            "show_video_popup": false,
+            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_YHyb6U",
+        "video_JRFrJd"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-third",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_custom_code_kkwVXf": {
@@ -51,7 +130,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<section class=\"solstar-standard\">\n  <div class=\"solstar-standard__inner\">\n    <header class=\"solstar-standard__header\">\n      <h2 class=\"solstar-standard__title\">Standardプラン</h2>\n      <p class=\"solstar-standard__sub\">BASE・STORESなどから次の成長基盤へ移行し、ブランド表現・CRM・運用効率を整えたいD2Cブランドへ。Shopifyを活用し、ブランドの世界観、購入導線、商品管理、リピート施策の土台を整えるリニューアル・移行プランです。</p>\n    </header>\n\n    <div class=\"solstar-standard__layout\">\n      <!-- サービス基本情報 -->\n      <section class=\"solstar-standard-card solstar-standard-service\">\n        <h3 class=\"solstar-standard-card__title\">サービス基本情報</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <caption class=\"visually-hidden\">サービス基本情報</caption>\n            <tbody>\n              <tr><th scope=\"row\">納期目安</th><td>約8〜12週間</td></tr>\n              <tr><th scope=\"row\">価格</th><td>2,200,000円（税込）〜</td></tr>\n              <tr><th scope=\"row\">体制</th><td>ディレクター1名＋エンジニア2名</td></tr>\n              <tr>\n                <th scope=\"row\">対象となる課題</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>BASE・STORESでは、ブランド表現や商品管理に限界を感じている</li>\n                    <li>リピート購入、カゴ落ち対策、再入荷通知、LINE導線などCRM施策を強化したい</li>\n                    <li>Shopify移行時の商品データ・SEO評価の引き継ぎや、公開後の社内運用に不安がある</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">進捗打合せ回数</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>5回（要件・構築内容・公開前の確認）</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">納品物</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>構築済み御社ECストア</li>\n                    <li>管理画面・テーマ権限一式</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">修正・変更ルール</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>3回まで</li>\n                    <li>※大幅変更は別途お見積り</li>\n                  </ul>\n                </td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- 構築内容 -->\n      <section class=\"solstar-standard-card solstar-standard-scope\">\n        <h3 class=\"solstar-standard-card__title\">構築内容</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <caption class=\"visually-hidden\">構築内容</caption>\n            <tbody>\n              <tr><th scope=\"row\">コンセプト定義</th><td>ペルソナ整理／ブランドの方向性確認</td></tr>\n              <tr><th scope=\"row\">要件定義</th><td>事業内容・商品特性のヒアリング</td></tr>\n              <tr><th scope=\"row\">ECサイトセットアップ</th><td>基本情報・ページ設定／決済・配送・税設定</td></tr>\n              <tr>\n                <th scope=\"row\">サイトデザイン制作</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>自社テーマを土台に、ブランドの世界観に合わせた各ページのデザイン調整</li>\n                    <li>商品詳細・コレクションページのテンプレート作成</li>\n                    <li>バナー画像制作（3点）</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">各種データ登録</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>商品データ登録・移行（100点まで）</li>\n                    <li>カテゴリー・コレクション設計（20件まで）</li>\n                    <li>主要ページ・基本データの移行（20件まで）</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">アプリ連携</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>6点</li>\n                    <li class=\"solstar-standard-note\">例：レビュー、再入荷通知、カゴ落ち対策、LINE連携、サイズガイド、レコメンド、メール配信、SEO補助など、事業内容に合わせて選定</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr><th scope=\"row\">オリジナルページ制作</th><td>6ページ</td></tr>\n              <tr>\n                <th scope=\"row\">SEO移行の基本対応</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>主要URLの確認</li>\n                    <li>リダイレクト方針の整理</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr><th scope=\"row\">計測タグ設定</th><td>GA4 / Search Console / Metaピクセル等の基本設定確認</td></tr>\n              <tr><th scope=\"row\">検証</th><td>機能確認・テスト購入（PC／Mobile）</td></tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- お客様に対応いただくこと -->\n      <section class=\"solstar-standard-card solstar-standard-client\">\n        <h3 class=\"solstar-standard-card__title\">お客様にご対応いただくこと</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <caption class=\"visually-hidden\">お客様にご対応いただくこと</caption>\n            <tbody>\n              <tr><th scope=\"row\">素材・ドメイン準備</th><td>キービジュアル、商品情報、画像素材、ドメイン</td></tr>\n              <tr><th scope=\"row\">コンテンツ提供</th><td>コンテンツ原稿のご用意</td></tr>\n              <tr><th scope=\"row\">ECサイト運用</th><td>納品後の運用・更新</td></tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- 別途有料対応 -->\n      <section class=\"solstar-standard-card solstar-standard-paid\">\n        <h3 class=\"solstar-standard-card__title\">別途有料対応となる内容</h3>\n        <ul class=\"solstar-standard-list\">\n          <li>保守運用サポート</li>\n          <li>追加アプリ実装</li>\n          <li>追加ページ制作</li>\n          <li>追加バナー画像制作</li>\n          <li>越境対応</li>\n          <li>外部システム連携</li>\n          <li>POS連携</li>\n          <li>大量URLの301リダイレクト設計・設定</li>\n          <li>詳細なSEO設計</li>\n          <li>ブログ記事・コラム記事の大量移行</li>\n          <li>Search Consoleを使った公開後モニタリング強化</li>\n          <li>高度な分析ダッシュボード作成・広告運用分析</li>\n        </ul>\n      </section>\n\n      <!-- 対応不可 -->\n      <section class=\"solstar-standard-card solstar-standard-nosup\">\n        <h3 class=\"solstar-standard-card__title\">対応不可</h3>\n        <ul class=\"solstar-standard-list\">\n          <li>アプリ開発</li>\n        </ul>\n      </section>\n    </div>\n\n    <nav class=\"solstar-pricing-actions\" aria-label=\"Standardプランの関連リンク\">\n      <a class=\"btn btn--primary btn--solid\" href=\"{{ routes.root_url }}pages/standard-plan\">Standardプランの詳細を見る</a>\n    </nav>\n  </div>\n</section>\n",
+        "code": "<section class=\"solstar-standard\">\n  <div class=\"solstar-standard__inner\">\n    <header class=\"solstar-standard__header\">\n      <h2 class=\"solstar-standard__title\">Standardプラン</h2>\n      <p class=\"solstar-standard__sub\">BASE・STORESなどから次の成長基盤へ移行し、ブランド表現・CRM・運用効率を整えたいD2Cブランドへ。Shopifyを活用し、ブランドの世界観、購入導線、商品管理、リピート施策の土台を整えるリニューアル・移行プランです。</p>\n    </header>\n\n    <div class=\"solstar-standard__layout\">\n      <!-- サービス基本情報 -->\n      <section class=\"solstar-standard-card solstar-standard-service\">\n        <h3 class=\"solstar-standard-card__title\">サービス基本情報</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <caption class=\"visually-hidden\">サービス基本情報</caption>\n            <tbody>\n              <tr><th scope=\"row\">納期目安</th><td>約8〜12週間</td></tr>\n              <tr><th scope=\"row\">価格</th><td>2,200,000円（税込）〜</td></tr>\n              <tr><th scope=\"row\">体制</th><td>ディレクター1名＋エンジニア2名</td></tr>\n              <tr>\n                <th scope=\"row\">対象となる課題</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>BASE・STORESでは、ブランド表現や商品管理に限界を感じている</li>\n                    <li>リピート購入、カゴ落ち対策、再入荷通知、LINE導線などCRM施策を強化したい</li>\n                    <li>Shopify移行時の商品データ・SEO評価の引き継ぎや、公開後の社内運用に不安がある</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">進捗打合せ回数</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>5回（要件・構築内容・公開前の確認）</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">納品物</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>構築済み御社ECストア</li>\n                    <li>管理画面・テーマ権限一式</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">修正・変更ルール</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>3回まで</li>\n                    <li>※大幅変更は別途お見積り</li>\n                  </ul>\n                </td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- 構築内容 -->\n      <section class=\"solstar-standard-card solstar-standard-scope\">\n        <h3 class=\"solstar-standard-card__title\">構築内容</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <caption class=\"visually-hidden\">構築内容</caption>\n            <tbody>\n              <tr><th scope=\"row\">コンセプト定義</th><td>ペルソナ整理／ブランドの方向性確認</td></tr>\n              <tr><th scope=\"row\">要件定義</th><td>事業内容・商品特性のヒアリング</td></tr>\n              <tr><th scope=\"row\">ECサイトセットアップ</th><td>基本情報・ページ設定／決済・配送・税設定</td></tr>\n              <tr>\n                <th scope=\"row\">サイトデザイン制作</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>自社テーマを土台に、ブランドの世界観に合わせた各ページのデザイン調整</li>\n                    <li>商品詳細・コレクションページのテンプレート作成</li>\n                    <li>バナー画像制作（3点）</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">各種データ登録</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>商品データ登録・移行（100点まで）</li>\n                    <li>カテゴリー・コレクション設計（20件まで）</li>\n                    <li>主要ページ・基本データの移行（20件まで）</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th scope=\"row\">アプリ連携</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>6点</li>\n                    <li class=\"solstar-standard-note\">例：レビュー、再入荷通知、カゴ落ち対策、LINE連携、サイズガイド、レコメンド、メール配信、SEO補助など、事業内容に合わせて選定</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr><th scope=\"row\">オリジナルページ制作</th><td>6ページ</td></tr>\n              <tr>\n                <th scope=\"row\">SEO移行の基本対応</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>主要URLの確認</li>\n                    <li>リダイレクト方針の整理</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr><th scope=\"row\">計測タグ設定</th><td>GA4 / Search Console / Metaピクセル等の基本設定確認</td></tr>\n              <tr><th scope=\"row\">検証</th><td>機能確認・テスト購入（PC／Mobile）</td></tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- お客様に対応いただくこと -->\n      <section class=\"solstar-standard-card solstar-standard-client\">\n        <h3 class=\"solstar-standard-card__title\">お客様にご対応いただくこと</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <caption class=\"visually-hidden\">お客様にご対応いただくこと</caption>\n            <tbody>\n              <tr><th scope=\"row\">素材・ドメイン準備</th><td>キービジュアル、商品情報、画像素材、ドメイン</td></tr>\n              <tr><th scope=\"row\">コンテンツ提供</th><td>コンテンツ原稿のご用意</td></tr>\n              <tr><th scope=\"row\">ECサイト運用</th><td>納品後の運用・更新</td></tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- 別途有料対応 -->\n      <section class=\"solstar-standard-card solstar-standard-paid\">\n        <h3 class=\"solstar-standard-card__title\">別途有料対応となる内容</h3>\n        <ul class=\"solstar-standard-list\">\n          <li>保守運用サポート</li>\n          <li>追加アプリ実装</li>\n          <li>追加ページ制作</li>\n          <li>追加バナー画像制作</li>\n          <li>越境対応</li>\n          <li>外部システム連携</li>\n          <li>POS連携</li>\n          <li>大量URLの301リダイレクト設計・設定</li>\n          <li>詳細なSEO設計</li>\n          <li>ブログ記事・コラム記事の大量移行</li>\n          <li>Search Consoleを使った公開後モニタリング強化</li>\n          <li>高度な分析ダッシュボード作成・広告運用分析</li>\n        </ul>\n      </section>\n\n      <!-- 対応不可 -->\n      <section class=\"solstar-standard-card solstar-standard-nosup\">\n        <h3 class=\"solstar-standard-card__title\">対応不可</h3>\n        <ul class=\"solstar-standard-list\">\n          <li>アプリ開発</li>\n        </ul>\n      </section>\n    </div>\n\n    <nav class=\"solstar-pricing-actions\" aria-label=\"Standardプランの関連リンク\">\n      <a class=\"btn btn--primary btn--solid\" href=\"{{ routes.root_url }}pages/standard-plan\">Standardプランの詳細を見る</a>\n    </nav>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
@@ -183,22 +262,12 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "section_custom_code_certified_expert": {
-      "type": "section-custom-code",
-      "name": "Shopify認定担当者",
-      "settings": {
-        "code": "<section class=\"solstar-cert-banner\" aria-labelledby=\"solstar-cert-banner-title\">\n  <video\n    class=\"solstar-cert-banner__media\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/b7bc284136234a81843ff1de524255f0.mov\"\n    autoplay\n    muted\n    loop\n    playsinline\n    preload=\"auto\"\n    aria-hidden=\"true\"\n  ></video>\n  <span class=\"solstar-cert-banner__shade\" aria-hidden=\"true\"></span>\n  <div class=\"solstar-cert-banner__inner\">\n    <div class=\"solstar-cert-banner__content\">\n      <p class=\"solstar-cert-banner__eyebrow\">SHOPIFY認定資格を持つ専門担当者が対応</p>\n      <h2 class=\"solstar-cert-banner__title\" id=\"solstar-cert-banner-title\">Shopifyの専門知識を、すべてのプランに。</h2>\n      <p class=\"solstar-cert-banner__description\">一般的な制作会社とは異なり、Shopifyパートナー認定およびShopifyアカデミー認定資格を持つ担当者が、開発・運営・B2Bの専門知識をもとに対応します。</p>\n      <ul class=\"solstar-cert-banner__credentials\" aria-label=\"保有するShopify認定資格\">\n        <li class=\"solstar-cert-banner__credential\">Shopifyパートナー認定</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：開発</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：運営</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：B2B</li>\n      </ul>\n    </div>\n  </div>\n</section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "main",
     "section_custom_code_certified_expert",
+    "section_custom_content_XU4riy",
     "section_custom_code_kkwVXf",
     "section_custom_code_G4hPhT",
     "section_custom_code_PYAnkJ",
