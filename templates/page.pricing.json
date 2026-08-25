@@ -81,6 +81,9 @@
         "video_JRFrJd"
       ],
       "name": "Custom section",
+      "custom_css": [
+        ".hero__subheading {color: #AB8C52;}"
+      ],
       "settings": {
         "borders": false,
         "gutters": false,
