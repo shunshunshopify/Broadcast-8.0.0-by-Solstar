@@ -7,6 +7,11 @@
   background: var(--bg);
 }
 
+.solstar-plan-guide {
+  --sm-card: #f5f2ec;
+  --sm-line: #d1cdc4;
+}
+
 .solstar-plan-guide__inner,
 .solstar-build-support__inner {
   width: min(1020px, calc(100% - 32px));
@@ -38,8 +43,7 @@
   line-height: 1.25;
 }
 
-.solstar-plan-guide__lead,
-.solstar-build-support__lead {
+.solstar-plan-guide__lead {
   margin: 14px 0 0;
   color: var(--text);
   font-size: var(--font-body-medium);
@@ -48,7 +52,7 @@
 
 .solstar-plan-guide__choices {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   margin-bottom: 24px;
 }
@@ -81,65 +85,9 @@ a.solstar-plan-guide__choice:hover {
   font-size: var(--font-heading-small);
 }
 
-.solstar-plan-guide__choice > span:not(.solstar-plan-guide__choice-label, .solstar-plan-guide__choice-links) {
+.solstar-plan-guide__choice > span:not(.solstar-plan-guide__choice-label) {
   font-size: var(--font-body-small);
   line-height: 1.7;
-}
-
-.solstar-plan-guide__choice-links {
-  display: flex;
-  gap: 16px;
-  margin-top: 4px;
-}
-
-.solstar-plan-guide__choice-links a {
-  color: var(--text);
-  font-weight: 800;
-  text-underline-offset: 4px;
-}
-
-.solstar-plan-guide__table-wrap {
-  overflow-x: auto;
-  border: 1px solid #d1cdc4;
-  border-radius: 16px;
-  background: #f5f2ec;
-}
-
-.solstar-plan-guide__table {
-  width: 100%;
-  min-width: 760px;
-  border-collapse: collapse;
-  color: #111111;
-}
-
-.solstar-plan-guide__table caption {
-  padding: 16px 18px;
-  color: #111111;
-  font-weight: 900;
-  text-align: left;
-}
-
-.solstar-plan-guide__table th,
-.solstar-plan-guide__table td {
-  padding: 13px 16px;
-  border-top: 1px solid #d1cdc4;
-  border-left: 1px solid #d1cdc4;
-  color: #111111;
-  font-size: var(--font-body-small);
-  line-height: 1.55;
-  text-align: left;
-  vertical-align: top;
-}
-
-.solstar-plan-guide__table th:first-child,
-.solstar-plan-guide__table td:first-child {
-  border-left: 0;
-}
-
-.solstar-plan-guide__table thead th,
-.solstar-plan-guide__table tbody th {
-  background: rgba(120, 120, 120, 0.12);
-  font-weight: 800;
 }
 
 /* Progressive disclosure for full plan specifications */
@@ -184,53 +132,6 @@ a.solstar-plan-guide__choice:hover {
   margin-bottom: 18px;
 }
 
-/* Case studies and build-plan FAQ */
-.solstar-build-proof {
-  margin-bottom: 64px;
-}
-
-.solstar-build-proof__grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.solstar-build-proof__card {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  min-height: 170px;
-  padding: 22px;
-  border: 1px solid #d1cdc4;
-  border-radius: 16px;
-  color: #111111;
-  background: #f5f2ec;
-  text-decoration: none;
-}
-
-.solstar-build-proof__card:hover {
-  border-color: #AB8C52;
-}
-
-.solstar-build-proof__card span {
-  margin-bottom: 14px;
-  color: #7b632f;
-  font-size: var(--font-body-x-small);
-  font-weight: 800;
-}
-
-.solstar-build-proof__card strong {
-  color: #111111;
-  font-size: var(--font-heading-small);
-}
-
-.solstar-build-proof__card p {
-  margin: 10px 0 0;
-  color: #333333;
-  font-size: var(--font-body-small);
-  line-height: 1.65;
-}
-
 .solstar-build-faq details {
   border-top: 1px solid color-mix(in srgb, var(--text) 24%, transparent);
 }
@@ -259,18 +160,12 @@ a.solstar-plan-guide__choice:hover {
 }
 
 @media (max-width: 749px) {
-  .solstar-plan-guide__choices,
-  .solstar-build-proof__grid {
+  .solstar-plan-guide__choices {
     grid-template-columns: 1fr;
   }
 
-  .solstar-plan-guide__choice,
-  .solstar-build-proof__card {
+  .solstar-plan-guide__choice {
     padding: 18px;
-  }
-
-  .solstar-build-proof__card {
-    min-height: 0;
   }
 
   .solstar-build-support__action .btn {
