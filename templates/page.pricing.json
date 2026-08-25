@@ -26,17 +26,6 @@
         "heading_tag": "h1"
       }
     },
-    "section_custom_code_certified_expert": {
-      "type": "section-custom-code",
-      "name": "Shopify認定担当者",
-      "settings": {
-        "code": "<section class=\"solstar-cert-banner\" aria-labelledby=\"solstar-cert-banner-title\">\n  <video\n    class=\"solstar-cert-banner__media\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/b7bc284136234a81843ff1de524255f0.mov\"\n    autoplay\n    muted\n    loop\n    playsinline\n    preload=\"auto\"\n    aria-hidden=\"true\"\n  ></video>\n  <span class=\"solstar-cert-banner__shade\" aria-hidden=\"true\"></span>\n  <div class=\"solstar-cert-banner__inner\">\n    <div class=\"solstar-cert-banner__content\">\n      <p class=\"solstar-cert-banner__eyebrow\">SHOPIFY認定資格を持つ専門担当者が対応</p>\n      <h2 class=\"solstar-cert-banner__title\" id=\"solstar-cert-banner-title\">Shopifyの専門知識を、すべてのプランに。</h2>\n      <p class=\"solstar-cert-banner__description\">一般的な制作会社とは異なり、Shopifyパートナー認定およびShopifyアカデミー認定資格を持つ担当者が、開発・運営・B2Bの専門知識をもとに対応します。</p>\n      <ul class=\"solstar-cert-banner__credentials\" aria-label=\"保有するShopify認定資格\">\n        <li class=\"solstar-cert-banner__credential\">Shopifyパートナー認定</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：開発</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：運営</li>\n        <li class=\"solstar-cert-banner__credential\">Shopifyアカデミー認定資格：B2B</li>\n      </ul>\n    </div>\n  </div>\n</section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_custom_content_XU4riy": {
       "type": "section-custom-content",
       "blocks": {
@@ -48,7 +37,7 @@
             "heading_font_size": "heading-large",
             "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
             "text_font_size": "body-medium",
-            "button_text": "Learn more",
+            "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
@@ -95,7 +84,7 @@
       "settings": {
         "borders": false,
         "gutters": false,
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "height": "screen-height-one-third",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
@@ -266,7 +255,6 @@
   },
   "order": [
     "main",
-    "section_custom_code_certified_expert",
     "section_custom_content_XU4riy",
     "section_custom_code_kkwVXf",
     "section_custom_code_G4hPhT",
