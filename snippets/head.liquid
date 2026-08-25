@@ -47,6 +47,8 @@
 
 {% if page_description %}
   <meta name="description" content="{{ page_description | escape }}">
+{% elsif template.name == 'page' and template.suffix == 'pricing' %}
+  <meta name="description" content="Shopify ECサイトの構築・移行・保守運用プランを料金、納期、対応範囲から比較できます。SOLSTAR EXPRESS、Basic、Standard、保守運用プランをご案内します。">
 {% else %}
   <meta name="description" content="{{ shop.description | escape }}">
 {% endif %}
