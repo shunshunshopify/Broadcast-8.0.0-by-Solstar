@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "subheading": "株式会社SOLSTAR",
+        "subheading": "Pricing",
         "subheading_color": "",
         "show_title": true,
         "heading_font_size": "heading-x-large",
@@ -35,7 +35,7 @@
             "subheading": "Shopify Expertise",
             "title": "Shopifyの専門知識を、すべてのプランに。",
             "heading_font_size": "heading-large",
-            "text": "<p>一般的な制作会社とは異なり、Shopifyパートナー認定およびShopifyアカデミー認定資格3種（開発・運営・B2B）を持つ担当者が、構築から運用まで専門知識をもとに対応します。</p>",
+            "text": "<p>すべてのサービスは、Shopifyパートナー認定およびShopifyアカデミー認定資格3種（開発・運営・B2B）を持つ担当者が、構築から運用まで専門知識をもとに対応します。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -70,7 +70,7 @@
             "show_arrow": false,
             "show_text_background": false,
             "bg_color": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "overlay_type": "disabled",
             "heading_tag": "automatic"
           }
