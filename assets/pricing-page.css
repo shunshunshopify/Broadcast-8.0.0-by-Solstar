@@ -132,7 +132,7 @@ a.solstar-plan-guide__choice:hover {
 }
 
 .solstar-plan-disclosure > summary::after {
-  content: "+";
+  content: "";
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -142,15 +142,15 @@ a.solstar-plan-guide__choice:hover {
   border: 1px solid color-mix(in srgb, #AB8C52 70%, transparent);
   border-radius: 50%;
   color: #AB8C52;
-  background: color-mix(in srgb, #AB8C52 8%, transparent);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1;
+  background:
+    linear-gradient(currentColor, currentColor) center / 10px 1px no-repeat,
+    linear-gradient(currentColor, currentColor) center / 1px 10px no-repeat,
+    color-mix(in srgb, #AB8C52 8%, transparent);
   transition: background-color 180ms ease, color 180ms ease;
 }
 
 .solstar-plan-disclosure[open] > summary::after {
-  content: "−";
+  content: "";
 }
 
 .solstar-plan-disclosure[open] > summary {
@@ -161,7 +161,9 @@ a.solstar-plan-guide__choice:hover {
 
 .solstar-plan-disclosure[open] > summary::after {
   color: #0d0326;
-  background: #AB8C52;
+  background:
+    linear-gradient(currentColor, currentColor) center / 10px 1px no-repeat,
+    #AB8C52;
 }
 
 @media (hover: hover) {
