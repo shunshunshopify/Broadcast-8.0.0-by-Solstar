@@ -32,10 +32,10 @@
         "text_YHyb6U": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
-            "title": "Custom section",
+            "subheading": "Shopify Expertise",
+            "title": "Shopifyの専門知識を、すべてのプランに。",
             "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text": "<p>一般的な制作会社とは異なり、Shopifyパートナー認定およびShopifyアカデミー認定資格3種（開発・運営・B2B）を持つ担当者が、構築から運用まで専門知識をもとに対応します。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -48,7 +48,7 @@
             "align_text": "text-left",
             "bg_color": "",
             "color": "",
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "video_JRFrJd": {
