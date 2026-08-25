@@ -7,8 +7,8 @@
   min-height: 430px;
   margin: 0 auto;
   overflow: hidden;
-  color: #ffffff;
-  background: #0d0326;
+  color: var(--text);
+  background: var(--bg);
 }
 
 .solstar-cert-banner__media,
@@ -57,7 +57,7 @@
 .solstar-cert-banner__title {
   max-width: 15em;
   margin: 0;
-  color: #ffffff;
+  color: var(--text);
   font-size: clamp(30px, 4.4vw, 52px);
   font-weight: 900;
   line-height: 1.18;
@@ -67,7 +67,7 @@
 .solstar-cert-banner__description {
   max-width: 48em;
   margin: 20px 0 0;
-  color: rgba(255, 255, 255, 0.9);
+  color: color-mix(in srgb, var(--text) 90%, transparent);
   font-size: 15px;
   font-weight: 600;
   line-height: 1.9;
@@ -87,10 +87,10 @@
   align-items: center;
   min-height: 38px;
   padding: 8px 13px;
-  border: 1px solid rgba(255, 255, 255, 0.34);
+  border: 1px solid color-mix(in srgb, var(--text) 34%, transparent);
   border-radius: 999px;
-  color: #ffffff;
-  background: rgba(13, 3, 38, 0.62);
+  color: var(--text);
+  background: color-mix(in srgb, var(--bg) 62%, transparent);
   backdrop-filter: blur(8px);
   font-size: 12px;
   font-weight: 800;
