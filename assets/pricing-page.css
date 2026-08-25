@@ -24,6 +24,11 @@
   margin-bottom: 28px;
 }
 
+.solstar-plan-guide__header {
+  max-width: none;
+  text-align: center;
+}
+
 .solstar-plan-guide__eyebrow,
 .solstar-build-support__eyebrow {
   margin: 0 0 12px;
@@ -48,6 +53,7 @@
   color: var(--text);
   font-size: var(--font-body-medium);
   line-height: 1.8;
+  white-space: nowrap;
 }
 
 .solstar-plan-guide__choices {
@@ -90,6 +96,10 @@ a.solstar-plan-guide__choice:hover {
   line-height: 1.7;
 }
 
+.solstar-plan-guide__comparison .solstar-maint-card__head {
+  text-align: center;
+}
+
 /* Progressive disclosure for full plan specifications */
 .solstar-plan-anchor {
   scroll-margin-top: 100px;
@@ -104,13 +114,17 @@ a.solstar-plan-guide__choice:hover {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 15px 18px;
-  border: 1px solid currentColor;
-  border-radius: 12px;
+  padding: 17px 2px;
+  border-top: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent);
   color: inherit;
+  background: transparent;
   cursor: pointer;
-  font-weight: 800;
+  font-size: var(--font-body-small);
+  font-weight: 700;
+  letter-spacing: 0.04em;
   list-style: none;
+  transition: color 180ms ease, border-color 180ms ease;
 }
 
 .solstar-plan-disclosure > summary::-webkit-details-marker {
@@ -119,9 +133,20 @@ a.solstar-plan-guide__choice:hover {
 
 .solstar-plan-disclosure > summary::after {
   content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   flex: 0 0 auto;
-  font-size: 22px;
+  width: 28px;
+  height: 28px;
+  border: 1px solid color-mix(in srgb, #AB8C52 70%, transparent);
+  border-radius: 50%;
+  color: #AB8C52;
+  background: color-mix(in srgb, #AB8C52 8%, transparent);
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1;
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 .solstar-plan-disclosure[open] > summary::after {
@@ -129,7 +154,21 @@ a.solstar-plan-guide__choice:hover {
 }
 
 .solstar-plan-disclosure[open] > summary {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
+  color: #AB8C52;
+  border-color: color-mix(in srgb, #AB8C52 55%, transparent);
+}
+
+.solstar-plan-disclosure[open] > summary::after {
+  color: #0d0326;
+  background: #AB8C52;
+}
+
+@media (hover: hover) {
+  .solstar-plan-disclosure > summary:hover {
+    color: #AB8C52;
+    border-color: color-mix(in srgb, #AB8C52 55%, transparent);
+  }
 }
 
 .solstar-build-faq details {
@@ -155,11 +194,11 @@ a.solstar-plan-guide__choice:hover {
   line-height: 1.8;
 }
 
-.solstar-build-support__action {
-  margin-top: 28px;
-}
-
 @media (max-width: 749px) {
+  .solstar-plan-guide__lead {
+    white-space: normal;
+  }
+
   .solstar-plan-guide__choices {
     grid-template-columns: 1fr;
   }
@@ -168,10 +207,6 @@ a.solstar-plan-guide__choice:hover {
     padding: 18px;
   }
 
-  .solstar-build-support__action .btn {
-    width: 100%;
-    justify-content: center;
-  }
 }
 
 /* section_custom_code_kkwVXf */
@@ -1051,28 +1086,9 @@ a.solstar-plan-guide__choice:hover {
   outline-offset: 3px;
 }
 
-.solstar-pricing-faq details {
-  border-top: 1px solid var(--sm-line);
-  color: #111111;
-}
-
-.solstar-pricing-faq details:first-of-type {
-  border-top: 0;
-}
-
-.solstar-pricing-faq summary {
-  cursor: pointer;
-  padding: 14px 0;
-  font-size: 14px;
-  font-weight: 800;
-  line-height: 1.6;
-}
-
-.solstar-pricing-faq details p {
-  margin: -4px 0 14px;
-  font-size: 14px;
-  line-height: 1.8;
-  color: #333333;
+.solstar-maint-faq {
+  grid-column: 1 / -1;
+  min-width: 0;
 }
 
 @media (max-width: 520px) {
