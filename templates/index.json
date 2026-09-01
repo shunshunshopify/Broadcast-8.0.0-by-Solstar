@@ -176,8 +176,8 @@
         "button_66GwDc": {
           "type": "button",
           "settings": {
-            "link_text": "View products",
-            "link": "",
+            "link_text": "詳細を見る",
+            "link": "shopify://pages/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
