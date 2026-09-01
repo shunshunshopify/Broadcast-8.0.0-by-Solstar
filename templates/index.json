@@ -153,6 +153,63 @@
         "padding_bottom": 50
       }
     },
+    "section_hero_3jm7y4": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_BMpLNX": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_XABRyL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_66GwDc": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_BMpLNX",
+        "text_XABRyL",
+        "button_66GwDc"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/PRTIMES_Thumbnail_copy.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_news_6NwRA3": {
       "type": "section-news",
       "custom_css": [
@@ -1059,6 +1116,7 @@
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
+    "section_hero_3jm7y4",
     "section_news_6NwRA3",
     "section_hero_ywHUVn",
     "section_double_K3mPqR",
