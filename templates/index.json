@@ -159,16 +159,16 @@
         "heading_BMpLNX": {
           "type": "heading",
           "settings": {
-            "title": "Image banner",
+            "title": "Powerful Shopify Theme",
             "heading_font_size": "heading-x-large",
-            "heading_tag": "automatic",
+            "heading_tag": "h2",
             "padding_bottom": 8
           }
         },
         "text_XABRyL": {
           "type": "text",
           "settings": {
-            "text": "<p>Tell your brand's story through images.</p>",
+            "text": "<p>世界観も、購入体験も、最大限。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 8
           }
