@@ -153,6 +153,44 @@
         "padding_bottom": 50
       }
     },
+    "featured_posts_eqCTwW": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_CbFCdc": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "shopify/shopify-development-companies-50",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_CbFCdc"
+      ],
+      "custom_css": [
+        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px; margin-bottom: 0;}",
+        ".editorial__content {margin: 0;}",
+        ".editorial__aside-inner[data-subheading]::after {display: none;}"
+      ],
+      "name": "Featured blog posts",
+      "settings": {
+        "show_author": false,
+        "show_date": true,
+        "heading_font_size": "heading-large",
+        "show_button": true,
+        "button_text": "続きを読む",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": true,
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_news_6NwRA3": {
       "type": "section-news",
       "custom_css": [
@@ -584,44 +622,6 @@
         "padding_top": 0,
         "padding_bottom": 100,
         "show_placeholder": true
-      }
-    },
-    "featured_posts_eqCTwW": {
-      "type": "featured-posts",
-      "blocks": {
-        "featured_post_CbFCdc": {
-          "type": "featured_post",
-          "settings": {
-            "featured_post": "shopify/shopify-development-companies-50",
-            "subheading": "Featured post"
-          }
-        }
-      },
-      "block_order": [
-        "featured_post_CbFCdc"
-      ],
-      "custom_css": [
-        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px; margin-bottom: 0;}",
-        ".editorial__content {margin: 0;}",
-        ".editorial__aside-inner[data-subheading]::after {display: none;}"
-      ],
-      "name": "Featured blog posts",
-      "settings": {
-        "show_author": false,
-        "show_date": true,
-        "heading_font_size": "heading-large",
-        "show_button": true,
-        "button_text": "続きを読む",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--text",
-        "show_arrow": true,
-        "width": "wrapper--full-padded",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "section_blog_FtdhjN": {
@@ -1059,6 +1059,7 @@
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
+    "featured_posts_eqCTwW",
     "section_news_6NwRA3",
     "section_hero_ywHUVn",
     "section_double_K3mPqR",
@@ -1067,7 +1068,6 @@
     "section_custom_code_YPEkCV",
     "section_custom_code_AaQ3Ee",
     "section_hero_KXKF4d",
-    "featured_posts_eqCTwW",
     "section_blog_FtdhjN",
     "section_newsletter_ythLAz",
     "section_accordion_group_8HKY7N",
