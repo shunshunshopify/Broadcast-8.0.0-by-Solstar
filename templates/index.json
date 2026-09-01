@@ -173,16 +173,21 @@
             "padding_bottom": 8
           }
         },
-        "button_66GwDc": {
-          "type": "button",
+        "group_buttons_YV8T6m": {
+          "type": "group-buttons",
           "settings": {
-            "link_text": "詳細を見る",
-            "link": "shopify://pages/cream-by-solstar",
+            "button_text": "詳細を見る",
+            "button_url": "shopify://pages/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "full_width": false,
+            "button_secondary_text": "無料で体験する",
+            "button_secondary_url": "shopify://products/cream-by-solstar",
+            "button_secondary_type": "btn--secondary",
+            "button_secondary_size": "",
+            "button_secondary_style": "btn--solid",
+            "show_secondary_arrow": false,
             "padding_bottom": 8
           }
         }
@@ -190,7 +195,7 @@
       "block_order": [
         "heading_BMpLNX",
         "text_XABRyL",
-        "button_66GwDc"
+        "group_buttons_YV8T6m"
       ],
       "name": "Image banner",
       "settings": {
