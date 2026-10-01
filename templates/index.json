@@ -191,6 +191,31 @@
         "padding_bottom": 50
       }
     },
+    "section_blog_FtdhjN": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "branding",
+        "aspect_ratio": "0.5625",
+        "title": "失敗しないECサイト構築のためのShopify戦略ブログ",
+        "heading_font_size": "heading-large",
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": true,
+        "show_date": true,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 1,
+        "enable_mobile_slider": true,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2",
+        "title_tag": "automatic"
+      }
+    },
     "section_news_6NwRA3": {
       "type": "section-news",
       "custom_css": [
@@ -624,31 +649,6 @@
         "show_placeholder": true
       }
     },
-    "section_blog_FtdhjN": {
-      "type": "section-blog",
-      "name": "Blog posts",
-      "settings": {
-        "blog_name": "shopify",
-        "aspect_ratio": "0.5625",
-        "title": "失敗しないECサイト構築のためのShopify戦略ブログ",
-        "heading_font_size": "heading-large",
-        "title_font_size": "heading-small",
-        "show_tags": false,
-        "show_author": true,
-        "show_date": true,
-        "show_button": true,
-        "show_comments": false,
-        "width": "wrapper--full-padded",
-        "grid": 4,
-        "rows": 1,
-        "enable_mobile_slider": true,
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "h2",
-        "title_tag": "automatic"
-      }
-    },
     "section_newsletter_ythLAz": {
       "type": "section-newsletter",
       "blocks": {
@@ -1060,6 +1060,7 @@
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
     "featured_posts_eqCTwW",
+    "section_blog_FtdhjN",
     "section_news_6NwRA3",
     "section_hero_ywHUVn",
     "section_double_K3mPqR",
@@ -1068,7 +1069,6 @@
     "section_custom_code_YPEkCV",
     "section_custom_code_AaQ3Ee",
     "section_hero_KXKF4d",
-    "section_blog_FtdhjN",
     "section_newsletter_ythLAz",
     "section_accordion_group_8HKY7N",
     "section_double_pi63CE",
