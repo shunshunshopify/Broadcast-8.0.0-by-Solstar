@@ -1,4 +1,8 @@
+{% # theme-check-disable OrphanedSnippet %}
 {% doc %}
+  Referenced by templates/page.cream-manual.json through the Custom code section's
+  Liquid setting. Theme Check does not detect this JSON-setting render reference.
+
   Renders the Cream by Solstar operation manual as a dictionary-style document:
   hero (lede + version + in-page search), quick-access cards, hierarchical TOC
   (sticky sidebar on desktop, disclosure drawer on mobile), document-format body
@@ -728,7 +732,7 @@
 <div class="cmv3">
   <header class="cmv3-hero">
     <p class="cmv3-hero__lede">Cream の設定方法や、各セクションの使い方を確認できます。</p>
-    <p class="cmv3-hero__version">対象バージョン：4.2.5</p>
+    <p class="cmv3-hero__version">対象バージョン：4.3.3</p>
     <div class="cmv3-search search-form" data-cmv3-search role="search">
       <div class="input-holder">
         <input class="search-box" type="search" placeholder="マニュアル内を検索（例：送料無料、ヘッダー、クイック追加）" aria-label="マニュアル内検索" autocomplete="off">
@@ -910,6 +914,9 @@
 <a href="#accordion-section" data-toc>アコーディオン</a>
 </li>
 <li>
+<a href="#text-with-image" data-toc>テキスト付き画像</a>
+</li>
+<li>
 <a href="#media-with-text" data-toc>テキスト付きメディア</a>
 </li>
 <li>
@@ -973,6 +980,9 @@
 <a href="#product-info" data-toc>商品情報</a>
 </li>
 <li>
+<a href="#product-information-table" data-toc>商品情報テーブル</a>
+</li>
+<li>
 <a href="#fit-guide" data-toc>フィットガイド</a>
 </li>
 <li>
@@ -991,10 +1001,16 @@
 <a href="#product-highlight" data-toc>商品のハイライト</a>
 </li>
 <li>
+<a href="#shop-the-look" data-toc>Shop the look</a>
+</li>
+<li>
 <a href="#recommended-products" data-toc>おすすめ商品</a>
 </li>
 <li>
 <a href="#collection-page" data-toc>コレクション</a>
+</li>
+<li>
+<a href="#collection-heading" data-toc>コレクション見出し</a>
 </li>
 <li>
 <a href="#collection-list" data-toc>コレクションリスト</a>
@@ -1070,7 +1086,7 @@
 <li>ページ上部の検索ボックスに機能名や設定名を入力すると、該当する項目へ移動できます。</li>
 <li>各見出しのリンクアイコンから、その項目への直接リンクをコピーできます。</li>
 </ul>
-<p>本マニュアルの対象バージョンは <code>4.2.5</code> です。テーマエディタで調整する内容を中心にまとめています。テーマの内部構造については「上級者向け・内部仕様」を参照してください。</p>
+<p>本マニュアルの対象バージョンは <code>4.3.3</code> です。テーマエディタで調整する内容を中心にまとめています。テーマの内部構造については「上級者向け・内部仕様」を参照してください。</p>
 </section>
 <section class="cmv3-cat" id="basic-operations">
 <h2>
@@ -1093,6 +1109,7 @@
 <p class="cmv3-note cmv3-note--hint">
 <strong>ヒント：</strong>画像や動画は、あらかじめ「設定 &gt; ファイル」にアップロードしてから選択します。</p>
 <p>ヘッダーとフッターはページ本体とは別に「グループ」として管理されます。ヘッダーまわりの編集はヘッダーグループ、フッターまわりの編集はフッターグループで行います。</p>
+<p><strong>初期設定：</strong>ストア固有の商品・コレクション・画像・音声・SNSリンクは未設定です。利用するコンテンツをテーマエディタで選択してください。標準のメインメニュー・全商品リンク・現在のページに連動する参照は利用できます。</p>
 </article>
 </section>
 <section class="cmv3-cat" id="theme-settings">
@@ -1118,26 +1135,22 @@
 <article class="cmv3-item" id="theme-colors" data-kw="color,カラー,配色,カラースキーム">
 <h3>色</h3>
 <p>カラースキーム（配色セット）を作成し、各セクションやドロワーに割り当てます。</p>
-<p class="cmv3-place">
-<span>設定場所</span>テーマ設定 &gt; 色</p>
+<p class="cmv3-place"><span>設定場所</span>テーマ設定 &gt; 色</p>
+<p>現在の設定とCreamプリセットに9種類の配色を用意しています。レトロ、グレー、ネオン、ヴィンテージ、ピンクとブラウン、赤を基調とした配色などを利用できます。</p>
 <div class="cmv3-settings">
-<p class="cmv3-cap">主な設定</p>
+<p class="cmv3-cap">主な設定：14項目・4グループ</p>
 <ul class="cmv3-cols">
-<li>背景</li>
-<li>背景グラデーション</li>
-<li>見出し</li>
-<li>本文</li>
-<li>プライマリ色</li>
-<li>ボーダー</li>
-<li>シャドウ</li>
-<li>ボタン色</li>
-<li>ボタングラデーション</li>
-<li>入力欄色</li>
-<li>バリエーション色</li>
+<li>セクション：テキスト、背景、明るい背景、背景グラデーション</li>
+<li>プライマリボタン：背景、テキスト、アウトラインとテキスト</li>
+<li>サブボタン：背景、テキスト、アウトラインとテキスト</li>
+<li>その他：アクセント、区切り線と枠線、オーバーレイ、リンク</li>
 </ul>
 </div>
-<p class="cmv3-note cmv3-note--hint">
-<strong>ヒント：</strong>プライマリーボタンには通常時とホバー時のグラデーションカラーを設定できます。未設定の場合は各ボタン背景色が使われます。</p>
+<p><strong>セクション：</strong>テキスト、背景、明るい背景、背景グラデーション。見出しと本文は共通のテキスト色を使用します。</p>
+<p><strong>ボタン：</strong>プライマリ／サブそれぞれの背景、テキスト、アウトラインとテキスト。背景が完全に透明なボタンでは「アウトラインとテキスト」が文字と枠線に適用されます。</p>
+<p><strong>その他：</strong>アクセント、区切り線と枠線、オーバーレイ、リンク。アクセントはレビューの星や送料無料表示、オーバーレイはダイアログの背面などに使われます。画像などに個別のオーバーレイ色が設定されている場合は、その色を優先します。</p>
+<p><strong>補足：</strong>ホバー色は自動生成されます。入力欄と未選択バリエーションはセクションの色、選択済みバリエーションはプライマリボタンの色に連動します。ボタン専用グラデーションやホバー・入力欄・バリエーションの個別色設定はありません。</p>
+<p><strong>セクション背景：</strong>「全体配色の背景色を使用する」は保存済み設定・初期値ともにOFFです。コレクション見出しとコレクションの商品一覧には、Color Scheme 1を設定しています。</p>
 </article>
 <article class="cmv3-item" id="typography" data-kw="font,フォント,文字,書体">
 <h3>タイポグラフィー</h3>
@@ -1169,6 +1182,7 @@
 <li>パンくず表示</li>
 </ul>
 </div>
+<p><strong>パンくずの配色：</strong>コレクション・ブログ一覧・ブログ記事・固定ページ（お問い合わせを含む）では、パンくずの背景まで対象セクションの配色が適用されます。商品ページでは、既存のページ下部の配置を保ちながら、商品情報セクションの配色・背景グラデーション・背景透明設定に連動します。</p>
 </article>
 <article class="cmv3-item" id="animations" data-kw="animation,アニメーション,ホバー,スクロール,演出">
 <h3>アニメーション</h3>
@@ -1178,7 +1192,9 @@
 <h4>スクロール表示</h4>
 <p>セクション表示アニメーション、アニメーション速度（ゆったり / 標準 / きびきび）、グリッド項目の時間差表示を設定します。速度は表示時間・移動距離・時間差の間隔が連動して変わります。セクション表示アニメーションは なし / フェード / フェードアップ / フェード + 拡大 から選択でき、スクロールに合わせて対象要素がふわっと表示されます。</p>
 <h4>ホバー演出</h4>
-<p>カードホバー演出とボタンホバー演出を設定します。ボタンホバー演出は なし / リフト（浮き上がり + シャドウ）/ シャインスイープ（光の帯が横切る）から選択します。押下時は軽い縮小フィードバックが入ります。マウス操作時のみ適用され、タッチ端末では無効です。</p>
+<p>カードホバー演出とボタンホバー演出を設定します。</p>
+<p><strong>ボタンホバー演出：</strong>なし / リフト（浮き上がり + シャドウ）/ シャインスイープ（光の帯が横切る）/ 下から塗りつぶし から選択します。リフトとシャインスイープでは押下時に軽い縮小フィードバックが入ります。</p>
+<p><strong>下から塗りつぶし：</strong>ボタンの色が下から上へ0.5秒で切り替わり、カーソルを外すと下へ戻ります。塗りつぶしボタンは配色のホバー色、透明背景のボタンは文字色を5%の濃さで重ねます。標準ボタンと決済ボタン（ブランド表示なし）が対象です。クイック追加アイコン・フィルター操作・言語選択などの専用スタイルや、無効／処理中のボタンは対象外です。ホバー可能なマウス操作時に適用し、タッチ操作やOSの「動きを減らす」設定では通常の色切り替えを使用します。</p>
 <h4>遷移エフェクト</h4>
 <p>ページ遷移、商品メイン画像への遷移、カート追加演出を設定します。</p>
 <h4>セクション単位の上書き</h4>
@@ -1187,20 +1203,17 @@
 </article>
 <article class="cmv3-item" id="badges" data-kw="badge,sale,sold out,new,bestseller,セール,売り切れ">
 <h3>バッジ</h3>
-<p>セール（Sale）、売り切れ（Sold out）、新着（New）、ベストセラー（Bestseller）の各バッジの表示ルールを設定します。</p>
-<p class="cmv3-place">
-<span>設定場所</span>テーマ設定 &gt; バッジ</p>
-<div class="cmv3-settings">
-<p class="cmv3-cap">主な設定</p>
-<ul class="cmv3-cols">
-<li>表示位置</li>
-<li>各バッジの色</li>
-<li>ラベル</li>
-<li>角丸</li>
-<li>割引表示形式</li>
-<li>バッジ書体</li>
-</ul>
-</div>
+<p>商品カードに表示する Sale、Sold out、New、Bestseller の見た目と配置を設定します。</p>
+<p class="cmv3-place"><span>設定場所</span>テーマ設定 &gt; バッジ</p>
+<p><strong>共通設定：</strong>表示位置（左上 / 右上 / 左下）、書体、文字ケース。表示位置は全種類のバッジで共通です。</p>
+<p><strong>種類別の設定：</strong>Sale、Sold out、New、Bestseller それぞれに、カラースキーム、ラベル、角丸（0〜100px、2px刻み）、アニメーションの有効 / 無効を設定できます。角丸の初期値は40px、アニメーションの初期値は無効です。</p>
+<p><strong>表示条件：</strong>在庫ありの商品では、比較価格が販売価格より高い場合に Sale、商品タグに <code>new</code> がある場合に New、<code>bestseller</code> がある場合に Bestseller を表示します。タグの前後の空白や英字の大文字・小文字の違いは吸収されます。任意の商品タグをすべてバッジとして表示する機能ではありません。</p>
+<p><strong>複数表示：</strong>条件に該当するバッジを、上から Sale → New → Bestseller の順にすべて表示します（最大3つ）。PC・スマートフォンともに縦1列、4px間隔です。左側配置では左揃え、右側配置では右揃えとなり、幅は各ラベルの文字量に合わせます。長いラベルは利用可能な幅で折り返します。</p>
+<p><strong>売り切れ：</strong>販売可能なバリエーションがない商品は Sold out のみ表示します。Sale・New・Bestseller の条件にも該当する場合、それらは表示しません。Sold out も指定した位置に通常サイズのバッジで表示し、商品画像全体を暗く覆う表示は行いません。</p>
+<p><strong>Saleの割引表示：</strong>割引値の表示を有効にすると、通常のSaleラベルに代わって割引率または割引額を表示します。</p>
+<p><strong>お気に入りアイコンとの配置：</strong>バッジとアイコンが同じ側になる場合は、アイコンを反対側の上部へ自動移動します。左下バッジも対象です。バッジの横幅にはアイコン用の余白を確保します。</p>
+<p><strong>アニメーション：</strong>OSで動きを減らす設定が有効な場合は、バッジのアニメーションも停止します。</p>
+<div class="cmv3-tablewrap"><table><thead><tr><th>商品の状態</th><th>表示するバッジ（上から順）</th></tr></thead><tbody><tr><td>セール対象 ＋ New</td><td>Sale → New</td></tr><tr><td>セール対象 ＋ Bestseller</td><td>Sale → Bestseller</td></tr><tr><td>New ＋ Bestseller</td><td>New → Bestseller</td></tr><tr><td>セール対象 ＋ New ＋ Bestseller</td><td>Sale → New → Bestseller</td></tr><tr><td>売り切れ ＋ 上記いずれかの条件</td><td>Sold outのみ</td></tr></tbody></table></div>
 </article>
 <article class="cmv3-item" id="buttons" data-kw="button,ボタン,角丸">
 <h3>ボタン</h3>
@@ -1338,19 +1351,22 @@
 </article>
 <article class="cmv3-item" id="wishlist-settings" data-kw="wishlist,お気に入り,ハート">
 <h3>お気に入りリスト</h3>
-<p>お気に入りアイコンの表示と色を設定します。</p>
-<p class="cmv3-place">
-<span>設定場所</span>テーマ設定 &gt; お気に入りリスト</p>
+<p>お気に入りアイコンの表示・色と、商品カード上の位置を設定します。</p>
+<p class="cmv3-place"><span>設定場所</span>テーマ設定 &gt; お気に入りリスト</p>
 <div class="cmv3-settings">
 <p class="cmv3-cap">主な設定</p>
 <ul class="cmv3-cols">
 <li>有効化</li>
+<li>商品カードのお気に入りアイコンの位置</li>
 <li>枠線色</li>
 <li>塗り色</li>
 <li>背景色</li>
 </ul>
 </div>
-<p>お気に入り情報は訪問者のブラウザ（localStorage）に保存されます。お気に入り登録済みの商品は、商品カードが後から読み込まれる場合も塗りつぶしハートと「お気に入りから削除」の読み上げラベルが自動で復元されます。</p>
+<p><strong>商品カードの位置：</strong>アイコンが有効な場合に「商品カードのお気に入りアイコンの位置」が表示され、左上 / 右上から選べます。初期値は左上です。ヘッダーや商品詳細のアイコン位置はこの設定の対象外です。</p>
+<p><strong>自動調整：</strong>同じ側にバッジが表示される商品では、アイコンを反対側の上部へ移動します。左上・左下のバッジに対しては右上、右上のバッジに対しては左上となります。Sold outも対象です。バッジが表示されない商品では指定した位置を使用します。</p>
+<p><strong>表示対象：</strong>商品カード側でお気に入りアイコンを非表示にしている場合は、位置設定にかかわらず表示しません。</p>
+<p><strong>補足：</strong>お気に入り情報は訪問者のブラウザ（localStorage）に保存されます。お気に入り登録済みの商品は、商品カードが後から読み込まれる場合も塗りつぶしハートと「お気に入りから削除」の読み上げラベルが自動で復元されます。</p>
 </article>
 <article class="cmv3-item" id="video-intro" data-kw="video,イントロ,動画,オープニング">
 <h3>ビデオイントロ</h3>
@@ -1641,6 +1657,10 @@
 <span class="cmv3-cap">ブロック</span>テキスト、ボタン、ロゴ、ジャンボテキスト、スペーサー、グループ、スクロールテキスト。</p>
 <p class="cmv3-note cmv3-note--warn">
 <strong>注意：</strong>メディア1 / 2 を画像にした場合は、それぞれにモバイル専用画像を設定できます。モバイル用画像を設定していない場合、PC用画像がモバイルにも表示されます。</p>
+<p><strong>配置：</strong>縦並びでは左右配置と上・中央・下・均等配置、横並びでは横方向と縦方向の配置を設定できます。モバイルで縦並びに切り替えた場合も選択した配置を維持します。</p>
+<p><strong>高さ：</strong><code>自動</code> はコンテンツ量（ブロックがない場合はメディア本来の高さ）に合わせます。<code>画像の高さに合わせる</code> は1つまたは2つのメディアの比率からセクション高を算出し、PCとモバイルの差し替え画像を個別に反映します。<code>小</code> / <code>中</code> / <code>大</code> / <code>全画面</code> / <code>カスタム</code> は指定した画面高を基準に表示します。</p>
+<p><strong>画像位置：</strong>Shopifyの画像設定で指定した焦点位置は、画像がトリミングされる高さ設定でも維持されます。</p>
+<p><strong>反射表現：</strong>ぼかし反射は画像のみの構成で利用できます。いずれかのメディアを動画にした場合は表示されません。</p>
 </article>
 <article class="cmv3-item" id="hero-video" data-kw="video,ヒーロービデオ,動画">
 <h3>ヒーロービデオ</h3>
@@ -1771,6 +1791,31 @@
 <p class="cmv3-blocks">
 <span class="cmv3-cap">ブロック</span>テキスト、画像、アイコン、カスタムLiquid、お問い合わせフォーム、アプリブロック。各ブロックでは見出し、見出しプリセット、本文、本文サイズ、テキスト配置を設定でき、画像ブロックでは画像と比率、アイコンブロックではアイコン、アイコン画像、サイズ、色、配置も設定できます。</p>
 <p>「モバイルでスライダー表示（Show blocks as slider on mobile）」を有効にすると、モバイル画面のみブロックが横スクロールのスライダー表示になります。PCでは設定した列数のグリッド表示を維持します。新規追加時は、4つのテキストブロック、2カラム、Plusアイコン、モバイルスライダー有効の構成で開始します。</p>
+</article>
+<article class="cmv3-item" id="text-with-image" data-kw="text with image,テキスト付き画像,モバイル画像,ドット,カウンター,ヒント">
+<h3>テキスト付き画像</h3>
+<p>画像とテキストを組み合わせ、Creamの配色・文字・ボタン・テーマブロックで構成する専用セクションです（<code>text-with-image.liquid</code>）。</p>
+<p class="cmv3-place"><span>設定場所</span>セクション追加 &gt; テキスト付き画像</p>
+<div class="cmv3-settings">
+<p class="cmv3-cap">主な設定</p>
+<ul class="cmv3-cols">
+<li>メディア1・メディア2の画像</li>
+<li>画像幅（50% / 75%）</li>
+<li>画像の位置</li>
+<li>デスクトップの高さ</li>
+<li>モバイルの高さ</li>
+<li>モバイルでブロック順を反転</li>
+<li>配置</li>
+<li>ギャップ</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</div>
+<p>表示幅はページ幅、本文の縦位置は中央、内側余白はPC 40px / モバイル24pxで固定です。</p>
+<p>画像2枚はPCで横並び、モバイルでスワイプによる切り替え表示になります。モバイルのページ送りはPDPと同じ「ドット / カウンター / ヒント」から選択でき、矢印は表示しません。ドットとカウンターは画像上に表示し、ヒントでは次の画像を一部見せます。高さの選択肢と初期値はHero videoと共通です。PCは画像エリアの16:9 / 450・550・650・750px / 全画面（初期値650px）、モバイルは画像に合わせる自動 / 250・300・400・500・850px（初期値自動）を選べます。</p>
+<p>本文側にはCreamの見出し、テキスト、ボタン、区切り線、アコーディオン、画像、動画、商品カード、コレクションカード、カスタムLiquidなどを追加・並べ替えできます。文字サイズやボタンの種類は各ブロックで設定します。Buttonブロックには独自の配置設定がなく、親セクションまたはグループの配置に従います。</p>
+<p><strong>補足：</strong>画像未選択時に「プレースホルダー画像を表示」をオフにすると、画像エリアを省略して本文だけを表示します。</p>
+<p>旧版の汎用セクション用プリセットは削除しました。ストア側に旧版の配置が保存されている場合は、新セクションへ内容を移してから旧配置を削除してください。</p>
 </article>
 <article class="cmv3-item" id="media-with-text" data-kw="画像とテキスト,メディア">
 <h3>テキスト付きメディア</h3>
@@ -1906,9 +1951,8 @@
 </article>
 <article class="cmv3-item" id="testimonials" data-kw="testimonial,レビュー,口コミ,体験談">
 <h3>お客様の声</h3>
-<p>レビューや体験談をカードで見せるセクションです。</p>
-<p class="cmv3-place">
-<span>設定場所</span>セクション追加 &gt; お客様の声</p>
+<p>レビューや体験談をカードで見せ、各お客様の声から任意の商品へ誘導できるセクションです。</p>
+<p class="cmv3-place"><span>設定場所</span>セクション追加 &gt; お客様の声</p>
 <div class="cmv3-settings">
 <p class="cmv3-cap">主な設定</p>
 <ul class="cmv3-cols">
@@ -1918,12 +1962,18 @@
 <li>画像表示</li>
 <li>カード枠線</li>
 <li>カード角丸</li>
+<li>商品カードの角丸</li>
 <li>画像角丸</li>
 <li>上下余白</li>
 </ul>
 </div>
-<p class="cmv3-blocks">
-<span class="cmv3-cap">ブロック</span>お客様の声。</p>
+<p class="cmv3-blocks"><span class="cmv3-cap">ブロック</span>お客様の声。画像、画像の代替テキスト、星の数、引用文、名前、サブタイトル、レビュー商品、商品カードのスタイルを設定できます。</p>
+<p><strong>プリセット：</strong>新しいブロックには、テーマエディターの言語に合わせたサンプルの引用文・名前・サブタイトルが入力されます。</p>
+<p><strong>商品リンク：</strong>レビュー商品を選択すると、サブタイトルの下に商品メディアと商品名のみのコンパクトなカードが表示され、カード全体から商品ページへ移動できます。価格は表示されません。</p>
+<p><strong>商品名：</strong>1行で表示し、2行目以降は省略します。</p>
+<p><strong>商品メディア：</strong>選択商品の特集メディアのアスペクト比に追従します。特集メディアがない場合は商品プレースホルダーを表示します。</p>
+<p>商品カードの外周と商品メディアには、共通の「商品カードの角丸の半径」が適用されます。</p>
+<p><strong>商品カードのスタイル：</strong>セクションで選択したカラースキームの Primary または Secondary Button 配色をブロックごとに選択できます。</p>
 </article>
 <article class="cmv3-item" id="custom-liquid" data-kw="liquid,カスタムコード,html">
 <h3>カスタムLiquid</h3>
@@ -1973,13 +2023,11 @@
 <li>メール登録者: メール登録フォーム用です。</li>
 <li>テキスト付きアイコン: アイコンと説明文を並べます。</li>
 <li>スプリットショーケース（Split showcase）: 2 カラム訴求向けのレイアウトです。</li>
-<li>テキスト付き画像: 画像と文章の組み合わせ用です。</li>
 <li>マルチカラム: 複数列の特徴紹介に向きます。</li>
 <li>大きなロゴ: ブランドロゴを大きく見せる用途です。</li>
 </ul>
-<p class="cmv3-note cmv3-note--hint">
-<strong>ヒント：</strong>
-<code>テキスト付き画像</code> では、画像ブロック側で Desktop / Mobile それぞれのアスペクト比を個別に設定できます。モバイルだけ画像を先頭にしたい場合は、セクションまたはグループ側の「モバイルでブロック順を反転（Reverse block order on mobile）」を使います。この設定はセクション直下のブロック順に適用され、ネストしたグループブロック内でも同じ考え方で利用できます。</p>
+<p class="cmv3-note cmv3-note--hint"><strong>ヒント：</strong>テキスト付き画像は専用セクションで追加します。旧版の汎用セクション用プリセットを使用している場合は、内容を新しいセクションへ移してから旧配置を削除してください。詳しくは<a href="#text-with-image">テキスト付き画像</a>を参照してください。</p>
+<p><strong>補足：</strong>セクション直下のブロック順は、モバイル時のみ <code>Reverse block order on mobile</code> で反転できます。ネストした <code>グループ</code> ブロック内でも同じ考え方で利用できます。</p>
 </article>
 <article class="cmv3-item" id="logo-section" data-kw="logo,ロゴセクション">
 <h3>ロゴ</h3>
@@ -2178,6 +2226,20 @@
 <p class="cmv3-note cmv3-note--ext">
 <strong>外部設定が必要：</strong>商品レビューを表示するには、対応するレビューアプリの導入とアプリブロックの設定が必要です。</p>
 </article>
+<article class="cmv3-item" id="product-information-table" data-kw="商品情報テーブル,動的ソース,項目名,Color pattern">
+<h3>商品情報テーブル</h3>
+<p>商品名、メーカー、商品説明、商品Metafieldなどの補足情報を2列の表形式で表示する商品ページ用ブロックです。親の「商品情報テーブル」ブロック内に、1行を表す「商品情報：リッチテキスト」Nested blockを追加して構成します。</p>
+<p class="cmv3-place"><span>設定場所</span>商品テンプレート &gt; 商品情報 &gt; 商品詳細グループ &gt; ブロック追加 &gt; 商品情報テーブル。行を追加する場合は、商品情報テーブル内でブロック追加 &gt; 商品情報：リッチテキスト を選択します</p>
+<p><strong>既定配置：</strong>既定の商品テンプレートには配置されません。必要な商品テンプレートへTheme editorから追加します。</p>
+<p><strong>行の設定：</strong>「項目名」には表示名を手入力し、「値」には互換性のある商品動的ソースを接続します。行はドラッグして自由に並べ替えできます。</p>
+<p><strong>Color pattern：</strong>MetaobjectのColor patternを接続する場合は、「値」の動的ソースからColor pattern配下の「Label」を選択します。複数のColor patternはLabelの一覧として表示され、Labelが空の場合は行が非表示になります。</p>
+<p><strong>行の書式：</strong>各「商品情報：リッチテキスト」で項目名の太字をON / OFFでき、項目名と値に共通するフォントサイズを10〜24pxで調整できます。初期値は太字ON、16pxです。</p>
+<p><strong>preset：</strong>新しく商品情報テーブルを追加した場合は、Shopify標準のTitle、Vendor、Descriptionを動的ソースとして接続した3行が作成されます。</p>
+<p><strong>空値の表示仕様：</strong>接続した動的ソースが空の場合、その行はストア上で自動的に非表示になります。値のある行が1件もない場合は、見出しを含む商品情報テーブル全体が非表示になります。</p>
+<p><strong>見出し設定：</strong>見出しは任意で、左寄せ / 中央 / 右寄せを選択できます。SEO上の見出しタグ（<code>H1-H6</code>または<code>P</code>）と、見た目の文字presetは個別に設定できます。</p>
+<p><strong>レイアウト設定：</strong>項目列の幅を25〜50%で調整でき、ブロックの上下余白も設定できます。PCとモバイルのどちらでも、項目と値を横並びの表形式で表示します。</p>
+<p><strong>翻訳：</strong>「項目名」は自由に編集でき、他言語の内容はShopify Translate &amp; Adaptなどで管理します。</p>
+</article>
 <article class="cmv3-item" id="fit-guide" data-kw="fit guide,フィット,サイズ感,メタフィールド">
 <h3>フィットガイド</h3>
 <p>商品詳細エリア内に、5分割のフィット感インジケーターを表示する商品ページ用ブロックです。サイズ感、着用感、ゆとり感などを、左から右への段階表示で伝える用途に使います。</p>
@@ -2313,6 +2375,16 @@
 </ul>
 </div>
 </article>
+<article class="cmv3-item" id="shop-the-look" data-kw="shop the look,ホットスポット,商品カード,画像比率">
+<h3>Shop the look</h3>
+<p>メイン画像上のホットスポットと商品カードを組み合わせて、画像から商品へ誘導するセクションです。</p>
+<p class="cmv3-place"><span>設定場所</span>セクション追加 &gt; Shop the look</p>
+<p><strong>主な設定：</strong>メイン画像、メイン画像のアスペクト比、画像と商品の左右配置、商品カード画像のアスペクト比、商品ブロック表示、見出し、本文、間隔、ホットスポット配色、表示幅、配色、余白。</p>
+<p><strong>設定の区分：</strong>テーマエディタでは「画像」「カードレイアウト」「テキスト」「セクションレイアウト」「PCレイアウト」「配色」「余白」の順に整理されています。画像と商品の左右配置はPC表示にのみ適用されます。</p>
+<p><strong>画像比の区分：</strong>「メイン画像のアスペクト比」はホットスポットを配置する大きな画像に適用され、商品ブロックの表示設定にかかわらず維持されます。「商品カード画像のアスペクト比」は右側または下側の商品カード内の画像だけに適用されます。</p>
+<p><strong>PC表示の配置と高さ制限：</strong>商品ブロックの縦中央とメイン画像の縦中央を揃え、画像比を変更するとこの中央位置を基準に上下へ伸縮します。縦長比率では高さを画面高の80%以内に収め、画像を切り詰めずに横幅を縮めます。セクション幅が「ページ」の場合、画像の外側をヒーロー画像と同じページ余白の基準線に揃えます。</p>
+<p><strong>モバイル表示：</strong>セクション幅が「全体」の場合、メイン画像は画面いっぱいに表示されます。「ページ」の場合は従来の中央カラム幅で表示されます。ホットスポットはメイン画像上に表示され、商品カードは画像の下で設定したセクション幅を維持します。</p>
+</article>
 <article class="cmv3-item" id="recommended-products" data-kw="recommendation,おすすめ,関連商品,補完商品">
 <h3>おすすめ商品</h3>
 <p>関連商品または補完商品を表示します。</p>
@@ -2361,6 +2433,17 @@
 <p>既定テンプレートではフィルター、並び替え、グリッド密度切替のブロックが含まれます。</p>
 <p class="cmv3-note cmv3-note--ext">
 <strong>外部設定が必要：</strong>フィルターの項目は Shopify Search &amp; Discovery アプリで管理します。</p>
+</article>
+<article class="cmv3-item" id="collection-heading" data-kw="collection heading,コレクション見出し,背景画像,動画">
+<h3>コレクション見出し</h3>
+<p>コレクション名と説明文を表示する、コレクションテンプレート先頭のセクションです。コレクション画像または動画を背景・横並びメディアとして表示できます。</p>
+<p class="cmv3-place"><span>設定場所</span>テーマエディタでコレクションテンプレートを開き、「Collection heading」を選択します</p>
+<p><strong>背景メディア：</strong>表示しない / 画像 / ビデオから選択します。既定ではコレクション画像を使用します。必要に応じて画像または動画を差し替えられます。</p>
+<p><strong>画像の位置：</strong><code>Cover</code> は見出しの背景として画像をトリミング表示します。<code>横並び</code> は画像と見出し・説明文をPCでは左右に並べ、モバイルでは縦に並べます。</p>
+<p><strong>ビデオの位置：</strong><code>Cover</code>、<code>Contain</code>、<code>横並び</code> を選択できます。<code>Contain</code> は動画全体を収め、<code>Cover</code> は表示領域を満たすようにトリミングします。</p>
+<p><strong>アスペクト比：</strong>画像またはビデオを <code>横並び</code> にした場合のみ、Desktop と Mobile それぞれで <code>自動</code>、<code>縦長</code>、<code>正方形</code>、<code>横長</code> を選択できます。<code>自動</code> は選択したメディア本来の比率を使います。</p>
+<p><strong>表示幅：</strong><code>Cover</code> 表示時は、セクションの表示幅（全幅 / ページ / 狭い）に合わせて背景メディアの表示幅も変わります。</p>
+<p><strong>テキスト余白：</strong>既定のタイトルと説明文には左右20pxの余白があります。テキストブロックの余白設定から個別に調整できます。</p>
 </article>
 <article class="cmv3-item" id="collection-list" data-kw="collection list,コレクション一覧">
 <h3>コレクションリスト</h3>
@@ -2612,7 +2695,7 @@
 <article class="cmv3-item" id="theme-structure" data-kw="settings_schema,テーマ構造,バージョン">
 <h3>テーマの確認基準 <span class="cmv3-badge">開発者向け</span>
 </h3>
-<p>本マニュアルは、テーマ（バージョン <code>4.2.5</code>）の <code>config/settings_schema.json</code> / <code>templates/</code> / <code>sections/</code> / <code>blocks/</code> の現行実装をもとに作成しています。<code>_</code> で始まる内部ブロックやレンダリング用セクションは、通常運用では直接編集しません。</p>
+<p>本マニュアルは、テーマ（バージョン <code>4.3.3</code>）の <code>config/settings_schema.json</code> / <code>templates/</code> / <code>sections/</code> / <code>blocks/</code> の現行実装をもとに作成しています。<code>_</code> で始まる内部ブロックやレンダリング用セクションは、通常運用では直接編集しません。</p>
 
 </article>
 <article class="cmv3-item" id="template-structure" data-kw="template,json,テンプレート">
@@ -2644,7 +2727,7 @@
 <td>
 <code>templates/index.json</code>
 </td>
-<td>ヒーロー画像、コレクションリスト、ヒーロービデオ、テキストプロモ、タブコレクション、特集コレクション、地図、カウントダウンタイマー、ビフォー／アフター、お客様の声</td>
+<td>特集コレクション（カルーセル）+ テキスト付き画像。先頭のカルーセルはPCで4列・最大6商品、モバイルで横スワイプ表示です。コレクション未選択時はプレースホルダーを表示します。</td>
 </tr>
 <tr>
 <td>
